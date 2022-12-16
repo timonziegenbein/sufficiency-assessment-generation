@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="224" begin="0" end="1769" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="224" begin="0" end="1769" filename="essay019" topic="Some young adults want independence from their parents as soon as possible. Other young adults prefer to live with their families for a longer time. Which of these situations do you think is better?" twoSided="negative"/>
+    <types:MajorClaim xmi:id="22" sofa="224" begin="1561" end="1626"/>
+    <types:Claim xmi:id="28" sofa="224" begin="183" end="255" stance="For"/>
+    <types:Claim xmi:id="35" sofa="224" begin="465" end="533" stance="For"/>
+    <types:Claim xmi:id="42" sofa="224" begin="990" end="1086" stance="For"/>
+    <types:Claim xmi:id="49" sofa="224" begin="1668" end="1768" stance="For"/>
+    <types:Premise xmi:id="56" sofa="224" begin="257" end="293"/>
+    <types:Premise xmi:id="62" sofa="224" begin="303" end="462"/>
+    <types:Premise xmi:id="68" sofa="224" begin="535" end="647"/>
+    <types:Premise xmi:id="74" sofa="224" begin="649" end="728"/>
+    <types:Premise xmi:id="80" sofa="224" begin="738" end="784"/>
+    <types:Premise xmi:id="86" sofa="224" begin="786" end="857"/>
+    <types:Premise xmi:id="92" sofa="224" begin="867" end="898"/>
+    <types:Premise xmi:id="98" sofa="224" begin="910" end="988"/>
+    <types:Premise xmi:id="104" sofa="224" begin="1088" end="1260"/>
+    <types:Premise xmi:id="110" sofa="224" begin="1262" end="1330"/>
+    <types:Premise xmi:id="116" sofa="224" begin="1332" end="1443"/>
+    <types:Premise xmi:id="122" sofa="224" begin="1458" end="1530"/>
+    <types:Support xmi:id="128" sofa="224" begin="183" end="462" source="62" target="28"/>
+    <types:Support xmi:id="136" sofa="224" begin="183" end="293" source="56" target="28"/>
+    <types:Support xmi:id="144" sofa="224" begin="465" end="988" source="98" target="35"/>
+    <types:Support xmi:id="152" sofa="224" begin="465" end="857" source="86" target="35"/>
+    <types:Support xmi:id="160" sofa="224" begin="465" end="728" source="74" target="35"/>
+    <types:Support xmi:id="168" sofa="224" begin="465" end="647" source="68" target="35"/>
+    <types:Support xmi:id="176" sofa="224" begin="649" end="784" source="80" target="74"/>
+    <types:Support xmi:id="184" sofa="224" begin="786" end="898" source="92" target="86"/>
+    <types:Support xmi:id="192" sofa="224" begin="990" end="1530" source="122" target="42"/>
+    <types:Support xmi:id="200" sofa="224" begin="990" end="1443" source="116" target="42"/>
+    <types:Support xmi:id="208" sofa="224" begin="990" end="1330" source="110" target="42"/>
+    <types:Support xmi:id="216" sofa="224" begin="990" end="1260" source="104" target="42"/>
+    <argumentation:LocalSufficiency xmi:id="239" sofa="224" begin="465" end="989" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="246" sofa="224" begin="990" end="1531" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="224" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Many young adults want to get away from their parent's houses as soon as possible in order to have no limits, to be independent. But these young people do not take into account that their lives are going to be more difficult, when they are away from home. They will have to pay a lot of bills, because they will have to find a lodging or at least a place where to live and in order to have less expenses they will have to find a co-tenant, who they may not like. &#10;Living in their own houses will save the young adults a lot of money. If they live separate from their parents they will have to pay for a loan, electricity, water or even for a meal. If the young adults still study they will have to combine studying with working, because they will not have money to pay for everything. There will not be such worries when young adults live in their own home, because parents will take care for them. Moreover, parents will give their children money in order they to focus only on studying.&#10;Another problem that the young adults may encounter is to find a co-tenant, who they do not like. His habits may be totally different from theirs, his behavior may be inappropriate, but they will have to live with him or even share a room, in order to have less expenses. Living with such a person may be a huge problem for the young adults. When the co-tenant do not share their interests and points of view, they will not be able to ask him for advice. Furthermore, they are most likely to quarrel every day, instead of to help each other.&#10;In conclusion, I reckon that for the young adults it will be better to live with their parents, because of the benefits they will have. They will not need to worry about financial problems or if they will get on well with their roommate."/>
+    <cas:View sofa="224" members="1 14 22 28 35 42 49 56 62 68 74 80 86 92 98 104 110 116 122 128 136 144 152 160 168 176 184 192 200 208 216 239 246"/>
+</xmi:XMI>

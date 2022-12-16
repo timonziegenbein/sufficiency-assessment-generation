@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="258" begin="0" end="1828" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="258" begin="0" end="1828" filename="essay150" topic="Do you agree or disagree with the following statement? Reading fiction (such as novels and short stories) is more enjoyable than watching movies. Use specific reasons and examples to explain your position." twoSided="positive"/>
+    <types:Premise xmi:id="22" sofa="258" begin="255" end="335"/>
+    <types:Premise xmi:id="28" sofa="258" begin="337" end="456"/>
+    <types:Premise xmi:id="34" sofa="258" begin="471" end="612"/>
+    <types:Premise xmi:id="40" sofa="258" begin="623" end="694"/>
+    <types:Premise xmi:id="46" sofa="258" begin="742" end="823"/>
+    <types:Premise xmi:id="52" sofa="258" begin="825" end="929"/>
+    <types:Premise xmi:id="58" sofa="258" begin="944" end="990"/>
+    <types:Premise xmi:id="64" sofa="258" begin="992" end="1107"/>
+    <types:Premise xmi:id="70" sofa="258" begin="1122" end="1153"/>
+    <types:Premise xmi:id="76" sofa="258" begin="1162" end="1238"/>
+    <types:Premise xmi:id="82" sofa="258" begin="1309" end="1382"/>
+    <types:Premise xmi:id="88" sofa="258" begin="1436" end="1496"/>
+    <types:Premise xmi:id="94" sofa="258" begin="1503" end="1573"/>
+    <types:Premise xmi:id="100" sofa="258" begin="1575" end="1682"/>
+    <types:MajorClaim xmi:id="106" sofa="258" begin="110" end="164"/>
+    <types:MajorClaim xmi:id="112" sofa="258" begin="1695" end="1728"/>
+    <types:Claim xmi:id="118" sofa="258" begin="201" end="244" stance="For"/>
+    <types:Claim xmi:id="125" sofa="258" begin="706" end="740" stance="For"/>
+    <types:Claim xmi:id="132" sofa="258" begin="1269" end="1293" stance="Against"/>
+    <types:Claim xmi:id="139" sofa="258" begin="1737" end="1827" stance="For"/>
+    <types:Support xmi:id="146" sofa="258" begin="201" end="694" source="40" target="118"/>
+    <types:Support xmi:id="154" sofa="258" begin="201" end="612" source="34" target="118"/>
+    <types:Support xmi:id="162" sofa="258" begin="201" end="456" source="28" target="118"/>
+    <types:Support xmi:id="170" sofa="258" begin="201" end="335" source="22" target="118"/>
+    <types:Support xmi:id="178" sofa="258" begin="706" end="1153" source="70" target="125"/>
+    <types:Support xmi:id="186" sofa="258" begin="706" end="1107" source="64" target="125"/>
+    <types:Support xmi:id="194" sofa="258" begin="706" end="990" source="58" target="125"/>
+    <types:Support xmi:id="202" sofa="258" begin="706" end="929" source="52" target="125"/>
+    <types:Support xmi:id="210" sofa="258" begin="706" end="823" source="46" target="125"/>
+    <types:Support xmi:id="218" sofa="258" begin="1122" end="1238" source="76" target="70"/>
+    <types:Support xmi:id="226" sofa="258" begin="1269" end="1382" source="82" target="132"/>
+    <types:Support xmi:id="234" sofa="258" begin="1436" end="1682" source="100" target="88"/>
+    <types:Support xmi:id="242" sofa="258" begin="1436" end="1573" source="94" target="88"/>
+    <types:Attack xmi:id="250" sofa="258" begin="1269" end="1496" source="88" target="132"/>
+    <argumentation:LocalSufficiency xmi:id="273" sofa="258" begin="192" end="695" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="280" sofa="258" begin="696" end="1239" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="287" sofa="258" begin="1240" end="1683" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="258" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;There are many different opinions regarding hobbies. Some people would rather watch TV. However, in my view, reading fiction is more enjoyable than watching movies for the following reasons.&#10;Firstly, fiction books pay more attention to details. In fact, we can know characters, places, and times of a novel very well during reading it. Most of the novels describe not only main characters but also other people in the novels, where each scene is happening. For example, after I read animal farms which is a story of Russian revolution, I could understand the leaders and different segments of the Russian people. However, a movie just gives us a very small review of its stories and characters.&#10;Secondly, reading a novel is more convenient. Some novels have around 100 pages and readers cannot finish them in just one hour. Yet these people can continue to read their novels wherever they find free time such as in bus or trains. For example, I have started to read a novel since last week. I do not have enough time to read a novel in one day, so I usually read it when I am coming home from English class. In contrast, I cannot watch a complete movie because I can just sit in front of TV for 15 minutes and after that, I have to study.&#10;Some people might argue that people enjoy watching TV when they know they can learn many things such as learning a language by watching movies. This point has some merits on the surface; however, movies are not a good idea to learn a language for beginners since characters in movies speak very fast and unclear for language learners. For these learners it is better to start by reading some novels which are more comprehensible and enjoyable.&#10;To sum up, reading fictions is more pleasant because these books have more depth, are much easier to use, and more useful for language learners."/>
+    <cas:View sofa="258" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 100 106 112 118 125 132 139 146 154 162 170 178 186 194 202 210 218 226 234 242 250 273 280 287"/>
+</xmi:XMI>

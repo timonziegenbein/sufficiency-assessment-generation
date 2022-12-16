@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="188" begin="0" end="1374" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="188" begin="0" end="1374" filename="essay089" topic="Some people think that human needs for farmland, housing and industry are more important than saving land for endangered animals. Do you agree or disagree with this point of view?" twoSided="negative"/>
+    <types:MajorClaim xmi:id="22" sofa="188" begin="257" end="294"/>
+    <types:MajorClaim xmi:id="28" sofa="188" begin="1230" end="1281"/>
+    <types:Claim xmi:id="34" sofa="188" begin="223" end="255" stance="For"/>
+    <types:Claim xmi:id="41" sofa="188" begin="541" end="575" stance="For"/>
+    <types:Claim xmi:id="48" sofa="188" begin="693" end="735" stance="For"/>
+    <types:Claim xmi:id="55" sofa="188" begin="944" end="985" stance="For"/>
+    <types:Claim xmi:id="62" sofa="188" begin="1160" end="1206" stance="For"/>
+    <types:Claim xmi:id="69" sofa="188" begin="1293" end="1373" stance="For"/>
+    <types:Premise xmi:id="76" sofa="188" begin="305" end="340"/>
+    <types:Premise xmi:id="82" sofa="188" begin="345" end="387"/>
+    <types:Premise xmi:id="88" sofa="188" begin="389" end="528"/>
+    <types:Premise xmi:id="94" sofa="188" begin="587" end="688"/>
+    <types:Premise xmi:id="100" sofa="188" begin="737" end="817"/>
+    <types:Premise xmi:id="106" sofa="188" begin="828" end="931"/>
+    <types:Premise xmi:id="112" sofa="188" begin="987" end="1069"/>
+    <types:Premise xmi:id="118" sofa="188" begin="1085" end="1155"/>
+    <types:Support xmi:id="124" sofa="188" begin="305" end="387" source="76" target="82"/>
+    <types:Support xmi:id="132" sofa="188" begin="345" end="575" source="82" target="41"/>
+    <types:Support xmi:id="140" sofa="188" begin="389" end="575" source="88" target="41"/>
+    <types:Support xmi:id="148" sofa="188" begin="587" end="735" source="94" target="48"/>
+    <types:Support xmi:id="156" sofa="188" begin="693" end="817" source="100" target="48"/>
+    <types:Support xmi:id="164" sofa="188" begin="828" end="985" source="106" target="55"/>
+    <types:Support xmi:id="172" sofa="188" begin="944" end="1069" source="112" target="55"/>
+    <types:Support xmi:id="180" sofa="188" begin="1085" end="1206" source="118" target="62"/>
+    <argumentation:LocalSufficiency xmi:id="203" sofa="188" begin="296" end="576" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="210" sofa="188" begin="577" end="818" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="217" sofa="188" begin="819" end="1071" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="188" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Nowadays there are some issues which many countries and nations are concern about that. Two of the most important of them are rate of increasing population and endangered plants and animals. From my point of view although endangered animals are important, human needs should be considered more.&#10;Firstly, day by day population is increasing, so human needs for food is increasing as well. We need farmland to grow crops such as wheat and corn, and there is no doubt that without food people cannot alive for more than some weeks. Therefore, farmlands are vital for human life.&#10;Secondly, people need shelters to protect themselves from mother nature such as wind and flood and wild animals, so they need land to build their houses on it. Dwelling is one of the most important human needs after food which is undeniable.&#10;Finally, human need some crucial things to continue their life, and most of them are industrial such as medicine. Therefore, some lands should be assigned to industry. Todays life has some difficulty which become comfortable with the help of industry. &#10;To conclude, the population of endangered animals are less than people's population, so they do not need so much land that people need. I would maintain that nowadays humans need farmland, housing and industry because of increasing population are more important than saving land for endangered animals."/>
+    <cas:View sofa="188" members="1 14 22 28 34 41 48 55 62 69 76 82 88 94 100 106 112 118 124 132 140 148 156 164 172 180 203 210 217"/>
+</xmi:XMI>

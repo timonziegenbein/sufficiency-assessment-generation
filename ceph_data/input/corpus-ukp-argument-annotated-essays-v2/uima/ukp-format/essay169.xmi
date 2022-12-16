@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="356" begin="0" end="2563" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="356" begin="0" end="2563" filename="essay169" topic="Some people think that a university professor should focus time on doing research, while others think that the main role of a professor is to educate students in a university. What is your opinion and why? Use specific reasons to support your answer.�" twoSided="positive"/>
+    <types:Premise xmi:id="22" sofa="356" begin="97" end="162"/>
+    <types:Premise xmi:id="28" sofa="356" begin="338" end="392"/>
+    <types:Premise xmi:id="34" sofa="356" begin="394" end="468"/>
+    <types:Premise xmi:id="40" sofa="356" begin="470" end="612"/>
+    <types:Premise xmi:id="46" sofa="356" begin="614" end="708"/>
+    <types:Premise xmi:id="52" sofa="356" begin="723" end="846"/>
+    <types:Premise xmi:id="58" sofa="356" begin="970" end="1109"/>
+    <types:Premise xmi:id="64" sofa="356" begin="1111" end="1210"/>
+    <types:Premise xmi:id="70" sofa="356" begin="1212" end="1279"/>
+    <types:Premise xmi:id="76" sofa="356" begin="1294" end="1353"/>
+    <types:Premise xmi:id="82" sofa="356" begin="1355" end="1396"/>
+    <types:Premise xmi:id="88" sofa="356" begin="1596" end="1644"/>
+    <types:Premise xmi:id="94" sofa="356" begin="1646" end="1757"/>
+    <types:Premise xmi:id="100" sofa="356" begin="1773" end="1862"/>
+    <types:Premise xmi:id="106" sofa="356" begin="1864" end="1919"/>
+    <types:Premise xmi:id="112" sofa="356" begin="1921" end="1983"/>
+    <types:Premise xmi:id="118" sofa="356" begin="1994" end="2110"/>
+    <types:Premise xmi:id="124" sofa="356" begin="2112" end="2168"/>
+    <types:Premise xmi:id="130" sofa="356" begin="2247" end="2320"/>
+    <types:Premise xmi:id="136" sofa="356" begin="2331" end="2411"/>
+    <types:Claim xmi:id="142" sofa="356" begin="164" end="208" stance="For"/>
+    <types:Claim xmi:id="149" sofa="356" begin="859" end="949" stance="For"/>
+    <types:Claim xmi:id="156" sofa="356" begin="1411" end="1517" stance="For"/>
+    <types:Claim xmi:id="163" sofa="356" begin="1533" end="1594" stance="Against"/>
+    <types:Claim xmi:id="170" sofa="356" begin="2185" end="2231" stance="For"/>
+    <types:Claim xmi:id="177" sofa="356" begin="2413" end="2477" stance="For"/>
+    <types:MajorClaim xmi:id="184" sofa="356" begin="236" end="304"/>
+    <types:MajorClaim xmi:id="190" sofa="356" begin="2479" end="2562"/>
+    <types:Attack xmi:id="196" sofa="356" begin="97" end="208" source="22" target="142"/>
+    <types:Attack xmi:id="204" sofa="356" begin="2247" end="2477" source="130" target="177"/>
+    <types:Attack xmi:id="212" sofa="356" begin="2247" end="2411" source="136" target="130"/>
+    <types:Support xmi:id="220" sofa="356" begin="338" end="949" source="28" target="149"/>
+    <types:Support xmi:id="228" sofa="356" begin="394" end="949" source="34" target="149"/>
+    <types:Support xmi:id="236" sofa="356" begin="470" end="949" source="40" target="149"/>
+    <types:Support xmi:id="244" sofa="356" begin="614" end="949" source="46" target="149"/>
+    <types:Support xmi:id="252" sofa="356" begin="723" end="949" source="52" target="149"/>
+    <types:Support xmi:id="260" sofa="356" begin="970" end="1517" source="58" target="156"/>
+    <types:Support xmi:id="268" sofa="356" begin="1111" end="1517" source="64" target="156"/>
+    <types:Support xmi:id="276" sofa="356" begin="1212" end="1517" source="70" target="156"/>
+    <types:Support xmi:id="284" sofa="356" begin="1294" end="1396" source="76" target="82"/>
+    <types:Support xmi:id="292" sofa="356" begin="1355" end="1517" source="82" target="156"/>
+    <types:Support xmi:id="300" sofa="356" begin="1533" end="1757" source="94" target="163"/>
+    <types:Support xmi:id="308" sofa="356" begin="1533" end="1644" source="88" target="163"/>
+    <types:Support xmi:id="316" sofa="356" begin="1646" end="1983" source="112" target="94"/>
+    <types:Support xmi:id="324" sofa="356" begin="1646" end="1919" source="106" target="94"/>
+    <types:Support xmi:id="332" sofa="356" begin="1646" end="1862" source="100" target="94"/>
+    <types:Support xmi:id="340" sofa="356" begin="1994" end="2231" source="118" target="170"/>
+    <types:Support xmi:id="348" sofa="356" begin="2112" end="2231" source="124" target="170"/>
+    <argumentation:LocalSufficiency xmi:id="371" sofa="356" begin="306" end="950" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="378" sofa="356" begin="951" end="1518" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="385" sofa="356" begin="1519" end="2232" majority="0.0" mean="0.0"/>
+    <cas:Sofa xmi:id="356" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Nowadays, many professors conduct research while teaching in colleges or universities. Although research could bring funding and latest achievements in the field, the research takes up too much teaching time. As far as I am concerned, professors should spend more time on preparing courses than research.&#10;To begin with, it is vital that professors should assist students to acquire knowledge. The professors’ duty is to nurture students, and prepare excellent courses. If professors spend a lot of time on research, he will cut the time on preparing courses is reduced, which may decrease the quality of classes. The reason why people enter a university is that they want to learn cutting-edged technologies. In this way, professors should provide well-preparation courses to convey the state-of-art knowledge for college and university students. Therefore, professors should pay more attention on how to teach students rather than conduct research.&#10;On the other hand, if professors are busy in doing research, ignoring preparing appropriate courses for students, it would ruin the reputation of universities. Students are unsatisfied with the unprepared course, and the enrollment of universities may decline. Many students would not choose these kinds of universities to study. In this way, hardly can professors find assistants to help with projects. It is adverse to the whole academic field. Accordingly, spending more time to nurture excellent students is more consequential to professors, rather than research.&#10;Nevertheless, professors could teach students through research and projects. Some students enjoy taking part in some research. Through to use the equipment and invent their own work, they may get more experience in the process of research. For instance, electronic students always invent new machines such as robots, MP3 and remote control car. They can manage the electric theory in practical skills. And some students will be rewarded by investing new inventions. However, only under specific circumstance, when students master all of the systematic knowledge, can they accomplish research. This is requires professors provide high quality courses. In other word, professor should concern about preparing class.&#10;Consequently, conducting research is helpful for professors and students to some extent. However, the precondition of doing research is growing students’ solid theory fundamental. Only by developing students, can we have a better academic field. Professors could combine doing research and preparing good courses in a dynamic way."/>
+    <cas:View sofa="356" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 100 106 112 118 124 130 136 142 149 156 163 170 177 184 190 196 204 212 220 228 236 244 252 260 268 276 284 292 300 308 316 324 332 340 348 371 378 385"/>
+</xmi:XMI>

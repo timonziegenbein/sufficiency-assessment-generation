@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="195" begin="0" end="1652" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="195" begin="0" end="1652" filename="essay333" topic="Nowadays the way many people interact with each other has changed because of technology. In what ways has technology affected the types of relationships people make? Has this become a positive or negative development." twoSided="positive"/>
+    <types:MajorClaim xmi:id="22" sofa="195" begin="301" end="341"/>
+    <types:MajorClaim xmi:id="28" sofa="195" begin="1512" end="1650"/>
+    <types:Claim xmi:id="34" sofa="195" begin="477" end="525" stance="For"/>
+    <types:Claim xmi:id="41" sofa="195" begin="1093" end="1164" stance="For"/>
+    <types:Claim xmi:id="48" sofa="195" begin="1404" end="1449" stance="Against"/>
+    <types:Premise xmi:id="55" sofa="195" begin="389" end="475"/>
+    <types:Premise xmi:id="61" sofa="195" begin="542" end="600"/>
+    <types:Premise xmi:id="67" sofa="195" begin="602" end="708"/>
+    <types:Premise xmi:id="73" sofa="195" begin="723" end="779"/>
+    <types:Premise xmi:id="79" sofa="195" begin="789" end="815"/>
+    <types:Premise xmi:id="85" sofa="195" begin="817" end="902"/>
+    <types:Premise xmi:id="91" sofa="195" begin="913" end="994"/>
+    <types:Premise xmi:id="97" sofa="195" begin="996" end="1076"/>
+    <types:Premise xmi:id="103" sofa="195" begin="1211" end="1297"/>
+    <types:Premise xmi:id="109" sofa="195" begin="1307" end="1389"/>
+    <types:Support xmi:id="115" sofa="195" begin="389" end="525" source="55" target="34"/>
+    <types:Support xmi:id="123" sofa="195" begin="477" end="902" source="85" target="34"/>
+    <types:Support xmi:id="131" sofa="195" begin="477" end="779" source="73" target="34"/>
+    <types:Support xmi:id="139" sofa="195" begin="477" end="708" source="67" target="34"/>
+    <types:Support xmi:id="147" sofa="195" begin="477" end="600" source="61" target="34"/>
+    <types:Support xmi:id="155" sofa="195" begin="723" end="815" source="79" target="73"/>
+    <types:Support xmi:id="163" sofa="195" begin="913" end="1164" source="91" target="41"/>
+    <types:Support xmi:id="171" sofa="195" begin="996" end="1164" source="97" target="41"/>
+    <types:Support xmi:id="179" sofa="195" begin="1211" end="1449" source="103" target="48"/>
+    <types:Support xmi:id="187" sofa="195" begin="1211" end="1389" source="109" target="103"/>
+    <argumentation:LocalSufficiency xmi:id="210" sofa="195" begin="374" end="903" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="217" sofa="195" begin="904" end="1165" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="224" sofa="195" begin="1166" end="1451" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="195" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Nowadays, the Earth has become like a small village. In the course of the last hundred years, the way majority of people communicate with each other has been altered significantly because of technology. But there are vast amount of disputes whether it is positive or negative. From my point of view, this development was a very positive one in spite of its some drawbacks.&#10;To begin with, nowadays, to keep in touch with loved ones in faraway places has become easy than ever. Technology revolutionized the way we communicate and in present, it is almost possible to do everything without tete-a-tete. By means of some software such as Skype, MSN, Whatsapp we can get in touch with everybody whenever we want. For example, in earlier times, people didn't leave for faraway places, because they could easily get lost. This is also one salient prove that the development of technology was a very positive.&#10;Further, by means of some communication tools, it has become very easy to make new friends. According to statistics, 40% of people met even their life partners via Internet. In this sense, Internet is a basic tool to keep in touch with old and make new friends.&#10;However, the other side of the coin is that, by communicating via Internet or phone, we cannot express our ideas and feelings fully, because during such conversations, some of our words can make a completely different sense. As a result, the rate of divorces is increasing day by day. &#10;By way of conclusion, I once again restate my position that the development of technology impacted on the means of communication among people very positively by making it easier and more comfortable. "/>
+    <cas:View sofa="195" members="1 14 22 28 34 41 48 55 61 67 73 79 85 91 97 103 109 115 123 131 139 147 155 163 171 179 187 210 217 224"/>
+</xmi:XMI>

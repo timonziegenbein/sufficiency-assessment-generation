@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="188" begin="0" end="1833" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="188" begin="0" end="1833" filename="essay316" topic="Do you agree or disagree with the following statement? It is more important for the government to spend money on new buildings than to preserve historic or traditional buildings and homes." twoSided="negative"/>
+    <types:MajorClaim xmi:id="22" sofa="188" begin="192" end="348"/>
+    <types:MajorClaim xmi:id="28" sofa="188" begin="1757" end="1832"/>
+    <types:Premise xmi:id="34" sofa="188" begin="419" end="505"/>
+    <types:Premise xmi:id="40" sofa="188" begin="507" end="636"/>
+    <types:Premise xmi:id="46" sofa="188" begin="644" end="844"/>
+    <types:Premise xmi:id="52" sofa="188" begin="854" end="965"/>
+    <types:Premise xmi:id="58" sofa="188" begin="971" end="1035"/>
+    <types:Premise xmi:id="64" sofa="188" begin="1045" end="1165"/>
+    <types:Premise xmi:id="70" sofa="188" begin="1289" end="1355"/>
+    <types:Premise xmi:id="76" sofa="188" begin="1357" end="1534"/>
+    <types:Premise xmi:id="82" sofa="188" begin="1550" end="1606"/>
+    <types:Premise xmi:id="88" sofa="188" begin="1614" end="1712"/>
+    <types:Claim xmi:id="94" sofa="188" begin="350" end="417" stance="For"/>
+    <types:Claim xmi:id="101" sofa="188" begin="1203" end="1266" stance="For"/>
+    <types:Support xmi:id="108" sofa="188" begin="350" end="1035" source="58" target="94"/>
+    <types:Support xmi:id="116" sofa="188" begin="350" end="965" source="52" target="94"/>
+    <types:Support xmi:id="124" sofa="188" begin="350" end="844" source="46" target="94"/>
+    <types:Support xmi:id="132" sofa="188" begin="350" end="636" source="40" target="94"/>
+    <types:Support xmi:id="140" sofa="188" begin="350" end="505" source="34" target="94"/>
+    <types:Support xmi:id="148" sofa="188" begin="971" end="1165" source="64" target="58"/>
+    <types:Support xmi:id="156" sofa="188" begin="1203" end="1712" source="88" target="101"/>
+    <types:Support xmi:id="164" sofa="188" begin="1203" end="1606" source="82" target="101"/>
+    <types:Support xmi:id="172" sofa="188" begin="1203" end="1534" source="76" target="101"/>
+    <types:Support xmi:id="180" sofa="188" begin="1203" end="1355" source="70" target="101"/>
+    <argumentation:LocalSufficiency xmi:id="203" sofa="188" begin="350" end="1166" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="210" sofa="188" begin="1167" end="1714" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="188" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;The housing shortage is drawing more and more attention nowadays. And the cost of accommodation keeps growing these years. The necessity of governmental financial aid is extremely important. What government should take into consideration at the first place should not be historic and traditional building preservation but new building construction.&#10;Building more accommodating constructions meets people's basic need. People cannot live a harmonious life if citizens do not have a decent place to live in. If the price of housing grows continuously, a comfortable place to live in will be a luxury to the middle class and the low class. Then, ordinary people, especially the younger generation, will fall into a certain pattern - work, pay bills for housing, work; and I am sure that it will increase people's dissatisfaction of the government. Because when they are working, the fair of losing their accommodation always lingers, which will limit their efficiency. And government should spend money on people to rescue them from this, because only a government of the people, by the people, for the people will finally last; people's cohesiveness will be promoted.&#10;Otherwise, another vital reason why new building construction deserves more governmental investment lies in the fact that it requires far more resource compare to old building preservation. Build a new building has following prerequisites, land that has been sold by the government via formal procedures, a reliable construction company and tremendous amount of labor. Except these, hundreds of problems would occur during the construction. Thus, only government can cope with it by utilizing its enormous resource like dollars and effectiveness. &#10;Generally, personally speaking, I believe new building construction hold the right to gain more money from government."/>
+    <cas:View sofa="188" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 101 108 116 124 132 140 148 156 164 172 180 203 210"/>
+</xmi:XMI>

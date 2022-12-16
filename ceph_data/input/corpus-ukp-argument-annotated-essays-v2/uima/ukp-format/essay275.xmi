@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="230" begin="0" end="2355" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="230" begin="0" end="2355" filename="essay275" topic="In order to become financially responsible adults, children should learn to manage their own money at a young age. Do you agree or disagree with the following statement?" twoSided="negative"/>
+    <types:MajorClaim xmi:id="22" sofa="230" begin="305" end="367"/>
+    <types:MajorClaim xmi:id="28" sofa="230" begin="2151" end="2266"/>
+    <types:Claim xmi:id="34" sofa="230" begin="578" end="661" stance="For"/>
+    <types:Claim xmi:id="41" sofa="230" begin="1283" end="1476" stance="For"/>
+    <types:Claim xmi:id="48" sofa="230" begin="2074" end="2135" stance="Against"/>
+    <types:Claim xmi:id="55" sofa="230" begin="2276" end="2354" stance="For"/>
+    <types:Premise xmi:id="62" sofa="230" begin="459" end="573"/>
+    <types:Premise xmi:id="68" sofa="230" begin="731" end="808"/>
+    <types:Premise xmi:id="74" sofa="230" begin="810" end="883"/>
+    <types:Premise xmi:id="80" sofa="230" begin="885" end="950"/>
+    <types:Premise xmi:id="86" sofa="230" begin="952" end="1007"/>
+    <types:Premise xmi:id="92" sofa="230" begin="1019" end="1081"/>
+    <types:Premise xmi:id="98" sofa="230" begin="1174" end="1281"/>
+    <types:Premise xmi:id="104" sofa="230" begin="1498" end="1611"/>
+    <types:Premise xmi:id="110" sofa="230" begin="1613" end="1700"/>
+    <types:Premise xmi:id="116" sofa="230" begin="1702" end="1832"/>
+    <types:Premise xmi:id="122" sofa="230" begin="1834" end="1942"/>
+    <types:Premise xmi:id="128" sofa="230" begin="1944" end="2040"/>
+    <types:Support xmi:id="134" sofa="230" begin="459" end="661" source="62" target="34"/>
+    <types:Support xmi:id="142" sofa="230" begin="578" end="1081" source="92" target="34"/>
+    <types:Support xmi:id="150" sofa="230" begin="578" end="1007" source="86" target="34"/>
+    <types:Support xmi:id="158" sofa="230" begin="578" end="950" source="80" target="34"/>
+    <types:Support xmi:id="166" sofa="230" begin="578" end="883" source="74" target="34"/>
+    <types:Support xmi:id="174" sofa="230" begin="578" end="808" source="68" target="34"/>
+    <types:Support xmi:id="182" sofa="230" begin="1174" end="1476" source="98" target="41"/>
+    <types:Support xmi:id="190" sofa="230" begin="1283" end="2040" source="128" target="41"/>
+    <types:Support xmi:id="198" sofa="230" begin="1283" end="1942" source="122" target="41"/>
+    <types:Support xmi:id="206" sofa="230" begin="1283" end="1832" source="116" target="41"/>
+    <types:Support xmi:id="214" sofa="230" begin="1283" end="1700" source="110" target="41"/>
+    <types:Support xmi:id="222" sofa="230" begin="1283" end="1611" source="104" target="41"/>
+    <argumentation:LocalSufficiency xmi:id="245" sofa="230" begin="405" end="1082" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="252" sofa="230" begin="1083" end="2041" majority="0.0" mean="0.0"/>
+    <cas:Sofa xmi:id="230" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;One of the best characteristics of a mature adult is responsibility, specially in financially matters. Actually what is the best way to learn responsibility? many people argue about learning their children the financial responsibility in young ages or in adulthood. I am a kind of person who believes to children should learn to manage their own money at a young age, due to reasons that I stated below.&#10;The first important point that I want to make is that sociologists found that our characteristics and personality forms early in life, even though when we are not borne. So it is crucial to learn our children as soon as possible to learn financially issues. To clarify my point I would like to say a memory from my childhood, when I was at age 7 my father gave me monthly money to buy thing that I liked. First time I spend the whole money to eat at school and my money finished. I asked my father for extra money, but he refuse to give it to me. I found that I should manage the way that I spend money. From then I learned to be economical and now I have every thing I wanted.&#10;Another aspect of learning children to manage their money is on the finance of the family. If parents get the children all they wanted, they would be run out of their money for their essential needs. Even in rich families if children did not learn to manage their own money, when they grow up they will become unappreciative and dependent persons who want to just used their parents prosperity. As a case in point, I had a friend to had a rich and prosperous family, his parent gave him everything he demanded from his childhood. He became an arrogant person who could not stand on his feet and always asked for money. His parent tried a lot and hired some experts to learn him manage his financial and carrier life, but unfortunately it was useless. Finally one night, having fun with his irresponsible friend in his luxuries car, he crashed a truck and died. Not only did he cause lots of damage to the society property, but also bring sorry to his family.&#10;Although some people argue that children should be free to spend money to they what they want, In my opinion it is very important to learn our children from their beginning of their life to be financially responsible persons, because our personality form in childhood and it is not easy to change it in adulthood."/>
+    <cas:View sofa="230" members="1 14 22 28 34 41 48 55 62 68 74 80 86 92 98 104 110 116 122 128 134 142 150 158 166 174 182 190 198 206 214 222 245 252"/>
+</xmi:XMI>

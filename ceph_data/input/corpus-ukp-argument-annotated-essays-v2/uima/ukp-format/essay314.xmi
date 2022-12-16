@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="258" begin="0" end="2437" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="258" begin="0" end="2437" filename="essay314" topic="Do you agree or disagree with the following statement? In today's world, it is more important to work quickly and risk making mistakes than to work slowly and make sure that everything is correct. Use specific reasons and examples to support your answer." twoSided="negative"/>
+    <types:Premise xmi:id="22" sofa="258" begin="500" end="567"/>
+    <types:Premise xmi:id="28" sofa="258" begin="569" end="750"/>
+    <types:Premise xmi:id="34" sofa="258" begin="762" end="820"/>
+    <types:Premise xmi:id="40" sofa="258" begin="822" end="921"/>
+    <types:Premise xmi:id="46" sofa="258" begin="933" end="1020"/>
+    <types:Premise xmi:id="52" sofa="258" begin="1026" end="1116"/>
+    <types:Premise xmi:id="58" sofa="258" begin="1128" end="1274"/>
+    <types:Premise xmi:id="64" sofa="258" begin="1474" end="1543"/>
+    <types:Premise xmi:id="70" sofa="258" begin="1550" end="1637"/>
+    <types:Premise xmi:id="76" sofa="258" begin="1639" end="1732"/>
+    <types:Premise xmi:id="82" sofa="258" begin="1858" end="1941"/>
+    <types:Premise xmi:id="88" sofa="258" begin="1943" end="2074"/>
+    <types:Premise xmi:id="94" sofa="258" begin="2099" end="2247"/>
+    <types:Claim xmi:id="100" sofa="258" begin="287" end="350" stance="Against"/>
+    <types:Claim xmi:id="107" sofa="258" begin="429" end="498" stance="For"/>
+    <types:Claim xmi:id="114" sofa="258" begin="1276" end="1472" stance="For"/>
+    <types:Claim xmi:id="121" sofa="258" begin="1797" end="1842" stance="For"/>
+    <types:Claim xmi:id="128" sofa="258" begin="2270" end="2316" stance="Against"/>
+    <types:Claim xmi:id="135" sofa="258" begin="2378" end="2436" stance="For"/>
+    <types:MajorClaim xmi:id="142" sofa="258" begin="361" end="416"/>
+    <types:MajorClaim xmi:id="148" sofa="258" begin="2318" end="2371"/>
+    <types:Attack xmi:id="154" sofa="258" begin="429" end="1020" source="46" target="107"/>
+    <types:Attack xmi:id="162" sofa="258" begin="933" end="1116" source="52" target="46"/>
+    <types:Support xmi:id="170" sofa="258" begin="429" end="921" source="40" target="107"/>
+    <types:Support xmi:id="178" sofa="258" begin="429" end="820" source="34" target="107"/>
+    <types:Support xmi:id="186" sofa="258" begin="429" end="750" source="28" target="107"/>
+    <types:Support xmi:id="194" sofa="258" begin="429" end="567" source="22" target="107"/>
+    <types:Support xmi:id="202" sofa="258" begin="1128" end="1472" source="58" target="114"/>
+    <types:Support xmi:id="210" sofa="258" begin="1276" end="1543" source="64" target="114"/>
+    <types:Support xmi:id="218" sofa="258" begin="1474" end="1637" source="70" target="64"/>
+    <types:Support xmi:id="226" sofa="258" begin="1550" end="1732" source="76" target="70"/>
+    <types:Support xmi:id="234" sofa="258" begin="1797" end="1941" source="82" target="121"/>
+    <types:Support xmi:id="242" sofa="258" begin="1858" end="2247" source="94" target="82"/>
+    <types:Support xmi:id="250" sofa="258" begin="1858" end="2074" source="88" target="82"/>
+    <argumentation:LocalSufficiency xmi:id="273" sofa="258" begin="418" end="1117" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="280" sofa="258" begin="1118" end="1734" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="287" sofa="258" begin="1735" end="2248" majority="0.0" mean="0.0"/>
+    <cas:Sofa xmi:id="258" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;This current world we situate ourselves in is rather unpredictable, even one sudden invention could bring down all the notions we used bear in mind. Most of us has endeavored to keep up with the pace of the development of today's world in fast pace. I personally believe that even when fast pace may be the wise move to correspond with today's world. However, it might not be the most beneficial move to our society.&#10;Primarily, even when the world operates in fast pace, it still requires accuracy. Even simple issues in our daily life like homework require accuracy. If we rush through the work by taking risk of making mistakes, we are actually making zero effort going through our study roughly only for the purpose of fill in before the deadline. In short, it only fulfills the work itself which is rather worthless. It is our capability of work that we should improve rather than holding the belief in completing it. Certainly it may take time to keep up with the others if w need to review our work multiple times, but with consistent work soon enough we'll be able to bring up our speed in completion of work.&#10;Secondly, other than the importance of accuracy, the world also seeks efficiency, which concludes both minimum time completion and also criterion of quality. Even when we managed to keep up with the pace by neglecting the details of a project and only aim for a general frame of the project, this will not be something satisfy for the company and clients. We soon will be out of the picture even when we kept up with the pace since when the problem reveals itself we'll have to go back and fix the mistakes we have made. This might be even more costly and time consuming than a neat completion of work at the start. &#10;Besides, when looking at this problem within a broader image. Some work cannot tolerate any mistakes at all, for instance, in official missions like the work done by NASA, a tiny mistake can be catastrophic. A miscalculation of the orbit in launching rocket may lead to a failure of the whole project which might worth trillions of dollars. In such circumstances, even when the scientists want to finish off quickly, but they couldn't miss even a single part of the mission since it may trigger loads of problems.&#10;To sum up, even when we need to catch up with the pace of the world, it is necessary for us to be extraordinarily cautious since rough work is intolerable when we want to stay competitive."/>
+    <cas:View sofa="258" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 100 107 114 121 128 135 142 148 154 162 170 178 186 194 202 210 218 226 234 242 250 273 280 287"/>
+</xmi:XMI>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="166" begin="0" end="1702" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="166" begin="0" end="1702" filename="essay287" topic="Many people have learned a foreign language in their own country, others have learned a foreigh language in the country in which it is spoken. Which is better? Give the advantages of each and support your viewpoint." twoSided="negative"/>
+    <types:MajorClaim xmi:id="22" sofa="166" begin="311" end="368"/>
+    <types:MajorClaim xmi:id="28" sofa="166" begin="1365" end="1452"/>
+    <types:MajorClaim xmi:id="34" sofa="166" begin="1613" end="1701"/>
+    <types:Claim xmi:id="40" sofa="166" begin="428" end="530" stance="For"/>
+    <types:Claim xmi:id="47" sofa="166" begin="873" end="970" stance="For"/>
+    <types:Claim xmi:id="54" sofa="166" begin="1461" end="1518" stance="For"/>
+    <types:Claim xmi:id="61" sofa="166" begin="1529" end="1611" stance="For"/>
+    <types:Premise xmi:id="68" sofa="166" begin="545" end="649"/>
+    <types:Premise xmi:id="74" sofa="166" begin="651" end="745"/>
+    <types:Premise xmi:id="80" sofa="166" begin="747" end="861"/>
+    <types:Premise xmi:id="86" sofa="166" begin="986" end="1111"/>
+    <types:Premise xmi:id="92" sofa="166" begin="1113" end="1184"/>
+    <types:Premise xmi:id="98" sofa="166" begin="1192" end="1257"/>
+    <types:Premise xmi:id="104" sofa="166" begin="1259" end="1322"/>
+    <types:Support xmi:id="110" sofa="166" begin="428" end="861" source="80" target="40"/>
+    <types:Support xmi:id="118" sofa="166" begin="428" end="745" source="74" target="40"/>
+    <types:Support xmi:id="126" sofa="166" begin="428" end="649" source="68" target="40"/>
+    <types:Support xmi:id="134" sofa="166" begin="873" end="1322" source="104" target="47"/>
+    <types:Support xmi:id="142" sofa="166" begin="873" end="1257" source="98" target="47"/>
+    <types:Support xmi:id="150" sofa="166" begin="873" end="1184" source="92" target="47"/>
+    <types:Support xmi:id="158" sofa="166" begin="873" end="1111" source="86" target="47"/>
+    <argumentation:LocalSufficiency xmi:id="181" sofa="166" begin="413" end="862" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="188" sofa="166" begin="863" end="1323" majority="0.0" mean="0.0"/>
+    <cas:Sofa xmi:id="166" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Knowing foreign language is became more and more important in this time. Many people pursue to study foreign language. There are two options to learn foreign language. First is stay in homeland to study foreign language. The second option is that go to study in another place that foreign language are spoken. Going to another place to learn language is better choice. I will give reasons to support my opinion.&#10;To begin with, going to another country to learn language is a good environment to stimulate people to learn language. For example, everyone around me speaks foreign language, and then I have to improve myself to communicate with people. If I could not communicate with other people, I could not even buy food to sacrifice my hunger. This environment makes me want to develop myself to be able to communicate with people that speak foreign language.&#10;Secondly, having friend that speaks another language is help people to professional in that language faster. For instance, English school in outside my home country, there are many people that come from different places and from different languages. The only language that I could talk to make friends is English language. Thus, I could talk with my friend without worrying about speaking wrong. This reason makes me have a progress in foreign language faster.&#10;In conclusion, I personally believe that learning language from foreign country is better than learning language in home country because I have to improve myself to communicate with other people. Besides, in foreign country I could have a chance to speak foreign language with my friends. Learning foreign language form another country is better choice for me to study language."/>
+    <cas:View sofa="166" members="1 14 22 28 34 40 47 54 61 68 74 80 86 92 98 104 110 118 126 134 142 150 158 181 188"/>
+</xmi:XMI>

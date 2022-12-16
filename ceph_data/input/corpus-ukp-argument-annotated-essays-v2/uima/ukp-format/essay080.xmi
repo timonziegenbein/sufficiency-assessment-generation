@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="189" begin="0" end="1976" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="189" begin="0" end="1976" filename="essay080" topic="Do you agree or disagree with the following statement? Animals should be free, people should not keep them in zoos. Use specific reasons and examples to support your answer." twoSided="positive"/>
+    <types:MajorClaim xmi:id="22" sofa="189" begin="1794" end="1827"/>
+    <types:Claim xmi:id="28" sofa="189" begin="342" end="379" stance="Against"/>
+    <types:Claim xmi:id="35" sofa="189" begin="992" end="1090" stance="For"/>
+    <types:Claim xmi:id="42" sofa="189" begin="1730" end="1772" stance="Against"/>
+    <types:Premise xmi:id="49" sofa="189" begin="388" end="483"/>
+    <types:Premise xmi:id="55" sofa="189" begin="485" end="591"/>
+    <types:Premise xmi:id="61" sofa="189" begin="610" end="727"/>
+    <types:Premise xmi:id="67" sofa="189" begin="729" end="834"/>
+    <types:Premise xmi:id="73" sofa="189" begin="849" end="943"/>
+    <types:Premise xmi:id="79" sofa="189" begin="1092" end="1270"/>
+    <types:Premise xmi:id="85" sofa="189" begin="1272" end="1359"/>
+    <types:Premise xmi:id="91" sofa="189" begin="1367" end="1478"/>
+    <types:Premise xmi:id="97" sofa="189" begin="1510" end="1663"/>
+    <types:Premise xmi:id="103" sofa="189" begin="1670" end="1713"/>
+    <types:Support xmi:id="109" sofa="189" begin="342" end="943" source="73" target="28"/>
+    <types:Support xmi:id="117" sofa="189" begin="342" end="834" source="67" target="28"/>
+    <types:Support xmi:id="125" sofa="189" begin="342" end="591" source="55" target="28"/>
+    <types:Support xmi:id="133" sofa="189" begin="342" end="483" source="49" target="28"/>
+    <types:Support xmi:id="141" sofa="189" begin="485" end="727" source="61" target="55"/>
+    <types:Support xmi:id="149" sofa="189" begin="992" end="1713" source="103" target="35"/>
+    <types:Support xmi:id="157" sofa="189" begin="992" end="1359" source="85" target="35"/>
+    <types:Support xmi:id="165" sofa="189" begin="992" end="1270" source="79" target="35"/>
+    <types:Support xmi:id="173" sofa="189" begin="1367" end="1713" source="91" target="103"/>
+    <types:Support xmi:id="181" sofa="189" begin="1367" end="1663" source="97" target="91"/>
+    <argumentation:LocalSufficiency xmi:id="204" sofa="189" begin="305" end="944" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="211" sofa="189" begin="945" end="1714" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="189" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Since the time they were introduced zoos have both been supported and criticized. Many believe that zoos could be very entertaining and ecologically important, whereas, others think that keeping animals in captivity is totally wrong. Both sides will be discussed before a reasonable conclusion is drawn.&#10;First, critics of zoology argue that keeping animals in captivity is wrong because animals should be considered non-human persons and they should have the right of having freedom. This is so unfair for them to be taken out of their natural environment and to be kept in small enclosures. That is because, many zoos, especially the ones in developing countries, do not provide care and attention which their animals require. The animals are often undernourished and do not have sufficient quality and quantity of medical treatment. In addition, sometimes animals from hot countries have to survive in the cold winter of somewhere in Europe.&#10;On the other hand, the advocators believe that zoos provide the public with good entertainment and also help to ensure the balance of the ecology. Many people, especially young children enjoy going to zoos and see their favorite animals, cute baby-born animals and the animals that are from the different corners of the world. Zoos provide educational information about the lives of different animals to the public. Also, zoos play an important role in reserving many breeds of animal and preventing them from being missing from life. This is due to the fact that, in zoos, animals are kept in enclosures which simulate their own habitats and also endangered animals are being protected from their predators or hunters. Thus zoos are needed to keep the nature balanced.&#10;In conclusion, both of the arguments have strong supports, but in my own view, more good come from zoos than bad. However, it is hoped that the standards of zoos should be leveled up to ensure that the animals in zoos are provided with good care and attention.&#10;"/>
+    <cas:View sofa="189" members="1 14 22 28 35 42 49 55 61 67 73 79 85 91 97 103 109 117 125 133 141 149 157 165 173 181 204 211"/>
+</xmi:XMI>

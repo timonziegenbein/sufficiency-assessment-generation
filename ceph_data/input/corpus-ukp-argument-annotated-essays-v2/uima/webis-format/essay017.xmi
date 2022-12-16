@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="267" begin="0" end="1711" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="267" begin="0" end="1711" filename="essay017" topic="Do you agree or disagree with the following statement? Television has destroyed communication among friends and family. Use specific reasons and examples to support your opinions." twoSided="negative"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="22" sofa="267" begin="158" end="249" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="27" sofa="267" begin="279" end="313" unitType="majorclaim"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="32" sofa="267" begin="315" end="395" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="37" sofa="267" begin="397" end="461" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="42" sofa="267" begin="463" end="583" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="47" sofa="267" begin="585" end="634" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="52" sofa="267" begin="648" end="699" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="57" sofa="267" begin="717" end="759" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="62" sofa="267" begin="761" end="902" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="67" sofa="267" begin="911" end="1005" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="72" sofa="267" begin="1007" end="1139" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="77" sofa="267" begin="1161" end="1219" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="82" sofa="267" begin="1221" end="1313" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="87" sofa="267" begin="1315" end="1381" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="92" sofa="267" begin="1383" end="1457" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="97" sofa="267" begin="1470" end="1602" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="102" sofa="267" begin="1612" end="1710" unitType="majorclaim"/>
+    <argumentation:Argument xmi:id="107" sofa="267" begin="158" end="313" premises="22" conclusion="27" argumentType="supports"/>
+    <argumentation:Argument xmi:id="117" sofa="267" begin="279" end="1710" premises="102" conclusion="27" argumentType="supports"/>
+    <argumentation:Argument xmi:id="127" sofa="267" begin="279" end="1602" premises="97" conclusion="27" argumentType="supports"/>
+    <argumentation:Argument xmi:id="137" sofa="267" begin="279" end="1219" premises="77" conclusion="27" argumentType="supports"/>
+    <argumentation:Argument xmi:id="147" sofa="267" begin="279" end="759" premises="57" conclusion="27" argumentType="supports"/>
+    <argumentation:Argument xmi:id="157" sofa="267" begin="279" end="395" premises="32" conclusion="27" argumentType="supports"/>
+    <argumentation:Argument xmi:id="167" sofa="267" begin="315" end="699" premises="52" conclusion="32" argumentType="supports"/>
+    <argumentation:Argument xmi:id="177" sofa="267" begin="315" end="634" premises="47" conclusion="32" argumentType="supports"/>
+    <argumentation:Argument xmi:id="187" sofa="267" begin="315" end="583" premises="42" conclusion="32" argumentType="supports"/>
+    <argumentation:Argument xmi:id="197" sofa="267" begin="315" end="461" premises="37" conclusion="32" argumentType="supports"/>
+    <argumentation:Argument xmi:id="207" sofa="267" begin="717" end="1139" premises="72" conclusion="57" argumentType="supports"/>
+    <argumentation:Argument xmi:id="217" sofa="267" begin="717" end="1005" premises="67" conclusion="57" argumentType="supports"/>
+    <argumentation:Argument xmi:id="227" sofa="267" begin="717" end="902" premises="62" conclusion="57" argumentType="supports"/>
+    <argumentation:Argument xmi:id="237" sofa="267" begin="1161" end="1457" premises="92" conclusion="77" argumentType="supports"/>
+    <argumentation:Argument xmi:id="247" sofa="267" begin="1161" end="1381" premises="87" conclusion="77" argumentType="supports"/>
+    <argumentation:Argument xmi:id="257" sofa="267" begin="1161" end="1313" premises="82" conclusion="77" argumentType="supports"/>
+    <argumentation:LocalSufficiency xmi:id="282" sofa="267" begin="315" end="700" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="289" sofa="267" begin="701" end="1140" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="296" sofa="267" begin="1141" end="1458" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="267" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;It is very hard to find a home that does not have a television. Nowadays, number of television channels and programs are increasing everyday. Unfortunately, most of people do not have a plan for make a limitation or schedule for watching television. I agree with that idea that television devastate families ties.&#10;In spite of enjoying watching television shows, it is really time consuming task. Emergence of new television channels or shows are not surprising. We kill time by tracking these channels so at the end of the day we understand it is late for doing any other activities. This is a problem that suffers all of us everyday. At the end, there is no time for call to our parents or friends.&#10;Second, I think watching television programs makes us lazy. We usually spend our times in front of television for at least three ours a day when we come back home after eight-hour working in the office. Hence, we do not have time to spend for healthy activity such as going to a gym or doing other sports. This makes us a lazy person who prefers to do sedentary activities like watching television shows rather than be active and sociable.&#10;Last but not least, some television programs have a negative effect on viewers. Some thriller or action movies advertise negative activities such as doing criminal activity. These genre of programs has more negative effects on our teenagers. They usually try to mimic what they see on movies in their daily behaviors.&#10;To sum up, killing our time, making us lazy, and advertising negative behaviors are just only few reasons to show how television is destructive. I think it is a global problem to solve this problem and it is need global contribution to find a solution."/>
+    <cas:View sofa="267" members="1 14 22 27 32 37 42 47 52 57 62 67 72 77 82 87 92 97 102 107 117 127 137 147 157 167 177 187 197 207 217 227 237 247 257 282 289 296"/>
+</xmi:XMI>

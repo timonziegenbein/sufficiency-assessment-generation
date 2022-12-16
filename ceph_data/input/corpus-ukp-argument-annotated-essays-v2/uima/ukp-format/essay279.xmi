@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="188" begin="0" end="1857" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="188" begin="0" end="1857" filename="essay279" topic="Some people say that the internet provides people with a lot of valuable information. Others think access to so much information creates problems. Which view do you agree with? Use specific reasons and examples to support your opinion." twoSided="negative"/>
+    <types:Claim xmi:id="22" sofa="188" begin="318" end="422" stance="For"/>
+    <types:Claim xmi:id="29" sofa="188" begin="438" end="524" stance="For"/>
+    <types:Claim xmi:id="36" sofa="188" begin="814" end="907" stance="For"/>
+    <types:Claim xmi:id="43" sofa="188" begin="1245" end="1311" stance="For"/>
+    <types:Claim xmi:id="50" sofa="188" begin="1714" end="1777" stance="For"/>
+    <types:Claim xmi:id="57" sofa="188" begin="1779" end="1856" stance="For"/>
+    <types:MajorClaim xmi:id="64" sofa="188" begin="218" end="269"/>
+    <types:MajorClaim xmi:id="70" sofa="188" begin="1638" end="1705"/>
+    <types:Premise xmi:id="76" sofa="188" begin="526" end="648"/>
+    <types:Premise xmi:id="82" sofa="188" begin="663" end="799"/>
+    <types:Premise xmi:id="88" sofa="188" begin="909" end="1046"/>
+    <types:Premise xmi:id="94" sofa="188" begin="1048" end="1124"/>
+    <types:Premise xmi:id="100" sofa="188" begin="1140" end="1223"/>
+    <types:Premise xmi:id="106" sofa="188" begin="1329" end="1431"/>
+    <types:Premise xmi:id="112" sofa="188" begin="1433" end="1499"/>
+    <types:Premise xmi:id="118" sofa="188" begin="1511" end="1623"/>
+    <types:Support xmi:id="124" sofa="188" begin="438" end="799" source="82" target="29"/>
+    <types:Support xmi:id="132" sofa="188" begin="438" end="648" source="76" target="29"/>
+    <types:Support xmi:id="140" sofa="188" begin="814" end="1124" source="94" target="36"/>
+    <types:Support xmi:id="148" sofa="188" begin="814" end="1046" source="88" target="36"/>
+    <types:Support xmi:id="156" sofa="188" begin="1048" end="1223" source="100" target="94"/>
+    <types:Support xmi:id="164" sofa="188" begin="1245" end="1623" source="118" target="43"/>
+    <types:Support xmi:id="172" sofa="188" begin="1245" end="1499" source="112" target="43"/>
+    <types:Support xmi:id="180" sofa="188" begin="1245" end="1431" source="106" target="43"/>
+    <argumentation:LocalSufficiency xmi:id="203" sofa="188" begin="424" end="800" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="210" sofa="188" begin="801" end="1224" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="217" sofa="188" begin="1225" end="1624" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="188" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;In the modern society, internet is considered as one of the most important inventions over the past century. Some people believe that several problems occur from an information on the internet. However, some say that the internet provides a lot of valuable information. In my opinion, I agree with the latter because the internet gives daily necessary information, people can gain knowledge and they can explore the world.&#10;First of all, everybody would like to know what is going on around the world in their everyday lives. Sometimes, they want an information that can help them in daily life which the internet can provide all of these to people. For example, a businessman who has no time to watch a television or read a newspaper can receive news and check stock markets easily via the internet.&#10;In addition, people can gain more knowledge by using the internet, the most useful technology in the world. Many people such as students can take online courses to study at home or they can watch beneficial videos which also teach them knowledge. Not only students but also everyone could get more information and knowledge. For instance, people who have problems with their health can search for more information about it.&#10;Last but not least, The internet makes the world becomes smaller which is a good thing. This is because people who have no time or have financial problems could travel around the world by using the internet. They can see lots of picture and videos of many interesting places. Moreover, people can learn other countries's culture and tradition which makes them have more knowledge about that nations.&#10;To conclude, people are satisfied with the internet and sometimes even thanks it because it helps us in studying, doing business and exploring the world. With valuable information it provides, people can enjoy their lives much more."/>
+    <cas:View sofa="188" members="1 14 22 29 36 43 50 57 64 70 76 82 88 94 100 106 112 118 124 132 140 148 156 164 172 180 203 210 217"/>
+</xmi:XMI>

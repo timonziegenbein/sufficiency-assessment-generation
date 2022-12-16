@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="258" begin="0" end="1963" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="258" begin="0" end="1963" filename="essay236" topic="Some people think university professors should spend more time doing research while others think they should spend more time educating students. What is your view?�" twoSided="negative"/>
+    <types:Premise xmi:id="22" sofa="258" begin="321" end="394"/>
+    <types:Premise xmi:id="28" sofa="258" begin="396" end="449"/>
+    <types:Premise xmi:id="34" sofa="258" begin="522" end="563"/>
+    <types:Premise xmi:id="40" sofa="258" begin="579" end="690"/>
+    <types:Premise xmi:id="46" sofa="258" begin="692" end="793"/>
+    <types:Premise xmi:id="52" sofa="258" begin="795" end="861"/>
+    <types:Premise xmi:id="58" sofa="258" begin="863" end="944"/>
+    <types:Premise xmi:id="64" sofa="258" begin="950" end="1054"/>
+    <types:Premise xmi:id="70" sofa="258" begin="1257" end="1334"/>
+    <types:Premise xmi:id="76" sofa="258" begin="1336" end="1387"/>
+    <types:Premise xmi:id="82" sofa="258" begin="1398" end="1457"/>
+    <types:Premise xmi:id="88" sofa="258" begin="1459" end="1538"/>
+    <types:Premise xmi:id="94" sofa="258" begin="1616" end="1692"/>
+    <types:Premise xmi:id="100" sofa="258" begin="1694" end="1790"/>
+    <types:MajorClaim xmi:id="106" sofa="258" begin="211" end="291"/>
+    <types:MajorClaim xmi:id="112" sofa="258" begin="1807" end="1904"/>
+    <types:Claim xmi:id="118" sofa="258" begin="458" end="511" stance="For"/>
+    <types:Claim xmi:id="125" sofa="258" begin="1056" end="1139" stance="For"/>
+    <types:Claim xmi:id="132" sofa="258" begin="1154" end="1255" stance="For"/>
+    <types:Claim xmi:id="139" sofa="258" begin="1540" end="1614" stance="For"/>
+    <types:Support xmi:id="146" sofa="258" begin="321" end="511" source="22" target="118"/>
+    <types:Support xmi:id="154" sofa="258" begin="396" end="511" source="28" target="118"/>
+    <types:Support xmi:id="162" sofa="258" begin="458" end="861" source="52" target="118"/>
+    <types:Support xmi:id="170" sofa="258" begin="458" end="793" source="46" target="118"/>
+    <types:Support xmi:id="178" sofa="258" begin="458" end="690" source="40" target="118"/>
+    <types:Support xmi:id="186" sofa="258" begin="458" end="563" source="34" target="118"/>
+    <types:Support xmi:id="194" sofa="258" begin="863" end="1139" source="58" target="125"/>
+    <types:Support xmi:id="202" sofa="258" begin="950" end="1139" source="64" target="125"/>
+    <types:Support xmi:id="210" sofa="258" begin="1154" end="1387" source="76" target="132"/>
+    <types:Support xmi:id="218" sofa="258" begin="1154" end="1334" source="70" target="132"/>
+    <types:Support xmi:id="226" sofa="258" begin="1398" end="1614" source="82" target="139"/>
+    <types:Support xmi:id="234" sofa="258" begin="1459" end="1614" source="88" target="139"/>
+    <types:Support xmi:id="242" sofa="258" begin="1540" end="1790" source="100" target="139"/>
+    <types:Support xmi:id="250" sofa="258" begin="1540" end="1692" source="94" target="139"/>
+    <argumentation:LocalSufficiency xmi:id="273" sofa="258" begin="321" end="862" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="280" sofa="258" begin="863" end="1388" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="287" sofa="258" begin="1389" end="1791" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="258" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Although professors in a university are basically teachers who do the most important thing, teaching, we cannot ignore one more influential aspect that they are always busy with, doing research. In my opinion, a professor should spend more time doing research rather than educating students for a few reasons following.&#10;A professor means a researcher or an expert of a specific science subject. He or she should always keep the passion in her field so that he or she could push him/herself forward all the time. And then he or she can do better in teaching works. For instance, the most impressive professor during my studying in university is Mr. Yang who keeps in researching and reading. He is also the one who gave us inspiration and taught us the way to study more efficient by ourselves. All of my classmates gave him a rank of AAA, the excellent teacher.&#10;As for students, we can get what we want to know from textbooks, webs or teachers. But we can only turn to our professors when we want to take part in a research and to get ourselves promoted. If a professor doesn't get any researching works, he cannot give us the opportunity. In addition, a professor who is concentrate in his or her research is thinking and creating new ideas all the time. He or she may stimulate us students to come up with some creative sugesstions. That is good for both of the professor and students.&#10;Finally, all professors in the university are fortune of the society. They are the leaders almost in every fields of science, arts, culture and so on. Without their research, there will be no new technologies come out quickly. Without their research, there will be more artcrafts being ruined by nothing. Without their research, there will be less information of our ancestors to be known on the earth.&#10;In conclusion, a professor should do their research all the time during their careers as a teacher in university. And it's worth to spend more time on it than on teaching."/>
+    <cas:View sofa="258" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 100 106 112 118 125 132 139 146 154 162 170 178 186 194 202 210 218 226 234 242 250 273 280 287"/>
+</xmi:XMI>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="258" begin="0" end="1723" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="258" begin="0" end="1723" filename="essay127" topic="Do you agree or disagree with the following statement? Life today is easier and more comfortable than it was when your grandparents were children. Use specific reasons and examples to support your answer." twoSided="negative"/>
+    <types:Premise xmi:id="22" sofa="258" begin="307" end="333"/>
+    <types:Premise xmi:id="28" sofa="258" begin="335" end="372"/>
+    <types:Premise xmi:id="34" sofa="258" begin="380" end="411"/>
+    <types:Premise xmi:id="40" sofa="258" begin="413" end="442"/>
+    <types:Premise xmi:id="46" sofa="258" begin="444" end="525"/>
+    <types:Premise xmi:id="52" sofa="258" begin="527" end="593"/>
+    <types:Premise xmi:id="58" sofa="258" begin="658" end="698"/>
+    <types:Premise xmi:id="64" sofa="258" begin="700" end="795"/>
+    <types:Premise xmi:id="70" sofa="258" begin="797" end="880"/>
+    <types:Premise xmi:id="76" sofa="258" begin="896" end="988"/>
+    <types:Premise xmi:id="82" sofa="258" begin="1109" end="1246"/>
+    <types:Premise xmi:id="88" sofa="258" begin="1257" end="1327"/>
+    <types:Premise xmi:id="94" sofa="258" begin="1329" end="1415"/>
+    <types:Premise xmi:id="100" sofa="258" begin="1417" end="1466"/>
+    <types:MajorClaim xmi:id="106" sofa="258" begin="202" end="285"/>
+    <types:MajorClaim xmi:id="112" sofa="258" begin="1563" end="1636"/>
+    <types:Claim xmi:id="118" sofa="258" begin="606" end="648" stance="For"/>
+    <types:Claim xmi:id="125" sofa="258" begin="996" end="1064" stance="For"/>
+    <types:Claim xmi:id="132" sofa="258" begin="1066" end="1107" stance="For"/>
+    <types:Claim xmi:id="139" sofa="258" begin="1495" end="1561" stance="Against"/>
+    <types:Support xmi:id="146" sofa="258" begin="307" end="648" source="22" target="118"/>
+    <types:Support xmi:id="154" sofa="258" begin="335" end="648" source="28" target="118"/>
+    <types:Support xmi:id="162" sofa="258" begin="380" end="442" source="34" target="40"/>
+    <types:Support xmi:id="170" sofa="258" begin="413" end="648" source="40" target="118"/>
+    <types:Support xmi:id="178" sofa="258" begin="444" end="648" source="46" target="118"/>
+    <types:Support xmi:id="186" sofa="258" begin="527" end="648" source="52" target="118"/>
+    <types:Support xmi:id="194" sofa="258" begin="658" end="1064" source="58" target="125"/>
+    <types:Support xmi:id="202" sofa="258" begin="700" end="1064" source="64" target="125"/>
+    <types:Support xmi:id="210" sofa="258" begin="797" end="1064" source="70" target="125"/>
+    <types:Support xmi:id="218" sofa="258" begin="896" end="1064" source="76" target="125"/>
+    <types:Support xmi:id="226" sofa="258" begin="1066" end="1466" source="100" target="132"/>
+    <types:Support xmi:id="234" sofa="258" begin="1066" end="1415" source="94" target="132"/>
+    <types:Attack xmi:id="242" sofa="258" begin="1066" end="1246" source="82" target="132"/>
+    <types:Attack xmi:id="250" sofa="258" begin="1109" end="1327" source="88" target="82"/>
+    <argumentation:LocalSufficiency xmi:id="273" sofa="258" begin="287" end="649" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="280" sofa="258" begin="650" end="1065" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="287" sofa="258" begin="1066" end="1467" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="258" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;The life today is totally different from half centuries before. Advances in technology do help humans to solve abundant of problems; however it also deprives of some things that we had. In my opinion, life in the old days brings more happiness to people than today for several reasons.&#10;The first reason is life is simple in the past. Nowadays, all humans compete together. Since world population getting higher, competition is getting fierce. If you are not able to handle your jobs, then someone will replace you right away. People need to put much more effort to keep their living condition. Therefore, lives in the old days is easier than today.&#10;Second, the environment today is serious damaged. Looking out the windows, what I see isn't sky, trees or mountains, but is coldly high buildings. Everyday, I walk on hard roads, breath in polluted air, and live in a limited space. What's worse, it has been proved that living in this kind of condition will result in some mental diseases. Thus, the environment our grandparents live is more comfortable than today.&#10;The third reason is that the pace of life. Today, we are able to read the news all over the world, to chat with people through the Internet, or to travel around the world by planes; however, it also means that any thing happens in the world will affect our life. If we cannot react properly and immediately, then we will be in a vulnerable situation. We have no choice but have to live in a fast pace.&#10;In conclusion, while there some people live in a pretty good condition, it is only a minority. People are put too much focus on making wealth and progress in technology; nevertheless, behind the glamorous facade of it, what we loss will never be returned."/>
+    <cas:View sofa="258" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 100 106 112 118 125 132 139 146 154 162 170 178 186 194 202 210 218 226 234 242 250 273 280 287"/>
+</xmi:XMI>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="293" begin="0" end="2036" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="293" begin="0" end="2036" filename="essay285" topic="Distance learning and online computer classes should replace classroom learning." twoSided="negative"/>
+    <types:Premise xmi:id="22" sofa="293" begin="95" end="156"/>
+    <types:Premise xmi:id="28" sofa="293" begin="167" end="311"/>
+    <types:Premise xmi:id="34" sofa="293" begin="613" end="673"/>
+    <types:Premise xmi:id="40" sofa="293" begin="688" end="758"/>
+    <types:Premise xmi:id="46" sofa="293" begin="760" end="825"/>
+    <types:Premise xmi:id="52" sofa="293" begin="845" end="912"/>
+    <types:Premise xmi:id="58" sofa="293" begin="1000" end="1075"/>
+    <types:Premise xmi:id="64" sofa="293" begin="1077" end="1181"/>
+    <types:Premise xmi:id="70" sofa="293" begin="1183" end="1238"/>
+    <types:Premise xmi:id="76" sofa="293" begin="1313" end="1388"/>
+    <types:Premise xmi:id="82" sofa="293" begin="1390" end="1457"/>
+    <types:Premise xmi:id="88" sofa="293" begin="1459" end="1520"/>
+    <types:Premise xmi:id="94" sofa="293" begin="1522" end="1594"/>
+    <types:Premise xmi:id="100" sofa="293" begin="1712" end="1805"/>
+    <types:Premise xmi:id="106" sofa="293" begin="1816" end="1881"/>
+    <types:Premise xmi:id="112" sofa="293" begin="1893" end="1969"/>
+    <types:Claim xmi:id="118" sofa="293" begin="53" end="93" stance="For"/>
+    <types:Claim xmi:id="125" sofa="293" begin="484" end="603" stance="For"/>
+    <types:Claim xmi:id="132" sofa="293" begin="924" end="984" stance="For"/>
+    <types:Claim xmi:id="139" sofa="293" begin="1248" end="1304" stance="For"/>
+    <types:Claim xmi:id="146" sofa="293" begin="1977" end="2035" stance="For"/>
+    <types:MajorClaim xmi:id="153" sofa="293" begin="327" end="424"/>
+    <types:MajorClaim xmi:id="159" sofa="293" begin="1612" end="1701"/>
+    <types:Support xmi:id="165" sofa="293" begin="53" end="311" source="28" target="118"/>
+    <types:Support xmi:id="173" sofa="293" begin="53" end="156" source="22" target="118"/>
+    <types:Support xmi:id="181" sofa="293" begin="484" end="912" source="52" target="125"/>
+    <types:Support xmi:id="189" sofa="293" begin="484" end="825" source="46" target="125"/>
+    <types:Support xmi:id="197" sofa="293" begin="484" end="758" source="40" target="125"/>
+    <types:Support xmi:id="205" sofa="293" begin="484" end="673" source="34" target="125"/>
+    <types:Support xmi:id="213" sofa="293" begin="924" end="1238" source="70" target="132"/>
+    <types:Support xmi:id="221" sofa="293" begin="924" end="1181" source="64" target="132"/>
+    <types:Support xmi:id="229" sofa="293" begin="924" end="1075" source="58" target="132"/>
+    <types:Support xmi:id="237" sofa="293" begin="1248" end="1594" source="94" target="139"/>
+    <types:Support xmi:id="245" sofa="293" begin="1248" end="1520" source="88" target="139"/>
+    <types:Support xmi:id="253" sofa="293" begin="1248" end="1457" source="82" target="139"/>
+    <types:Support xmi:id="261" sofa="293" begin="1248" end="1388" source="76" target="139"/>
+    <types:Support xmi:id="269" sofa="293" begin="1712" end="2035" source="100" target="146"/>
+    <types:Support xmi:id="277" sofa="293" begin="1816" end="2035" source="106" target="146"/>
+    <types:Support xmi:id="285" sofa="293" begin="1893" end="2035" source="112" target="146"/>
+    <argumentation:LocalSufficiency xmi:id="308" sofa="293" begin="469" end="913" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="315" sofa="293" begin="914" end="1239" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="322" sofa="293" begin="1240" end="1596" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="293" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;There are many advantages of distance learning, but it should not replace classroom learning. Learning in classroom could provide more information to study. Besides, learning in classroom are not only learning academic skills but also learning social skills, and learning how to solve problem in real situation. Consequently, I completely disagree with this statement that we should replace normal course with online course. I will give reasons to support my opinion.&#10;To begin with, learning in classroom could provide more information and make students more comprehend in subjects that they had learnt. Because in classroom have many equipment to demonstrate real example. For example, in biology class, learning anatomy by operating fog have many benefits. Learner could learn how to use tools and see actual organs of fog. Unlike classroom, online class just only study in textbook not learnin real situation.&#10;Secondly, online class could not provide knowledge about social skills. For instance, In a classroom, teacher could give assignment to student to work as a group. This could help students to learn how to deal with people, how to collaborate with people in their group. This important skill cannot be gotten in online classes.&#10;Lastly, learning in classroom, student could have healthier life because in school can provide exercise class which train student to move their body. Classroom have specialist trainer to teach students to it right way. If student do it by themselves, they might be hurt themselves. This make students have healthier life which online class cannot provide. &#10;In conclusion, I personally disagree this this notion that we should replace classroom with online class. Because, classroom could provide real actual example to make students more understand in their subject. Besides, classroom courses are also provide students to learn social skill. Moreover, classroom could provide exercise class to set students to have a good health. Thus, having classroom could provide abundant skills to students."/>
+    <cas:View sofa="293" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 100 106 112 118 125 132 139 146 153 159 165 173 181 189 197 205 213 221 229 237 245 253 261 269 277 285 308 315 322"/>
+</xmi:XMI>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="328" begin="0" end="2379" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="328" begin="0" end="2379" filename="essay154" topic="Some single people like to live with a roommate, while others prefer to live alone. Which would you prefer? Give specific reasons and examples to support your answer." twoSided="negative"/>
+    <types:Premise xmi:id="22" sofa="328" begin="437" end="507"/>
+    <types:Premise xmi:id="28" sofa="328" begin="520" end="545"/>
+    <types:Premise xmi:id="34" sofa="328" begin="560" end="768"/>
+    <types:Premise xmi:id="40" sofa="328" begin="770" end="878"/>
+    <types:Premise xmi:id="46" sofa="328" begin="979" end="1052"/>
+    <types:Premise xmi:id="52" sofa="328" begin="1054" end="1132"/>
+    <types:Premise xmi:id="58" sofa="328" begin="1148" end="1205"/>
+    <types:Premise xmi:id="64" sofa="328" begin="1207" end="1306"/>
+    <types:Premise xmi:id="70" sofa="328" begin="1308" end="1365"/>
+    <types:Premise xmi:id="76" sofa="328" begin="1367" end="1447"/>
+    <types:Premise xmi:id="82" sofa="328" begin="1449" end="1507"/>
+    <types:Premise xmi:id="88" sofa="328" begin="1564" end="1642"/>
+    <types:Premise xmi:id="94" sofa="328" begin="1644" end="1716"/>
+    <types:Premise xmi:id="100" sofa="328" begin="1718" end="1758"/>
+    <types:Premise xmi:id="106" sofa="328" begin="1775" end="1864"/>
+    <types:Premise xmi:id="112" sofa="328" begin="1866" end="1909"/>
+    <types:Premise xmi:id="118" sofa="328" begin="1911" end="1986"/>
+    <types:Premise xmi:id="124" sofa="328" begin="1988" end="2062"/>
+    <types:MajorClaim xmi:id="130" sofa="328" begin="268" end="300"/>
+    <types:MajorClaim xmi:id="136" sofa="328" begin="2139" end="2190"/>
+    <types:Claim xmi:id="142" sofa="328" begin="318" end="387" stance="For"/>
+    <types:Claim xmi:id="149" sofa="328" begin="389" end="435" stance="For"/>
+    <types:Claim xmi:id="156" sofa="328" begin="914" end="977" stance="For"/>
+    <types:Claim xmi:id="163" sofa="328" begin="1518" end="1562" stance="For"/>
+    <types:Claim xmi:id="170" sofa="328" begin="2085" end="2137" stance="Against"/>
+    <types:Claim xmi:id="177" sofa="328" begin="2208" end="2292" stance="For"/>
+    <types:Support xmi:id="184" sofa="328" begin="389" end="878" source="40" target="149"/>
+    <types:Support xmi:id="192" sofa="328" begin="389" end="768" source="34" target="149"/>
+    <types:Support xmi:id="200" sofa="328" begin="389" end="545" source="28" target="149"/>
+    <types:Support xmi:id="208" sofa="328" begin="389" end="507" source="22" target="149"/>
+    <types:Support xmi:id="216" sofa="328" begin="914" end="1507" source="82" target="156"/>
+    <types:Support xmi:id="224" sofa="328" begin="914" end="1447" source="76" target="156"/>
+    <types:Support xmi:id="232" sofa="328" begin="914" end="1365" source="70" target="156"/>
+    <types:Support xmi:id="240" sofa="328" begin="914" end="1306" source="64" target="156"/>
+    <types:Support xmi:id="248" sofa="328" begin="914" end="1205" source="58" target="156"/>
+    <types:Support xmi:id="256" sofa="328" begin="914" end="1132" source="52" target="156"/>
+    <types:Support xmi:id="264" sofa="328" begin="914" end="1052" source="46" target="156"/>
+    <types:Support xmi:id="272" sofa="328" begin="1518" end="2062" source="124" target="163"/>
+    <types:Support xmi:id="280" sofa="328" begin="1518" end="1986" source="118" target="163"/>
+    <types:Support xmi:id="288" sofa="328" begin="1518" end="1909" source="112" target="163"/>
+    <types:Support xmi:id="296" sofa="328" begin="1518" end="1864" source="106" target="163"/>
+    <types:Support xmi:id="304" sofa="328" begin="1518" end="1758" source="100" target="163"/>
+    <types:Support xmi:id="312" sofa="328" begin="1518" end="1716" source="94" target="163"/>
+    <types:Support xmi:id="320" sofa="328" begin="1518" end="1642" source="88" target="163"/>
+    <argumentation:LocalSufficiency xmi:id="343" sofa="328" begin="389" end="879" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="350" sofa="328" begin="880" end="1508" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="357" sofa="328" begin="1509" end="2063" majority="0.0" mean="0.0"/>
+    <cas:Sofa xmi:id="328" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Many single people have difficulties deciding whether to live with a roommate or to live alone. Each makes different decisions. Some people choose to live alone for privacy, while others choose to live with a roommate for practical reasons. As far as I am concerned, I prefer to live with a roommate. This is because it saves me money, enables me to socialize, and allows me to get help.&#10;Living with a roommate saves me a lot of money. If you have roommates, you can split the rent and utilities among them. This means you can get more for less. For example, last year, I shared a room off-campus with my friend, and we decided to split the rent and heating bills into half: I was able to save about fifty dollars for heating, and two hundred dollars for rent monthly. I was able to save a lot of money by sharing wasted heating and rooms with my friend and splitting the bills.&#10;Apart from saving a lot of money, living with a roommate also enables me to socialize more easily. It is always easier to socialize when you have a lot of people around you. You can invite your roommates' friends over to your room and have fun together. For instance, one night, my roommate, Millan, brought his friends along. Even though his friends and I were total strangers to each other, we quickly got to know each other. We soon found out that everyone loved playing video games. We played a video game called 'Halo' together all night, and became good friends. Living with a roommate made socializing much easier for me.&#10;Finally, living with a roommate allows me to get help. It often is the case that your roommates have the skills or knowledge you need. When you run into a problem, you can ask your roommates if they can help. Some of them may have something to offer. To illustrate, when my computer mysteriously broke down, I dialed up the manufacturer and asked for help. They failed to give me any useful solutions. To my surprise, one of my roommates noticed my problems and offered to help. He was very good with computers, and he managed to fix the problem quickly.&#10;In conclusion, while many people decide to live alone for various reasons, I prefer to live with a roommate, and I always will. This is because it offers me many advantages, such as less spending, more socializing, and more help. I think single people should live with a roommate, if they want to enjoy their lives."/>
+    <cas:View sofa="328" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 100 106 112 118 124 130 136 142 149 156 163 170 177 184 192 200 208 216 224 232 240 248 256 264 272 280 288 296 304 312 320 343 350 357"/>
+</xmi:XMI>

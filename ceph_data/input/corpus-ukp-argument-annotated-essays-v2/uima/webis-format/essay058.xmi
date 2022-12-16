@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="327" begin="0" end="2284" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="327" begin="0" end="2284" filename="essay058" topic="some people think that a sense of competition in children should be encouraged. Others believe that children who are taught to co-operate rather than compete become more useful adults. Discuss both these views and give your opinion." twoSided="positive"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="22" sofa="327" begin="331" end="369" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="27" sofa="327" begin="371" end="449" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="32" sofa="327" begin="451" end="526" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="37" sofa="327" begin="528" end="583" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="42" sofa="327" begin="599" end="619" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="47" sofa="327" begin="621" end="707" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="52" sofa="327" begin="726" end="806" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="57" sofa="327" begin="822" end="902" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="62" sofa="327" begin="904" end="977" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="67" sofa="327" begin="979" end="1087" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="72" sofa="327" begin="1098" end="1146" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="77" sofa="327" begin="1229" end="1307" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="82" sofa="327" begin="1309" end="1373" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="87" sofa="327" begin="1375" end="1421" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="92" sofa="327" begin="1436" end="1525" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="97" sofa="327" begin="1527" end="1580" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="102" sofa="327" begin="1591" end="1635" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="107" sofa="327" begin="1637" end="1715" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="112" sofa="327" begin="1717" end="1776" unitType="claim-against"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="117" sofa="327" begin="1778" end="1872" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="122" sofa="327" begin="2011" end="2089" unitType="majorclaim"/>
+    <argumentation:Argument xmi:id="127" sofa="327" begin="331" end="2089" premises="22" conclusion="122" argumentType="supports"/>
+    <argumentation:Argument xmi:id="137" sofa="327" begin="331" end="806" premises="52" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="147" sofa="327" begin="331" end="619" premises="42" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="157" sofa="327" begin="331" end="583" premises="37" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="167" sofa="327" begin="331" end="526" premises="32" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="177" sofa="327" begin="331" end="449" premises="27" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="187" sofa="327" begin="599" end="707" premises="47" conclusion="42" argumentType="supports"/>
+    <argumentation:Argument xmi:id="197" sofa="327" begin="822" end="2089" premises="57" conclusion="122" argumentType="supports"/>
+    <argumentation:Argument xmi:id="207" sofa="327" begin="822" end="1146" premises="72" conclusion="57" argumentType="attacks"/>
+    <argumentation:Argument xmi:id="217" sofa="327" begin="822" end="1087" premises="67" conclusion="57" argumentType="supports"/>
+    <argumentation:Argument xmi:id="227" sofa="327" begin="822" end="977" premises="62" conclusion="57" argumentType="supports"/>
+    <argumentation:Argument xmi:id="237" sofa="327" begin="1229" end="1421" premises="77" conclusion="87" argumentType="supports"/>
+    <argumentation:Argument xmi:id="247" sofa="327" begin="1309" end="1421" premises="82" conclusion="87" argumentType="supports"/>
+    <argumentation:Argument xmi:id="257" sofa="327" begin="1375" end="2089" premises="87" conclusion="122" argumentType="supports"/>
+    <argumentation:Argument xmi:id="267" sofa="327" begin="1375" end="1525" premises="92" conclusion="87" argumentType="supports"/>
+    <argumentation:Argument xmi:id="277" sofa="327" begin="1436" end="1580" premises="97" conclusion="92" argumentType="supports"/>
+    <argumentation:Argument xmi:id="287" sofa="327" begin="1591" end="1776" premises="102" conclusion="112" argumentType="supports"/>
+    <argumentation:Argument xmi:id="297" sofa="327" begin="1637" end="1776" premises="107" conclusion="112" argumentType="supports"/>
+    <argumentation:Argument xmi:id="307" sofa="327" begin="1717" end="2089" premises="112" conclusion="122" argumentType="attacks"/>
+    <argumentation:Argument xmi:id="317" sofa="327" begin="1717" end="1872" premises="117" conclusion="112" argumentType="supports"/>
+    <argumentation:LocalSufficiency xmi:id="342" sofa="327" begin="331" end="807" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="349" sofa="327" begin="808" end="1147" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="356" sofa="327" begin="1148" end="1581" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="363" sofa="327" begin="1582" end="1873" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="327" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;The modern society is full of cut-throat competition. Some people think that inculcating co-operative approach in a child is essential while some think that competing is the best way to succeed. However, co-operative approach always helps a child to become a responsible adult with good moral values and a friendly social circle.&#10;Co-operation is essential for teamwork. Educational systems emphasize on encouraging co-operative approach in children. We live in a social setup and mutual help and sharing only leads to success. A person can not learn or achieve everything by oneself. For instance, lions hunt in a team. It is only due to their teamwork that they are able to catch a prey and make task easy. In the same way, co-operative approach will save time, energy and will have a higher success rate.&#10;Nevertheless, co-operation helps to understand other's perspective and learn by their mistakes. It helps to identify one's strengths and weaknesses as compared to others. A co-operative approach can create inspirational and motivational feeling seeing other people's achievements. However, competition is also as important as co-operation.&#10;Unfortunately, the meaning of competiton has been modified in a wrong direction. An individual must compete with oneself only, instead of trying to beat others. Competition has helped the development of science and technology. Competition helps in improvement and evolution. For example, every other day, new cars are developed by companies which are more efficient than others. This kind of competition gives customers more options.&#10;However, blind and selfish competition is detrimental. 'Your loss, my gain' kind of competition can never be fruitful in the long run. Competition should be always based on self-improvement rule. A healthy competition which involves raising one's own level above others is the best approach.&#10;Thus, competition and co-operation go hand in hand. These are two sides of the same coin which can't be separated. I firmly believe that children should be taught co-operation complimented with a healthy competition. They must be made aware of the demerits of selfish competition. When co-operation and healthy competition is followed together, success, achievements, recognition and any goal becomes easier.&#10;&#10;"/>
+    <cas:View sofa="327" members="1 14 22 27 32 37 42 47 52 57 62 67 72 77 82 87 92 97 102 107 112 117 122 127 137 147 157 167 177 187 197 207 217 227 237 247 257 267 277 287 297 307 317 342 349 356 363"/>
+</xmi:XMI>

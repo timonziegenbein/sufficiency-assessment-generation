@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="251" begin="0" end="2231" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="251" begin="0" end="2231" filename="essay258" topic="Some people think that they can learn better by themselves than a teacher. Others think that it is better to have a teacher. Which do you prefer? Use specific reasons to develop your essay." twoSided="negative"/>
+    <types:Premise xmi:id="22" sofa="251" begin="385" end="451"/>
+    <types:Premise xmi:id="28" sofa="251" begin="453" end="615"/>
+    <types:Premise xmi:id="34" sofa="251" begin="617" end="696"/>
+    <types:Premise xmi:id="40" sofa="251" begin="698" end="769"/>
+    <types:Premise xmi:id="46" sofa="251" begin="964" end="1113"/>
+    <types:Premise xmi:id="52" sofa="251" begin="1115" end="1187"/>
+    <types:Premise xmi:id="58" sofa="251" begin="1201" end="1297"/>
+    <types:Premise xmi:id="64" sofa="251" begin="1312" end="1589"/>
+    <types:Premise xmi:id="70" sofa="251" begin="1667" end="1780"/>
+    <types:Premise xmi:id="76" sofa="251" begin="1782" end="1912"/>
+    <types:Premise xmi:id="82" sofa="251" begin="1914" end="1961"/>
+    <types:Premise xmi:id="88" sofa="251" begin="1977" end="2066"/>
+    <types:MajorClaim xmi:id="94" sofa="251" begin="63" end="131"/>
+    <types:MajorClaim xmi:id="100" sofa="251" begin="2159" end="2230"/>
+    <types:Claim xmi:id="106" sofa="251" begin="133" end="236" stance="For"/>
+    <types:Claim xmi:id="113" sofa="251" begin="270" end="319" stance="For"/>
+    <types:Claim xmi:id="120" sofa="251" begin="340" end="383" stance="For"/>
+    <types:Claim xmi:id="127" sofa="251" begin="784" end="853" stance="For"/>
+    <types:Claim xmi:id="134" sofa="251" begin="855" end="949" stance="For"/>
+    <types:Claim xmi:id="141" sofa="251" begin="1591" end="1658" stance="For"/>
+    <types:Claim xmi:id="148" sofa="251" begin="2087" end="2145" stance="For"/>
+    <types:Support xmi:id="155" sofa="251" begin="385" end="853" source="22" target="127"/>
+    <types:Support xmi:id="163" sofa="251" begin="453" end="853" source="28" target="127"/>
+    <types:Support xmi:id="171" sofa="251" begin="617" end="853" source="34" target="127"/>
+    <types:Support xmi:id="179" sofa="251" begin="698" end="853" source="40" target="127"/>
+    <types:Support xmi:id="187" sofa="251" begin="855" end="1297" source="58" target="134"/>
+    <types:Support xmi:id="195" sofa="251" begin="855" end="1113" source="46" target="134"/>
+    <types:Support xmi:id="203" sofa="251" begin="964" end="1187" source="52" target="46"/>
+    <types:Support xmi:id="211" sofa="251" begin="1201" end="1589" source="64" target="58"/>
+    <types:Support xmi:id="219" sofa="251" begin="1591" end="2066" source="88" target="141"/>
+    <types:Support xmi:id="227" sofa="251" begin="1591" end="1961" source="82" target="141"/>
+    <types:Support xmi:id="235" sofa="251" begin="1591" end="1912" source="76" target="141"/>
+    <types:Support xmi:id="243" sofa="251" begin="1591" end="1780" source="70" target="141"/>
+    <argumentation:LocalSufficiency xmi:id="266" sofa="251" begin="385" end="854" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="273" sofa="251" begin="855" end="1590" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="280" sofa="251" begin="1591" end="2068" majority="0.0" mean="0.0"/>
+    <cas:Sofa xmi:id="251" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Different people prefer different styles of learning. I think both learning by myself and learning with a teacher could be helpful. Learning with a teacher can prevent one from being confused and increase the rate and speed of learning. Another important point is that for practical subjects you have to have a teacher. On the other hand, sometimes I would rather learning on my own.&#10;A good and experienced teacher can help me learn faster and easier. Sometimes when learning a course by myself which is hard and confusing to understand and has few sources available, I get discouraged after spending a lot of time. In this situation, I'll look for a teacher and request for help from him or her. And then he or she will teach me the course efficiently in a short time and therefore I will learn faster and better and won't get discouraged and confused.&#10;There are some practical subjects that you can only learn them with a teacher or an instructor. For example, if you want to learn driving a car or some jobs like medicine and engineering and some sports like skiing and swimming, you'll have to find a teacher. It's almost impossible and inefficient to learn those things on your own. By the way, if you are going to learn some things by yourself, you may learn and understand them incorrectly! For example, from my own experiences, after I had started learning playing the guitar without a teacher, I got used to wrong habits regarding strumming and tempo, but after finding and learning with a tutor and identifying and eliminating those incorrect habits, I was able to play properly.&#10;There are some things that I prefer to learn them without a teacher because I won't have to spend extra money for a teacher and my time will not be wasted either because of going to classes. In today's world there are many great and useful sources available like books, electronic books, the internet and TV and satellite. I can utilize them as tutorials for many things. For instance, I can learn English or other languages by a lot of helpful books and many online websites. &#10;In sum, sometimes it is good to learn with a teacher and sometimes on my own. In my view, both can help and each of them has its own advantages and disadvantages."/>
+    <cas:View sofa="251" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 100 106 113 120 127 134 141 148 155 163 171 179 187 195 203 211 219 227 235 243 266 273 280"/>
+</xmi:XMI>

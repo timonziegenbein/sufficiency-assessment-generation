@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="216" begin="0" end="2103" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="216" begin="0" end="2103" filename="essay297" topic="Nowadays, distance-learning programs are such common thing for us, but some people argue that they're not as good as those by attending in a college or university in person. To what extent do you agree or disagree?" twoSided="positive"/>
+    <types:MajorClaim xmi:id="22" sofa="216" begin="239" end="293"/>
+    <types:MajorClaim xmi:id="28" sofa="216" begin="2025" end="2102"/>
+    <types:Premise xmi:id="34" sofa="216" begin="424" end="487"/>
+    <types:Premise xmi:id="40" sofa="216" begin="497" end="614"/>
+    <types:Premise xmi:id="46" sofa="216" begin="629" end="820"/>
+    <types:Premise xmi:id="52" sofa="216" begin="830" end="858"/>
+    <types:Premise xmi:id="58" sofa="216" begin="868" end="929"/>
+    <types:Premise xmi:id="64" sofa="216" begin="988" end="1066"/>
+    <types:Premise xmi:id="70" sofa="216" begin="1068" end="1179"/>
+    <types:Premise xmi:id="76" sofa="216" begin="1188" end="1352"/>
+    <types:Premise xmi:id="82" sofa="216" begin="1354" end="1472"/>
+    <types:Premise xmi:id="88" sofa="216" begin="1547" end="1795"/>
+    <types:Premise xmi:id="94" sofa="216" begin="1898" end="1957"/>
+    <types:Claim xmi:id="100" sofa="216" begin="339" end="422" stance="For"/>
+    <types:Claim xmi:id="107" sofa="216" begin="931" end="977" stance="For"/>
+    <types:Claim xmi:id="114" sofa="216" begin="1484" end="1501" stance="For"/>
+    <types:Claim xmi:id="121" sofa="216" begin="1818" end="1892" stance="Against"/>
+    <types:Support xmi:id="128" sofa="216" begin="339" end="858" source="52" target="100"/>
+    <types:Support xmi:id="136" sofa="216" begin="339" end="820" source="46" target="100"/>
+    <types:Support xmi:id="144" sofa="216" begin="339" end="487" source="34" target="100"/>
+    <types:Support xmi:id="152" sofa="216" begin="424" end="614" source="40" target="34"/>
+    <types:Support xmi:id="160" sofa="216" begin="868" end="977" source="58" target="107"/>
+    <types:Support xmi:id="168" sofa="216" begin="931" end="1179" source="70" target="107"/>
+    <types:Support xmi:id="176" sofa="216" begin="931" end="1066" source="64" target="107"/>
+    <types:Support xmi:id="184" sofa="216" begin="1188" end="1501" source="76" target="114"/>
+    <types:Support xmi:id="192" sofa="216" begin="1354" end="1501" source="82" target="114"/>
+    <types:Support xmi:id="200" sofa="216" begin="1484" end="1795" source="88" target="114"/>
+    <types:Attack xmi:id="208" sofa="216" begin="1818" end="1957" source="94" target="121"/>
+    <argumentation:LocalSufficiency xmi:id="231" sofa="216" begin="325" end="859" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="238" sofa="216" begin="860" end="1180" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="245" sofa="216" begin="1181" end="1796" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="252" sofa="216" begin="1797" end="1959" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="216" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;There are some people who believe that distance learning and online computer classes should replace classroom learning while there are some people who strongly disagree with this opinion. As far as I am concerned, I strongly believe that online classes should never replace classroom learning. I list my reasons as follows.&#10;First, indeed classroom learning is the best way to provide education comparing to online classes. In the classroom environment you can learn from your classmates, because if you see any of your classmates who is performing better, it will force you for making your performance more better. For example, When I was in First Year in B Com, I was not serious in my study, but when I saw some of my friends who took better grades than me, it influenced me and I intended to do better in my subjects. Finally I got 1st rank in final exam.&#10;Second, in classroom learning you have to complete study work on time. It makes you perfect in time management skills. Moreover you can learn by participating in group studies how to communicate with others. It makes you communication and of course your group skills better, which can help you in your future and career.&#10;Third, professors play vital role in classroom learning, most of them are specialists is their subjects, and they help you by giving valuable information and useful skills. You can improve your skills by work under any professor; you can ask questions face to face, it will clear your doubts. In result you learn quickly. For example, I have my personal experience. For Toefl IBT Coaching first I was depend on some online courses, but after 1 month I realized that I was wasting my time so I joined an institute for preparation of Toefl IBT, and in 1 month I felt that my English skills have been improving faster.&#10;It's undeniable that online classes have some advantages so they could be used as supplementary, but they could not be substitute of existing classroom learning. &#10;From the discussed above, we can easily draw the conclusion that the classroom learning is the best way to provide education for these reasons."/>
+    <cas:View sofa="216" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 100 107 114 121 128 136 144 152 160 168 176 184 192 200 208 231 238 245 252"/>
+</xmi:XMI>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="202" begin="0" end="1624" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="202" begin="0" end="1624" filename="essay245" topic="Some people like to communicate by e-mail or voice mail. Other people like to communicate by telephone or face-to-face. Which type of communication do you prefer and why?" twoSided="negative"/>
+    <types:MajorClaim xmi:id="22" sofa="202" begin="99" end="148"/>
+    <types:MajorClaim xmi:id="28" sofa="202" begin="1561" end="1623"/>
+    <types:Premise xmi:id="34" sofa="202" begin="284" end="365"/>
+    <types:Premise xmi:id="40" sofa="202" begin="367" end="446"/>
+    <types:Premise xmi:id="46" sofa="202" begin="455" end="501"/>
+    <types:Premise xmi:id="52" sofa="202" begin="572" end="649"/>
+    <types:Premise xmi:id="58" sofa="202" begin="651" end="756"/>
+    <types:Premise xmi:id="64" sofa="202" begin="758" end="846"/>
+    <types:Premise xmi:id="70" sofa="202" begin="850" end="891"/>
+    <types:Premise xmi:id="76" sofa="202" begin="1055" end="1146"/>
+    <types:Premise xmi:id="82" sofa="202" begin="1148" end="1253"/>
+    <types:Premise xmi:id="88" sofa="202" begin="1332" end="1420"/>
+    <types:Claim xmi:id="94" sofa="202" begin="251" end="282" stance="For"/>
+    <types:Claim xmi:id="101" sofa="202" begin="513" end="559" stance="For"/>
+    <types:Claim xmi:id="108" sofa="202" begin="902" end="1040" stance="For"/>
+    <types:Claim xmi:id="115" sofa="202" begin="1268" end="1330" stance="For"/>
+    <types:Support xmi:id="122" sofa="202" begin="251" end="446" source="40" target="94"/>
+    <types:Support xmi:id="130" sofa="202" begin="251" end="365" source="34" target="94"/>
+    <types:Support xmi:id="138" sofa="202" begin="367" end="501" source="46" target="40"/>
+    <types:Support xmi:id="146" sofa="202" begin="513" end="891" source="70" target="101"/>
+    <types:Support xmi:id="154" sofa="202" begin="513" end="756" source="58" target="101"/>
+    <types:Support xmi:id="162" sofa="202" begin="513" end="649" source="52" target="101"/>
+    <types:Support xmi:id="170" sofa="202" begin="758" end="891" source="64" target="70"/>
+    <types:Support xmi:id="178" sofa="202" begin="902" end="1253" source="82" target="108"/>
+    <types:Support xmi:id="186" sofa="202" begin="902" end="1146" source="76" target="108"/>
+    <types:Support xmi:id="194" sofa="202" begin="1268" end="1420" source="88" target="115"/>
+    <argumentation:LocalSufficiency xmi:id="217" sofa="202" begin="242" end="502" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="224" sofa="202" begin="503" end="892" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="231" sofa="202" begin="893" end="1254" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="238" sofa="202" begin="1255" end="1421" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="202" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Although many people prefer communicating by telephone or face-to-face, personally I believe that communicating by e-mails or voice mails is better. There are several reasons to support this idea which I would like to mention in this essay.&#10;Firstly, communicating by e-mail is easy. Many people have problems with calling a person that they are not acquainted with. In this case it is not so difficult to write an e-mail or to leave a voice mail because even shy people feel themselves more confident.&#10;Secondly, you can write an e-mail at any time of the day. As for me, I work and study at the university and I don't have spare time during the day. I get home at about midnight and I still need to answer some questions and to solve some routine problems. I might not have time to call a person or to meet with him or her in an appropriate time so for me it is better to leave a voice mail.&#10;Thirdly, when you write an e-mail you have enough time to think carefully about what you are writing and how it would be better to express yourself. For example, you can change the word order or you can choose more appropriate style to sound more polite. When you speak face-to-face you are not as able to control every word as you are when you write an e-mail.&#10;And finally, there is no chance to disturb people by sending them an e-mail. You should not worry about interrupting an important conversation or some other business.&#10;To sum up, I would like to say that for me both options of communicating are possible, but if this is an important and not urgent question I would prefer to answer it by means of internet or voice mail."/>
+    <cas:View sofa="202" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 101 108 115 122 130 138 146 154 162 170 178 186 194 217 224 231 238"/>
+</xmi:XMI>

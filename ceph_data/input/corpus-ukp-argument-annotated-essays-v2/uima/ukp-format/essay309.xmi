@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="201" begin="0" end="2057" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="201" begin="0" end="2057" filename="essay309" topic="Students at universities often have a choice of places to live. They may choose to live in university dormitories, or they may choose to live in apartments in the community. Compare the advantages of living in university housing with the advantages of living in an apartment in the community. Where would you prefer to live? Give reasons for your preference.�" twoSided="negative"/>
+    <types:MajorClaim xmi:id="22" sofa="201" begin="237" end="293"/>
+    <types:MajorClaim xmi:id="28" sofa="201" begin="1746" end="1793"/>
+    <types:MajorClaim xmi:id="34" sofa="201" begin="1816" end="1883"/>
+    <types:Premise xmi:id="40" sofa="201" begin="313" end="423"/>
+    <types:Premise xmi:id="46" sofa="201" begin="439" end="613"/>
+    <types:Premise xmi:id="52" sofa="201" begin="615" end="699"/>
+    <types:Premise xmi:id="58" sofa="201" begin="714" end="909"/>
+    <types:Premise xmi:id="64" sofa="201" begin="1058" end="1208"/>
+    <types:Premise xmi:id="70" sofa="201" begin="1210" end="1339"/>
+    <types:Premise xmi:id="76" sofa="201" begin="1354" end="1437"/>
+    <types:Premise xmi:id="82" sofa="201" begin="1452" end="1519"/>
+    <types:Premise xmi:id="88" sofa="201" begin="1521" end="1623"/>
+    <types:Premise xmi:id="94" sofa="201" begin="1974" end="2056"/>
+    <types:Claim xmi:id="100" sofa="201" begin="919" end="968" stance="For"/>
+    <types:Claim xmi:id="107" sofa="201" begin="990" end="1043" stance="For"/>
+    <types:Claim xmi:id="114" sofa="201" begin="1898" end="1965" stance="For"/>
+    <types:Support xmi:id="121" sofa="201" begin="313" end="968" source="40" target="100"/>
+    <types:Support xmi:id="129" sofa="201" begin="439" end="968" source="46" target="100"/>
+    <types:Support xmi:id="137" sofa="201" begin="615" end="968" source="52" target="100"/>
+    <types:Support xmi:id="145" sofa="201" begin="714" end="968" source="58" target="100"/>
+    <types:Support xmi:id="153" sofa="201" begin="990" end="1623" source="88" target="107"/>
+    <types:Support xmi:id="161" sofa="201" begin="990" end="1519" source="82" target="107"/>
+    <types:Support xmi:id="169" sofa="201" begin="990" end="1437" source="76" target="107"/>
+    <types:Support xmi:id="177" sofa="201" begin="990" end="1339" source="70" target="107"/>
+    <types:Support xmi:id="185" sofa="201" begin="990" end="1208" source="64" target="107"/>
+    <types:Support xmi:id="193" sofa="201" begin="1898" end="2056" source="94" target="114"/>
+    <argumentation:LocalSufficiency xmi:id="216" sofa="201" begin="296" end="970" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="223" sofa="201" begin="971" end="1625" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="201" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;When it comes to the issue of choosing an accommodation after completion of their high school, most students always get confused between these two options: living in an apartment, or in university dormitories. As far as I am concerned, both choices have their own advantages and disadvantages. &#10;On the one hand, living in a dormitory helps students to familiarize themselves with the academic environment of the university. For instance, students can have an opportunity to take part in many kind of extracurricular activities happing around the campus such as attending conversation club, or joining sports club. Students can also have more chance of interaction with their teachers and classmates. In addition, it is easier for students to get help when facing problem such as if students have problem in solving their math question, they can easily ask for help to their roommates, classmates, or teachers. I think living in dormitory is always helpful to students. &#10;On the other hand, living off campus prepares students for the real life. For example, students can learn many new things such as how to become responsible, independent, punctual, co-operative compared to living in university dormitories. They are responsible to take care of everything including paying their apartment rent on time, and dealing with the utility bills. In addition, students also have to focus on their study, and try to maintain their grades higher. Furthermore, students also have a chance to know about the community around them. Interacting with the people, and socializing with them prepares students for the life after graduation. &#10;From given the evidences, it seems to me that it becomes hard for students to choose between their living options since both living accommodation have its own benefits. If I have to choose, I would definitely choose the second option: living in an apartment. I think that it teaches me everything that I certainly wants to learn in my life because learning all those characteristics would really help me in leading successful life."/>
+    <cas:View sofa="201" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 100 107 114 121 129 137 145 153 161 169 177 185 193 216 223"/>
+</xmi:XMI>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="252" begin="0" end="1549" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="252" begin="0" end="1549" filename="essay322" topic="Should a city try to preserve its old, historic buildings or destroy them and replace them with modern buildings? use specific reasons and examples to support your opinion." twoSided="negative"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="22" sofa="252" begin="1" end="129" unitType="majorclaim"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="27" sofa="252" begin="131" end="187" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="32" sofa="252" begin="202" end="260" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="37" sofa="252" begin="263" end="420" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="42" sofa="252" begin="422" end="501" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="47" sofa="252" begin="503" end="572" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="52" sofa="252" begin="574" end="638" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="57" sofa="252" begin="640" end="752" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="62" sofa="252" begin="773" end="864" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="67" sofa="252" begin="867" end="965" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="72" sofa="252" begin="967" end="1057" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="77" sofa="252" begin="1070" end="1168" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="82" sofa="252" begin="1170" end="1293" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="87" sofa="252" begin="1323" end="1372" unitType="majorclaim"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="92" sofa="252" begin="1374" end="1436" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="97" sofa="252" begin="1448" end="1548" unitType="claim-for"/>
+    <argumentation:Argument xmi:id="102" sofa="252" begin="1" end="1548" premises="97" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="112" sofa="252" begin="1" end="1436" premises="92" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="122" sofa="252" begin="1" end="1372" premises="87" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="132" sofa="252" begin="1" end="965" premises="67" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="142" sofa="252" begin="1" end="420" premises="37" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="152" sofa="252" begin="1" end="260" premises="32" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="162" sofa="252" begin="1" end="187" premises="27" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="172" sofa="252" begin="263" end="864" premises="62" conclusion="37" argumentType="supports"/>
+    <argumentation:Argument xmi:id="182" sofa="252" begin="263" end="752" premises="57" conclusion="37" argumentType="supports"/>
+    <argumentation:Argument xmi:id="192" sofa="252" begin="263" end="638" premises="52" conclusion="37" argumentType="supports"/>
+    <argumentation:Argument xmi:id="202" sofa="252" begin="263" end="572" premises="47" conclusion="37" argumentType="supports"/>
+    <argumentation:Argument xmi:id="212" sofa="252" begin="263" end="501" premises="42" conclusion="37" argumentType="supports"/>
+    <argumentation:Argument xmi:id="222" sofa="252" begin="867" end="1293" premises="82" conclusion="67" argumentType="supports"/>
+    <argumentation:Argument xmi:id="232" sofa="252" begin="867" end="1168" premises="77" conclusion="67" argumentType="supports"/>
+    <argumentation:Argument xmi:id="242" sofa="252" begin="967" end="1168" premises="72" conclusion="77" argumentType="supports"/>
+    <argumentation:LocalSufficiency xmi:id="267" sofa="252" begin="263" end="866" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="274" sofa="252" begin="867" end="1295" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="252" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;It is important for any city to replace old buildings with new ones, but these revolutions should not include historic buildings. The historic buildings show the history of our ancestors. In addition, they can develop tourism industries by attracting tourists. &#10;Historic buildings answer many questions, which are mysterious about our previous ancestors; thereby no one can determine the price of the historic buildings. They show the history of nations and previous generations who lived in the city. They show the lifestyle of people who lived in thousands of years ago. They show us how they survive, or how they defend themselves etc. By investigating about their structures, we can understand how much they knew about the architecture of building. In the other hand, historic buildings are important treasures, which provide an area to learn valuable lessons. &#10;Another advantage of historic buildings is their capabilities to attract more tourists to the city. It is interesting for most people to know about the way people live in thousands years ago. Therefore, It is a valuable opportunities for any city having historic buildings to show them to new visitors. Historic building can develop other industries such as restaurants or other food industries and handicrafts shops and so on. &#10;These are reasons that why we should preserve historic buildings in the city. They can benefit us financially by developing other industries. Moreover, they are the symbols of our nations, which can show the historical culture of our previous ancestors."/>
+    <cas:View sofa="252" members="1 14 22 27 32 37 42 47 52 57 62 67 72 77 82 87 92 97 102 112 122 132 142 152 162 172 182 192 202 212 222 232 242 267 274"/>
+</xmi:XMI>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="160" begin="0" end="1204" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="160" begin="0" end="1204" filename="essay231" topic="It is better for children to grow up in the countryside than in a big city. Do you agree or disagree? Use specific reasons and examples to develop your essay." twoSided="positive"/>
+    <types:Claim xmi:id="22" sofa="160" begin="112" end="187" stance="For"/>
+    <types:Claim xmi:id="29" sofa="160" begin="213" end="312" stance="Against"/>
+    <types:Claim xmi:id="36" sofa="160" begin="816" end="896" stance="For"/>
+    <types:Claim xmi:id="43" sofa="160" begin="898" end="957" stance="For"/>
+    <types:MajorClaim xmi:id="50" sofa="160" begin="1" end="60"/>
+    <types:MajorClaim xmi:id="56" sofa="160" begin="1112" end="1203"/>
+    <types:Premise xmi:id="62" sofa="160" begin="318" end="406"/>
+    <types:Premise xmi:id="68" sofa="160" begin="408" end="501"/>
+    <types:Premise xmi:id="74" sofa="160" begin="503" end="561"/>
+    <types:Premise xmi:id="80" sofa="160" begin="563" end="629"/>
+    <types:Premise xmi:id="86" sofa="160" begin="631" end="678"/>
+    <types:Premise xmi:id="92" sofa="160" begin="680" end="755"/>
+    <types:Premise xmi:id="98" sofa="160" begin="959" end="1057"/>
+    <types:Attack xmi:id="104" sofa="160" begin="213" end="629" source="80" target="29"/>
+    <types:Attack xmi:id="112" sofa="160" begin="213" end="561" source="74" target="29"/>
+    <types:Attack xmi:id="120" sofa="160" begin="213" end="501" source="68" target="29"/>
+    <types:Attack xmi:id="128" sofa="160" begin="213" end="406" source="62" target="29"/>
+    <types:Support xmi:id="136" sofa="160" begin="631" end="896" source="86" target="36"/>
+    <types:Support xmi:id="144" sofa="160" begin="680" end="896" source="92" target="36"/>
+    <types:Support xmi:id="152" sofa="160" begin="898" end="1057" source="98" target="43"/>
+    <argumentation:LocalSufficiency xmi:id="175" sofa="160" begin="189" end="630" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="182" sofa="160" begin="631" end="897" majority="0.0" mean="0.0"/>
+    <cas:Sofa xmi:id="160" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;It’s certainly better for children to grow up in a big city. Of course you need to choose a good neighborhood. I hold this belief because of two main reasons, academic and social reasons.&#10;Some people thinks that if a child grows up in a big city they will be all day at home at the computer or at the video-game, but this is not true if you live in a neighborhood with other people about your age as I did. My friends and I used to play soccer, bike, climb trees and do a lot of other stuff every day. We did play video-games, but that wasn't our main activity. In a big city there are more kinds of people and more things to do.&#10;I have a friend that grew up in the countryside. He said that he had to study a lot to pass the test to enter the university. This is another downside of growing up in the countryside. In a big city you have more qualified teachers and a better access to technology.&#10;Growing up in the countryside is not such a good experience, you won’t know a lot of people, there are gossips everywhere, and your life will be really limited. If someday I have children, I’m absolutely sure that they will grow up in a good neighborhood of a big city and they will be very happy about it."/>
+    <cas:View sofa="160" members="1 14 22 29 36 43 50 56 62 68 74 80 86 92 98 104 112 120 128 136 144 152 175 182"/>
+</xmi:XMI>

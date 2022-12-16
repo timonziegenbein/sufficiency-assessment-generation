@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="209" begin="0" end="1993" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="209" begin="0" end="1993" filename="essay179" topic="What is a very important skill a person should learn in order to be successful in the world today? Choose one skill and use specific reasons and examples to support your choice." twoSided="negative"/>
+    <types:MajorClaim xmi:id="22" sofa="209" begin="126" end="230"/>
+    <types:MajorClaim xmi:id="28" sofa="209" begin="1886" end="1992"/>
+    <types:Claim xmi:id="34" sofa="209" begin="560" end="646" stance="For"/>
+    <types:Claim xmi:id="41" sofa="209" begin="1093" end="1171" stance="For"/>
+    <types:Claim xmi:id="48" sofa="209" begin="1554" end="1659" stance="For"/>
+    <types:Premise xmi:id="55" sofa="209" begin="254" end="360"/>
+    <types:Premise xmi:id="61" sofa="209" begin="362" end="420"/>
+    <types:Premise xmi:id="67" sofa="209" begin="431" end="545"/>
+    <types:Premise xmi:id="73" sofa="209" begin="648" end="878"/>
+    <types:Premise xmi:id="79" sofa="209" begin="880" end="987"/>
+    <types:Premise xmi:id="85" sofa="209" begin="989" end="1080"/>
+    <types:Premise xmi:id="91" sofa="209" begin="1186" end="1219"/>
+    <types:Premise xmi:id="97" sofa="209" begin="1221" end="1310"/>
+    <types:Premise xmi:id="103" sofa="209" begin="1312" end="1385"/>
+    <types:Premise xmi:id="109" sofa="209" begin="1393" end="1459"/>
+    <types:Premise xmi:id="115" sofa="209" begin="1461" end="1538"/>
+    <types:Support xmi:id="121" sofa="209" begin="254" end="646" source="55" target="34"/>
+    <types:Support xmi:id="129" sofa="209" begin="362" end="646" source="61" target="34"/>
+    <types:Support xmi:id="137" sofa="209" begin="431" end="646" source="67" target="34"/>
+    <types:Support xmi:id="145" sofa="209" begin="648" end="1171" source="73" target="41"/>
+    <types:Support xmi:id="153" sofa="209" begin="880" end="1171" source="79" target="41"/>
+    <types:Support xmi:id="161" sofa="209" begin="989" end="1171" source="85" target="41"/>
+    <types:Support xmi:id="169" sofa="209" begin="1186" end="1659" source="91" target="48"/>
+    <types:Support xmi:id="177" sofa="209" begin="1221" end="1459" source="97" target="109"/>
+    <types:Support xmi:id="185" sofa="209" begin="1312" end="1459" source="103" target="109"/>
+    <types:Support xmi:id="193" sofa="209" begin="1393" end="1659" source="109" target="48"/>
+    <types:Support xmi:id="201" sofa="209" begin="1461" end="1659" source="115" target="48"/>
+    <argumentation:LocalSufficiency xmi:id="224" sofa="209" begin="254" end="647" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="231" sofa="209" begin="648" end="1172" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="238" sofa="209" begin="1173" end="1847" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="209" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Some people think that life is a struggle, which means we may encounter numerous difficulties during our lives. Accordingly, stress management, how to survive our unbearable stress, is the most important skill that we should have. Here are my reasons. &#10;Stress, our body's way of responding to any kind of demand, can be caused by both good and bad experiences. Stress may be a positive mobilization to drive for success. However, it is widely thought that we experience stress any time, which comes across unexpectedly that frustrates our goals. As a result, if we don't have a good stress management skill, it may lead to some critical problems.&#10;In the frenetic, fast-paced world, it is a very common predicament that all of us, from the young to the senior, feel depressed caused by stress, such as financial problems, exam stress, relationship difficulties and work overload. Some people regard stress as a power, which overcomes the obstacles to motivate themselves to do their best; other people cannot charge of their thoughts, emotions, and the way they deal with problems. Therefore, stress management recently becomes a more significant issue in our realization.&#10;Furthermore, stress takes a toll on our health. It is known that the modern life is frequently full of hassles, frustrations, and demands. This is one of the reasons why people were overwhelmed by constant stress. Thus, some people have physical problems, such as insomnia and headaches. Melancholia, the most fatal problem, even leads some people to commit suicide. Consequently, it is necessary that we should reduce and cope with our stress in the goal of balancing our mind and body. To avoid being a pessimist, we may try to conquer our distress by sharing our worry with friends or families, doing exercise regularly, and trying to see our troubles in a different way.&#10;For the above reasons, I believe that stress management is an essential skill for everyone to learn and find their own way to solve their stress."/>
+    <cas:View sofa="209" members="1 14 22 28 34 41 48 55 61 67 73 79 85 91 97 103 109 115 121 129 137 145 153 161 169 177 185 193 201 224 231 238"/>
+</xmi:XMI>

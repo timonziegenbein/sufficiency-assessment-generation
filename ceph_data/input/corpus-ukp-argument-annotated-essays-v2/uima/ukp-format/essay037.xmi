@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="279" begin="0" end="2099" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="279" begin="0" end="2099" filename="essay037" topic="Popular events like the football World Cup and other international sporting occasions are essential in easing international tensions and releasing patriotic emotions in a safe way. To what extent do you agree or disagree with this opinion?" twoSided="negative"/>
+    <types:Premise xmi:id="22" sofa="279" begin="317" end="424"/>
+    <types:Premise xmi:id="28" sofa="279" begin="426" end="525"/>
+    <types:Premise xmi:id="34" sofa="279" begin="527" end="569"/>
+    <types:Premise xmi:id="40" sofa="279" begin="571" end="616"/>
+    <types:Premise xmi:id="46" sofa="279" begin="630" end="739"/>
+    <types:Premise xmi:id="52" sofa="279" begin="741" end="797"/>
+    <types:Premise xmi:id="58" sofa="279" begin="808" end="872"/>
+    <types:Premise xmi:id="64" sofa="279" begin="874" end="931"/>
+    <types:Premise xmi:id="70" sofa="279" begin="1089" end="1180"/>
+    <types:Premise xmi:id="76" sofa="279" begin="1182" end="1312"/>
+    <types:Premise xmi:id="82" sofa="279" begin="1324" end="1428"/>
+    <types:Premise xmi:id="88" sofa="279" begin="1430" end="1499"/>
+    <types:Premise xmi:id="94" sofa="279" begin="1501" end="1609"/>
+    <types:Premise xmi:id="100" sofa="279" begin="1625" end="1720"/>
+    <types:Premise xmi:id="106" sofa="279" begin="1722" end="1791"/>
+    <types:Premise xmi:id="112" sofa="279" begin="1793" end="1899"/>
+    <types:MajorClaim xmi:id="118" sofa="279" begin="189" end="315"/>
+    <types:MajorClaim xmi:id="124" sofa="279" begin="1983" end="2097"/>
+    <types:Claim xmi:id="130" sofa="279" begin="933" end="972" stance="For"/>
+    <types:Claim xmi:id="137" sofa="279" begin="999" end="1087" stance="For"/>
+    <types:Claim xmi:id="144" sofa="279" begin="1916" end="1981" stance="For"/>
+    <types:Support xmi:id="151" sofa="279" begin="317" end="972" source="22" target="130"/>
+    <types:Support xmi:id="159" sofa="279" begin="426" end="972" source="28" target="130"/>
+    <types:Support xmi:id="167" sofa="279" begin="527" end="972" source="34" target="130"/>
+    <types:Support xmi:id="175" sofa="279" begin="571" end="972" source="40" target="130"/>
+    <types:Support xmi:id="183" sofa="279" begin="630" end="972" source="46" target="130"/>
+    <types:Support xmi:id="191" sofa="279" begin="741" end="972" source="52" target="130"/>
+    <types:Support xmi:id="199" sofa="279" begin="808" end="972" source="58" target="130"/>
+    <types:Support xmi:id="207" sofa="279" begin="874" end="972" source="64" target="130"/>
+    <types:Support xmi:id="215" sofa="279" begin="999" end="1899" source="112" target="137"/>
+    <types:Support xmi:id="223" sofa="279" begin="999" end="1791" source="106" target="137"/>
+    <types:Support xmi:id="231" sofa="279" begin="999" end="1720" source="100" target="137"/>
+    <types:Support xmi:id="239" sofa="279" begin="999" end="1609" source="94" target="137"/>
+    <types:Support xmi:id="247" sofa="279" begin="999" end="1499" source="88" target="137"/>
+    <types:Support xmi:id="255" sofa="279" begin="999" end="1428" source="82" target="137"/>
+    <types:Support xmi:id="263" sofa="279" begin="999" end="1312" source="76" target="137"/>
+    <types:Support xmi:id="271" sofa="279" begin="999" end="1180" source="70" target="137"/>
+    <argumentation:LocalSufficiency xmi:id="294" sofa="279" begin="317" end="973" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="301" sofa="279" begin="974" end="1900" majority="0.0" mean="0.0"/>
+    <cas:Sofa xmi:id="279" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;International sporting events are a good change to create a multi-nation community of fans having the same passion. It will help people around the world understand each other more. Since, international sporting occasions are essential in easing international tensions and releasing patriotic emotions in a safe way.&#10;An international sporting event is normal held in a country with huge interest from fans all over the world. For the time of occasions, people regardless of nationality, origin and religion will live together. People can understand more about a country, it is useful to ease tensions between nations. For example in FIFA World Cup 2010, the relation between North Korea and South Korea is dangerous for the warship sinking. The world suspected North Korea of the aggressive action. However, due to this event North Korea showed a friendship and enthuasism. It is rare times when people can learn about this country. It really help to alleviate the tension.&#10;Besides easing tensions, an international sporting event also helps fans release patriotic emotions in a safe way. When they garther together to encourage their team, they will show their patriotic emotions. Regardless of the competition between teams, their emotions are always released in a safe way due to the sole passion of the sport. Moreover, all fans know that a sport event will attract the attention of whole the world and a lot of public media. They will try to create a beautiful image about their land and people. In Olympic Beijing 2008, Chinese tried thier best to bring the world a spectacular image about their country. First of all, foreigners came here always received the support of friendly volunteers who were young students. They were welcomed by each Chinese hospitality, beauty in each cities. Everythings is created by patriotic emotions of Chinese who wanted to bring a beautiful China to the world.&#10;In conclusion, International sporting events will draw the international concern. It will make the world more peaceful by easing internation tensions and releasing patriotic emotions in a safe way.&#10;"/>
+    <cas:View sofa="279" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 100 106 112 118 124 130 137 144 151 159 167 175 183 191 199 207 215 223 231 239 247 255 263 271 294 301"/>
+</xmi:XMI>

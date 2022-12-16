@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="244" begin="0" end="2132" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="244" begin="0" end="2132" filename="essay226" topic="Learning about the past has no value on for those of us living the present. Do you agree or disagree? Use specific reasons and examples to support your answer." twoSided="negative"/>
+    <types:Claim xmi:id="22" sofa="244" begin="178" end="198" stance="Against"/>
+    <types:Claim xmi:id="29" sofa="244" begin="801" end="861" stance="For"/>
+    <types:Claim xmi:id="36" sofa="244" begin="873" end="937" stance="For"/>
+    <types:Claim xmi:id="43" sofa="244" begin="1426" end="1509" stance="For"/>
+    <types:MajorClaim xmi:id="50" sofa="244" begin="200" end="322"/>
+    <types:MajorClaim xmi:id="56" sofa="244" begin="1946" end="2036"/>
+    <types:Premise xmi:id="62" sofa="244" begin="339" end="438"/>
+    <types:Premise xmi:id="68" sofa="244" begin="440" end="559"/>
+    <types:Premise xmi:id="74" sofa="244" begin="568" end="601"/>
+    <types:Premise xmi:id="80" sofa="244" begin="603" end="788"/>
+    <types:Premise xmi:id="86" sofa="244" begin="939" end="1016"/>
+    <types:Premise xmi:id="92" sofa="244" begin="1018" end="1072"/>
+    <types:Premise xmi:id="98" sofa="244" begin="1074" end="1243"/>
+    <types:Premise xmi:id="104" sofa="244" begin="1259" end="1403"/>
+    <types:Premise xmi:id="110" sofa="244" begin="1511" end="1599"/>
+    <types:Premise xmi:id="116" sofa="244" begin="1601" end="1716"/>
+    <types:Premise xmi:id="122" sofa="244" begin="1718" end="1825"/>
+    <types:Premise xmi:id="128" sofa="244" begin="1827" end="1898"/>
+    <types:Premise xmi:id="134" sofa="244" begin="1900" end="1932"/>
+    <types:Support xmi:id="140" sofa="244" begin="339" end="861" source="62" target="29"/>
+    <types:Support xmi:id="148" sofa="244" begin="440" end="601" source="68" target="74"/>
+    <types:Support xmi:id="156" sofa="244" begin="568" end="861" source="74" target="29"/>
+    <types:Support xmi:id="164" sofa="244" begin="603" end="861" source="80" target="29"/>
+    <types:Support xmi:id="172" sofa="244" begin="873" end="1403" source="104" target="36"/>
+    <types:Support xmi:id="180" sofa="244" begin="873" end="1243" source="98" target="36"/>
+    <types:Support xmi:id="188" sofa="244" begin="873" end="1072" source="92" target="36"/>
+    <types:Support xmi:id="196" sofa="244" begin="939" end="1072" source="86" target="92"/>
+    <types:Support xmi:id="204" sofa="244" begin="1426" end="1932" source="134" target="43"/>
+    <types:Support xmi:id="212" sofa="244" begin="1426" end="1898" source="128" target="43"/>
+    <types:Support xmi:id="220" sofa="244" begin="1426" end="1825" source="122" target="43"/>
+    <types:Support xmi:id="228" sofa="244" begin="1426" end="1716" source="116" target="43"/>
+    <types:Support xmi:id="236" sofa="244" begin="1426" end="1599" source="110" target="43"/>
+    <argumentation:LocalSufficiency xmi:id="259" sofa="244" begin="325" end="862" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="266" sofa="244" begin="863" end="1405" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="273" sofa="244" begin="1406" end="1933" majority="0.0" mean="0.0"/>
+    <cas:Sofa xmi:id="244" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Many people think that &quot;Past has nothing to do with present, as time never stops, the next generations are completely different from the predecessors&quot;. Although it is true that life changes rapidly, there are many things in the past that we can learn about, such as mistakes, success and knowledge in many fields of study. &#10;First of all, the predecessors' mistakes are the first thing that we should consider when learning about the past. As everyone's life is too short to risk trying anything without any prepare, we all should learn about other's mistakes so that we can avoid making the same ones. Each mistake, from the smallest to the bigger one, is a treasure of experience, which, if we can make full use of, will make us well-prepared for many complicated situations of our life. Therefore, past obviously saves ourselves a bunch of failures and times.&#10;Secondly, people's success in the past is as significant as those mistakes. If the predecessors' mistakes are the indirect way that leads us to the goals, others' accomplishment can be served as the direct way. By looking into the ways other people use to achieve their targets, we have the chance to make those mine, put them into practice and, of course, be successful like them. For instance, Edison's statement &quot;Genius is 1 percent inspiration and 99 percent perspiration&quot; is still helpful for everyone today, and probably in the future. &#10;Last but not least, the past is the basis in which people can use to develope new knowledge, inventions. If it had not been for those knowledge in the past, we could never be as modern as today. How can America be the world's leading country if Columbus did not accidentally discover it in his search for India. How can the comtemporary scientists study the earth's gravity without the apple which fall on Newton's head. They are only some of many precious knowledge that the past presents us. We cannot ignore them in any way.&#10;All in all, the past's mistakes, success and knowledge all have crucial impact on people's lives today. We should make full use of the past, instead of ignoring it, for a better and brighter future."/>
+    <cas:View sofa="244" members="1 14 22 29 36 43 50 56 62 68 74 80 86 92 98 104 110 116 122 128 134 140 148 156 164 172 180 188 196 204 212 220 228 236 259 266 273"/>
+</xmi:XMI>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="265" begin="0" end="2085" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="265" begin="0" end="2085" filename="essay288" topic="If you could change one important thing about your hometown, what would you change? Use reasons and specific examples to support your answer." twoSided="negative"/>
+    <types:Premise xmi:id="22" sofa="265" begin="595" end="638"/>
+    <types:Premise xmi:id="28" sofa="265" begin="646" end="714"/>
+    <types:Premise xmi:id="34" sofa="265" begin="716" end="759"/>
+    <types:Premise xmi:id="40" sofa="265" begin="761" end="809"/>
+    <types:Premise xmi:id="46" sofa="265" begin="811" end="894"/>
+    <types:Premise xmi:id="52" sofa="265" begin="909" end="986"/>
+    <types:Premise xmi:id="58" sofa="265" begin="988" end="1038"/>
+    <types:Premise xmi:id="64" sofa="265" begin="1126" end="1179"/>
+    <types:Premise xmi:id="70" sofa="265" begin="1181" end="1213"/>
+    <types:Premise xmi:id="76" sofa="265" begin="1228" end="1413"/>
+    <types:Premise xmi:id="82" sofa="265" begin="1426" end="1445"/>
+    <types:Premise xmi:id="88" sofa="265" begin="1526" end="1622"/>
+    <types:Premise xmi:id="94" sofa="265" begin="1673" end="1759"/>
+    <types:Premise xmi:id="100" sofa="265" begin="1812" end="1842"/>
+    <types:MajorClaim xmi:id="106" sofa="265" begin="310" end="386"/>
+    <types:MajorClaim xmi:id="112" sofa="265" begin="1855" end="1939"/>
+    <types:Claim xmi:id="118" sofa="265" begin="394" end="437" stance="For"/>
+    <types:Claim xmi:id="125" sofa="265" begin="486" end="586" stance="For"/>
+    <types:Claim xmi:id="132" sofa="265" begin="1046" end="1113" stance="For"/>
+    <types:Claim xmi:id="139" sofa="265" begin="1447" end="1516" stance="For"/>
+    <types:Claim xmi:id="146" sofa="265" begin="1761" end="1804" stance="For"/>
+    <types:Support xmi:id="153" sofa="265" begin="486" end="894" source="46" target="125"/>
+    <types:Support xmi:id="161" sofa="265" begin="486" end="759" source="34" target="125"/>
+    <types:Support xmi:id="169" sofa="265" begin="486" end="638" source="22" target="125"/>
+    <types:Support xmi:id="177" sofa="265" begin="646" end="759" source="28" target="34"/>
+    <types:Support xmi:id="185" sofa="265" begin="716" end="809" source="40" target="34"/>
+    <types:Support xmi:id="193" sofa="265" begin="811" end="1038" source="58" target="46"/>
+    <types:Support xmi:id="201" sofa="265" begin="811" end="986" source="52" target="46"/>
+    <types:Support xmi:id="209" sofa="265" begin="1126" end="1516" source="64" target="139"/>
+    <types:Support xmi:id="217" sofa="265" begin="1181" end="1516" source="70" target="139"/>
+    <types:Support xmi:id="225" sofa="265" begin="1228" end="1445" source="76" target="82"/>
+    <types:Support xmi:id="233" sofa="265" begin="1426" end="1516" source="82" target="139"/>
+    <types:Support xmi:id="241" sofa="265" begin="1526" end="1804" source="88" target="146"/>
+    <types:Support xmi:id="249" sofa="265" begin="1673" end="1804" source="94" target="146"/>
+    <types:Support xmi:id="257" sofa="265" begin="1761" end="1842" source="100" target="146"/>
+    <argumentation:LocalSufficiency xmi:id="280" sofa="265" begin="476" end="1115" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="287" sofa="265" begin="1116" end="1517" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="294" sofa="265" begin="1518" end="1843" majority="0.0" mean="0.0"/>
+    <cas:Sofa xmi:id="265" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Public utilities and surroundings are the primary factors which we basically consider before we decide to live in a place. However, it is difficult to find a community which can perfectly meet our requirements. In my hometown, there are almost complete public utilities for one’s needs but transportation. So the thing that I really want to change is to have more public transportation. Since I’m facing the traffic congestion every day. And this problem seem to get worst. &#10;At first, it should have more alternatives to use public transportation, such as a subway train or a sky train. Hence, people will have more ways to go to a place. Since now buses are only a kind of public transportation in this community, It makes people in this area have no choice. They must take only a bus to go to another place. If a subway and a sky train are available here, it will be more convenience to them. For example, people can estimate time from taking a subway train due to the train schedule. On the contrary they cannot do so in case of a bus. Also, this improvement will decrease a bad traffic on the road indirectly. &#10;Secondly, the buses provide merely two routes in this community. It is absolutely a major problem. For example, if a place I intend to go is not in the route of buses, I still have to take a bus that does not bring me to my destination but go to the center station first to exchange to another bus. Obviously, it is waste of time. They should increase more routes to make people transport more easily.&#10;Lastly, having more kinds of public transportation can dwindle the number of people using their own cars. Also, it provides many advantages. For instance, people can save their expenses form gasoline, which nowadays is getting more expensive. The necessary energy will slowly be used up, since people use less their own cars.&#10;To sum up, the transportation is an elementary factor which directly affects to people’s living. I wish one day this problem would be changed. And then, the transportation in my hometown is no longer difficult for everyone in this community."/>
+    <cas:View sofa="265" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 100 106 112 118 125 132 139 146 153 161 169 177 185 193 201 209 217 225 233 241 249 257 280 287 294"/>
+</xmi:XMI>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="244" begin="0" end="1753" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="244" begin="0" end="1753" filename="essay006" topic="Many students choose to attend schools or universities outside their home countries. Why do some students study abroad? Use specific reasons and details to explain your answer." twoSided="negative"/>
+    <types:MajorClaim xmi:id="22" sofa="244" begin="117" end="152"/>
+    <types:MajorClaim xmi:id="28" sofa="244" begin="1610" end="1702"/>
+    <types:Claim xmi:id="34" sofa="244" begin="154" end="236" stance="For"/>
+    <types:Claim xmi:id="41" sofa="244" begin="252" end="350" stance="For"/>
+    <types:Claim xmi:id="48" sofa="244" begin="722" end="835" stance="For"/>
+    <types:Claim xmi:id="55" sofa="244" begin="1035" end="1090" stance="For"/>
+    <types:Premise xmi:id="62" sofa="244" begin="352" end="450"/>
+    <types:Premise xmi:id="68" sofa="244" begin="465" end="520"/>
+    <types:Premise xmi:id="74" sofa="244" begin="533" end="603"/>
+    <types:Premise xmi:id="80" sofa="244" begin="605" end="689"/>
+    <types:Premise xmi:id="86" sofa="244" begin="850" end="905"/>
+    <types:Premise xmi:id="92" sofa="244" begin="907" end="1033"/>
+    <types:Premise xmi:id="98" sofa="244" begin="1092" end="1185"/>
+    <types:Premise xmi:id="104" sofa="244" begin="1200" end="1245"/>
+    <types:Premise xmi:id="110" sofa="244" begin="1247" end="1336"/>
+    <types:Premise xmi:id="116" sofa="244" begin="1338" end="1385"/>
+    <types:Premise xmi:id="122" sofa="244" begin="1387" end="1463"/>
+    <types:Premise xmi:id="128" sofa="244" begin="1465" end="1538"/>
+    <types:Premise xmi:id="134" sofa="244" begin="1545" end="1592"/>
+    <types:Support xmi:id="140" sofa="244" begin="252" end="603" source="74" target="41"/>
+    <types:Support xmi:id="148" sofa="244" begin="252" end="450" source="62" target="41"/>
+    <types:Support xmi:id="156" sofa="244" begin="465" end="603" source="68" target="74"/>
+    <types:Support xmi:id="164" sofa="244" begin="533" end="689" source="80" target="74"/>
+    <types:Support xmi:id="172" sofa="244" begin="722" end="1033" source="92" target="48"/>
+    <types:Support xmi:id="180" sofa="244" begin="722" end="905" source="86" target="48"/>
+    <types:Support xmi:id="188" sofa="244" begin="1035" end="1385" source="116" target="55"/>
+    <types:Support xmi:id="196" sofa="244" begin="1035" end="1336" source="110" target="55"/>
+    <types:Support xmi:id="204" sofa="244" begin="1035" end="1245" source="104" target="55"/>
+    <types:Support xmi:id="212" sofa="244" begin="1035" end="1185" source="98" target="55"/>
+    <types:Support xmi:id="220" sofa="244" begin="1338" end="1592" source="134" target="116"/>
+    <types:Support xmi:id="228" sofa="244" begin="1338" end="1538" source="128" target="116"/>
+    <types:Support xmi:id="236" sofa="244" begin="1338" end="1463" source="122" target="116"/>
+    <argumentation:LocalSufficiency xmi:id="259" sofa="244" begin="238" end="691" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="266" sofa="244" begin="692" end="1034" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="273" sofa="244" begin="1035" end="1594" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="244" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Studying abroad is one very common thing that students do, and they have different reasons for that. I believe that studying abroad has many advantages. Students gain a lot out of the experience personally, academically, and culturally.&#10;First of all, students who study outside their countries can get a lot of experience living in a foreign country. Living in a new country requires a great amount of flexibility and adaptability in one's character. For example, students might face many challenges in the host country. Therefore, they should be able to deal with the obstacles that they may encounter. Overcoming problems teaches the students how to be more mature and self-independence. &#10;One other important factor is the new academic experience that the students can obtain at the institution where they are pursuing their studies. For example, they will get exposed to a different educational system. They will meet new professors and new classmates which makes the academic experience different from that in their home country.&#10;Most important is the cultural aspect of the experience. While living in a foreign country, students can learn a lot about the culture of that country. Furthermore, they can meet different people of the country. They can learn about their way of thinking, their customs and traditions, and way of life. Learning about others' cultures is so important. It contributes in building a new understanding in us of how we see the world. It makes us more open, and willing to accept different ideas and thoughts. Also it educates us about the world we are living in. &#10;In conclusion, studying abroad does not only have advantages, but also can change us in a very positive way. It can influence us in different aspects of life."/>
+    <cas:View sofa="244" members="1 14 22 28 34 41 48 55 62 68 74 80 86 92 98 104 110 116 122 128 134 140 148 156 164 172 180 188 196 204 212 220 228 236 259 266 273"/>
+</xmi:XMI>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="297" begin="0" end="1947" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="297" begin="0" end="1947" filename="essay057" topic="Creative artists should always be given the freedom to express their own ideas (in words, pictures, music or film) in whichever way they wish. there should be no government restrictions on what they do. to what extent do you agree or disagree?" twoSided="negative"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="22" sofa="297" begin="124" end="160" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="27" sofa="297" begin="169" end="259" unitType="majorclaim"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="32" sofa="297" begin="261" end="408" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="37" sofa="297" begin="410" end="561" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="42" sofa="297" begin="563" end="636" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="47" sofa="297" begin="651" end="748" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="52" sofa="297" begin="750" end="824" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="57" sofa="297" begin="840" end="958" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="62" sofa="297" begin="960" end="1021" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="67" sofa="297" begin="1036" end="1073" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="72" sofa="297" begin="1129" end="1211" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="77" sofa="297" begin="1213" end="1306" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="82" sofa="297" begin="1308" end="1394" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="87" sofa="297" begin="1405" end="1470" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="92" sofa="297" begin="1472" end="1592" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="97" sofa="297" begin="1594" end="1706" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="102" sofa="297" begin="1730" end="1779" unitType="majorclaim"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="107" sofa="297" begin="1781" end="1831" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="112" sofa="297" begin="1833" end="1945" unitType="claim-for"/>
+    <argumentation:Argument xmi:id="117" sofa="297" begin="124" end="259" premises="22" conclusion="27" argumentType="supports"/>
+    <argumentation:Argument xmi:id="127" sofa="297" begin="169" end="1945" premises="112" conclusion="27" argumentType="supports"/>
+    <argumentation:Argument xmi:id="137" sofa="297" begin="169" end="1831" premises="107" conclusion="27" argumentType="supports"/>
+    <argumentation:Argument xmi:id="147" sofa="297" begin="169" end="1779" premises="102" conclusion="27" argumentType="supports"/>
+    <argumentation:Argument xmi:id="157" sofa="297" begin="169" end="1706" premises="97" conclusion="27" argumentType="supports"/>
+    <argumentation:Argument xmi:id="167" sofa="297" begin="169" end="1394" premises="82" conclusion="27" argumentType="supports"/>
+    <argumentation:Argument xmi:id="177" sofa="297" begin="169" end="748" premises="47" conclusion="27" argumentType="supports"/>
+    <argumentation:Argument xmi:id="187" sofa="297" begin="169" end="636" premises="42" conclusion="27" argumentType="supports"/>
+    <argumentation:Argument xmi:id="197" sofa="297" begin="261" end="636" premises="32" conclusion="42" argumentType="supports"/>
+    <argumentation:Argument xmi:id="207" sofa="297" begin="410" end="636" premises="37" conclusion="42" argumentType="supports"/>
+    <argumentation:Argument xmi:id="217" sofa="297" begin="651" end="1073" premises="67" conclusion="47" argumentType="supports"/>
+    <argumentation:Argument xmi:id="227" sofa="297" begin="651" end="824" premises="52" conclusion="47" argumentType="supports"/>
+    <argumentation:Argument xmi:id="237" sofa="297" begin="750" end="1021" premises="62" conclusion="52" argumentType="supports"/>
+    <argumentation:Argument xmi:id="247" sofa="297" begin="750" end="958" premises="57" conclusion="52" argumentType="supports"/>
+    <argumentation:Argument xmi:id="257" sofa="297" begin="1129" end="1394" premises="72" conclusion="82" argumentType="supports"/>
+    <argumentation:Argument xmi:id="267" sofa="297" begin="1213" end="1394" premises="77" conclusion="82" argumentType="supports"/>
+    <argumentation:Argument xmi:id="277" sofa="297" begin="1405" end="1706" premises="87" conclusion="97" argumentType="supports"/>
+    <argumentation:Argument xmi:id="287" sofa="297" begin="1472" end="1706" premises="92" conclusion="97" argumentType="supports"/>
+    <argumentation:LocalSufficiency xmi:id="312" sofa="297" begin="261" end="637" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="319" sofa="297" begin="638" end="1074" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="326" sofa="297" begin="1075" end="1395" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="297" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Creativity is the ability to think beyond the obvious. Many governments restrict the artistic works of the creative minds. Creativity originates in a free mind. Hence, creative artists must be given the freedom to express their ideas without any restrictions.&#10;Time and again, creative artists like Michaelangelo, Picasso, Salman Rushdie, Shakespeare etc. have made artistic works which gave a social message. Right from sculptures to paintings, books to drama and movies, all these artistic works have reflected the contemporary social issues of different eras. Creative works help to create social awareness by giving a social message.&#10;Nonetheless, innovative works makes people realize things in a peaceful way and peep into their own conscience. It helps to raise issues and criticize the wrong doings of the governments. For instance, Bangladeshi writer Taslima Nasrin was accused of acting against the government, just because she raised a social issue. This type of approach is a hurdle in promoting creative minds. In addition, creativity also gives aesthetic charm.&#10;Unfortunately, many governments restrict the artists. Frank Zappa once said, &quot;Mind is like a parachute, it doesn't work if its not open“. Restrictions would just curb the innovative ideas of the artists and would limit their brains. Like the media, artists should also be given the freedom to express their ideas freely.&#10;However, artists should also know not to hurt the sentiments of the people. Many artists have been involved in controversies because of hurting the religious or social beliefs of the common people. Artists should have self-awareness not to create vulgar, hurtful or useless works which do not serve any purpose. I firmly believe that artists should be given the freedom of expression. Mind can not work when it is chained in boundaries. Imagination is at its best when the mind is relaxed and free from the fear of government or any restrictive laws.&#10;"/>
+    <cas:View sofa="297" members="1 14 22 27 32 37 42 47 52 57 62 67 72 77 82 87 92 97 102 107 112 117 127 137 147 157 167 177 187 197 207 217 227 237 247 257 267 277 287 312 319 326"/>
+</xmi:XMI>

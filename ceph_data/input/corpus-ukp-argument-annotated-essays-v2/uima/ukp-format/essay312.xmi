@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="328" begin="0" end="2430" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="328" begin="0" end="2430" filename="essay312" topic="Do you agree or disagree with the following statement? To improve the quality of education, universities should spend more money in salaries for university professors.  Use specific reasons and examples to support your answer." twoSided="negative"/>
+    <types:Premise xmi:id="22" sofa="328" begin="269" end="309"/>
+    <types:Premise xmi:id="28" sofa="328" begin="562" end="652"/>
+    <types:Premise xmi:id="34" sofa="328" begin="654" end="751"/>
+    <types:Premise xmi:id="40" sofa="328" begin="753" end="812"/>
+    <types:Premise xmi:id="46" sofa="328" begin="820" end="893"/>
+    <types:Premise xmi:id="52" sofa="328" begin="911" end="977"/>
+    <types:Premise xmi:id="58" sofa="328" begin="981" end="1026"/>
+    <types:Premise xmi:id="64" sofa="328" begin="1034" end="1096"/>
+    <types:Premise xmi:id="70" sofa="328" begin="1098" end="1170"/>
+    <types:Premise xmi:id="76" sofa="328" begin="1180" end="1265"/>
+    <types:Premise xmi:id="82" sofa="328" begin="1267" end="1300"/>
+    <types:Premise xmi:id="88" sofa="328" begin="1311" end="1398"/>
+    <types:Premise xmi:id="94" sofa="328" begin="1409" end="1477"/>
+    <types:Premise xmi:id="100" sofa="328" begin="1730" end="1810"/>
+    <types:Premise xmi:id="106" sofa="328" begin="1812" end="1855"/>
+    <types:Premise xmi:id="112" sofa="328" begin="1857" end="1918"/>
+    <types:Premise xmi:id="118" sofa="328" begin="1920" end="1984"/>
+    <types:Premise xmi:id="124" sofa="328" begin="1986" end="2056"/>
+    <types:Premise xmi:id="130" sofa="328" begin="2074" end="2155"/>
+    <types:Claim xmi:id="136" sofa="328" begin="230" end="258" stance="Against"/>
+    <types:Claim xmi:id="143" sofa="328" begin="483" end="552" stance="For"/>
+    <types:Claim xmi:id="150" sofa="328" begin="1479" end="1565" stance="For"/>
+    <types:Claim xmi:id="157" sofa="328" begin="2192" end="2293" stance="For"/>
+    <types:MajorClaim xmi:id="164" sofa="328" begin="311" end="434"/>
+    <types:MajorClaim xmi:id="170" sofa="328" begin="2318" end="2362"/>
+    <types:Attack xmi:id="176" sofa="328" begin="230" end="309" source="22" target="136"/>
+    <types:Support xmi:id="184" sofa="328" begin="483" end="1398" source="88" target="143"/>
+    <types:Support xmi:id="192" sofa="328" begin="483" end="1300" source="82" target="143"/>
+    <types:Support xmi:id="200" sofa="328" begin="483" end="1265" source="76" target="143"/>
+    <types:Support xmi:id="208" sofa="328" begin="483" end="1170" source="70" target="143"/>
+    <types:Support xmi:id="216" sofa="328" begin="483" end="751" source="34" target="143"/>
+    <types:Support xmi:id="224" sofa="328" begin="483" end="652" source="28" target="143"/>
+    <types:Support xmi:id="232" sofa="328" begin="654" end="1096" source="64" target="34"/>
+    <types:Support xmi:id="240" sofa="328" begin="654" end="893" source="46" target="34"/>
+    <types:Support xmi:id="248" sofa="328" begin="753" end="893" source="40" target="46"/>
+    <types:Support xmi:id="256" sofa="328" begin="911" end="1026" source="52" target="58"/>
+    <types:Support xmi:id="264" sofa="328" begin="981" end="1096" source="58" target="64"/>
+    <types:Support xmi:id="272" sofa="328" begin="1409" end="1565" source="94" target="150"/>
+    <types:Support xmi:id="280" sofa="328" begin="1479" end="2155" source="130" target="150"/>
+    <types:Support xmi:id="288" sofa="328" begin="1479" end="1855" source="106" target="150"/>
+    <types:Support xmi:id="296" sofa="328" begin="1479" end="1810" source="100" target="150"/>
+    <types:Support xmi:id="304" sofa="328" begin="1857" end="2155" source="112" target="130"/>
+    <types:Support xmi:id="312" sofa="328" begin="1920" end="2155" source="118" target="130"/>
+    <types:Support xmi:id="320" sofa="328" begin="1986" end="2155" source="124" target="130"/>
+    <argumentation:LocalSufficiency xmi:id="343" sofa="328" begin="468" end="1399" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="350" sofa="328" begin="1400" end="2157" majority="0.0" mean="0.0"/>
+    <cas:Sofa xmi:id="328" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;University education is always an important part of one's life. That's why education in university is discussed all the time. What is the best way to orientate the students? Raising the salaries of professors so? I would say no. The professors are essential, however, the schools are established for students. Money should spend on facilities in school or update resources, which are beneficial to school rather than just instructors. The following are my opinions. &#10;To begin with, the school should put more emphasis on students instead of professors. I think the most efficient way to improve the education is to guide the students to learn actively. By renewing some facilities in school so students will spend more time at school doing assignment. A comfortable environment can attract people to stay longer. Thus, students spend more time on school to make a good circulation of learning. That is to say, students have a better environment to working on their assignments so the quality of their assignments will improve. Thus, the competition between peers enhances and forms a circulation. In my school, the classrooms in my university are old and kind of shabby. For me, I prefer spending money in a coffee shop to staying at school to finish my assignment. It's unpleasant to stay at school. However, coffee shops are not always quiet, so my classmates and I often finish our work roughly.&#10;Besides, the ultimate purpose is to change, to motivate students to be better. To improve education, spending more money to raise professors' salary is inappropriate. In addition, will the university filter all the professors overall? Some professors don't deserve the money at all, then, what's the point to spend money on them? High-salary instructors don't teach students harder because they earn more money. There won't be any effect if school does so. There was news about raising professors' salary in my country. This event provoked a demonstration composing of students mostly. The proposal of the demonstration was eliminating the raising salaries. As you can see, if the policy of raising salary was supported, the demonstration would not happen. &#10;At school, students are priority. Students' tuition is not only for the professors but also for their quality of learning at university. That's the main reason I against providing more money to professors. Students are those who suppose to enjoy the use of their tuition. "/>
+    <cas:View sofa="328" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 100 106 112 118 124 130 136 143 150 157 164 170 176 184 192 200 208 216 224 232 240 248 256 264 272 280 288 296 304 312 320 343 350"/>
+</xmi:XMI>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="286" begin="0" end="2469" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="286" begin="0" end="2469" filename="essay373" topic="Without capital punishment (the death penalty) our lives are less secure and crimes of violence increase. Capital punishment is essential to control violence in society. To what extent do you agree or disagree?" twoSided="negative"/>
+    <types:Premise xmi:id="22" sofa="286" begin="657" end="726"/>
+    <types:Premise xmi:id="28" sofa="286" begin="728" end="871"/>
+    <types:Premise xmi:id="34" sofa="286" begin="888" end="924"/>
+    <types:Premise xmi:id="40" sofa="286" begin="932" end="992"/>
+    <types:Premise xmi:id="46" sofa="286" begin="1167" end="1233"/>
+    <types:Premise xmi:id="52" sofa="286" begin="1235" end="1312"/>
+    <types:Premise xmi:id="58" sofa="286" begin="1314" end="1359"/>
+    <types:Premise xmi:id="64" sofa="286" begin="1371" end="1469"/>
+    <types:Premise xmi:id="70" sofa="286" begin="1481" end="1534"/>
+    <types:Premise xmi:id="76" sofa="286" begin="1616" end="1663"/>
+    <types:Premise xmi:id="82" sofa="286" begin="1665" end="1766"/>
+    <types:Premise xmi:id="88" sofa="286" begin="1768" end="1806"/>
+    <types:Premise xmi:id="94" sofa="286" begin="1867" end="1958"/>
+    <types:Premise xmi:id="100" sofa="286" begin="1960" end="2042"/>
+    <types:Premise xmi:id="106" sofa="286" begin="2054" end="2150"/>
+    <types:Premise xmi:id="112" sofa="286" begin="2166" end="2296"/>
+    <types:MajorClaim xmi:id="118" sofa="286" begin="545" end="622"/>
+    <types:MajorClaim xmi:id="124" sofa="286" begin="2391" end="2468"/>
+    <types:Claim xmi:id="130" sofa="286" begin="1001" end="1084" stance="For"/>
+    <types:Claim xmi:id="137" sofa="286" begin="1096" end="1143" stance="For"/>
+    <types:Claim xmi:id="144" sofa="286" begin="1545" end="1614" stance="For"/>
+    <types:Claim xmi:id="151" sofa="286" begin="2304" end="2389" stance="For"/>
+    <types:Support xmi:id="158" sofa="286" begin="657" end="1084" source="22" target="130"/>
+    <types:Support xmi:id="166" sofa="286" begin="728" end="1084" source="28" target="130"/>
+    <types:Support xmi:id="174" sofa="286" begin="888" end="992" source="34" target="40"/>
+    <types:Support xmi:id="182" sofa="286" begin="932" end="1084" source="40" target="130"/>
+    <types:Support xmi:id="190" sofa="286" begin="1096" end="1534" source="70" target="137"/>
+    <types:Support xmi:id="198" sofa="286" begin="1096" end="1469" source="64" target="137"/>
+    <types:Support xmi:id="206" sofa="286" begin="1096" end="1359" source="58" target="137"/>
+    <types:Support xmi:id="214" sofa="286" begin="1096" end="1233" source="46" target="137"/>
+    <types:Support xmi:id="222" sofa="286" begin="1167" end="1312" source="52" target="46"/>
+    <types:Support xmi:id="230" sofa="286" begin="1545" end="2150" source="106" target="144"/>
+    <types:Support xmi:id="238" sofa="286" begin="1545" end="2042" source="100" target="144"/>
+    <types:Support xmi:id="246" sofa="286" begin="1545" end="1958" source="94" target="144"/>
+    <types:Support xmi:id="254" sofa="286" begin="1545" end="1806" source="88" target="144"/>
+    <types:Support xmi:id="262" sofa="286" begin="1545" end="1766" source="82" target="144"/>
+    <types:Support xmi:id="270" sofa="286" begin="1545" end="1663" source="76" target="144"/>
+    <types:Support xmi:id="278" sofa="286" begin="2166" end="2389" source="112" target="151"/>
+    <argumentation:LocalSufficiency xmi:id="301" sofa="286" begin="648" end="1085" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="308" sofa="286" begin="1086" end="1535" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="315" sofa="286" begin="1536" end="2152" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="286" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;&quot;Capital punishment or the death penalty is a legal process whereby a person is put to death by the state as a punishment for a crime.&quot; In recently years, many countries have polished the law of the death penalty. In the whole world, 51% countries have polished death penalty; even, it is at 98% in Europe. Some people claim that without this punishment our lives would be less secure and crimes of violence would increase. However, others argue that it is not essential to control violence in society by the death penalty. Personally, I think it is no evidence about the reduction of crime rates due to the death penalty because of many reasons.&#10;Firstly, capital punishment is a form of revenge which creates violent culture. Crimes kill someone which is illegal; nevertheless, the government use law to punish them, which is the same way they sinned but in a legal one. As a fact that the criminal is repeated second time; also, it is regarded as the &quot;legalized revenge&quot; to victims' family. Hence, death penalty neither controls the violent in society nor creates a violent culture.&#10;Secondly, nobody has the right to take another human life. It is undeniable that the rights of life are the basic and vital rights of a human being. No one has the right to take the life of a human; even if he committed murder. If you kill a criminal, you become a criminal. Moreover, if we think that killing is the best way to solve the problem, it is neither unethical nor immoral. In short, crimes seem to increase due to the capital punishment.&#10;Finally, with some of serious criminals, capital punishment is an easy way out. Criminals should be punished for their misdeeds. If they kill someone and end their life by dead without paying for their sins, it is so easy for them. They do not undergo any pain or misery. Why do not we have other wisely punishments? As we can see some industries such as mining, oil and gas extraction, reclamation, etc, needs many labors. Why do not punish them by doing something meaningful for the country- it is better. Moreover, rehabilitation and education is also a better way in order to prevent or minimize offensive acts. &#10;To conclude, capital punishment is a form of legalized revenge, it is an easy way for serious crimes, and nobody has rights to take others life; thus, it neither demines crimes of violence nor be essential to control violence in society. The world should consider clearly about polishing the law of the dead penalty."/>
+    <cas:View sofa="286" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 100 106 112 118 124 130 137 144 151 158 166 174 182 190 198 206 214 222 230 238 246 254 262 270 278 301 308 315"/>
+</xmi:XMI>

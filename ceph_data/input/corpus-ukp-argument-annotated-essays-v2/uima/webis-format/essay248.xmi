@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="357" begin="0" end="2262" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="357" begin="0" end="2262" filename="essay248" topic="Do you agree or disagree with the following statement: It is better for children to choose jobs that are similar to their parents job than to choose jobs that are very different from their parents jobs." twoSided="positive"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="22" sofa="357" begin="203" end="282" unitType="majorclaim"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="27" sofa="357" begin="299" end="345" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="32" sofa="357" begin="348" end="458" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="37" sofa="357" begin="473" end="582" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="42" sofa="357" begin="584" end="645" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="47" sofa="357" begin="655" end="678" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="52" sofa="357" begin="680" end="726" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="57" sofa="357" begin="728" end="783" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="62" sofa="357" begin="785" end="884" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="67" sofa="357" begin="906" end="942" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="72" sofa="357" begin="944" end="1002" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="77" sofa="357" begin="1004" end="1083" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="82" sofa="357" begin="1099" end="1170" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="87" sofa="357" begin="1182" end="1288" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="92" sofa="357" begin="1290" end="1394" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="97" sofa="357" begin="1396" end="1556" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="102" sofa="357" begin="1601" end="1652" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="107" sofa="357" begin="1665" end="1738" unitType="claim-against"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="112" sofa="357" begin="1786" end="1845" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="117" sofa="357" begin="1847" end="1911" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="122" sofa="357" begin="1921" end="1991" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="127" sofa="357" begin="2108" end="2189" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="132" sofa="357" begin="2201" end="2261" unitType="majorclaim"/>
+    <argumentation:Argument xmi:id="137" sofa="357" begin="203" end="2261" premises="132" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="147" sofa="357" begin="203" end="2189" premises="127" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="157" sofa="357" begin="203" end="1738" premises="107" conclusion="22" argumentType="attacks"/>
+    <argumentation:Argument xmi:id="167" sofa="357" begin="203" end="1083" premises="77" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="177" sofa="357" begin="203" end="458" premises="32" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="187" sofa="357" begin="299" end="458" premises="27" conclusion="32" argumentType="supports"/>
+    <argumentation:Argument xmi:id="197" sofa="357" begin="348" end="884" premises="62" conclusion="32" argumentType="supports"/>
+    <argumentation:Argument xmi:id="207" sofa="357" begin="348" end="783" premises="57" conclusion="32" argumentType="supports"/>
+    <argumentation:Argument xmi:id="217" sofa="357" begin="348" end="726" premises="52" conclusion="32" argumentType="supports"/>
+    <argumentation:Argument xmi:id="227" sofa="357" begin="348" end="645" premises="42" conclusion="32" argumentType="supports"/>
+    <argumentation:Argument xmi:id="237" sofa="357" begin="348" end="582" premises="37" conclusion="32" argumentType="supports"/>
+    <argumentation:Argument xmi:id="247" sofa="357" begin="655" end="726" premises="47" conclusion="52" argumentType="supports"/>
+    <argumentation:Argument xmi:id="257" sofa="357" begin="906" end="1002" premises="67" conclusion="72" argumentType="supports"/>
+    <argumentation:Argument xmi:id="267" sofa="357" begin="944" end="1083" premises="72" conclusion="77" argumentType="supports"/>
+    <argumentation:Argument xmi:id="277" sofa="357" begin="1004" end="1288" premises="87" conclusion="77" argumentType="supports"/>
+    <argumentation:Argument xmi:id="287" sofa="357" begin="1004" end="1170" premises="82" conclusion="77" argumentType="supports"/>
+    <argumentation:Argument xmi:id="297" sofa="357" begin="1182" end="1556" premises="97" conclusion="87" argumentType="supports"/>
+    <argumentation:Argument xmi:id="307" sofa="357" begin="1182" end="1394" premises="92" conclusion="87" argumentType="supports"/>
+    <argumentation:Argument xmi:id="317" sofa="357" begin="1601" end="1738" premises="102" conclusion="107" argumentType="supports"/>
+    <argumentation:Argument xmi:id="327" sofa="357" begin="1665" end="1991" premises="122" conclusion="107" argumentType="supports"/>
+    <argumentation:Argument xmi:id="337" sofa="357" begin="1665" end="1845" premises="112" conclusion="107" argumentType="attacks"/>
+    <argumentation:Argument xmi:id="347" sofa="357" begin="1847" end="1991" premises="117" conclusion="122" argumentType="supports"/>
+    <argumentation:LocalSufficiency xmi:id="372" sofa="357" begin="285" end="885" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="379" sofa="357" begin="886" end="1558" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="386" sofa="357" begin="1559" end="1992" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="357" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;When choosing a job, one need to consider it thoroughly. Whether to choose a job which is similar to parents' job or not, different people may hold different opinions. As far as I am concerned, I think choosing the job that is similar to parents' jobs could benefit to one's career. &#10;First of all, as parents are involved in the same environment, they could thus support much more to their children, such as domain knowledge and industry-related information. For example, my father is a software programmer, and he indeed teaches me a lot in programming and some computer knowledge. Whenever I met a difficulty, I would reach him for consulting. Because he has many experiences, I could save enormous time in finding solution. This truly makes me more competitive than my colleagues. If I worked in the different field from my father, I would have faced much difficulty than I do now.&#10;Nevertheless, since parents have worked in tens of years, they have accumulated a rich network in a certain industry. They have a deep insight in it and could provide much support to their children. For instance, they know which company has better welfare or provides better education. Moreover, their friends in the same industry can even help to write recommendation letters to some certain companies. It is undoubted that a good recommendation letter is extraordinary important in this competitive society. When others are still struggling in preparing their resume, one with a good recommendation letter has already passed the first stage in the interviewing process. &#10;Some may argue that as time is different, the condition of job market is completely different. Therefore, choosing a job similar to one's parents' is not always a correct decision. I agree with this opinion to some extent, but when it comes to the trend, no one can predict it correctly. The condition of job market changes enormously fast like a flash, so that there is no way to predict any job can be popular for 30 years or more.&#10;In considering whether one should choose a job similar to his or her parents', I have mentioned a few reasons that one can get more support from his or her parents if they are in the same industry. I believe parents can lead their children to a more smooth career path."/>
+    <cas:View sofa="357" members="1 14 22 27 32 37 42 47 52 57 62 67 72 77 82 87 92 97 102 107 112 117 122 127 132 137 147 157 167 177 187 197 207 217 227 237 247 257 267 277 287 297 307 317 327 337 347 372 379 386"/>
+</xmi:XMI>

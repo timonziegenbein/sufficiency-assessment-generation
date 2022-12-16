@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="293" begin="0" end="2183" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="293" begin="0" end="2183" filename="essay172" topic="Students at a university often have a choice of places to live. They may choose to live in university dormitories, or they may choose to live in apartments in the community. Compare the advantages of living in university housing with the advantages of living in an apartment in the community. where would you prefer to live? Give reasons for your preference." twoSided="positive"/>
+    <types:Premise xmi:id="22" sofa="293" begin="434" end="525"/>
+    <types:Premise xmi:id="28" sofa="293" begin="527" end="598"/>
+    <types:Premise xmi:id="34" sofa="293" begin="600" end="632"/>
+    <types:Premise xmi:id="40" sofa="293" begin="641" end="717"/>
+    <types:Premise xmi:id="46" sofa="293" begin="755" end="808"/>
+    <types:Premise xmi:id="52" sofa="293" begin="935" end="1030"/>
+    <types:Premise xmi:id="58" sofa="293" begin="1032" end="1122"/>
+    <types:Premise xmi:id="64" sofa="293" begin="1124" end="1205"/>
+    <types:Premise xmi:id="70" sofa="293" begin="1207" end="1290"/>
+    <types:Premise xmi:id="76" sofa="293" begin="1359" end="1439"/>
+    <types:Premise xmi:id="82" sofa="293" begin="1441" end="1565"/>
+    <types:Premise xmi:id="88" sofa="293" begin="1573" end="1614"/>
+    <types:Premise xmi:id="94" sofa="293" begin="1616" end="1643"/>
+    <types:Premise xmi:id="100" sofa="293" begin="1661" end="1700"/>
+    <types:Premise xmi:id="106" sofa="293" begin="1723" end="1834"/>
+    <types:Premise xmi:id="112" sofa="293" begin="1836" end="1862"/>
+    <types:Premise xmi:id="118" sofa="293" begin="1883" end="2027"/>
+    <types:MajorClaim xmi:id="124" sofa="293" begin="269" end="366"/>
+    <types:MajorClaim xmi:id="130" sofa="293" begin="2102" end="2182"/>
+    <types:Claim xmi:id="136" sofa="293" begin="375" end="432" stance="For"/>
+    <types:Claim xmi:id="143" sofa="293" begin="874" end="904" stance="Against"/>
+    <types:Claim xmi:id="150" sofa="293" begin="1300" end="1350" stance="For"/>
+    <types:Support xmi:id="157" sofa="293" begin="375" end="808" source="46" target="136"/>
+    <types:Support xmi:id="165" sofa="293" begin="375" end="632" source="34" target="136"/>
+    <types:Support xmi:id="173" sofa="293" begin="375" end="598" source="28" target="136"/>
+    <types:Support xmi:id="181" sofa="293" begin="375" end="525" source="22" target="136"/>
+    <types:Support xmi:id="189" sofa="293" begin="600" end="717" source="40" target="34"/>
+    <types:Support xmi:id="197" sofa="293" begin="874" end="1290" source="70" target="143"/>
+    <types:Support xmi:id="205" sofa="293" begin="874" end="1205" source="64" target="143"/>
+    <types:Support xmi:id="213" sofa="293" begin="874" end="1122" source="58" target="143"/>
+    <types:Support xmi:id="221" sofa="293" begin="1300" end="1862" source="112" target="150"/>
+    <types:Support xmi:id="229" sofa="293" begin="1300" end="1834" source="106" target="150"/>
+    <types:Support xmi:id="237" sofa="293" begin="1300" end="1700" source="100" target="150"/>
+    <types:Support xmi:id="245" sofa="293" begin="1300" end="1565" source="82" target="150"/>
+    <types:Support xmi:id="253" sofa="293" begin="1300" end="1439" source="76" target="150"/>
+    <types:Support xmi:id="261" sofa="293" begin="1573" end="1643" source="88" target="94"/>
+    <types:Support xmi:id="269" sofa="293" begin="1616" end="1700" source="94" target="100"/>
+    <types:Attack xmi:id="277" sofa="293" begin="874" end="1030" source="52" target="143"/>
+    <types:Attack xmi:id="285" sofa="293" begin="1300" end="2027" source="118" target="150"/>
+    <argumentation:LocalSufficiency xmi:id="308" sofa="293" begin="368" end="809" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="315" sofa="293" begin="810" end="1291" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="322" sofa="293" begin="1292" end="2029" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="293" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Many students prefer to live in the university dormitories while others prefer an apartment in the city. Both options have their advantages and disadvantages. After considering the level of freedom, the studying conditions and the economic factor, if I had to choose, I would prefer to live in an apartment in the community rather than in the university dormitories.&#10;First, an apartment provides a lot more freedom than a dormitory. While in a dormitory you have to obey preset rules, in the apartment you set your own rules. You are free to have visits at any time or to be left alone if you want. An apartment offers more privacy because you can choose to have your own room instead of sharing with another student. This is an important factor because you also get more space than you would in a dormitory.&#10;Second, from an economic point of view, people often argue that an apartment is more expensive. This is only partially true, you could rent the extra rooms in the apartment to other people and rent would be a lot cheaper. Transportation is another issue, you have to go to and return from the university everyday. You could choose to use public transportation, a cheaper option, or to have a car. The car is an expensive option, but also offers freedom of schedule and destination.&#10;Lastly, the studying conditions are better in an apartment because you don't have all the noise and distractions that you often have in dormitories. A lot of students often complain about their roommate playing music too loud or bringing friends over at inappropriate times. Since in an apartment you don't have a roommate, you won't have this problem, and as a result you would be able to concentrate better. For the same reason, you won't have a problem if you are the one who wants to play music, bring friends over, or study late at night. You set your own schedules. In the other hand, living in a dormitory, and being surrounded by students also has some advantages, like being able to get help with any academic issues from them. &#10;To conclude, both options have their advantages, but personally I think the advantages of living in an apartment outshine those of living in a dormitory."/>
+    <cas:View sofa="293" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 100 106 112 118 124 130 136 143 150 157 165 173 181 189 197 205 213 221 229 237 245 253 261 269 277 285 308 315 322"/>
+</xmi:XMI>

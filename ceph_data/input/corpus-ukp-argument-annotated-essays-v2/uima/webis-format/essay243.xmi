@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="357" begin="0" end="2147" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="357" begin="0" end="2147" filename="essay243" topic="Some people like to communicate by e-mail and voice mail. Other people like to communicate by telephone or face-to-face. Which type of communication do you prefer?" twoSided="negative"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="22" sofa="357" begin="216" end="309" unitType="majorclaim"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="27" sofa="357" begin="332" end="376" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="32" sofa="357" begin="378" end="420" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="37" sofa="357" begin="436" end="556" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="42" sofa="357" begin="558" end="632" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="47" sofa="357" begin="634" end="688" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="52" sofa="357" begin="700" end="747" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="57" sofa="357" begin="762" end="806" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="62" sofa="357" begin="831" end="883" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="67" sofa="357" begin="885" end="951" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="72" sofa="357" begin="967" end="1098" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="77" sofa="357" begin="1111" end="1158" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="82" sofa="357" begin="1160" end="1248" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="87" sofa="357" begin="1250" end="1333" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="92" sofa="357" begin="1355" end="1388" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="97" sofa="357" begin="1392" end="1464" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="102" sofa="357" begin="1466" end="1561" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="107" sofa="357" begin="1576" end="1654" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="112" sofa="357" begin="1656" end="1744" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="117" sofa="357" begin="1746" end="1799" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="122" sofa="357" begin="1801" end="1865" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="127" sofa="357" begin="1943" end="1993" unitType="majorclaim"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="132" sofa="357" begin="1995" end="2025" unitType="claim-for"/>
+    <argumentation:Argument xmi:id="137" sofa="357" begin="216" end="2025" premises="132" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="147" sofa="357" begin="216" end="1993" premises="127" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="157" sofa="357" begin="216" end="1865" premises="122" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="167" sofa="357" begin="216" end="806" premises="57" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="177" sofa="357" begin="216" end="376" premises="27" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="187" sofa="357" begin="332" end="747" premises="52" conclusion="27" argumentType="supports"/>
+    <argumentation:Argument xmi:id="197" sofa="357" begin="332" end="632" premises="42" conclusion="27" argumentType="supports"/>
+    <argumentation:Argument xmi:id="207" sofa="357" begin="332" end="420" premises="32" conclusion="27" argumentType="supports"/>
+    <argumentation:Argument xmi:id="217" sofa="357" begin="378" end="556" premises="37" conclusion="32" argumentType="supports"/>
+    <argumentation:Argument xmi:id="227" sofa="357" begin="558" end="688" premises="47" conclusion="42" argumentType="supports"/>
+    <argumentation:Argument xmi:id="237" sofa="357" begin="762" end="1158" premises="77" conclusion="57" argumentType="supports"/>
+    <argumentation:Argument xmi:id="247" sofa="357" begin="762" end="883" premises="62" conclusion="57" argumentType="supports"/>
+    <argumentation:Argument xmi:id="257" sofa="357" begin="831" end="951" premises="67" conclusion="62" argumentType="supports"/>
+    <argumentation:Argument xmi:id="267" sofa="357" begin="967" end="1158" premises="72" conclusion="77" argumentType="supports"/>
+    <argumentation:Argument xmi:id="277" sofa="357" begin="1111" end="1333" premises="87" conclusion="77" argumentType="supports"/>
+    <argumentation:Argument xmi:id="287" sofa="357" begin="1111" end="1248" premises="82" conclusion="77" argumentType="supports"/>
+    <argumentation:Argument xmi:id="297" sofa="357" begin="1355" end="1464" premises="92" conclusion="97" argumentType="supports"/>
+    <argumentation:Argument xmi:id="307" sofa="357" begin="1392" end="1865" premises="97" conclusion="122" argumentType="supports"/>
+    <argumentation:Argument xmi:id="317" sofa="357" begin="1466" end="1865" premises="102" conclusion="122" argumentType="supports"/>
+    <argumentation:Argument xmi:id="327" sofa="357" begin="1466" end="1799" premises="117" conclusion="102" argumentType="supports"/>
+    <argumentation:Argument xmi:id="337" sofa="357" begin="1466" end="1744" premises="112" conclusion="102" argumentType="supports"/>
+    <argumentation:Argument xmi:id="347" sofa="357" begin="1466" end="1654" premises="107" conclusion="102" argumentType="supports"/>
+    <argumentation:LocalSufficiency xmi:id="372" sofa="357" begin="311" end="748" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="379" sofa="357" begin="749" end="1334" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="386" sofa="357" begin="1335" end="1867" majority="0.0" mean="0.0"/>
+    <cas:Sofa xmi:id="357" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Technology has been developing so quickly and becoming more perfect every day. Communication nowadays depends on technology pretty much. Voice mail, e-mail, telephone or just traditional way: face-to-face. However, I prefer e-mail due to 3 reasons: convenience, honest expression and fluency in communicating.&#10;Everyone agrees that e-mail has been a great way of communication. You can talk to others from thousands mile. For instance, if you are in Vietnam and another person is in the US - half of the Earth, no matter how far it is, you can keep contact. We will never have to worry if our mails will be sent to the right address. If the address is wrong, then you will know right away. Moreover, e-mail doesn't take too much time: just a click.&#10;In addition, writing e-mail helps people express honestly. Some people think that the face-to-face conversations make them feel stupid. Sometimes, their ideas are not expressed as exactly as they expect. For instance, I want to talk to my friend about a ticklish problem like her behavior, it's hard for me to face her and explain what she should do. Therefore, e-mail will be a good tool to help me speak out. She will just read my e-mail instead of listening to my voice which can make her annoyed. I don't have to worry about any other thing can make my opinion become unpersuasive.&#10;Last but not least, every communication needs fluency so people can understand each other exactly and remember it for a long time. Voice email or face-to-face conversations sometimes make reserve people feel not very confident. For example, when I face my parents, I can't speak out every idea and express consecutively. They may stop me, speak something against it and that makes me forget what I want to say. Anyone can meet this problem once in any conversation. E-mail helps me arrange my idea perfectly and make it persuasive. &#10;On the whole, to compare to all ways of communication, I really think that e-mail is the greatest way for major people to use. Its convenience saves our time. Additionally, honesty is necessary for every conversation and also fluency can't be missing for a persuasive expression."/>
+    <cas:View sofa="357" members="1 14 22 27 32 37 42 47 52 57 62 67 72 77 82 87 92 97 102 107 112 117 122 127 132 137 147 157 167 177 187 197 207 217 227 237 247 257 267 277 287 297 307 317 327 337 347 372 379 386"/>
+</xmi:XMI>

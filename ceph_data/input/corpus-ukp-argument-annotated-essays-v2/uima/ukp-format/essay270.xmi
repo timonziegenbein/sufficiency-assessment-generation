@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="279" begin="0" end="2749" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="279" begin="0" end="2749" filename="essay270" topic="Do you agree or disagree with the following statement? As modern life becomes more complex, it is essential for young people to have the ability to plan and organize" twoSided="positive"/>
+    <types:MajorClaim xmi:id="22" sofa="279" begin="130" end="224"/>
+    <types:MajorClaim xmi:id="28" sofa="279" begin="2646" end="2748"/>
+    <types:Premise xmi:id="34" sofa="279" begin="455" end="631"/>
+    <types:Premise xmi:id="40" sofa="279" begin="633" end="844"/>
+    <types:Premise xmi:id="46" sofa="279" begin="846" end="956"/>
+    <types:Premise xmi:id="52" sofa="279" begin="1149" end="1284"/>
+    <types:Premise xmi:id="58" sofa="279" begin="1286" end="1443"/>
+    <types:Premise xmi:id="64" sofa="279" begin="1508" end="1595"/>
+    <types:Premise xmi:id="70" sofa="279" begin="1611" end="1780"/>
+    <types:Premise xmi:id="76" sofa="279" begin="1782" end="1829"/>
+    <types:Premise xmi:id="82" sofa="279" begin="1857" end="1926"/>
+    <types:Premise xmi:id="88" sofa="279" begin="2005" end="2052"/>
+    <types:Premise xmi:id="94" sofa="279" begin="2059" end="2156"/>
+    <types:Premise xmi:id="100" sofa="279" begin="2158" end="2293"/>
+    <types:Premise xmi:id="106" sofa="279" begin="2318" end="2379"/>
+    <types:Premise xmi:id="112" sofa="279" begin="2381" end="2417"/>
+    <types:Premise xmi:id="118" sofa="279" begin="2423" end="2561"/>
+    <types:Claim xmi:id="124" sofa="279" begin="231" end="297" stance="For"/>
+    <types:Claim xmi:id="131" sofa="279" begin="357" end="453" stance="For"/>
+    <types:Claim xmi:id="138" sofa="279" begin="977" end="1131" stance="For"/>
+    <types:Claim xmi:id="145" sofa="279" begin="1934" end="1989" stance="Against"/>
+    <types:Claim xmi:id="152" sofa="279" begin="2563" end="2641" stance="For"/>
+    <types:Support xmi:id="159" sofa="279" begin="357" end="956" source="46" target="131"/>
+    <types:Support xmi:id="167" sofa="279" begin="357" end="844" source="40" target="131"/>
+    <types:Support xmi:id="175" sofa="279" begin="357" end="631" source="34" target="131"/>
+    <types:Support xmi:id="183" sofa="279" begin="977" end="1829" source="76" target="138"/>
+    <types:Support xmi:id="191" sofa="279" begin="977" end="1780" source="70" target="138"/>
+    <types:Support xmi:id="199" sofa="279" begin="977" end="1443" source="58" target="138"/>
+    <types:Support xmi:id="207" sofa="279" begin="1149" end="1443" source="52" target="58"/>
+    <types:Support xmi:id="215" sofa="279" begin="1508" end="1780" source="64" target="70"/>
+    <types:Support xmi:id="223" sofa="279" begin="1857" end="1989" source="82" target="145"/>
+    <types:Support xmi:id="231" sofa="279" begin="2005" end="2156" source="94" target="88"/>
+    <types:Support xmi:id="239" sofa="279" begin="2158" end="2561" source="100" target="118"/>
+    <types:Support xmi:id="247" sofa="279" begin="2318" end="2561" source="106" target="118"/>
+    <types:Support xmi:id="255" sofa="279" begin="2381" end="2561" source="112" target="118"/>
+    <types:Attack xmi:id="263" sofa="279" begin="1934" end="2561" source="118" target="145"/>
+    <types:Attack xmi:id="271" sofa="279" begin="1934" end="2052" source="88" target="145"/>
+    <argumentation:LocalSufficiency xmi:id="294" sofa="279" begin="343" end="957" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="301" sofa="279" begin="958" end="1830" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="308" sofa="279" begin="1831" end="2562" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="279" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;With the fast rolling wheels of modern society, life becomes more complex and is not easy to handle than in the past. Therefore, it is essential for people, especially young ones, to possess the ability to plan and organize since it can improve the efficiency and reduce the crisis of our actions. Meanwhile, eliminating meaningless actions.&#10;First of all, great planning and organizing ability is able to cause our actions more efficient and productive. Take myself as an example, I used to be overwhelmed by the burden of preparing for the final exam, submitting my paper, and finishing my internship work at the end of each term. Yet, in this year, following the suggestion of my roommate, John, I make a to-do list to plan and organize perfectly everything I should get done in the final and hence take every tasks and trivials into control. This plan ability helps me a lot, making me climb to the top rank of the class while finishing everything else.&#10;Equally important, the capacity to plan and organize also help young people to eliminate the crisis in their actions, which may ruin one's whole effort over a very long time. As we all know, the employees in every company have to create profit as much as they can for their supervisors and complete their assignments perfectly. If some employees lack the ability to plan and organize ahead, they may get the procrastination and therefore take into action until the deadline is imminent. However, things have been changing all the time. For instance, the deadline of task is shifted to an earlier date for the change of company's schedule. In this case, those employees who did not plan and finish their assignments ahead of time perhaps are unable to finish these tasks on time and therefore will be penalized or get fired. Every employee can not afford this kind of loss.&#10;Finally, some assert that the ability to plan and organize can be learned until obtaining a job. Thus, it is not need for young people to possess this ability. Nevertheless, this ability is also essential for young people since young people can overcome their bad habits and fulfill their goals more quickly with this ability. As searching information on the internet, young people are probably distracted by other attractions such as online games or social webs. At this circumstances, they would surf on the internet for hours and end up no where. It is obviously a huge waste of time. But if they make their plan in the first place, and then stick to their plans, they could get their work done quickly beyond their imagination.&#10;In this complex society, we, young people, are encompassed with multiple tasks, so the ability to plan and organize is undoubtedly a powerful and sharp weapon that we must be armed with."/>
+    <cas:View sofa="279" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 100 106 112 118 124 131 138 145 152 159 167 175 183 191 199 207 215 223 231 239 247 255 263 271 294 301 308"/>
+</xmi:XMI>

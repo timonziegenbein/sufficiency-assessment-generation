@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="300" begin="0" end="2147" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="300" begin="0" end="2147" filename="essay243" topic="Some people like to communicate by e-mail and voice mail. Other people like to communicate by telephone or face-to-face. Which type of communication do you prefer?" twoSided="negative"/>
+    <types:Premise xmi:id="22" sofa="300" begin="378" end="420"/>
+    <types:Premise xmi:id="28" sofa="300" begin="436" end="556"/>
+    <types:Premise xmi:id="34" sofa="300" begin="558" end="632"/>
+    <types:Premise xmi:id="40" sofa="300" begin="634" end="688"/>
+    <types:Premise xmi:id="46" sofa="300" begin="700" end="747"/>
+    <types:Premise xmi:id="52" sofa="300" begin="831" end="883"/>
+    <types:Premise xmi:id="58" sofa="300" begin="885" end="951"/>
+    <types:Premise xmi:id="64" sofa="300" begin="967" end="1098"/>
+    <types:Premise xmi:id="70" sofa="300" begin="1111" end="1158"/>
+    <types:Premise xmi:id="76" sofa="300" begin="1160" end="1248"/>
+    <types:Premise xmi:id="82" sofa="300" begin="1250" end="1333"/>
+    <types:Premise xmi:id="88" sofa="300" begin="1355" end="1388"/>
+    <types:Premise xmi:id="94" sofa="300" begin="1392" end="1464"/>
+    <types:Premise xmi:id="100" sofa="300" begin="1466" end="1561"/>
+    <types:Premise xmi:id="106" sofa="300" begin="1576" end="1654"/>
+    <types:Premise xmi:id="112" sofa="300" begin="1656" end="1744"/>
+    <types:Premise xmi:id="118" sofa="300" begin="1746" end="1799"/>
+    <types:Claim xmi:id="124" sofa="300" begin="332" end="376" stance="For"/>
+    <types:Claim xmi:id="131" sofa="300" begin="762" end="806" stance="For"/>
+    <types:Claim xmi:id="138" sofa="300" begin="1801" end="1865" stance="For"/>
+    <types:Claim xmi:id="145" sofa="300" begin="1995" end="2025" stance="For"/>
+    <types:MajorClaim xmi:id="152" sofa="300" begin="216" end="309"/>
+    <types:MajorClaim xmi:id="158" sofa="300" begin="1943" end="1993"/>
+    <types:Support xmi:id="164" sofa="300" begin="332" end="747" source="46" target="124"/>
+    <types:Support xmi:id="172" sofa="300" begin="332" end="632" source="34" target="124"/>
+    <types:Support xmi:id="180" sofa="300" begin="332" end="420" source="22" target="124"/>
+    <types:Support xmi:id="188" sofa="300" begin="378" end="556" source="28" target="22"/>
+    <types:Support xmi:id="196" sofa="300" begin="558" end="688" source="40" target="34"/>
+    <types:Support xmi:id="204" sofa="300" begin="762" end="1158" source="70" target="131"/>
+    <types:Support xmi:id="212" sofa="300" begin="762" end="883" source="52" target="131"/>
+    <types:Support xmi:id="220" sofa="300" begin="831" end="951" source="58" target="52"/>
+    <types:Support xmi:id="228" sofa="300" begin="967" end="1158" source="64" target="70"/>
+    <types:Support xmi:id="236" sofa="300" begin="1111" end="1333" source="82" target="70"/>
+    <types:Support xmi:id="244" sofa="300" begin="1111" end="1248" source="76" target="70"/>
+    <types:Support xmi:id="252" sofa="300" begin="1355" end="1464" source="88" target="94"/>
+    <types:Support xmi:id="260" sofa="300" begin="1392" end="1865" source="94" target="138"/>
+    <types:Support xmi:id="268" sofa="300" begin="1466" end="1865" source="100" target="138"/>
+    <types:Support xmi:id="276" sofa="300" begin="1466" end="1799" source="118" target="100"/>
+    <types:Support xmi:id="284" sofa="300" begin="1466" end="1744" source="112" target="100"/>
+    <types:Support xmi:id="292" sofa="300" begin="1466" end="1654" source="106" target="100"/>
+    <argumentation:LocalSufficiency xmi:id="315" sofa="300" begin="311" end="748" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="322" sofa="300" begin="749" end="1334" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="329" sofa="300" begin="1335" end="1867" majority="0.0" mean="0.0"/>
+    <cas:Sofa xmi:id="300" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Technology has been developing so quickly and becoming more perfect every day. Communication nowadays depends on technology pretty much. Voice mail, e-mail, telephone or just traditional way: face-to-face. However, I prefer e-mail due to 3 reasons: convenience, honest expression and fluency in communicating.&#10;Everyone agrees that e-mail has been a great way of communication. You can talk to others from thousands mile. For instance, if you are in Vietnam and another person is in the US - half of the Earth, no matter how far it is, you can keep contact. We will never have to worry if our mails will be sent to the right address. If the address is wrong, then you will know right away. Moreover, e-mail doesn't take too much time: just a click.&#10;In addition, writing e-mail helps people express honestly. Some people think that the face-to-face conversations make them feel stupid. Sometimes, their ideas are not expressed as exactly as they expect. For instance, I want to talk to my friend about a ticklish problem like her behavior, it's hard for me to face her and explain what she should do. Therefore, e-mail will be a good tool to help me speak out. She will just read my e-mail instead of listening to my voice which can make her annoyed. I don't have to worry about any other thing can make my opinion become unpersuasive.&#10;Last but not least, every communication needs fluency so people can understand each other exactly and remember it for a long time. Voice email or face-to-face conversations sometimes make reserve people feel not very confident. For example, when I face my parents, I can't speak out every idea and express consecutively. They may stop me, speak something against it and that makes me forget what I want to say. Anyone can meet this problem once in any conversation. E-mail helps me arrange my idea perfectly and make it persuasive. &#10;On the whole, to compare to all ways of communication, I really think that e-mail is the greatest way for major people to use. Its convenience saves our time. Additionally, honesty is necessary for every conversation and also fluency can't be missing for a persuasive expression."/>
+    <cas:View sofa="300" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 100 106 112 118 124 131 138 145 152 158 164 172 180 188 196 204 212 220 228 236 244 252 260 268 276 284 292 315 322 329"/>
+</xmi:XMI>

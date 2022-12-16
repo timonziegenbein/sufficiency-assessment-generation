@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="167" begin="0" end="1749" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="167" begin="0" end="1749" filename="essay299" topic="Many people have learned a foreign language in their own country, others have learned a foreign language in the country in which it is spoken. Which is better? Given advantages of each and support your viewpoint." twoSided="negative"/>
+    <types:MajorClaim xmi:id="22" sofa="167" begin="286" end="352"/>
+    <types:MajorClaim xmi:id="28" sofa="167" begin="1580" end="1652"/>
+    <types:Claim xmi:id="34" sofa="167" begin="451" end="537" stance="For"/>
+    <types:Claim xmi:id="41" sofa="167" begin="688" end="772" stance="For"/>
+    <types:Claim xmi:id="48" sofa="167" begin="1116" end="1169" stance="For"/>
+    <types:Claim xmi:id="55" sofa="167" begin="1282" end="1402" stance="For"/>
+    <types:Claim xmi:id="62" sofa="167" begin="1654" end="1748" stance="For"/>
+    <types:Premise xmi:id="69" sofa="167" begin="541" end="596"/>
+    <types:Premise xmi:id="75" sofa="167" begin="598" end="682"/>
+    <types:Premise xmi:id="81" sofa="167" begin="787" end="919"/>
+    <types:Premise xmi:id="87" sofa="167" begin="929" end="1024"/>
+    <types:Premise xmi:id="93" sofa="167" begin="1026" end="1110"/>
+    <types:Premise xmi:id="99" sofa="167" begin="1177" end="1273"/>
+    <types:Premise xmi:id="105" sofa="167" begin="1404" end="1567"/>
+    <types:Attack xmi:id="111" sofa="167" begin="598" end="772" source="75" target="41"/>
+    <types:Support xmi:id="119" sofa="167" begin="451" end="596" source="69" target="34"/>
+    <types:Support xmi:id="127" sofa="167" begin="688" end="919" source="81" target="41"/>
+    <types:Support xmi:id="135" sofa="167" begin="929" end="1169" source="87" target="48"/>
+    <types:Support xmi:id="143" sofa="167" begin="1026" end="1169" source="93" target="48"/>
+    <types:Support xmi:id="151" sofa="167" begin="1116" end="1273" source="99" target="48"/>
+    <types:Support xmi:id="159" sofa="167" begin="1282" end="1567" source="105" target="55"/>
+    <argumentation:LocalSufficiency xmi:id="182" sofa="167" begin="437" end="920" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="189" sofa="167" begin="921" end="1274" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="196" sofa="167" begin="1275" end="1568" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="167" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Our World has varied cultures and each culture has its own language. It has become essential for a person to learn at least one foreign language as one do interacts with foreigners once in a lifetime and learning a foreign langauge adds on to a person skill-set as well. Also, I think its better that people learn foreign language in their own country. The reasons for holding that opinion are illustrated in the subsequent paragraphs.&#10;First of all, it is not possible for everyone to visit a foreign country to learn a foreign language as it requires large amount of money and legal formalities. In the earlier periods, it was not easy to find a teacher to learn a foreign languge. But with the advent of globalization, one can easily find a teacher in their own country. For example, in Indian sub-continent there are large number of centers opened for getting trained in variety of languages like french, german etc.&#10;Second, colleges and universities have introduced foreign language course as a part of their curriculum. Students can choose any language from the set of languages available at a university. So, it is very easy to learn a foreign in our own country. Also, highly qualified foreign language teachers are easily accessible in various schools and colleges.&#10;Third, technology has also played a great role in reducing the separation between learning a foreign languge in our own country. A large number of foreign language courses are available online and there are various forums where people can discuss their problems on different foreign languages.&#10;To sum up, it is better for people to learn a foreign language in their own country. It is cost effective and there is a pool of opportunities available now to accomplish the same."/>
+    <cas:View sofa="167" members="1 14 22 28 34 41 48 55 62 69 75 81 87 93 99 105 111 119 127 135 143 151 159 182 189 196"/>
+</xmi:XMI>

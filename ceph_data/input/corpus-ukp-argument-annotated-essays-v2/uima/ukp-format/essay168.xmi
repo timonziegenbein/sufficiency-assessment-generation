@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="252" begin="0" end="1672" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="252" begin="0" end="1672" filename="essay168" topic="Computers and modems have made it possible for office workers to do their work from home instead of working in offices every day. Working from home should be encouraged for workers and employees as it is good. Do you agree or dis? " twoSided="negative"/>
+    <types:MajorClaim xmi:id="22" sofa="252" begin="1490" end="1552"/>
+    <types:Claim xmi:id="28" sofa="252" begin="535" end="604" stance="For"/>
+    <types:Claim xmi:id="35" sofa="252" begin="607" end="700" stance="For"/>
+    <types:Claim xmi:id="42" sofa="252" begin="1082" end="1138" stance="For"/>
+    <types:Claim xmi:id="49" sofa="252" begin="1554" end="1671" stance="For"/>
+    <types:Premise xmi:id="56" sofa="252" begin="285" end="307"/>
+    <types:Premise xmi:id="62" sofa="252" begin="309" end="392"/>
+    <types:Premise xmi:id="68" sofa="252" begin="394" end="463"/>
+    <types:Premise xmi:id="74" sofa="252" begin="465" end="533"/>
+    <types:Premise xmi:id="80" sofa="252" begin="702" end="829"/>
+    <types:Premise xmi:id="86" sofa="252" begin="831" end="915"/>
+    <types:Premise xmi:id="92" sofa="252" begin="931" end="986"/>
+    <types:Premise xmi:id="98" sofa="252" begin="1001" end="1030"/>
+    <types:Premise xmi:id="104" sofa="252" begin="1032" end="1079"/>
+    <types:Premise xmi:id="110" sofa="252" begin="1140" end="1206"/>
+    <types:Premise xmi:id="116" sofa="252" begin="1215" end="1295"/>
+    <types:Premise xmi:id="122" sofa="252" begin="1306" end="1369"/>
+    <types:Premise xmi:id="128" sofa="252" begin="1382" end="1436"/>
+    <types:Premise xmi:id="134" sofa="252" begin="1438" end="1488"/>
+    <types:Support xmi:id="140" sofa="252" begin="285" end="604" source="56" target="28"/>
+    <types:Support xmi:id="148" sofa="252" begin="309" end="604" source="62" target="28"/>
+    <types:Support xmi:id="156" sofa="252" begin="394" end="604" source="68" target="28"/>
+    <types:Support xmi:id="164" sofa="252" begin="465" end="604" source="74" target="28"/>
+    <types:Support xmi:id="172" sofa="252" begin="607" end="1079" source="104" target="35"/>
+    <types:Support xmi:id="180" sofa="252" begin="607" end="1030" source="98" target="35"/>
+    <types:Support xmi:id="188" sofa="252" begin="607" end="915" source="86" target="35"/>
+    <types:Support xmi:id="196" sofa="252" begin="607" end="829" source="80" target="35"/>
+    <types:Support xmi:id="204" sofa="252" begin="931" end="1030" source="92" target="98"/>
+    <types:Support xmi:id="212" sofa="252" begin="1082" end="1488" source="134" target="42"/>
+    <types:Support xmi:id="220" sofa="252" begin="1082" end="1436" source="128" target="42"/>
+    <types:Support xmi:id="228" sofa="252" begin="1082" end="1206" source="110" target="42"/>
+    <types:Support xmi:id="236" sofa="252" begin="1140" end="1295" source="116" target="110"/>
+    <types:Support xmi:id="244" sofa="252" begin="1306" end="1436" source="122" target="128"/>
+    <argumentation:LocalSufficiency xmi:id="267" sofa="252" begin="285" end="606" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="274" sofa="252" begin="607" end="1081" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="281" sofa="252" begin="1082" end="1489" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="252" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Some people think that working at home brings to workers and employees too much convenience, but i don't. Because the best conditions are sometimes not likely to be good as the expectation of people. Working without pressure and interaction are some examples for these disadvantages.&#10;Pressure is motivation. Each office has its rules that keep workers do their job as effectively as possible. The directors manage employers and give them the deadline of projects. Then again, the workers must try their best to finish the time limit. Doing all jobs at home don't make employees attempt to work like this. &#10;Computers and modems bring works to home but these still have many things distract their mind. Facebook or Yahoo have been the entertaining websites, however, they are the reasons why people cannot concentrate on their job. The dos and don't at office play important role to prevent these things from workers. In condition, doing all jobs alone makes employees fall asleep easily. As a result, the project cannot being done. The best condition might not be good for people. &#10;Interaction has been an advantage for workers at offices. Discussing and debating Projects together increase working ability because all we know that the target can be reached fast thanks to working of many people. Besides, interaction help employees improve their communicational skills, therefore, they will have more and more friends and relationships. Interaction is a factor increasing working quality.&#10;There will have many disadvantages if the workers work at home. Mitigating process, no interaction and pressure are these things people should examine when they want to work at home."/>
+    <cas:View sofa="252" members="1 14 22 28 35 42 49 56 62 68 74 80 86 92 98 104 110 116 122 128 134 140 148 156 164 172 180 188 196 204 212 220 228 236 244 267 274 281"/>
+</xmi:XMI>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="167" begin="0" end="1646" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="167" begin="0" end="1646" filename="essay139" topic="There are many extinct species in the world nowadays. Some people say we should protect these animals from dying out, while others say we should concentrate more on problems of human beings. Discuss both opinions and give your personal view." twoSided="negative"/>
+    <types:Premise xmi:id="22" sofa="167" begin="344" end="406"/>
+    <types:Premise xmi:id="28" sofa="167" begin="408" end="568"/>
+    <types:Premise xmi:id="34" sofa="167" begin="747" end="847"/>
+    <types:Premise xmi:id="40" sofa="167" begin="849" end="894"/>
+    <types:Premise xmi:id="46" sofa="167" begin="903" end="951"/>
+    <types:Premise xmi:id="52" sofa="167" begin="972" end="1059"/>
+    <types:Premise xmi:id="58" sofa="167" begin="1074" end="1174"/>
+    <types:Premise xmi:id="64" sofa="167" begin="1176" end="1367"/>
+    <types:Claim xmi:id="70" sofa="167" begin="581" end="654" stance="For"/>
+    <types:Claim xmi:id="77" sofa="167" begin="673" end="745" stance="For"/>
+    <types:Claim xmi:id="84" sofa="167" begin="1369" end="1483" stance="For"/>
+    <types:MajorClaim xmi:id="91" sofa="167" begin="236" end="277"/>
+    <types:MajorClaim xmi:id="97" sofa="167" begin="1500" end="1645"/>
+    <types:Support xmi:id="103" sofa="167" begin="344" end="654" source="22" target="70"/>
+    <types:Support xmi:id="111" sofa="167" begin="408" end="654" source="28" target="70"/>
+    <types:Support xmi:id="119" sofa="167" begin="673" end="1059" source="52" target="77"/>
+    <types:Support xmi:id="127" sofa="167" begin="673" end="894" source="40" target="77"/>
+    <types:Support xmi:id="135" sofa="167" begin="673" end="847" source="34" target="77"/>
+    <types:Support xmi:id="143" sofa="167" begin="849" end="951" source="46" target="40"/>
+    <types:Support xmi:id="151" sofa="167" begin="1074" end="1483" source="58" target="84"/>
+    <types:Support xmi:id="159" sofa="167" begin="1176" end="1483" source="64" target="84"/>
+    <argumentation:LocalSufficiency xmi:id="182" sofa="167" begin="279" end="655" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="189" sofa="167" begin="656" end="1060" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="196" sofa="167" begin="1061" end="1484" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="167" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString=" &#10;Many animals today are in danger of extinction owing to various reasons. While some people believe it is important to protect these endangered species, others argue that problems of human beings deserve more attention. In my opinion, we should give priority to our own issues.&#10;Animal protectionists may base their argument on the ground that biodiversity is essential to maintain the balance of ecosystem. If certain species are absent from this system, such kind of balance is likely to be disrupted and other species, including human beings, will come under threat. Therefore, it is our responsibility to keep as many species on the Earth as possible.&#10;However, I think species extinction is quite natural according to the theory of evolution. The environment on the Earth has been transformed many times since the first species came into being. A great number of plants and animals died out because they were unable to fit into the new environment. On most occasions, the process of extinction of some species is irrevocable and we can do nothing about it.&#10;Furthermore, human beings nowadays are still faced with many urgent problems such as starvation, disease and wars. When these problems are taken into account, extinction of some animals recedes greatly in importance and it is not sensible to devote our limited resources to animals that have been past help. We should put our own survival and sustainment in order first before considering the conservation of other species.&#10;In conclusion, more emphasis should be laid on human beings other than animals, and it is better to let nature take its course with regard to species extinction."/>
+    <cas:View sofa="167" members="1 14 22 28 34 40 46 52 58 64 70 77 84 91 97 103 111 119 127 135 143 151 159 182 189 196"/>
+</xmi:XMI>

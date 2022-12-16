@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="173" begin="0" end="1810" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="173" begin="0" end="1810" filename="essay114" topic="As computers are being used more and more in education, there will be soon no role for teachers in the classroom. Agree or disagree." twoSided="negative"/>
+    <types:MajorClaim xmi:id="22" sofa="173" begin="117" end="240"/>
+    <types:MajorClaim xmi:id="28" sofa="173" begin="1573" end="1613"/>
+    <types:MajorClaim xmi:id="34" sofa="173" begin="1628" end="1736"/>
+    <types:Claim xmi:id="40" sofa="173" begin="327" end="366" stance="For"/>
+    <types:Claim xmi:id="47" sofa="173" begin="909" end="941" stance="For"/>
+    <types:Claim xmi:id="54" sofa="173" begin="1738" end="1808" stance="For"/>
+    <types:Premise xmi:id="61" sofa="173" begin="368" end="451"/>
+    <types:Premise xmi:id="67" sofa="173" begin="466" end="606"/>
+    <types:Premise xmi:id="73" sofa="173" begin="617" end="731"/>
+    <types:Premise xmi:id="79" sofa="173" begin="813" end="897"/>
+    <types:Premise xmi:id="85" sofa="173" begin="943" end="1063"/>
+    <types:Premise xmi:id="91" sofa="173" begin="1065" end="1329"/>
+    <types:Premise xmi:id="97" sofa="173" begin="1332" end="1424"/>
+    <types:Premise xmi:id="103" sofa="173" begin="1484" end="1556"/>
+    <types:Support xmi:id="109" sofa="173" begin="327" end="897" source="79" target="40"/>
+    <types:Support xmi:id="117" sofa="173" begin="327" end="731" source="73" target="40"/>
+    <types:Support xmi:id="125" sofa="173" begin="327" end="606" source="67" target="40"/>
+    <types:Support xmi:id="133" sofa="173" begin="327" end="451" source="61" target="40"/>
+    <types:Support xmi:id="141" sofa="173" begin="909" end="1556" source="103" target="47"/>
+    <types:Support xmi:id="149" sofa="173" begin="909" end="1424" source="97" target="47"/>
+    <types:Support xmi:id="157" sofa="173" begin="909" end="1329" source="91" target="47"/>
+    <types:Support xmi:id="165" sofa="173" begin="909" end="1063" source="85" target="47"/>
+    <argumentation:LocalSufficiency xmi:id="188" sofa="173" begin="242" end="898" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="195" sofa="173" begin="899" end="1557" majority="0.0" mean="0.0"/>
+    <cas:Sofa xmi:id="173" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;In recent years it has become more common for teachers to use technological tools in the learning process. However, I do not agree that this explosion in technology will 'innovate' the education system, by replacing teachers with computers.&#10;There are several reasons why teachers will never be replaced by computers. Firstly, computers need to be operated by people. No one can argue that technological tools are must-haves for the classroom of today. For example, lessons are more attractive and easier to understand when they are put on a Power Point presentation and then presented with a LCD Projector. However, scientists prove that every classroom needs trained staff to use these interactive and innovative ways of teaching. I agree that nowadays the learning process benefits greatly from computers, but they are just tools for teachers and they cannot work properly without human's touch.&#10;Secondly, children need human interactions. No matter how advanced technology will be, it is clear that a computer will never be able to communicate with its pupils. As a recent interview with Josh Trumm – the founder of the 'Teachers Global Group'- reveals, human interactions will never be imitated by computers: 'This verbal and non-verbal communication between teachers and children is the first step towards a proper education. Without someone who can explain and understand their problems, pupils cannot actually learn'. I am inclined to agree with this scientific view, because only a teacher can feel and connect with pupils, be a friend and a model.&#10;In conclusion, there can be no school without a teacher. I think that computers will continue to be used by teachers in the learning process, but they will never take their place. Teachers are not just teachers, they are also friends and conseilieurs.&#10;"/>
+    <cas:View sofa="173" members="1 14 22 28 34 40 47 54 61 67 73 79 85 91 97 103 109 117 125 133 141 149 157 165 188 195"/>
+</xmi:XMI>

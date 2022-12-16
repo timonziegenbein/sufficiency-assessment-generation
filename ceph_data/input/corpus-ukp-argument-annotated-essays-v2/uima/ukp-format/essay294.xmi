@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="300" begin="0" end="2171" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="300" begin="0" end="2171" filename="essay294" topic="Some people think university professors should spend more time doing research while others think they should spend more time educating students. What is your view?" twoSided="negative"/>
+    <types:Premise xmi:id="22" sofa="300" begin="314" end="375"/>
+    <types:Premise xmi:id="28" sofa="300" begin="377" end="423"/>
+    <types:Premise xmi:id="34" sofa="300" begin="425" end="485"/>
+    <types:Premise xmi:id="40" sofa="300" begin="500" end="595"/>
+    <types:Premise xmi:id="46" sofa="300" begin="597" end="694"/>
+    <types:Premise xmi:id="52" sofa="300" begin="696" end="751"/>
+    <types:Premise xmi:id="58" sofa="300" begin="762" end="849"/>
+    <types:Premise xmi:id="64" sofa="300" begin="1011" end="1079"/>
+    <types:Premise xmi:id="70" sofa="300" begin="1087" end="1165"/>
+    <types:Premise xmi:id="76" sofa="300" begin="1181" end="1259"/>
+    <types:Premise xmi:id="82" sofa="300" begin="1261" end="1366"/>
+    <types:Premise xmi:id="88" sofa="300" begin="1368" end="1426"/>
+    <types:Premise xmi:id="94" sofa="300" begin="1505" end="1621"/>
+    <types:Premise xmi:id="100" sofa="300" begin="1623" end="1692"/>
+    <types:Premise xmi:id="106" sofa="300" begin="1694" end="1791"/>
+    <types:Premise xmi:id="112" sofa="300" begin="1793" end="1890"/>
+    <types:Premise xmi:id="118" sofa="300" begin="1892" end="1954"/>
+    <types:MajorClaim xmi:id="124" sofa="300" begin="245" end="298"/>
+    <types:MajorClaim xmi:id="130" sofa="300" begin="1976" end="2052"/>
+    <types:Claim xmi:id="136" sofa="300" begin="851" end="911" stance="For"/>
+    <types:Claim xmi:id="143" sofa="300" begin="923" end="1009" stance="For"/>
+    <types:Claim xmi:id="150" sofa="300" begin="1449" end="1503" stance="For"/>
+    <types:Claim xmi:id="157" sofa="300" begin="2054" end="2170" stance="For"/>
+    <types:Support xmi:id="164" sofa="300" begin="314" end="911" source="22" target="136"/>
+    <types:Support xmi:id="172" sofa="300" begin="377" end="911" source="28" target="136"/>
+    <types:Support xmi:id="180" sofa="300" begin="425" end="911" source="34" target="136"/>
+    <types:Support xmi:id="188" sofa="300" begin="500" end="911" source="40" target="136"/>
+    <types:Support xmi:id="196" sofa="300" begin="597" end="911" source="46" target="136"/>
+    <types:Support xmi:id="204" sofa="300" begin="696" end="911" source="52" target="136"/>
+    <types:Support xmi:id="212" sofa="300" begin="762" end="911" source="58" target="136"/>
+    <types:Support xmi:id="220" sofa="300" begin="923" end="1426" source="88" target="143"/>
+    <types:Support xmi:id="228" sofa="300" begin="923" end="1366" source="82" target="143"/>
+    <types:Support xmi:id="236" sofa="300" begin="923" end="1259" source="76" target="143"/>
+    <types:Support xmi:id="244" sofa="300" begin="923" end="1079" source="64" target="143"/>
+    <types:Support xmi:id="252" sofa="300" begin="1087" end="1259" source="70" target="76"/>
+    <types:Support xmi:id="260" sofa="300" begin="1449" end="1954" source="118" target="150"/>
+    <types:Support xmi:id="268" sofa="300" begin="1449" end="1890" source="112" target="150"/>
+    <types:Support xmi:id="276" sofa="300" begin="1449" end="1791" source="106" target="150"/>
+    <types:Support xmi:id="284" sofa="300" begin="1449" end="1692" source="100" target="150"/>
+    <types:Support xmi:id="292" sofa="300" begin="1449" end="1621" source="94" target="150"/>
+    <argumentation:LocalSufficiency xmi:id="315" sofa="300" begin="300" end="912" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="322" sofa="300" begin="913" end="1428" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="329" sofa="300" begin="1429" end="1956" majority="0.0" mean="0.0"/>
+    <cas:Sofa xmi:id="300" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;These days, more and more university professors are involved in scientific research. Some are afraid that this will lead to the decline of education quality and suggest them to spend more time on teaching. However, according to my experiences, professors should be encouraged to mainly do research.&#10;First of all, doing research is a method of self-improvement for professors. Universities are relatively fenced environment. The research projects provide communication with the outside. In addition, by doing research, professors could catch up with the latest development of modern technologies. I still remembered that my professor took part in several research projects when I was in college. He was often invited to do speech in other universities. Although my university is not in the high-ranking list, he gained a reputation by those projects. The research projects like windows opened to the wider world.&#10;Secondly, professors should fully use the research-friendly environment provided by universities. It is very common to see state-of-the-art laboratories in the campus. Also, you could not find another place with so much talent people gathering together. Consequently, there is really no reason to discourage professors from using those advantages. We all know that Einstein developed the theory of general relativity when he was a professor in HU Berlin. Universities positively contribute the professors' success. &#10;Last but not least, doing research could also improve the teaching quality. With the help of research projects, professors could lead their students into the practical world from the classroom. They can easily teach students how to imply the knowledge in practice. I still remembered the experience of being an assistant in one of my professor's research project. By participating in it, I had opportunities to use theories on textbooks in real life experiments. The research project provides a more efficient way of teaching. &#10;For those reasons, it is natural to support the professors spending more time on doing research. While extending the way of their own development, the outcomes of the researches will also benefit the whole society."/>
+    <cas:View sofa="300" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 100 106 112 118 124 130 136 143 150 157 164 172 180 188 196 204 212 220 228 236 244 252 260 268 276 284 292 315 322 329"/>
+</xmi:XMI>

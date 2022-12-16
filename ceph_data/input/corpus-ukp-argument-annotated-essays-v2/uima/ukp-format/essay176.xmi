@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="188" begin="0" end="1609" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="188" begin="0" end="1609" filename="essay176" topic="Many people visit museums when they travel to new places. Why do you think people visit museums? Use specific reasons and examples to support your answer." twoSided="negative"/>
+    <types:MajorClaim xmi:id="22" sofa="188" begin="23" end="121"/>
+    <types:MajorClaim xmi:id="28" sofa="188" begin="1449" end="1533"/>
+    <types:Premise xmi:id="34" sofa="188" begin="181" end="228"/>
+    <types:Premise xmi:id="40" sofa="188" begin="230" end="378"/>
+    <types:Premise xmi:id="46" sofa="188" begin="380" end="540"/>
+    <types:Premise xmi:id="52" sofa="188" begin="687" end="795"/>
+    <types:Premise xmi:id="58" sofa="188" begin="797" end="889"/>
+    <types:Premise xmi:id="64" sofa="188" begin="891" end="1000"/>
+    <types:Premise xmi:id="70" sofa="188" begin="1087" end="1199"/>
+    <types:Premise xmi:id="76" sofa="188" begin="1214" end="1279"/>
+    <types:Premise xmi:id="82" sofa="188" begin="1304" end="1424"/>
+    <types:Claim xmi:id="88" sofa="188" begin="548" end="615" stance="For"/>
+    <types:Claim xmi:id="95" sofa="188" begin="628" end="685" stance="For"/>
+    <types:Claim xmi:id="102" sofa="188" begin="1012" end="1085" stance="For"/>
+    <types:Claim xmi:id="109" sofa="188" begin="1552" end="1608" stance="For"/>
+    <types:Support xmi:id="116" sofa="188" begin="181" end="615" source="34" target="88"/>
+    <types:Support xmi:id="124" sofa="188" begin="230" end="615" source="40" target="88"/>
+    <types:Support xmi:id="132" sofa="188" begin="380" end="615" source="46" target="88"/>
+    <types:Support xmi:id="140" sofa="188" begin="628" end="1000" source="64" target="95"/>
+    <types:Support xmi:id="148" sofa="188" begin="628" end="889" source="58" target="95"/>
+    <types:Support xmi:id="156" sofa="188" begin="628" end="795" source="52" target="95"/>
+    <types:Support xmi:id="164" sofa="188" begin="1012" end="1424" source="82" target="102"/>
+    <types:Support xmi:id="172" sofa="188" begin="1012" end="1279" source="76" target="102"/>
+    <types:Support xmi:id="180" sofa="188" begin="1087" end="1279" source="70" target="76"/>
+    <argumentation:LocalSufficiency xmi:id="203" sofa="188" begin="172" end="616" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="210" sofa="188" begin="617" end="1001" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="217" sofa="188" begin="1002" end="1425" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="188" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;As a lover of travel, a quintessence of any visit to an excellent museum of a new place would be the best part of a tour, which can be explained by the following reasons.&#10;Primary, it is easy to know the history of the new place. Last year, I went to Ellis Island and the immigration museum, where is a symbol of American immigration and the immigrant experience in the New York. Through the exhibit, I found that the Statue of Liberty symbolized freedom, and Ellis Island may be the place, where the immigration took their dreams and fears. Thus, museums can help us know the history and the customs of a new place.&#10;Secondary, visiting a well-known museum also can broaden our horizon. Those outstanding and diverse range of objects,with classic and magnificent art, is guaranteed to inspire us! In my city, National Palace Museum is celebrated for collection of ancient Chinese artifacts. To my astonishment, Jadeite cabbage is the most famous artistic work, which is made of jade, is vividly shown.&#10;Moreover, a local museum could be a top choice and destination for tourist to visit. Someone take a trip without making any plans, so they may waste their time on shopping or staying at their hotel. As a result, visiting a museum saves their precious time for making a decision. Most important of all, a local museum represent its own typical culture so that visitors may easily acquaint with the new place in a short time.&#10;For the above reasons, if we have a chance to visit top museums in the world, we must stop by these museums. During our trip, it is worthwhile for us to visit a museum of a new place."/>
+    <cas:View sofa="188" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 95 102 109 116 124 132 140 148 156 164 172 180 203 210 217"/>
+</xmi:XMI>

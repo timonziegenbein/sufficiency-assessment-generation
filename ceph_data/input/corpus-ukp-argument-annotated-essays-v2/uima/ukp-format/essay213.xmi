@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="188" begin="0" end="1776" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="188" begin="0" end="1776" filename="essay213" topic="Is it more important to be able to ework with a group of people on ta tem or to work independently? Use reasons and specific examples to support your answer." twoSided="negative"/>
+    <types:MajorClaim xmi:id="22" sofa="188" begin="225" end="281"/>
+    <types:MajorClaim xmi:id="28" sofa="188" begin="1645" end="1775"/>
+    <types:Premise xmi:id="34" sofa="188" begin="294" end="349"/>
+    <types:Premise xmi:id="40" sofa="188" begin="355" end="449"/>
+    <types:Premise xmi:id="46" sofa="188" begin="451" end="535"/>
+    <types:Premise xmi:id="52" sofa="188" begin="537" end="738"/>
+    <types:Premise xmi:id="58" sofa="188" begin="740" end="848"/>
+    <types:Premise xmi:id="64" sofa="188" begin="1111" end="1188"/>
+    <types:Premise xmi:id="70" sofa="188" begin="1190" end="1283"/>
+    <types:Premise xmi:id="76" sofa="188" begin="1285" end="1334"/>
+    <types:Premise xmi:id="82" sofa="188" begin="1343" end="1383"/>
+    <types:Premise xmi:id="88" sofa="188" begin="1385" end="1491"/>
+    <types:Claim xmi:id="94" sofa="188" begin="861" end="1010" stance="For"/>
+    <types:Claim xmi:id="101" sofa="188" begin="1022" end="1109" stance="For"/>
+    <types:Attack xmi:id="108" sofa="188" begin="294" end="449" source="34" target="40"/>
+    <types:Support xmi:id="116" sofa="188" begin="355" end="1010" source="40" target="94"/>
+    <types:Support xmi:id="124" sofa="188" begin="451" end="1010" source="46" target="94"/>
+    <types:Support xmi:id="132" sofa="188" begin="537" end="1010" source="52" target="94"/>
+    <types:Support xmi:id="140" sofa="188" begin="740" end="1010" source="58" target="94"/>
+    <types:Support xmi:id="148" sofa="188" begin="1022" end="1491" source="88" target="101"/>
+    <types:Support xmi:id="156" sofa="188" begin="1022" end="1334" source="76" target="101"/>
+    <types:Support xmi:id="164" sofa="188" begin="1022" end="1283" source="70" target="101"/>
+    <types:Support xmi:id="172" sofa="188" begin="1022" end="1188" source="64" target="101"/>
+    <types:Support xmi:id="180" sofa="188" begin="1285" end="1383" source="82" target="76"/>
+    <argumentation:LocalSufficiency xmi:id="203" sofa="188" begin="283" end="1011" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="210" sofa="188" begin="1012" end="1492" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="188" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Nowadays, as the world is getting smaller, we need to be able to cooperate. Working in team is a necessary skill that every individual must master for success. Despite the importance of working in team, I still believe that the capability of working independly is more significant.&#10;Of course, effective cooperation can make things easier and faster, but in many important cases when team-working is not possible, the ability to work alone will help. The apperant example is that there are a lot of tests that do not allow team-working. Let's imagine that you perform really well when you can discuss the problems with other people, but you have no experience of working alone, standardized tests such as SAT, TOEFL may be your nightmares. Testing is a very important aspect of life, and still the majority of tests do not allow you to work in team. Therefore, if you want to get brilliant achievements such as going to college, acing your school's final tests, you should consider learning to work on your own.&#10;Moreover, the ability to work alone will help you increase your ability to work with other people. Working in team does not mean that you do not have to come up with your ideas. Everybody in a team must have his/her own opinion first, then discuss them with other members. When we work in team, we still think individually because our brain are not connected but separate. When everyone in a team can come up with his/her own ideas, working in team will definitely more effective.&#10;In conclusion, working with a group a people and working individually are all important. Both skills are necessary for a successful life. Nevertheless, the capablity of working alone is the foundation for the skill to work in team and plays a significant role in a lot of situations."/>
+    <cas:View sofa="188" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 101 108 116 124 132 140 148 156 164 172 180 203 210"/>
+</xmi:XMI>

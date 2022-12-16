@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="196" begin="0" end="2009" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="196" begin="0" end="2009" filename="essay201" topic="A company is going to give some money either to support the arts or protect the environment. Which do you think the company chooses? Use specific reasons and examples to support your answer." twoSided="negative"/>
+    <types:Claim xmi:id="22" sofa="196" begin="212" end="271" stance="For"/>
+    <types:Claim xmi:id="29" sofa="196" begin="978" end="1047" stance="For"/>
+    <types:Claim xmi:id="36" sofa="196" begin="1433" end="1485" stance="For"/>
+    <types:Claim xmi:id="43" sofa="196" begin="1861" end="1944" stance="Against"/>
+    <types:MajorClaim xmi:id="50" sofa="196" begin="1946" end="2008"/>
+    <types:Premise xmi:id="56" sofa="196" begin="273" end="494"/>
+    <types:Premise xmi:id="62" sofa="196" begin="509" end="625"/>
+    <types:Premise xmi:id="68" sofa="196" begin="627" end="851"/>
+    <types:Premise xmi:id="74" sofa="196" begin="863" end="963"/>
+    <types:Premise xmi:id="80" sofa="196" begin="1059" end="1124"/>
+    <types:Premise xmi:id="86" sofa="196" begin="1137" end="1202"/>
+    <types:Premise xmi:id="92" sofa="196" begin="1204" end="1422"/>
+    <types:Premise xmi:id="98" sofa="196" begin="1502" end="1558"/>
+    <types:Premise xmi:id="104" sofa="196" begin="1565" end="1682"/>
+    <types:Premise xmi:id="110" sofa="196" begin="1684" end="1839"/>
+    <types:Support xmi:id="116" sofa="196" begin="212" end="963" source="74" target="22"/>
+    <types:Support xmi:id="124" sofa="196" begin="212" end="851" source="68" target="22"/>
+    <types:Support xmi:id="132" sofa="196" begin="212" end="494" source="56" target="22"/>
+    <types:Support xmi:id="140" sofa="196" begin="509" end="851" source="62" target="68"/>
+    <types:Support xmi:id="148" sofa="196" begin="978" end="1202" source="86" target="29"/>
+    <types:Support xmi:id="156" sofa="196" begin="1059" end="1202" source="80" target="86"/>
+    <types:Support xmi:id="164" sofa="196" begin="1137" end="1422" source="92" target="86"/>
+    <types:Support xmi:id="172" sofa="196" begin="1433" end="1839" source="110" target="36"/>
+    <types:Attack xmi:id="180" sofa="196" begin="1433" end="1558" source="98" target="36"/>
+    <types:Attack xmi:id="188" sofa="196" begin="1502" end="1682" source="104" target="98"/>
+    <argumentation:LocalSufficiency xmi:id="211" sofa="196" begin="205" end="964" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="218" sofa="196" begin="965" end="1423" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="225" sofa="196" begin="1424" end="1840" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="196" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;If I had the opportunity to help a company make a decision on spending money either on supporting the arts or helping the environment, I would choose the latter without hesitation for the reasons below. &#10;First, conservation is more urgent now than at any time in history. According to a statistic conducted by the International Animal Preserving Association, we have only ten percent of the animals that have ever existed, which means that the biodiversity of our home is grievously endangered. What's more, rising sea levels, caused by global warming, have reached a level that is threatening human's life in many countries. If we continue discharging carbon dioxide with non-environmentally friendly cars, nations like Japan will be submerged and weather patterns could change, causing flooding, drought, and an increasing amount of damaging storms. In short, the ecosystem is in its worst condition ever and if we didn't take harsh measures now, we never will.&#10;Furthermore, supporting environment protection will benefit the company eventually. Nowadays, an increasing amount of people pay more attention to conservation; therefore, sponsoring conservation is a more efficient method of advertising. Just imagine if the project your company is sponsoring effectively improves the environment, then your company would be known as an environmentally-friendly company and benefit from it in this consumer-oriented society.&#10;Finally, conservation leads us to a higher standard of living. I confess that art is one of the best ways of entertaining human beings, but, with exhaust fumes and acid rain, we do not have the energy and enthusiasm to appreciate the paintings or photographs. Biodiversity and a more beautiful nature are not only the results of abetter environment but also are the necessities of photography and other types of art.&#10;To sum up, although supporting art will benefit the human beings and the company in short-term interest, I still hold the environment protection for long-term interest."/>
+    <cas:View sofa="196" members="1 14 22 29 36 43 50 56 62 68 74 80 86 92 98 104 110 116 124 132 140 148 156 164 172 180 188 211 218 225"/>
+</xmi:XMI>

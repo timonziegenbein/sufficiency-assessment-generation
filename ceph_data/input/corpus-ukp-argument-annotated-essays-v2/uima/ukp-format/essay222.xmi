@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="203" begin="0" end="1813" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="203" begin="0" end="1813" filename="essay222" topic="Parents are the best teacher for young children. To what extend do you argee or disagree?" twoSided="negative"/>
+    <types:MajorClaim xmi:id="22" sofa="203" begin="1598" end="1672"/>
+    <types:Claim xmi:id="28" sofa="203" begin="20" end="131" stance="For"/>
+    <types:Claim xmi:id="35" sofa="203" begin="143" end="263" stance="For"/>
+    <types:Claim xmi:id="42" sofa="203" begin="272" end="356" stance="For"/>
+    <types:Claim xmi:id="49" sofa="203" begin="700" end="753" stance="For"/>
+    <types:Claim xmi:id="56" sofa="203" begin="1510" end="1581" stance="For"/>
+    <types:Premise xmi:id="63" sofa="203" begin="358" end="451"/>
+    <types:Premise xmi:id="69" sofa="203" begin="453" end="583"/>
+    <types:Premise xmi:id="75" sofa="203" begin="599" end="690"/>
+    <types:Premise xmi:id="81" sofa="203" begin="755" end="836"/>
+    <types:Premise xmi:id="87" sofa="203" begin="855" end="920"/>
+    <types:Premise xmi:id="93" sofa="203" begin="941" end="990"/>
+    <types:Premise xmi:id="99" sofa="203" begin="1018" end="1138"/>
+    <types:Premise xmi:id="105" sofa="203" begin="1164" end="1249"/>
+    <types:Premise xmi:id="111" sofa="203" begin="1257" end="1342"/>
+    <types:Premise xmi:id="117" sofa="203" begin="1344" end="1499"/>
+    <types:Support xmi:id="123" sofa="203" begin="272" end="690" source="75" target="42"/>
+    <types:Support xmi:id="131" sofa="203" begin="272" end="451" source="63" target="42"/>
+    <types:Support xmi:id="139" sofa="203" begin="453" end="690" source="69" target="75"/>
+    <types:Support xmi:id="147" sofa="203" begin="700" end="1138" source="99" target="49"/>
+    <types:Support xmi:id="155" sofa="203" begin="700" end="990" source="93" target="49"/>
+    <types:Support xmi:id="163" sofa="203" begin="700" end="920" source="87" target="49"/>
+    <types:Support xmi:id="171" sofa="203" begin="700" end="836" source="81" target="49"/>
+    <types:Support xmi:id="179" sofa="203" begin="1164" end="1342" source="105" target="111"/>
+    <types:Support xmi:id="187" sofa="203" begin="1257" end="1581" source="111" target="56"/>
+    <types:Support xmi:id="195" sofa="203" begin="1344" end="1581" source="117" target="56"/>
+    <argumentation:LocalSufficiency xmi:id="218" sofa="203" begin="265" end="691" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="225" sofa="203" begin="692" end="1139" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="232" sofa="203" begin="1140" end="1582" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="203" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;It is obvious that parents are the first teachers who teach babies how to walk and speak and make children to become a good person. Moreover, parents provide their children the best social skills and knowledge in order to prepare for their children's future life.&#10;First, children are taught basic things, which influence their whole life, by their parents. As a baby, they do not know any thing all around but they learn everything from their parents. Parents always try to explain and describe tenderly all things in simple way so that their baby can understand and learn from that. Consequently, parents bring the whole world of wonderful and colorful thing into their baby's little mind.&#10;Second, parents train their child how to become a good person. They always make their children basically say thanks and apology in the right way. On the one hand, it is common that they try to explain who is a good or bad person. On the other hand, children are shown how to behave well with others. This seems to be easy but this can influence positively their future children and makes children's behavior better before they face the real world.&#10;Third, it is clear that parents are ones who loves their children most and always take care of their children. Thus, they tend to provide the best knowledge and advice from their experience for children. Unlike a professional, parents always support children and give them much social skill so they can communicate well with others and have good habit in life. In fact, parents' support is one factor which makes people succeed in their life.&#10;In conclusion, parents are really the best teachers who give us much knowledge and advice. Based on love, they always try their best to make good condition for their children development in order to prepare children's future life."/>
+    <cas:View sofa="203" members="1 14 22 28 35 42 49 56 63 69 75 81 87 93 99 105 111 117 123 131 139 147 155 163 171 179 187 195 218 225 232"/>
+</xmi:XMI>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="287" begin="0" end="2311" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="287" begin="0" end="2311" filename="essay202" topic="We all work or will work in our jobs with many different kinds of people. In your opinion, what are some important characteristics of a co-worker (Someone you work closely with) ? Use reasons and specific examples to explain why these characteristics are important.�" twoSided="negative"/>
+    <types:Premise xmi:id="22" sofa="287" begin="522" end="575"/>
+    <types:Premise xmi:id="28" sofa="287" begin="577" end="633"/>
+    <types:Premise xmi:id="34" sofa="287" begin="635" end="686"/>
+    <types:Premise xmi:id="40" sofa="287" begin="698" end="808"/>
+    <types:Premise xmi:id="46" sofa="287" begin="810" end="946"/>
+    <types:Premise xmi:id="52" sofa="287" begin="957" end="1035"/>
+    <types:Premise xmi:id="58" sofa="287" begin="1037" end="1162"/>
+    <types:Premise xmi:id="64" sofa="287" begin="1164" end="1331"/>
+    <types:Premise xmi:id="70" sofa="287" begin="1495" end="1527"/>
+    <types:Premise xmi:id="76" sofa="287" begin="1529" end="1584"/>
+    <types:Premise xmi:id="82" sofa="287" begin="1586" end="1704"/>
+    <types:Premise xmi:id="88" sofa="287" begin="1706" end="1822"/>
+    <types:Premise xmi:id="94" sofa="287" begin="1832" end="1946"/>
+    <types:Premise xmi:id="100" sofa="287" begin="1948" end="2045"/>
+    <types:Premise xmi:id="106" sofa="287" begin="2102" end="2195"/>
+    <types:Premise xmi:id="112" sofa="287" begin="2208" end="2244"/>
+    <types:Premise xmi:id="118" sofa="287" begin="2246" end="2310"/>
+    <types:Claim xmi:id="124" sofa="287" begin="1354" end="1452" stance="For"/>
+    <types:Claim xmi:id="131" sofa="287" begin="1454" end="1493" stance="For"/>
+    <types:Claim xmi:id="138" sofa="287" begin="2057" end="2100" stance="For"/>
+    <types:MajorClaim xmi:id="145" sofa="287" begin="400" end="520"/>
+    <types:Support xmi:id="151" sofa="287" begin="522" end="1452" source="22" target="124"/>
+    <types:Support xmi:id="159" sofa="287" begin="577" end="1452" source="28" target="124"/>
+    <types:Support xmi:id="167" sofa="287" begin="635" end="808" source="34" target="40"/>
+    <types:Support xmi:id="175" sofa="287" begin="698" end="1452" source="40" target="124"/>
+    <types:Support xmi:id="183" sofa="287" begin="810" end="1452" source="46" target="124"/>
+    <types:Support xmi:id="191" sofa="287" begin="957" end="1452" source="52" target="124"/>
+    <types:Support xmi:id="199" sofa="287" begin="1037" end="1452" source="58" target="124"/>
+    <types:Support xmi:id="207" sofa="287" begin="1164" end="1452" source="64" target="124"/>
+    <types:Support xmi:id="215" sofa="287" begin="1454" end="2045" source="100" target="131"/>
+    <types:Support xmi:id="223" sofa="287" begin="1454" end="1946" source="94" target="131"/>
+    <types:Support xmi:id="231" sofa="287" begin="1454" end="1822" source="88" target="131"/>
+    <types:Support xmi:id="239" sofa="287" begin="1454" end="1704" source="82" target="131"/>
+    <types:Support xmi:id="247" sofa="287" begin="1454" end="1584" source="76" target="131"/>
+    <types:Support xmi:id="255" sofa="287" begin="1454" end="1527" source="70" target="131"/>
+    <types:Support xmi:id="263" sofa="287" begin="2057" end="2310" source="118" target="138"/>
+    <types:Support xmi:id="271" sofa="287" begin="2057" end="2244" source="112" target="138"/>
+    <types:Support xmi:id="279" sofa="287" begin="2057" end="2195" source="106" target="138"/>
+    <argumentation:LocalSufficiency xmi:id="302" sofa="287" begin="522" end="1453" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="309" sofa="287" begin="1454" end="2047" majority="0.0" mean="0.0"/>
+    <cas:Sofa xmi:id="287" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;At work, you meet people with diverse backgrounds and you are required to maintain sound relationships with many of them in order to have a pleasant work environment. However, the relationship you need to maintain with your co-worker is the most important one since he or she is the person who works very closely with you, and in most instances you have to rely on him or her. Therefore in my view, a good co-worker needs to have three most important characteristics such as cooperation, trustworthiness, and fellowship.&#10;The co-workers should be cooperative with one another. If they do not cooperate, there will be lots of disputes. I once had a co-worker who was too family conscious. Therefore he always left office sharp on time without giving any consideration whether the work has been finished or not. Most of the time, I had to do his work in order to protect him from getting caught to the supervisor who was a very authoritative person. However, one day I wanted to be off early because I had to take my mother to the doctor. When I requested my co-worker to give a helping hand to finish my work early, he turned down my request giving a silly excuse. From that day onwards I did not offer him any support and finally he was transferred from our department to a distant location as a punishment for his irresponsibility. Therefore, I believe if the co-workers do not corporate with each other that would be devastating in a work environment.&#10;The co-workers need to trust each other. They should not act on suspicion. This is a very important aspect in the work environment. I came across a situation once such that one of my subordinates used to suspect his co-worker for carrying tales to me. To a certain extent his suspicion was valid as his co-worker made several attempts to highlight the drawbacks of him. However I never encourage tale carriers as a principle and therefore his co-worker gave up talking ill against him with me. But this mistrust continued and created very unpleasant situations for everybody in my department. &#10;Finally, the co-workers should believe in fellowship. This helps them to enjoy their work life while building up very strong personal relationships. After all, you spend most of your day at office. If you have a good company in office, it is certainly a blessing."/>
+    <cas:View sofa="287" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 100 106 112 118 124 131 138 145 151 159 167 175 183 191 199 207 215 223 231 239 247 255 263 271 279 302 309"/>
+</xmi:XMI>

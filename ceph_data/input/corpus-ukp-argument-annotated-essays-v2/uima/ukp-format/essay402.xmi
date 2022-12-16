@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="202" begin="0" end="1543" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="202" begin="0" end="1543" filename="essay402" topic="It is important that children should study hard at school. time spent playing sport is time wasted. to what extent do you agree or disagree with this statement?" twoSided="negative"/>
+    <types:MajorClaim xmi:id="22" sofa="202" begin="160" end="229"/>
+    <types:MajorClaim xmi:id="28" sofa="202" begin="1465" end="1542"/>
+    <types:Premise xmi:id="34" sofa="202" begin="301" end="384"/>
+    <types:Premise xmi:id="40" sofa="202" begin="466" end="645"/>
+    <types:Premise xmi:id="46" sofa="202" begin="647" end="732"/>
+    <types:Premise xmi:id="52" sofa="202" begin="749" end="818"/>
+    <types:Premise xmi:id="58" sofa="202" begin="986" end="1034"/>
+    <types:Premise xmi:id="64" sofa="202" begin="1045" end="1157"/>
+    <types:Premise xmi:id="70" sofa="202" begin="1159" end="1187"/>
+    <types:Premise xmi:id="76" sofa="202" begin="1197" end="1261"/>
+    <types:Premise xmi:id="82" sofa="202" begin="1263" end="1310"/>
+    <types:Premise xmi:id="88" sofa="202" begin="1315" end="1358"/>
+    <types:Premise xmi:id="94" sofa="202" begin="1370" end="1447"/>
+    <types:Claim xmi:id="100" sofa="202" begin="251" end="299" stance="For"/>
+    <types:Claim xmi:id="107" sofa="202" begin="838" end="887" stance="For"/>
+    <types:Support xmi:id="114" sofa="202" begin="251" end="818" source="52" target="100"/>
+    <types:Support xmi:id="122" sofa="202" begin="251" end="645" source="40" target="100"/>
+    <types:Support xmi:id="130" sofa="202" begin="251" end="384" source="34" target="100"/>
+    <types:Support xmi:id="138" sofa="202" begin="466" end="732" source="46" target="40"/>
+    <types:Support xmi:id="146" sofa="202" begin="838" end="1034" source="58" target="107"/>
+    <types:Support xmi:id="154" sofa="202" begin="986" end="1447" source="94" target="58"/>
+    <types:Support xmi:id="162" sofa="202" begin="986" end="1358" source="88" target="58"/>
+    <types:Support xmi:id="170" sofa="202" begin="986" end="1187" source="70" target="58"/>
+    <types:Support xmi:id="178" sofa="202" begin="986" end="1157" source="64" target="58"/>
+    <types:Support xmi:id="186" sofa="202" begin="1159" end="1261" source="76" target="70"/>
+    <types:Support xmi:id="194" sofa="202" begin="1263" end="1358" source="82" target="88"/>
+    <argumentation:LocalSufficiency xmi:id="217" sofa="202" begin="232" end="819" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="224" sofa="202" begin="820" end="1449" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="202" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Some people believe that studying hard is essential part for children, otherwise others people think that playing sport is waste of time. In my point of view, both of studying hard and playing sports are part of life to children. &#10;On the other hand, studying hard will give children a better future. Studying hard gives children with a plenty of knowledge and skills for their future. Naturally, children will be growing up and looking for their job. For instance, children who always studying hard and getting high achievement, it will be easy to pass qualification for work and they are more likely to find great work at multinational company. If they working at multinational company as the result is they can earn higher salary. The message is when you always studying harder than others you will get best results.&#10;At the same time, playing sports will give good effects on children. There are many popular sports among children such as football, basketball, and volleyball. Also, there are many benefit when children doing sport. Firstly, children who always playing sport like football, they will be active as a person and learn to become team-player. It will be good for children, because indirectly they will learn how to socialize each other as a team. That will make children getting lots of friends, so they can contribute positively to community. Secondly, playing sport makes children getting healthy and become children's well-being. &#10;In conclusion, both studying hard at school and playing sports can improve children's future."/>
+    <cas:View sofa="202" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 100 107 114 122 130 138 146 154 162 170 178 186 194 217 224"/>
+</xmi:XMI>

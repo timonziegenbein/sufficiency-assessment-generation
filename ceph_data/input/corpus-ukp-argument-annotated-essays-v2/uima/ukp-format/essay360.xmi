@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="181" begin="0" end="1887" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="181" begin="0" end="1887" filename="essay360" topic="Nowadays celebrities are more famous for their glamour and wealth than for their achievements, and this sets a bad example to young people. To what extent do you agree or disagree with this statement?" twoSided="positive"/>
+    <types:Claim xmi:id="22" sofa="181" begin="700" end="789" stance="Against"/>
+    <types:Claim xmi:id="29" sofa="181" begin="878" end="974" stance="For"/>
+    <types:Claim xmi:id="36" sofa="181" begin="1737" end="1823" stance="Against"/>
+    <types:MajorClaim xmi:id="43" sofa="181" begin="180" end="266"/>
+    <types:MajorClaim xmi:id="49" sofa="181" begin="1825" end="1886"/>
+    <types:Premise xmi:id="55" sofa="181" begin="284" end="353"/>
+    <types:Premise xmi:id="61" sofa="181" begin="368" end="519"/>
+    <types:Premise xmi:id="67" sofa="181" begin="521" end="684"/>
+    <types:Premise xmi:id="73" sofa="181" begin="985" end="1095"/>
+    <types:Premise xmi:id="79" sofa="181" begin="1113" end="1209"/>
+    <types:Premise xmi:id="85" sofa="181" begin="1222" end="1337"/>
+    <types:Premise xmi:id="91" sofa="181" begin="1349" end="1432"/>
+    <types:Premise xmi:id="97" sofa="181" begin="1434" end="1574"/>
+    <types:Premise xmi:id="103" sofa="181" begin="1576" end="1713"/>
+    <types:Support xmi:id="109" sofa="181" begin="284" end="789" source="55" target="22"/>
+    <types:Support xmi:id="117" sofa="181" begin="368" end="789" source="61" target="22"/>
+    <types:Support xmi:id="125" sofa="181" begin="521" end="789" source="67" target="22"/>
+    <types:Support xmi:id="133" sofa="181" begin="878" end="1432" source="91" target="29"/>
+    <types:Support xmi:id="141" sofa="181" begin="878" end="1337" source="85" target="29"/>
+    <types:Support xmi:id="149" sofa="181" begin="985" end="1337" source="73" target="85"/>
+    <types:Support xmi:id="157" sofa="181" begin="1113" end="1337" source="79" target="85"/>
+    <types:Support xmi:id="165" sofa="181" begin="1349" end="1713" source="103" target="91"/>
+    <types:Support xmi:id="173" sofa="181" begin="1349" end="1574" source="97" target="91"/>
+    <argumentation:LocalSufficiency xmi:id="196" sofa="181" begin="268" end="848" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="203" sofa="181" begin="849" end="1715" majority="0.0" mean="0.0"/>
+    <cas:Sofa xmi:id="181" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Some people think that celebrities are known for their glamorous lifestyle rather than the work they do. While I agree this will bring negative impacts on the younger generation, this is not necessarily the case for those celebrities who are ambitious in their jobs.&#10;It is true that some celebrities tend to show off their images in front of the public. For example, some movie starts enjoy wearing luxury brand clothes and showing their expensive life style in front of the media, thereby gaining the public attention. If they continue to behave in such a way, it will create a misleading image to young people who may think that extraordinary life can be achieved without hard work. Consequently, the attention of young people may become focused on chasing the dream of celebrity status. This is detrimental to study and work ethics and habits. &#10;Nevertheless, I believe that other celebrities do set up role models to young people because of their visible accomplishments. Firstly, celebrities such as sports player whose performance and professional skills can be directly seen by their fans. This means that people understand that the great deal of efforts on training is directly linked to their results. Therefore, this kind of self-made celebrity can inspire children to develop their talents through application and perseverance. Secondly, other celebrities such as musician also have achieved great success in their career. Take Michael Jackson as an example, his works are widely spread around the world, and have been extremely welcomed by the younger generation. His songs spread the idea that people should care about each other, which suggests to young people how to become a good member of society. &#10;In summary, although some celebrities misguide young people by showing their external wealth and appearance, other celebrities do lead young people in the right direction."/>
+    <cas:View sofa="181" members="1 14 22 29 36 43 49 55 61 67 73 79 85 91 97 103 109 117 125 133 141 149 157 165 173 196 203"/>
+</xmi:XMI>

@@ -1,0 +1,28 @@
+Argument Annotated Essays v1 notes.
+
+============================
+CONVERSION OF CORPUS
+============================
+
+ACQUISITION.
+
+1) Create new corpus folder in your project, e.g., "data/corpora/ArgumentAnnotatedEssays-v2/". Create a subfolder "original" within the corpus folder. 
+
+2) Download and unzip 
+https://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/data/argument-recognition/de.tudarmstadt.ukp.dkpro.argumentation.componentclassification.zip
+
+3) Copy the folder "brat-project-final" as well as the two files "prompt.csv" and "train-test-split.csv" from the unzipped folder to "./src/main/resources/" to the created folder "original".
+
+
+
+CONVERSION.
+
+2) Open the class "de.aitools.ie.uima.application.convert.AAEv2Corpus2UIMAConverter" and ensure that all file and directory paths in the specified fields are correct. 
+
+3) Execute the class.
+
+
+
+
+
+

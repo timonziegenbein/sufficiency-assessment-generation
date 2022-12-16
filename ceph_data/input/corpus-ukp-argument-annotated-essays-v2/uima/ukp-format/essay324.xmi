@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="280" begin="0" end="2635" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="280" begin="0" end="2635" filename="essay324" topic="Do you agree or disagree with the following statement? Workers would be much happier if they are doing different types of tasks during their workday than doing the same task." twoSided="positive"/>
+    <types:Premise xmi:id="22" sofa="280" begin="568" end="596"/>
+    <types:Premise xmi:id="28" sofa="280" begin="598" end="674"/>
+    <types:Premise xmi:id="34" sofa="280" begin="676" end="839"/>
+    <types:Premise xmi:id="40" sofa="280" begin="947" end="1023"/>
+    <types:Premise xmi:id="46" sofa="280" begin="1025" end="1089"/>
+    <types:Premise xmi:id="52" sofa="280" begin="1091" end="1183"/>
+    <types:Premise xmi:id="58" sofa="280" begin="1194" end="1229"/>
+    <types:Premise xmi:id="64" sofa="280" begin="1231" end="1277"/>
+    <types:Premise xmi:id="70" sofa="280" begin="1474" end="1593"/>
+    <types:Premise xmi:id="76" sofa="280" begin="1595" end="1618"/>
+    <types:Premise xmi:id="82" sofa="280" begin="1627" end="1674"/>
+    <types:Premise xmi:id="88" sofa="280" begin="1676" end="1760"/>
+    <types:Premise xmi:id="94" sofa="280" begin="1762" end="1827"/>
+    <types:Premise xmi:id="100" sofa="280" begin="1829" end="1931"/>
+    <types:Premise xmi:id="106" sofa="280" begin="1933" end="2085"/>
+    <types:Premise xmi:id="112" sofa="280" begin="2087" end="2260"/>
+    <types:Claim xmi:id="118" sofa="280" begin="877" end="939" stance="Against"/>
+    <types:Claim xmi:id="125" sofa="280" begin="1279" end="1448" stance="For"/>
+    <types:Claim xmi:id="132" sofa="280" begin="2273" end="2434" stance="For"/>
+    <types:Claim xmi:id="139" sofa="280" begin="2482" end="2533" stance="Against"/>
+    <types:MajorClaim xmi:id="146" sofa="280" begin="2580" end="2634"/>
+    <types:Attack xmi:id="152" sofa="280" begin="877" end="1023" source="40" target="118"/>
+    <types:Attack xmi:id="160" sofa="280" begin="1194" end="1448" source="58" target="125"/>
+    <types:Attack xmi:id="168" sofa="280" begin="1194" end="1277" source="64" target="58"/>
+    <types:Support xmi:id="176" sofa="280" begin="568" end="939" source="22" target="118"/>
+    <types:Support xmi:id="184" sofa="280" begin="598" end="939" source="28" target="118"/>
+    <types:Support xmi:id="192" sofa="280" begin="676" end="939" source="34" target="118"/>
+    <types:Support xmi:id="200" sofa="280" begin="1025" end="1448" source="46" target="125"/>
+    <types:Support xmi:id="208" sofa="280" begin="1091" end="1448" source="52" target="125"/>
+    <types:Support xmi:id="216" sofa="280" begin="1279" end="1618" source="76" target="125"/>
+    <types:Support xmi:id="224" sofa="280" begin="1279" end="1593" source="70" target="125"/>
+    <types:Support xmi:id="232" sofa="280" begin="1595" end="1674" source="82" target="76"/>
+    <types:Support xmi:id="240" sofa="280" begin="1676" end="2434" source="88" target="132"/>
+    <types:Support xmi:id="248" sofa="280" begin="1762" end="2434" source="94" target="132"/>
+    <types:Support xmi:id="256" sofa="280" begin="1829" end="2434" source="100" target="132"/>
+    <types:Support xmi:id="264" sofa="280" begin="1933" end="2434" source="106" target="132"/>
+    <types:Support xmi:id="272" sofa="280" begin="2087" end="2434" source="112" target="132"/>
+    <argumentation:LocalSufficiency xmi:id="295" sofa="280" begin="522" end="1024" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="302" sofa="280" begin="1025" end="1675" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="309" sofa="280" begin="1676" end="2435" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="280" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;In my family, the argument topic between my father and mother always involves my father's job. Five years ago, he quitted his 20 years job as an architectural engineer, and became a landscape painter. Every time I asked him why, he will say, seriously,&quot; I am done, doing this same work for 20 years and I really want to try some different, that is all.&quot; While there are innumerous people will deem it ridiculous and argue doing the same task is the meaning of job, but from my perspective, I am on the side of my father.&#10;Most of workers have adapted to do same task. It allows us to achieve more. As a authoritative dentist in my province, my mother has worked for 25 years. Gandhi devoted his whole life to fight against British-ruled government and inspire movements for civil rights in India, finally he became the father of the nation. These examples make it obvious that great achievement needs someone keen on one task for long time. While when it comes to &quot;happier&quot;, different type of jobs can be responsible factor.&#10;Doing different tasks makes employees and employers much happier. Workers, who work for an ordinary company or industry, will be sick of same tasks day by day. Although they can be familiar with their job, changing of job is what serve to their happier. Changing the type of work will be fresh and elicit their potential to adapt a new environment, which, according to psychology theories, makes workers relaxed and happier. To set another example, consider every workers have ability to do several kinds of work, employers will be satisfied by the generating benefits. They both will be happy because the change of job, not the same task day by day.&#10;Different types of tasks during workday brings more challenges, making life colorful. Just like a song, if I did not have challenge, life would be blue. As an engineering researcher, I will surely be disappointed for failure, and exited for new challenges. New challenges from different tasks amounts far more than more works, it also means through dealing with it, I will obtain more knowledge and experience. As the saying of a Chinese writer, the color of life is rooted not in Japanese cherry blossom or Canadian maple leaf, but rather there always exists new things and challenge. After all, doing same task day and night just server to increase our psychological burden, connecting with different types of job is capable give us more colors to our life.&#10;To sum up, I admire my father's choice, while the same task give us opportunities to be an expert, like my mom, I still hold the firm view that different types of tasks endow more colors to our life."/>
+    <cas:View sofa="280" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 100 106 112 118 125 132 139 146 152 160 168 176 184 192 200 208 216 224 232 240 248 256 264 272 295 302 309"/>
+</xmi:XMI>

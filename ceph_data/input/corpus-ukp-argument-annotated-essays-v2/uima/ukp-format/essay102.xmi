@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="265" begin="0" end="1734" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="265" begin="0" end="1734" filename="essay102" topic="Some people claim that public museums and art galleries will not be needed because people can see historical objects and works by using computer. To what extent do you agree or disagree?" twoSided="positive"/>
+    <types:Premise xmi:id="22" sofa="265" begin="216" end="259"/>
+    <types:Premise xmi:id="28" sofa="265" begin="261" end="319"/>
+    <types:Premise xmi:id="34" sofa="265" begin="330" end="371"/>
+    <types:Premise xmi:id="40" sofa="265" begin="378" end="427"/>
+    <types:Premise xmi:id="46" sofa="265" begin="442" end="539"/>
+    <types:Premise xmi:id="52" sofa="265" begin="554" end="613"/>
+    <types:Premise xmi:id="58" sofa="265" begin="773" end="880"/>
+    <types:Premise xmi:id="64" sofa="265" begin="882" end="983"/>
+    <types:Premise xmi:id="70" sofa="265" begin="985" end="1072"/>
+    <types:Premise xmi:id="76" sofa="265" begin="1176" end="1279"/>
+    <types:Premise xmi:id="82" sofa="265" begin="1294" end="1364"/>
+    <types:Premise xmi:id="88" sofa="265" begin="1366" end="1391"/>
+    <types:Premise xmi:id="94" sofa="265" begin="1398" end="1451"/>
+    <types:Premise xmi:id="100" sofa="265" begin="1453" end="1528"/>
+    <types:MajorClaim xmi:id="106" sofa="265" begin="11" end="67"/>
+    <types:MajorClaim xmi:id="112" sofa="265" begin="1555" end="1594"/>
+    <types:Claim xmi:id="118" sofa="265" begin="81" end="135" stance="Against"/>
+    <types:Claim xmi:id="125" sofa="265" begin="137" end="207" stance="Against"/>
+    <types:Claim xmi:id="132" sofa="265" begin="615" end="758" stance="For"/>
+    <types:Claim xmi:id="139" sofa="265" begin="1074" end="1160" stance="For"/>
+    <types:Claim xmi:id="146" sofa="265" begin="1599" end="1732" stance="Against"/>
+    <types:Support xmi:id="153" sofa="265" begin="137" end="319" source="28" target="125"/>
+    <types:Support xmi:id="161" sofa="265" begin="137" end="259" source="22" target="125"/>
+    <types:Support xmi:id="169" sofa="265" begin="330" end="427" source="40" target="34"/>
+    <types:Support xmi:id="177" sofa="265" begin="442" end="613" source="52" target="46"/>
+    <types:Support xmi:id="185" sofa="265" begin="615" end="1072" source="70" target="132"/>
+    <types:Support xmi:id="193" sofa="265" begin="615" end="983" source="64" target="132"/>
+    <types:Support xmi:id="201" sofa="265" begin="615" end="880" source="58" target="132"/>
+    <types:Support xmi:id="209" sofa="265" begin="1074" end="1528" source="100" target="139"/>
+    <types:Support xmi:id="217" sofa="265" begin="1074" end="1391" source="88" target="139"/>
+    <types:Support xmi:id="225" sofa="265" begin="1074" end="1364" source="82" target="139"/>
+    <types:Support xmi:id="233" sofa="265" begin="1074" end="1279" source="76" target="139"/>
+    <types:Support xmi:id="241" sofa="265" begin="1366" end="1451" source="94" target="88"/>
+    <types:Attack xmi:id="249" sofa="265" begin="137" end="539" source="46" target="125"/>
+    <types:Attack xmi:id="257" sofa="265" begin="137" end="371" source="34" target="125"/>
+    <argumentation:LocalSufficiency xmi:id="280" sofa="265" begin="137" end="614" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="287" sofa="265" begin="615" end="1073" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="294" sofa="265" begin="1074" end="1529" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="265" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;I believe public museums and art galleries will still be necessary, even though we can see the art works and historical objects online.&#10;Most people nowadays prefer to use the Internet to search for art work because the Internet really brings them convenience. We can browse the art work from all over the world at home. However, people may not get a spiritual experience since pictures online are only limited to a screen size. By contrast, the exhibits in museums or galleries are all life size and visitors can get a more direct felling. For example, only when we see the real mummy, can we experience mystique.&#10;In order to help visitors to learn more about the exhibits, museums hold various activities which make visitors be part of what they are seeing. For example, at American Museum of Natural History, you can make a bone-by-bone reproduction of the museum's stegosaurus; at Museum of Art in New York, you can look at 17th century instruments while listening to their music. While if you &quot;visit&quot; the museum online, you may not able to get this kind of experience.&#10;Seeing an art work on computer screen is not the same as you watch it by your own eyes. For instance, you can't see the texture of the artwork which is very important to study the skills used by the artist. What's more, not all the details of the artwork can be shown on the computer screen. Some details might be dim since the resolution ratio of the screen is not high enough. These may influence the comprehension of the art work or historical objects.&#10;In conclusion, I believe we still need museums and art galleries but computers can be introduced to museums and galleries in order to help visitors to know more about the art works or historical objects.&#10;"/>
+    <cas:View sofa="265" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 100 106 112 118 125 132 139 146 153 161 169 177 185 193 201 209 217 225 233 241 249 257 280 287 294"/>
+</xmi:XMI>

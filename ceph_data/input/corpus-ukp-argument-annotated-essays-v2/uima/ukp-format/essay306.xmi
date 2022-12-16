@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="195" begin="0" end="2036" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="195" begin="0" end="2036" filename="essay306" topic="Technology makes people's lives simpler rather than makes people's lives more complicated." twoSided="positive"/>
+    <types:MajorClaim xmi:id="22" sofa="195" begin="302" end="335"/>
+    <types:MajorClaim xmi:id="28" sofa="195" begin="1982" end="2035"/>
+    <types:Claim xmi:id="34" sofa="195" begin="239" end="300" stance="Against"/>
+    <types:Claim xmi:id="41" sofa="195" begin="397" end="525" stance="For"/>
+    <types:Claim xmi:id="48" sofa="195" begin="792" end="830" stance="For"/>
+    <types:Claim xmi:id="55" sofa="195" begin="1261" end="1311" stance="Against"/>
+    <types:Claim xmi:id="62" sofa="195" begin="1921" end="1980" stance="Against"/>
+    <types:Premise xmi:id="69" sofa="195" begin="527" end="620"/>
+    <types:Premise xmi:id="75" sofa="195" begin="637" end="782"/>
+    <types:Premise xmi:id="81" sofa="195" begin="832" end="986"/>
+    <types:Premise xmi:id="87" sofa="195" begin="988" end="1083"/>
+    <types:Premise xmi:id="93" sofa="195" begin="1099" end="1231"/>
+    <types:Premise xmi:id="99" sofa="195" begin="1326" end="1495"/>
+    <types:Premise xmi:id="105" sofa="195" begin="1511" end="1627"/>
+    <types:Premise xmi:id="111" sofa="195" begin="1642" end="1773"/>
+    <types:Premise xmi:id="117" sofa="195" begin="1789" end="1833"/>
+    <types:Support xmi:id="123" sofa="195" begin="397" end="782" source="75" target="41"/>
+    <types:Support xmi:id="131" sofa="195" begin="397" end="620" source="69" target="41"/>
+    <types:Support xmi:id="139" sofa="195" begin="792" end="1083" source="87" target="48"/>
+    <types:Support xmi:id="147" sofa="195" begin="792" end="986" source="81" target="48"/>
+    <types:Support xmi:id="155" sofa="195" begin="988" end="1231" source="93" target="87"/>
+    <types:Support xmi:id="163" sofa="195" begin="1261" end="1833" source="117" target="55"/>
+    <types:Support xmi:id="171" sofa="195" begin="1261" end="1773" source="111" target="55"/>
+    <types:Support xmi:id="179" sofa="195" begin="1261" end="1627" source="105" target="55"/>
+    <types:Support xmi:id="187" sofa="195" begin="1261" end="1495" source="99" target="55"/>
+    <argumentation:LocalSufficiency xmi:id="210" sofa="195" begin="390" end="783" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="217" sofa="195" begin="784" end="1232" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="224" sofa="195" begin="1233" end="1835" majority="0.0" mean="0.0"/>
+    <cas:Sofa xmi:id="195" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Believe it or not, nowadays people are always confronted with a problem that whether technology makes their life simpler or not, thus making them confused. Many people advocate that technology makes their life easier. Although I conceded technology may make people's life complicated in some aspects, the convenience it brings is more. In what follows, I will illustrate my point of view.&#10;First, when it comes to the field of transportation, there is no doubt that the technology in automobile has made people's life simpler. With a private car, you can reach the destination in another city just sitting in the vehicle. Alternatively, if you would like to have a trip across the ocean, a plane can carry you there in only a few hours, which is hard to imagine in the ancient times.&#10;Second, technology also makes teaching simpler. In the past, teachers have to write what they want to convey to students on the chalkboard, resulting in a great waste of time and the fatigue of teachers. With the advent of iPads in e-learning, paper books become unnecessary, so does the blackboards, it is because all the knowledge and information are stored in the iPads, with a single click, and they would appear right before your eyes at once.&#10;Admittedly, to some extent, technology may make people's life more complicated. For example, the cell phone, which used to be simply a tool to deliver messages to your contacts in a distance, now are playing a role more than just a phone in social communications. For instance, folks have to check their Facebooks, Twitters, and Forums accounts every minute, which add too much pressure to them. In addition, games on their phone exert a tremendous fascination on teenagers, leading to a large problem that they got addicted to their phones. Consequently, making their life more complicated and tired. &#10;Based on the factors I have mentioned above, a conclusion can be drawn that although technology may make people's life complicated in some cases, the convenience it brings in people's are significant."/>
+    <cas:View sofa="195" members="1 14 22 28 34 41 48 55 62 69 75 81 87 93 99 105 111 117 123 131 139 147 155 163 171 179 187 210 217 224"/>
+</xmi:XMI>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="321" begin="0" end="2018" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="321" begin="0" end="2018" filename="essay284" topic="Do you agree or disagree with the following statement? Movies and television programs should present stories in which good people are rewarded and bad people are punished." twoSided="negative"/>
+    <types:Premise xmi:id="22" sofa="321" begin="315" end="373"/>
+    <types:Premise xmi:id="28" sofa="321" begin="375" end="449"/>
+    <types:Premise xmi:id="34" sofa="321" begin="451" end="492"/>
+    <types:Premise xmi:id="40" sofa="321" begin="494" end="616"/>
+    <types:Premise xmi:id="46" sofa="321" begin="631" end="717"/>
+    <types:Premise xmi:id="52" sofa="321" begin="719" end="777"/>
+    <types:Premise xmi:id="58" sofa="321" begin="779" end="838"/>
+    <types:Premise xmi:id="64" sofa="321" begin="913" end="979"/>
+    <types:Premise xmi:id="70" sofa="321" begin="993" end="1052"/>
+    <types:Premise xmi:id="76" sofa="321" begin="1179" end="1218"/>
+    <types:Premise xmi:id="82" sofa="321" begin="1224" end="1276"/>
+    <types:Premise xmi:id="88" sofa="321" begin="1278" end="1385"/>
+    <types:Premise xmi:id="94" sofa="321" begin="1400" end="1466"/>
+    <types:Premise xmi:id="100" sofa="321" begin="1471" end="1542"/>
+    <types:Premise xmi:id="106" sofa="321" begin="1553" end="1593"/>
+    <types:Premise xmi:id="112" sofa="321" begin="1595" end="1642"/>
+    <types:Premise xmi:id="118" sofa="321" begin="1661" end="1698"/>
+    <types:Premise xmi:id="124" sofa="321" begin="1708" end="1743"/>
+    <types:Premise xmi:id="130" sofa="321" begin="1810" end="1876"/>
+    <types:Claim xmi:id="136" sofa="321" begin="843" end="911" stance="For"/>
+    <types:Claim xmi:id="143" sofa="321" begin="1057" end="1177" stance="For"/>
+    <types:Claim xmi:id="150" sofa="321" begin="1758" end="1804" stance="For"/>
+    <types:MajorClaim xmi:id="157" sofa="321" begin="234" end="306"/>
+    <types:MajorClaim xmi:id="163" sofa="321" begin="1915" end="2017"/>
+    <types:Support xmi:id="169" sofa="321" begin="315" end="911" source="22" target="136"/>
+    <types:Support xmi:id="177" sofa="321" begin="375" end="911" source="28" target="136"/>
+    <types:Support xmi:id="185" sofa="321" begin="451" end="911" source="34" target="136"/>
+    <types:Support xmi:id="193" sofa="321" begin="494" end="911" source="40" target="136"/>
+    <types:Support xmi:id="201" sofa="321" begin="631" end="911" source="46" target="136"/>
+    <types:Support xmi:id="209" sofa="321" begin="719" end="911" source="52" target="136"/>
+    <types:Support xmi:id="217" sofa="321" begin="779" end="911" source="58" target="136"/>
+    <types:Support xmi:id="225" sofa="321" begin="913" end="1177" source="64" target="143"/>
+    <types:Support xmi:id="233" sofa="321" begin="993" end="1177" source="70" target="143"/>
+    <types:Support xmi:id="241" sofa="321" begin="1057" end="1542" source="100" target="143"/>
+    <types:Support xmi:id="249" sofa="321" begin="1057" end="1385" source="88" target="143"/>
+    <types:Support xmi:id="257" sofa="321" begin="1057" end="1276" source="82" target="143"/>
+    <types:Support xmi:id="265" sofa="321" begin="1057" end="1218" source="76" target="143"/>
+    <types:Support xmi:id="273" sofa="321" begin="1400" end="1542" source="94" target="100"/>
+    <types:Support xmi:id="281" sofa="321" begin="1553" end="1642" source="112" target="106"/>
+    <types:Support xmi:id="289" sofa="321" begin="1661" end="1743" source="124" target="118"/>
+    <types:Support xmi:id="297" sofa="321" begin="1758" end="1876" source="130" target="150"/>
+    <types:Attack xmi:id="305" sofa="321" begin="1553" end="1804" source="106" target="150"/>
+    <types:Attack xmi:id="313" sofa="321" begin="1553" end="1698" source="118" target="106"/>
+    <argumentation:LocalSufficiency xmi:id="336" sofa="321" begin="308" end="912" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="343" sofa="321" begin="913" end="1543" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="350" sofa="321" begin="1544" end="1877" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="321" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;When we watch movies or dramas, some of us like to see good people have a good ending and bad people are punished. While there are also some people who do not like this. Personally, I prefer to see good people get rewarded. However, if the good people always get an happy ending, I don’t think it’s proper.&#10;First, if all the story end up in the same way, it will be boring. If good people always win, we can guess the ending of the movies or dramas. Then we will feel less interested in them. But if the good people are not always rewarded, we will try to finish the movie or dramas to find out the end of the story. For example, Hollywood stories usually have a happy ending like a hero beats a crime and get a girl. But now many people, including me, have been tired with it. I don’t want to see the same kind of ending again and again. So we can’t always let good people be rewarded in movies or TV programs.&#10;Even in the real world, good people can get a bad ending sometimes. And I think it happen more often in the real world than in those movies. So if children always watch the TV programs that good people get rewarded, they may think it will be true in the real world. They will be misleading by those movies. And they may act like good people in order to get reward. Once they find the good people are not always get rewarded, they may feel upset and not to be a good person. But in fact, the good people do good things no matter the ending is good or not. So we should tell this to the young children to avoid the misunderstanding.&#10;In fact, those good endings sometimes are helpful. Some people may be encouraged to do good things. But like I said, this kind of behavior won’t last long, because someday they will realize the truth. So I suggest we should show people the truth in the stories. And if they can, they will be good people no matter how the story ends.&#10;Based on my arguments above, I think movies and TV programs should present different stories in which good people get reward or get nothing."/>
+    <cas:View sofa="321" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 100 106 112 118 124 130 136 143 150 157 163 169 177 185 193 201 209 217 225 233 241 249 257 265 273 281 289 297 305 313 336 343 350"/>
+</xmi:XMI>

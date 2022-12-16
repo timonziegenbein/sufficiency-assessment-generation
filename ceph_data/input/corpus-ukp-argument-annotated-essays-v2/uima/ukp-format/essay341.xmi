@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="195" begin="0" end="1882" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="195" begin="0" end="1882" filename="essay341" topic="When a country develops its technology, the traditional skills and ways of life die out. It is pointless to try and keep them alive. To what extent do you agree or disagree with this opinion?" twoSided="positive"/>
+    <types:MajorClaim xmi:id="22" sofa="195" begin="283" end="350"/>
+    <types:MajorClaim xmi:id="28" sofa="195" begin="1758" end="1881"/>
+    <types:Premise xmi:id="34" sofa="195" begin="505" end="546"/>
+    <types:Premise xmi:id="40" sofa="195" begin="548" end="624"/>
+    <types:Premise xmi:id="46" sofa="195" begin="635" end="750"/>
+    <types:Premise xmi:id="52" sofa="195" begin="784" end="831"/>
+    <types:Premise xmi:id="58" sofa="195" begin="833" end="933"/>
+    <types:Premise xmi:id="64" sofa="195" begin="947" end="1015"/>
+    <types:Premise xmi:id="70" sofa="195" begin="1017" end="1070"/>
+    <types:Premise xmi:id="76" sofa="195" begin="1072" end="1203"/>
+    <types:Premise xmi:id="82" sofa="195" begin="1379" end="1449"/>
+    <types:Premise xmi:id="88" sofa="195" begin="1480" end="1550"/>
+    <types:Claim xmi:id="94" sofa="195" begin="352" end="494" stance="For"/>
+    <types:Claim xmi:id="101" sofa="195" begin="1265" end="1356" stance="Against"/>
+    <types:Claim xmi:id="108" sofa="195" begin="1562" end="1744" stance="For"/>
+    <types:Attack xmi:id="115" sofa="195" begin="352" end="546" source="34" target="94"/>
+    <types:Attack xmi:id="123" sofa="195" begin="505" end="624" source="40" target="34"/>
+    <types:Attack xmi:id="131" sofa="195" begin="1379" end="1550" source="88" target="82"/>
+    <types:Support xmi:id="139" sofa="195" begin="352" end="1203" source="76" target="94"/>
+    <types:Support xmi:id="147" sofa="195" begin="352" end="1015" source="64" target="94"/>
+    <types:Support xmi:id="155" sofa="195" begin="352" end="933" source="58" target="94"/>
+    <types:Support xmi:id="163" sofa="195" begin="352" end="750" source="46" target="94"/>
+    <types:Support xmi:id="171" sofa="195" begin="784" end="933" source="52" target="58"/>
+    <types:Support xmi:id="179" sofa="195" begin="947" end="1070" source="70" target="64"/>
+    <types:Support xmi:id="187" sofa="195" begin="1265" end="1449" source="82" target="101"/>
+    <argumentation:LocalSufficiency xmi:id="210" sofa="195" begin="352" end="1204" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="217" sofa="195" begin="1205" end="1745" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="195" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;With the development of technology, whether or not it is still necessary to protect the traditional skills and lifestyles leads to a drastic controversy which is becoming a public concern, especially considering the significant impact taken by technology. As far as I am concerned, the importance of traditions should be valued and paid attention to.&#10;Traditional skills and lifestyles play important role in modern society, in terms of healthcare, environmental protection and cultural inherit. Although technology takes convenience to humankind, it also contributes to unhealthy behaviors of life, like sedentary lifestyle. Instead, traditional ways of life is a great complimentary for modern life and highlight the importance of work life balance. Meanwhile, due to the fact that traditional skills rely little on fossil energy, it is more environmentally-friendly, which should be promoted to reduce the threat of climate change. Furthermore those tradition-related things convey traditional culture and values. These are important foundation of modern civilization. Protection of tradition can provide the possibility to better understand ancient culture and utilize them to tackle modern problems.&#10;Some people who hold different viewpoints may advocate that protecting traditions consume too much financial budget compared with the incoming it takes. In spite of the fact this kind of business bring limited contribution to government finance, it should be emphasized that the expense is trivial compared with the potential value of traditions. Therefore the government authorities and education institutes should work closely together to promote the traditional skills and ways of life, so as to make people to realize the value of them.&#10;All in all, protection of tradition is not only important for the entire society currently, but also contributes to the next generation."/>
+    <cas:View sofa="195" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 101 108 115 123 131 139 147 155 163 171 179 187 210 217"/>
+</xmi:XMI>

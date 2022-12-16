@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="267" begin="0" end="1635" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="267" begin="0" end="1635" filename="essay156" topic="Do you agree or disagree with the following statement? Growing violence in films has affected youngsters in a negative way?" twoSided="negative"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="22" sofa="267" begin="181" end="278" unitType="majorclaim"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="27" sofa="267" begin="300" end="398" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="32" sofa="267" begin="400" end="450" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="37" sofa="267" begin="452" end="517" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="42" sofa="267" begin="519" end="607" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="47" sofa="267" begin="615" end="682" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="52" sofa="267" begin="695" end="752" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="57" sofa="267" begin="768" end="809" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="62" sofa="267" begin="824" end="840" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="67" sofa="267" begin="853" end="962" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="72" sofa="267" begin="1007" end="1059" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="77" sofa="267" begin="1074" end="1109" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="82" sofa="267" begin="1130" end="1158" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="87" sofa="267" begin="1187" end="1248" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="92" sofa="267" begin="1250" end="1326" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="97" sofa="267" begin="1335" end="1383" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="102" sofa="267" begin="1425" end="1546" unitType="majorclaim"/>
+    <argumentation:Argument xmi:id="107" sofa="267" begin="181" end="1546" premises="102" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="117" sofa="267" begin="181" end="1383" premises="97" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="127" sofa="267" begin="181" end="962" premises="67" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="137" sofa="267" begin="181" end="682" premises="47" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="147" sofa="267" begin="300" end="682" premises="27" conclusion="47" argumentType="supports"/>
+    <argumentation:Argument xmi:id="157" sofa="267" begin="400" end="682" premises="32" conclusion="47" argumentType="supports"/>
+    <argumentation:Argument xmi:id="167" sofa="267" begin="452" end="682" premises="37" conclusion="47" argumentType="supports"/>
+    <argumentation:Argument xmi:id="177" sofa="267" begin="519" end="682" premises="42" conclusion="47" argumentType="supports"/>
+    <argumentation:Argument xmi:id="187" sofa="267" begin="695" end="962" premises="52" conclusion="67" argumentType="supports"/>
+    <argumentation:Argument xmi:id="197" sofa="267" begin="768" end="962" premises="57" conclusion="67" argumentType="supports"/>
+    <argumentation:Argument xmi:id="207" sofa="267" begin="824" end="962" premises="62" conclusion="67" argumentType="supports"/>
+    <argumentation:Argument xmi:id="217" sofa="267" begin="1007" end="1383" premises="72" conclusion="97" argumentType="supports"/>
+    <argumentation:Argument xmi:id="227" sofa="267" begin="1074" end="1383" premises="77" conclusion="97" argumentType="supports"/>
+    <argumentation:Argument xmi:id="237" sofa="267" begin="1130" end="1383" premises="82" conclusion="97" argumentType="supports"/>
+    <argumentation:Argument xmi:id="247" sofa="267" begin="1187" end="1326" premises="87" conclusion="92" argumentType="supports"/>
+    <argumentation:Argument xmi:id="257" sofa="267" begin="1250" end="1383" premises="92" conclusion="97" argumentType="supports"/>
+    <argumentation:LocalSufficiency xmi:id="282" sofa="267" begin="280" end="683" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="289" sofa="267" begin="684" end="963" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="296" sofa="267" begin="964" end="1384" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="267" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;It's obvious that violent behavior is growing more in films in recent 20 years. This matter has been considered as a way to advertise a film. From my point of view, I believe that violence in movies has negative effects on youngsters mostly on their behaviors, emotions &amp; study.&#10;In the first place, children behaviors are the most concerning matter which parents are always trying to do their best. Nowadays children are more involved in TV programs. Imagine an actor who is a child’s favorite is doing violent roles. In this case, the child would imitate the actor's behaviors in order to look like to him. Thus, unexpectedly the violent behavior has effected on child’s behaviors.&#10;Meanwhile, human beings are very sensitive, especially of youngsters. For instance, dying is always a disappointing happening. Furthermore, killing is worse. Therefore, if these scenes are in TV, they would probably have their negative effects on the viewer who could be a child.&#10;Finally, beside all above mentioned items, the study of youngsters shall always been controlled. For example, a child watches a frightening movie. On the other hand, he has to study for the exam. In this condition, because he is thinking about the movie or whatever has happened in it, it is obvious that he wouldn’t be able to concentrate on his study perfectly. Hence, the study of a youngster would affected terribly.&#10;In conclusion, I certainly can say that growing of violence in films have definitely negative effects on youngsters mostly on their study, emotions and behaviors. Therefore, I think this matter should be controlled by parents or somehow by directors."/>
+    <cas:View sofa="267" members="1 14 22 27 32 37 42 47 52 57 62 67 72 77 82 87 92 97 102 107 117 127 137 147 157 167 177 187 197 207 217 227 237 247 257 282 289 296"/>
+</xmi:XMI>

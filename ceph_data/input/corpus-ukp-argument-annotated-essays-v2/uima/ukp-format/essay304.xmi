@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="188" begin="0" end="1917" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="188" begin="0" end="1917" filename="essay304" topic="Some people think that human needs for farmland, housing, and industry are more important than saving land for endangered animals. Do you agree with this point of view? Why or why not? Use specific reasons and examples to support your answer" twoSided="negative"/>
+    <types:MajorClaim xmi:id="22" sofa="188" begin="344" end="406"/>
+    <types:MajorClaim xmi:id="28" sofa="188" begin="1759" end="1916"/>
+    <types:Premise xmi:id="34" sofa="188" begin="507" end="610"/>
+    <types:Premise xmi:id="40" sofa="188" begin="612" end="745"/>
+    <types:Premise xmi:id="46" sofa="188" begin="762" end="863"/>
+    <types:Premise xmi:id="52" sofa="188" begin="865" end="994"/>
+    <types:Premise xmi:id="58" sofa="188" begin="1009" end="1091"/>
+    <types:Premise xmi:id="64" sofa="188" begin="1173" end="1306"/>
+    <types:Premise xmi:id="70" sofa="188" begin="1308" end="1373"/>
+    <types:Premise xmi:id="76" sofa="188" begin="1382" end="1450"/>
+    <types:Premise xmi:id="82" sofa="188" begin="1465" end="1601"/>
+    <types:Premise xmi:id="88" sofa="188" begin="1603" end="1693"/>
+    <types:Claim xmi:id="94" sofa="188" begin="442" end="505" stance="For"/>
+    <types:Claim xmi:id="101" sofa="188" begin="1106" end="1171" stance="For"/>
+    <types:Support xmi:id="108" sofa="188" begin="442" end="1091" source="58" target="94"/>
+    <types:Support xmi:id="116" sofa="188" begin="442" end="745" source="40" target="94"/>
+    <types:Support xmi:id="124" sofa="188" begin="442" end="610" source="34" target="94"/>
+    <types:Support xmi:id="132" sofa="188" begin="762" end="994" source="46" target="52"/>
+    <types:Support xmi:id="140" sofa="188" begin="865" end="1091" source="52" target="58"/>
+    <types:Support xmi:id="148" sofa="188" begin="1106" end="1693" source="88" target="101"/>
+    <types:Support xmi:id="156" sofa="188" begin="1106" end="1601" source="82" target="101"/>
+    <types:Support xmi:id="164" sofa="188" begin="1106" end="1373" source="70" target="101"/>
+    <types:Support xmi:id="172" sofa="188" begin="1106" end="1306" source="64" target="101"/>
+    <types:Support xmi:id="180" sofa="188" begin="1308" end="1450" source="76" target="70"/>
+    <argumentation:LocalSufficiency xmi:id="203" sofa="188" begin="435" end="1092" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="210" sofa="188" begin="1093" end="1694" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="188" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;In the past centuries the population steadily grew and now, for the first time in history, is exceeding seven billion. As a result more and more natural environment had to be vanished to make room for housing, feeding and industry. But isn't it important to preserve the land to maintain the other species living on our planet? In my opinion, we clearly have to change our attitude towards the environment because of several reasons.&#10;First, the natural diversity is very important for further generations. If we don't change our behavior we will extinct many species living for millions of years on the planet. As we destroy the natural habitat, like forests, jungles and lakes, to make place for our industry and farmland, we rob the ecosystem. To illustrate, every day a massive part of the Rainforest in South America is destroyed to provide wood and farmland. If we don't preserve this important part of our ecosystem many endangered animals will loose their natural habitat and go extinct. As a result, further generations will never have the opportunity to see and study these animals.&#10;In addition, a stable and sustainable environment is essential for the weather. Our behavior causes pollution, which heavily affects the weather conditions on planet Earth and causes the undoubtedly Global Warming. This not only affects the endangered animals, but also the humans because we are affected by the increasing sea level and the climatic changes. For example, recent studies from the United Nations Organization have shown that, till 2050 the sea level will increase over one meter in the average. This will dramaticly affect all people living near the coast and change the global climate.&#10;In conclusion, there is to say that, given the arguments above, we definitely have to change our behavior towards the environment, not only to preserve the endangered animals but also to preserve our own living conditions."/>
+    <cas:View sofa="188" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 101 108 116 124 132 140 148 156 164 172 180 203 210"/>
+</xmi:XMI>

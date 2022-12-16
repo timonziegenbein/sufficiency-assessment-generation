@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="357" begin="0" end="2152" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="357" begin="0" end="2152" filename="essay257" topic="&quot;When people succeed, it is because of hard work. Luck has nothing to do with success.&quot;&quot; Do you agree or disagree with the quotation above?&quot;" twoSided="negative"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="22" sofa="357" begin="407" end="465" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="27" sofa="357" begin="467" end="547" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="32" sofa="357" begin="557" end="622" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="37" sofa="357" begin="636" end="709" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="42" sofa="357" begin="711" end="761" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="47" sofa="357" begin="763" end="844" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="52" sofa="357" begin="846" end="897" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="57" sofa="357" begin="899" end="968" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="62" sofa="357" begin="970" end="1021" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="67" sofa="357" begin="1026" end="1067" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="72" sofa="357" begin="1079" end="1129" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="77" sofa="357" begin="1131" end="1222" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="82" sofa="357" begin="1240" end="1341" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="87" sofa="357" begin="1343" end="1437" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="92" sofa="357" begin="1439" end="1498" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="97" sofa="357" begin="1512" end="1574" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="102" sofa="357" begin="1585" end="1682" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="107" sofa="357" begin="1684" end="1802" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="112" sofa="357" begin="1804" end="1866" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="117" sofa="357" begin="1880" end="1959" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="122" sofa="357" begin="1981" end="2029" unitType="majorclaim"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="127" sofa="357" begin="2043" end="2078" unitType="claim-against"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="132" sofa="357" begin="2083" end="2151" unitType="premise"/>
+    <argumentation:Argument xmi:id="137" sofa="357" begin="407" end="2029" premises="22" conclusion="122" argumentType="supports"/>
+    <argumentation:Argument xmi:id="147" sofa="357" begin="407" end="709" premises="37" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="157" sofa="357" begin="407" end="622" premises="32" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="167" sofa="357" begin="407" end="547" premises="27" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="177" sofa="357" begin="636" end="897" premises="52" conclusion="37" argumentType="attacks"/>
+    <argumentation:Argument xmi:id="187" sofa="357" begin="636" end="844" premises="47" conclusion="37" argumentType="attacks"/>
+    <argumentation:Argument xmi:id="197" sofa="357" begin="636" end="761" premises="42" conclusion="37" argumentType="supports"/>
+    <argumentation:Argument xmi:id="207" sofa="357" begin="846" end="1067" premises="67" conclusion="52" argumentType="supports"/>
+    <argumentation:Argument xmi:id="217" sofa="357" begin="846" end="968" premises="57" conclusion="52" argumentType="supports"/>
+    <argumentation:Argument xmi:id="227" sofa="357" begin="970" end="1067" premises="62" conclusion="67" argumentType="supports"/>
+    <argumentation:Argument xmi:id="237" sofa="357" begin="1079" end="2029" premises="72" conclusion="122" argumentType="supports"/>
+    <argumentation:Argument xmi:id="247" sofa="357" begin="1079" end="1574" premises="97" conclusion="72" argumentType="supports"/>
+    <argumentation:Argument xmi:id="257" sofa="357" begin="1079" end="1222" premises="77" conclusion="72" argumentType="supports"/>
+    <argumentation:Argument xmi:id="267" sofa="357" begin="1240" end="1574" premises="82" conclusion="97" argumentType="supports"/>
+    <argumentation:Argument xmi:id="277" sofa="357" begin="1343" end="1574" premises="87" conclusion="97" argumentType="supports"/>
+    <argumentation:Argument xmi:id="287" sofa="357" begin="1439" end="1574" premises="92" conclusion="97" argumentType="supports"/>
+    <argumentation:Argument xmi:id="297" sofa="357" begin="1585" end="1802" premises="102" conclusion="107" argumentType="supports"/>
+    <argumentation:Argument xmi:id="307" sofa="357" begin="1684" end="2029" premises="107" conclusion="122" argumentType="supports"/>
+    <argumentation:Argument xmi:id="317" sofa="357" begin="1684" end="1959" premises="117" conclusion="107" argumentType="supports"/>
+    <argumentation:Argument xmi:id="327" sofa="357" begin="1684" end="1866" premises="112" conclusion="107" argumentType="supports"/>
+    <argumentation:Argument xmi:id="337" sofa="357" begin="1981" end="2078" premises="127" conclusion="122" argumentType="attacks"/>
+    <argumentation:Argument xmi:id="347" sofa="357" begin="2043" end="2151" premises="132" conclusion="127" argumentType="attacks"/>
+    <argumentation:LocalSufficiency xmi:id="372" sofa="357" begin="392" end="1068" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="379" sofa="357" begin="1069" end="1575" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="386" sofa="357" begin="1576" end="1960" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="357" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;What do you think when you see a beautiful building? And also when you see an airport? Do you think they have built by chance? Of course don't. Also it is ridiculous if you think world wide webs such as Google, Yahoo etc. created by chance. Howbeit some people think that luck is cause of a lot of success, but to be frank I cannot agree with them. I would explore my primary reasons here. &#10;To begin with, famous people are usually diligent people not lucky people. Hard work make you a professional man/woman which are powerful in his or her job. I mean, when you work hard you decrease portion of chance in your success. For example in football game it is said that penalty-kick need good chance to be goal. Statically the chance of being goal is fifty-fifty. But I think Ronaldo make a goal from a penalty-kick with more possibility than me. It is not for which Ronaldo is more fortune than me. Definitely it is for which he have more practice and exercise than me. He do a lot of exercise in football field every day, so it is not for which he is luckier than me.&#10;Moreover, we cannot always lean on our luck to be successful. I don't want to disavow the role of luck in success, but as you know it hardly accompany us. So, for example you prepare for TOEFL or other multiple-choice test which has four option to choose in every question. You cannot prepare for it without any study and Rely on your luck, even if you be a very lucky. If you pick up any choice by chance you would fail the exam. Undoubtedly it is wise advice which you have hard study to success on exam.&#10;Finally, you have to work hard to learn and to get a lot of information before doing a project in good way. The most fortunate people in the word cannot manufacture an automobile or build a high tower just by her or his chance. These plans is done by someone who is mastered in his/her work. Undoubtedly such people do work hard and have great experiences because of their hard works.&#10;In the end, I think any great success need great work not great luck, even though luck is one factor in reaching goal but its impact is extraneous and we must not reckon on luck in our plans."/>
+    <cas:View sofa="357" members="1 14 22 27 32 37 42 47 52 57 62 67 72 77 82 87 92 97 102 107 112 117 122 127 132 137 147 157 167 177 187 197 207 217 227 237 247 257 267 277 287 297 307 317 327 337 347 372 379 386"/>
+</xmi:XMI>

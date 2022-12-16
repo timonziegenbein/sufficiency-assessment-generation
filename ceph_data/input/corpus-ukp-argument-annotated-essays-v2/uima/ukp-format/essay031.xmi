@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="258" begin="0" end="2504" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="258" begin="0" end="2504" filename="essay031" topic="The first car appeared on British roads in 1888. By the year 2000 there may be as many as 29million vehicles on British roads. Alternative forms of transport should be encouraged and international laws introduced to control car ownership and use. To what extend do you agree or disagree?" twoSided="negative"/>
+    <types:Premise xmi:id="22" sofa="258" begin="498" end="575"/>
+    <types:Premise xmi:id="28" sofa="258" begin="583" end="658"/>
+    <types:Premise xmi:id="34" sofa="258" begin="660" end="746"/>
+    <types:Premise xmi:id="40" sofa="258" begin="882" end="957"/>
+    <types:Premise xmi:id="46" sofa="258" begin="959" end="1035"/>
+    <types:Premise xmi:id="52" sofa="258" begin="1052" end="1150"/>
+    <types:Premise xmi:id="58" sofa="258" begin="1473" end="1560"/>
+    <types:Premise xmi:id="64" sofa="258" begin="1575" end="1646"/>
+    <types:Premise xmi:id="70" sofa="258" begin="1648" end="1797"/>
+    <types:Premise xmi:id="76" sofa="258" begin="1805" end="1862"/>
+    <types:Premise xmi:id="82" sofa="258" begin="1864" end="1922"/>
+    <types:Premise xmi:id="88" sofa="258" begin="1949" end="2009"/>
+    <types:Premise xmi:id="94" sofa="258" begin="2025" end="2136"/>
+    <types:Premise xmi:id="100" sofa="258" begin="2144" end="2236"/>
+    <types:MajorClaim xmi:id="106" sofa="258" begin="295" end="401"/>
+    <types:MajorClaim xmi:id="112" sofa="258" begin="2330" end="2502"/>
+    <types:Claim xmi:id="118" sofa="258" begin="759" end="870" stance="For"/>
+    <types:Claim xmi:id="125" sofa="258" begin="1158" end="1288" stance="For"/>
+    <types:Claim xmi:id="132" sofa="258" begin="1324" end="1444" stance="For"/>
+    <types:Claim xmi:id="139" sofa="258" begin="2262" end="2309" stance="Against"/>
+    <types:Support xmi:id="146" sofa="258" begin="498" end="870" source="22" target="118"/>
+    <types:Support xmi:id="154" sofa="258" begin="583" end="746" source="28" target="34"/>
+    <types:Support xmi:id="162" sofa="258" begin="660" end="870" source="34" target="118"/>
+    <types:Support xmi:id="170" sofa="258" begin="882" end="1288" source="40" target="125"/>
+    <types:Support xmi:id="178" sofa="258" begin="959" end="1288" source="46" target="125"/>
+    <types:Support xmi:id="186" sofa="258" begin="1052" end="1288" source="52" target="125"/>
+    <types:Support xmi:id="194" sofa="258" begin="1324" end="2009" source="88" target="132"/>
+    <types:Support xmi:id="202" sofa="258" begin="1324" end="1560" source="58" target="132"/>
+    <types:Support xmi:id="210" sofa="258" begin="1473" end="1922" source="82" target="58"/>
+    <types:Support xmi:id="218" sofa="258" begin="1473" end="1797" source="70" target="58"/>
+    <types:Support xmi:id="226" sofa="258" begin="1473" end="1646" source="64" target="58"/>
+    <types:Support xmi:id="234" sofa="258" begin="1805" end="1922" source="76" target="82"/>
+    <types:Support xmi:id="242" sofa="258" begin="1949" end="2236" source="100" target="88"/>
+    <types:Support xmi:id="250" sofa="258" begin="1949" end="2136" source="94" target="88"/>
+    <argumentation:LocalSufficiency xmi:id="273" sofa="258" begin="489" end="871" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="280" sofa="258" begin="872" end="1289" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="287" sofa="258" begin="1290" end="2237" majority="0.0" mean="0.0"/>
+    <cas:Sofa xmi:id="258" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Recently, a great deal of attention has been paid to means of transportation. Some state that automobile is the most convenient transportation, while others assert that alternative forms of transport should be considered in view of environmental pollution. In my opinion, I strongly agree that alternative means of transportation and international laws in controlling automobiles should be introduced. In this essay, several reasons will be described carefully in the following passages.&#10;Firstly, an increase in the number of automobiles brings about environmental pollution. Since automobile exhaust and carbon dioxides emission have bad impacts on the air, the air gets to be polluted and it causes respiratory disease of the local inhabitants. Therefore, it is crucial to alter automobiles to the other means of transportation and to legislate to control automobiles.&#10;Secondly, an increase in the number of automobiles causes terrible traffic congestion. Once we get into the traffic jam, it forces us to waste our time for a while. What is worse, traffic congestion irritates drivers and as a result, it leads to an increase of traffic accidents. Thus, the methods to reduce the number of automobiles and to control car ownership and use should be immediately planned and implemented.&#10;In order to solve these problems, alternative forms of transportation and international laws to control automobiles ownership and use can work effectively. With regard to the former, alternative forms which emit less carbon dioxides and gasses than automobiles are ideal. For example, rental bicycle system has been introduced in several European countries. This system is that at the corner of each district, the rental bicycles are placed and the people can ride it to the other districts with a small fee. Since bicycle expels neither carbon dioxides nor harmful gasses, it is a better form to protect environment than automobile. As for the latter point, the introduction of international laws can be also effective. For instance, there are some regulations to limit the use of automobiles by time and to allow the people possess one car only. Thus, these attempts to reduce automobiles can ease traffic congestion and environmental pollution.&#10;In summary, even though some people claim the convenience of automobile, I would state that alternative forms of transport and international laws on controlling automobiles are necessary due to the environmental protection and the alleviation of traffic congestion.&#10;"/>
+    <cas:View sofa="258" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 100 106 112 118 125 132 139 146 154 162 170 178 186 194 202 210 218 226 234 242 250 273 280 287"/>
+</xmi:XMI>

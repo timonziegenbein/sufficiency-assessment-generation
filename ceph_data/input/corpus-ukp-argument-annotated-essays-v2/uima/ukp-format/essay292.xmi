@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="174" begin="0" end="1959" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="174" begin="0" end="1959" filename="essay292" topic="Playing Computer Games wastes time and students should not be allowed to play it.�" twoSided="positive"/>
+    <types:MajorClaim xmi:id="22" sofa="174" begin="32" end="85"/>
+    <types:MajorClaim xmi:id="28" sofa="174" begin="1788" end="1860"/>
+    <types:Claim xmi:id="34" sofa="174" begin="92" end="135" stance="For"/>
+    <types:Claim xmi:id="41" sofa="174" begin="203" end="325" stance="For"/>
+    <types:Claim xmi:id="48" sofa="174" begin="837" end="881" stance="For"/>
+    <types:Claim xmi:id="55" sofa="174" begin="1193" end="1331" stance="Against"/>
+    <types:Premise xmi:id="62" sofa="174" begin="327" end="585"/>
+    <types:Premise xmi:id="68" sofa="174" begin="587" end="760"/>
+    <types:Premise xmi:id="74" sofa="174" begin="771" end="825"/>
+    <types:Premise xmi:id="80" sofa="174" begin="889" end="988"/>
+    <types:Premise xmi:id="86" sofa="174" begin="990" end="1078"/>
+    <types:Premise xmi:id="92" sofa="174" begin="1089" end="1178"/>
+    <types:Premise xmi:id="98" sofa="174" begin="1366" end="1533"/>
+    <types:Premise xmi:id="104" sofa="174" begin="1535" end="1760"/>
+    <types:Support xmi:id="110" sofa="174" begin="203" end="760" source="68" target="41"/>
+    <types:Support xmi:id="118" sofa="174" begin="203" end="585" source="62" target="41"/>
+    <types:Support xmi:id="126" sofa="174" begin="771" end="881" source="74" target="48"/>
+    <types:Support xmi:id="134" sofa="174" begin="837" end="1178" source="92" target="48"/>
+    <types:Support xmi:id="142" sofa="174" begin="837" end="1078" source="86" target="48"/>
+    <types:Support xmi:id="150" sofa="174" begin="889" end="1078" source="80" target="86"/>
+    <types:Attack xmi:id="158" sofa="174" begin="1193" end="1760" source="104" target="55"/>
+    <types:Attack xmi:id="166" sofa="174" begin="1193" end="1533" source="98" target="55"/>
+    <argumentation:LocalSufficiency xmi:id="189" sofa="174" begin="183" end="762" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="196" sofa="174" begin="763" end="1180" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="203" sofa="174" begin="1181" end="1762" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="174" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;It is a debatable subject that children should not be allowed to play computer games since playing computer games is a a waste of time. I hold a positive view against this opinion. &#10;First and foremost, a large number of students are obsessed in on-line computer games and as a result their performance in school are declined. An investigation done by Beijing University shows that 80% of the students who failed in the final exam paid 2 hours or more on-online games every week, while 90% excellent students expressed that they did not touch computer games during the most of the days. Recent research by Scientist also reveals that the youngs are more likely to be attacted by and lose themselves in these computer games, because of their low control ability. &#10;Second, children could learn nothing from these computer games, therefore time on this activity is really time wasting. Since all these games are developed for commercial purpose and in order to catch the eyes of the children, majority of the games use war, violence, bloody, or sexual subjects to lure the students. However, those subjects are not suitable for the students and will bring bad effects to the youths. &#10;Admittedly, there are a few students paying considerable time on the computer games playing finally choose computer games related jobs as their career. But we have to realize the fact: majority of the students failed in front of the computer games playing and they use their time for studying, sleeping and physical exerice to play these computer games. It is not uncommon that the teenages are found sleepless for several days playing on-line games at public internet bar, and there are also some media reports regarding the sudden death case of the teenages in the internet bar. &#10;In conclusion, I believe it is better that children are not be allowed to play the computer games. The computer games are like cigerate to adults and we need to set up rules to regulate this area."/>
+    <cas:View sofa="174" members="1 14 22 28 34 41 48 55 62 68 74 80 86 92 98 104 110 118 126 134 142 150 158 166 189 196 203"/>
+</xmi:XMI>

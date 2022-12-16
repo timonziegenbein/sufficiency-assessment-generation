@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="174" begin="0" end="1885" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="174" begin="0" end="1885" filename="essay148" topic="Do you agree or disagree with the following statement? Modern technology is creating a single world culture. Use specific reasons and examples to support your answer." twoSided="positive"/>
+    <types:MajorClaim xmi:id="22" sofa="174" begin="165" end="226"/>
+    <types:MajorClaim xmi:id="28" sofa="174" begin="1693" end="1793"/>
+    <types:Claim xmi:id="34" sofa="174" begin="263" end="337" stance="For"/>
+    <types:Claim xmi:id="41" sofa="174" begin="705" end="770" stance="For"/>
+    <types:Claim xmi:id="48" sofa="174" begin="1184" end="1295" stance="Against"/>
+    <types:Claim xmi:id="55" sofa="174" begin="1804" end="1884" stance="For"/>
+    <types:Premise xmi:id="62" sofa="174" begin="339" end="537"/>
+    <types:Premise xmi:id="68" sofa="174" begin="552" end="693"/>
+    <types:Premise xmi:id="74" sofa="174" begin="772" end="891"/>
+    <types:Premise xmi:id="80" sofa="174" begin="906" end="1053"/>
+    <types:Premise xmi:id="86" sofa="174" begin="1079" end="1153"/>
+    <types:Premise xmi:id="92" sofa="174" begin="1349" end="1483"/>
+    <types:Premise xmi:id="98" sofa="174" begin="1494" end="1553"/>
+    <types:Premise xmi:id="104" sofa="174" begin="1568" end="1680"/>
+    <types:Support xmi:id="110" sofa="174" begin="263" end="693" source="68" target="34"/>
+    <types:Support xmi:id="118" sofa="174" begin="263" end="537" source="62" target="34"/>
+    <types:Support xmi:id="126" sofa="174" begin="705" end="1153" source="86" target="41"/>
+    <types:Support xmi:id="134" sofa="174" begin="705" end="891" source="74" target="41"/>
+    <types:Support xmi:id="142" sofa="174" begin="906" end="1153" source="80" target="86"/>
+    <types:Attack xmi:id="150" sofa="174" begin="1184" end="1680" source="104" target="48"/>
+    <types:Attack xmi:id="158" sofa="174" begin="1184" end="1553" source="98" target="48"/>
+    <types:Attack xmi:id="166" sofa="174" begin="1184" end="1483" source="92" target="48"/>
+    <argumentation:LocalSufficiency xmi:id="189" sofa="174" begin="254" end="694" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="196" sofa="174" begin="695" end="1154" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="203" sofa="174" begin="1155" end="1681" majority="0.0" mean="0.0"/>
+    <cas:Sofa xmi:id="174" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;There are many different opinions regarding world culture. Some people think that all the countries in the world cannot have a single culture. However, in my view, a single modern culture is being created by modern technology for the following reasons.&#10;Firstly, most of the countries have the same educational system based on technology. Teachers give topics to the students who should research on the internet to find data, and then students should type their research by using computer and even give a presentation by using PowerPoint. For example, students who are studying in Iran use the same software, Microsoft, to type their homework or have presentation compared to Canadian students.&#10;Secondly, new technology has created some similar jobs all around the world. Computer technology is a growing job in most of the countries, and students are being encouraged to study in this field. For example, many immigrants in Canada who have the degree in computer technology fields can easily go to Canadian universities and find jobs with good salaries. This example shows that jobs that are related to technology are in demand in most of the countries.&#10;Some people might argue that there are some cultures such as making foods which are unicq in each culture, and technology cannot affect them. This point has some merits on the surface; however, many countries such as Canada, the USA, and British have many restaurants which serve many foods form different countries and cultures. In fact, cooks can find many new food recipes easily on the Internet. For example, two days ago, I went to a Canadian restaurant, and I ate noodle, sushi, which are Chinese foods, and Greek salad.&#10;To sum up, new technology has affected cultures of the world, and we can see many similarities in many cultures. In fact, new technology has influences on educational system, jobs and foods in the world."/>
+    <cas:View sofa="174" members="1 14 22 28 34 41 48 55 62 68 74 80 86 92 98 104 110 118 126 134 142 150 158 166 189 196 203"/>
+</xmi:XMI>

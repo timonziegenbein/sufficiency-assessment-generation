@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="327" begin="0" end="2120" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="327" begin="0" end="2120" filename="essay303" topic="Some people are always in a hurry to go places and get things done. Other people prefer to take their time and live life at a slower pace. Which do you prefer? Use specific reasons and examples to support your answer." twoSided="negative"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="22" sofa="327" begin="400" end="450" unitType="majorclaim"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="27" sofa="327" begin="460" end="516" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="32" sofa="327" begin="525" end="603" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="37" sofa="327" begin="605" end="719" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="42" sofa="327" begin="721" end="786" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="47" sofa="327" begin="796" end="829" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="52" sofa="327" begin="845" end="915" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="57" sofa="327" begin="917" end="1027" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="62" sofa="327" begin="1042" end="1100" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="67" sofa="327" begin="1102" end="1178" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="72" sofa="327" begin="1180" end="1259" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="77" sofa="327" begin="1261" end="1358" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="82" sofa="327" begin="1373" end="1443" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="87" sofa="327" begin="1453" end="1506" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="92" sofa="327" begin="1517" end="1535" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="97" sofa="327" begin="1537" end="1658" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="102" sofa="327" begin="1660" end="1751" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="107" sofa="327" begin="1765" end="1832" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="112" sofa="327" begin="1849" end="1901" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="117" sofa="327" begin="1911" end="1951" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="122" sofa="327" begin="2017" end="2119" unitType="majorclaim"/>
+    <argumentation:Argument xmi:id="127" sofa="327" begin="400" end="2119" premises="122" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="137" sofa="327" begin="400" end="1832" premises="107" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="147" sofa="327" begin="400" end="1100" premises="62" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="157" sofa="327" begin="400" end="603" premises="32" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="167" sofa="327" begin="400" end="516" premises="27" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="177" sofa="327" begin="525" end="1027" premises="57" conclusion="32" argumentType="supports"/>
+    <argumentation:Argument xmi:id="187" sofa="327" begin="525" end="915" premises="52" conclusion="32" argumentType="supports"/>
+    <argumentation:Argument xmi:id="197" sofa="327" begin="525" end="786" premises="42" conclusion="32" argumentType="supports"/>
+    <argumentation:Argument xmi:id="207" sofa="327" begin="525" end="719" premises="37" conclusion="32" argumentType="supports"/>
+    <argumentation:Argument xmi:id="217" sofa="327" begin="721" end="829" premises="47" conclusion="42" argumentType="supports"/>
+    <argumentation:Argument xmi:id="227" sofa="327" begin="1042" end="1443" premises="82" conclusion="62" argumentType="supports"/>
+    <argumentation:Argument xmi:id="237" sofa="327" begin="1042" end="1358" premises="77" conclusion="62" argumentType="supports"/>
+    <argumentation:Argument xmi:id="247" sofa="327" begin="1042" end="1259" premises="72" conclusion="62" argumentType="supports"/>
+    <argumentation:Argument xmi:id="257" sofa="327" begin="1042" end="1178" premises="67" conclusion="62" argumentType="supports"/>
+    <argumentation:Argument xmi:id="267" sofa="327" begin="1373" end="1506" premises="87" conclusion="82" argumentType="supports"/>
+    <argumentation:Argument xmi:id="277" sofa="327" begin="1517" end="1832" premises="92" conclusion="107" argumentType="supports"/>
+    <argumentation:Argument xmi:id="287" sofa="327" begin="1537" end="1832" premises="97" conclusion="107" argumentType="supports"/>
+    <argumentation:Argument xmi:id="297" sofa="327" begin="1660" end="1832" premises="102" conclusion="107" argumentType="supports"/>
+    <argumentation:Argument xmi:id="307" sofa="327" begin="1765" end="1901" premises="112" conclusion="107" argumentType="supports"/>
+    <argumentation:Argument xmi:id="317" sofa="327" begin="1849" end="1951" premises="117" conclusion="112" argumentType="supports"/>
+    <argumentation:LocalSufficiency xmi:id="342" sofa="327" begin="518" end="1028" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="349" sofa="327" begin="1029" end="1507" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="356" sofa="327" begin="1508" end="1952" majority="0.0" mean="0.0"/>
+    <cas:Sofa xmi:id="327" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Modern technologies and globalization have increased the speed of life in the past decades tremendously. However, while the majority of people live on the fast lane, others decide to reduce the speed and take their time. To draw an entire picture, we have to consider both the advantages and disadvantages of this increased speed of life and ask our self which way of life is better. In my opinion, it is very important to live life at a slower pace, because living in a hurry comes along with several disadvantages.&#10;First, living your life on the fast lane is very stressful and can affect your health. If you are always hurried and you do not take a certain time off, your body will react to your stressful lifestyle. Many hardworking people have diseases, like the burn-out syndrome, because their bodies cannot hold the pace. For instance, my father had a a breakdown several years ago due to his stressful job. After several weeks off his body was restored, now he has reduced the tempo of his lifestyle and is doing fine.&#10;In addition, living your life at a slower pace increases your happiness. If you are always facing excessive stress you cannot care for your beloved's. If you do not hurry yourself you can take more time for your family and friends. Caring for your social environment will increase your happiness and also reduce your stress level. For example, a friend of mine lives at a slow pace and is really satisfied about it, because he can enjoy his family and cultivate his friendships.&#10;Finally, quality takes time. When you are faced with difficult tasks and you do them in a rush, you are more likely to do avoidable errors or mistakes. Doing tasks in a hurry may end up in not considering all necessary aspects or opportunities. As a result you might make mistakes, you would not have done with more patience. To illustrate, I once wrote an essay in a hurry and got a bad grade, because I made few mistakes I could have avoided.&#10;In conclusion, there is to say that, given the arguments above, living a slower life is advantageous for your health, your happiness and even the quality of your work."/>
+    <cas:View sofa="327" members="1 14 22 27 32 37 42 47 52 57 62 67 72 77 82 87 92 97 102 107 112 117 122 127 137 147 157 167 177 187 197 207 217 227 237 247 257 267 277 287 297 307 317 342 349 356"/>
+</xmi:XMI>

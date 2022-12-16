@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="209" begin="0" end="1540" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="209" begin="0" end="1540" filename="essay174" topic="Some movies are serious, designed to make the audience think. Other movies are designed primarily to amuse and entertain. Which type of movie do you prefer? Use specific reasons and examples to support your answer." twoSided="negative"/>
+    <types:MajorClaim xmi:id="22" sofa="209" begin="1" end="68"/>
+    <types:MajorClaim xmi:id="28" sofa="209" begin="1442" end="1539"/>
+    <types:Premise xmi:id="34" sofa="209" begin="151" end="198"/>
+    <types:Premise xmi:id="40" sofa="209" begin="209" end="259"/>
+    <types:Premise xmi:id="46" sofa="209" begin="261" end="353"/>
+    <types:Premise xmi:id="52" sofa="209" begin="355" end="441"/>
+    <types:Premise xmi:id="58" sofa="209" begin="453" end="499"/>
+    <types:Premise xmi:id="64" sofa="209" begin="547" end="690"/>
+    <types:Premise xmi:id="70" sofa="209" begin="692" end="838"/>
+    <types:Premise xmi:id="76" sofa="209" begin="967" end="1045"/>
+    <types:Premise xmi:id="82" sofa="209" begin="1047" end="1160"/>
+    <types:Premise xmi:id="88" sofa="209" begin="1162" end="1234"/>
+    <types:Premise xmi:id="94" sofa="209" begin="1236" end="1340"/>
+    <types:Claim xmi:id="100" sofa="209" begin="99" end="149" stance="For"/>
+    <types:Claim xmi:id="107" sofa="209" begin="846" end="955" stance="For"/>
+    <types:Claim xmi:id="114" sofa="209" begin="1355" end="1417" stance="For"/>
+    <types:Support xmi:id="121" sofa="209" begin="99" end="499" source="58" target="100"/>
+    <types:Support xmi:id="129" sofa="209" begin="99" end="441" source="52" target="100"/>
+    <types:Support xmi:id="137" sofa="209" begin="99" end="353" source="46" target="100"/>
+    <types:Support xmi:id="145" sofa="209" begin="99" end="259" source="40" target="100"/>
+    <types:Support xmi:id="153" sofa="209" begin="99" end="198" source="34" target="100"/>
+    <types:Support xmi:id="161" sofa="209" begin="547" end="955" source="64" target="107"/>
+    <types:Support xmi:id="169" sofa="209" begin="692" end="955" source="70" target="107"/>
+    <types:Support xmi:id="177" sofa="209" begin="967" end="1417" source="76" target="114"/>
+    <types:Support xmi:id="185" sofa="209" begin="1047" end="1417" source="82" target="114"/>
+    <types:Support xmi:id="193" sofa="209" begin="1162" end="1417" source="88" target="114"/>
+    <types:Support xmi:id="201" sofa="209" begin="1236" end="1417" source="94" target="114"/>
+    <argumentation:LocalSufficiency xmi:id="224" sofa="209" begin="92" end="500" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="231" sofa="209" begin="501" end="956" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="238" sofa="209" begin="957" end="1418" majority="0.0" mean="0.0"/>
+    <cas:Sofa xmi:id="209" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;I prefer the serious movies which are simple, touching and powerful. Here are my reasons. &#10;First, most serious movies have a wide variety of content. Entertaining movies are created to amuse people. However, most entertaining movies are empty and nonsensical. Compared with the entertainment film, the serious film may be more worthwhile and meaningful. Serious movies usually designed to express one or more thinking about love, humaneness; moreover, it may point out the dark sides of the society.&#10;Second, not all of serious movies are boring. &quot;Click&quot; is a very interesting comedy, with a serious approach about the importance of having a balanced life between family and work businesses. The movie is humorous and satiric,which leads us to think what is the most valuable of our lives, and it reminds us how important our families are. Thus, the hidden meanings of serious movies are usually beyond words and images which make us think about ourselves.&#10;Moreover, some of serious movies try to make you think about the dark sides of the world. &quot;Blood diamond&quot;, an adaptation of a real story in South Africa, focuses on the link between diamonds and conflict. After watching the movie, we may learn a lesson between jewels and death. Diamonds are not rare or a sign of true love; indeed, the hidden meaning of a diamond is a cruel reality. As a result, serious movie tell you how to see the world in a different way.&#10;For the above reasons, I prefer to see those serious movies which make people have deep thoughts toward their real lives."/>
+    <cas:View sofa="209" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 100 107 114 121 129 137 145 153 161 169 177 185 193 201 224 231 238"/>
+</xmi:XMI>

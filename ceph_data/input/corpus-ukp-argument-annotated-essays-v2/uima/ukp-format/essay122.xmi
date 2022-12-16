@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="229" begin="0" end="1863" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="229" begin="0" end="1863" filename="essay122" topic="It is recently announced that a new high school may be built in your neighborhood. Do you support or oppose this plan?" twoSided="negative"/>
+    <types:MajorClaim xmi:id="22" sofa="229" begin="79" end="145"/>
+    <types:MajorClaim xmi:id="28" sofa="229" begin="289" end="366"/>
+    <types:MajorClaim xmi:id="34" sofa="229" begin="1799" end="1862"/>
+    <types:Claim xmi:id="40" sofa="229" begin="147" end="265" stance="For"/>
+    <types:Claim xmi:id="47" sofa="229" begin="391" end="480" stance="For"/>
+    <types:Claim xmi:id="54" sofa="229" begin="801" end="927" stance="For"/>
+    <types:Claim xmi:id="61" sofa="229" begin="1468" end="1669" stance="For"/>
+    <types:Claim xmi:id="68" sofa="229" begin="1671" end="1756" stance="Against"/>
+    <types:Premise xmi:id="75" sofa="229" begin="482" end="600"/>
+    <types:Premise xmi:id="81" sofa="229" begin="607" end="667"/>
+    <types:Premise xmi:id="87" sofa="229" begin="672" end="720"/>
+    <types:Premise xmi:id="93" sofa="229" begin="722" end="788"/>
+    <types:Premise xmi:id="99" sofa="229" begin="929" end="1061"/>
+    <types:Premise xmi:id="105" sofa="229" begin="1076" end="1200"/>
+    <types:Premise xmi:id="111" sofa="229" begin="1202" end="1259"/>
+    <types:Premise xmi:id="117" sofa="229" begin="1261" end="1319"/>
+    <types:Premise xmi:id="123" sofa="229" begin="1321" end="1382"/>
+    <types:Premise xmi:id="129" sofa="229" begin="1396" end="1454"/>
+    <types:Premise xmi:id="135" sofa="229" begin="1775" end="1794"/>
+    <types:Support xmi:id="141" sofa="229" begin="391" end="788" source="93" target="47"/>
+    <types:Support xmi:id="149" sofa="229" begin="391" end="720" source="87" target="47"/>
+    <types:Support xmi:id="157" sofa="229" begin="391" end="600" source="75" target="47"/>
+    <types:Support xmi:id="165" sofa="229" begin="607" end="720" source="81" target="87"/>
+    <types:Support xmi:id="173" sofa="229" begin="801" end="1259" source="111" target="54"/>
+    <types:Support xmi:id="181" sofa="229" begin="801" end="1200" source="105" target="54"/>
+    <types:Support xmi:id="189" sofa="229" begin="801" end="1061" source="99" target="54"/>
+    <types:Support xmi:id="197" sofa="229" begin="1261" end="1382" source="123" target="117"/>
+    <types:Support xmi:id="205" sofa="229" begin="1671" end="1794" source="135" target="68"/>
+    <types:Attack xmi:id="213" sofa="229" begin="801" end="1319" source="117" target="54"/>
+    <types:Attack xmi:id="221" sofa="229" begin="1321" end="1454" source="129" target="123"/>
+    <argumentation:LocalSufficiency xmi:id="244" sofa="229" begin="369" end="790" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="251" sofa="229" begin="791" end="1456" majority="0.0" mean="0.0"/>
+    <cas:Sofa xmi:id="229" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Although some of my neighbors will oppose this idea, personally I approve it. The new high school will bring a lot of advantages to my community. The high school of my district is pretty old and lacks in necessities for students, so they can't get enough education. I really believe that new high school is a great addition to the educational system of my community.&#9;&#10;Firstly, I think that the new high school will bring a lots of opportunities for student concerned in education. Their old high school is pretty old and need in new educational materials, repairing of the place for sport activities. Also the laboratory of physics and chemistry was in bad condition, so the students can't study well during the classes. They will study with new breath and great enthusiasm in new school. &#10;Secondly, the new high school will be a place for new connections between the student of different communities and districts of the city. After classes students and not only the students will get together in building of high school, participate in different competitions. For instance during the football match the students of different high schools will come and after the competition they will keep in touch. This will increase the social connections of the students. The only disadvantage is the noisiness of the competitions. The people living in the neighborhood will be a bit perturbed, but I think this isn't a important reason for ceasing the competitions. &#10;To sum up, this new construction has a lot of advantages like new connections between students from different communities, also the new educational equipment will increase the students' enthusiasm toward studying. The only disadvantage is the nosiness of competitions which students will participate, but I think that it isn't a big deal. So the new high school will be a great addition for my environment."/>
+    <cas:View sofa="229" members="1 14 22 28 34 40 47 54 61 68 75 81 87 93 99 105 111 117 123 129 135 141 149 157 165 173 181 189 197 205 213 221 244 251"/>
+</xmi:XMI>

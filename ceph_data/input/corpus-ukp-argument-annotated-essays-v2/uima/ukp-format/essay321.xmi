@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="195" begin="0" end="1347" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="195" begin="0" end="1347" filename="essay321" topic="Some people prefer to work for themselves or own a business. Others prefer to work for an employer. Would you rather be self-employed, work for someone else, or own a business? Use specific reasons to explain your choice." twoSided="negative"/>
+    <types:MajorClaim xmi:id="22" sofa="195" begin="240" end="273"/>
+    <types:MajorClaim xmi:id="28" sofa="195" begin="1240" end="1346"/>
+    <types:Premise xmi:id="34" sofa="195" begin="377" end="428"/>
+    <types:Premise xmi:id="40" sofa="195" begin="432" end="515"/>
+    <types:Premise xmi:id="46" sofa="195" begin="517" end="563"/>
+    <types:Premise xmi:id="52" sofa="195" begin="578" end="622"/>
+    <types:Premise xmi:id="58" sofa="195" begin="633" end="706"/>
+    <types:Premise xmi:id="64" sofa="195" begin="719" end="779"/>
+    <types:Premise xmi:id="70" sofa="195" begin="781" end="868"/>
+    <types:Premise xmi:id="76" sofa="195" begin="870" end="942"/>
+    <types:Premise xmi:id="82" sofa="195" begin="998" end="1035"/>
+    <types:Premise xmi:id="88" sofa="195" begin="1087" end="1150"/>
+    <types:Claim xmi:id="94" sofa="195" begin="319" end="375" stance="For"/>
+    <types:Claim xmi:id="101" sofa="195" begin="955" end="988" stance="For"/>
+    <types:Claim xmi:id="108" sofa="195" begin="1190" end="1238" stance="Against"/>
+    <types:Support xmi:id="115" sofa="195" begin="319" end="706" source="58" target="94"/>
+    <types:Support xmi:id="123" sofa="195" begin="319" end="622" source="52" target="94"/>
+    <types:Support xmi:id="131" sofa="195" begin="319" end="563" source="46" target="94"/>
+    <types:Support xmi:id="139" sofa="195" begin="319" end="515" source="40" target="94"/>
+    <types:Support xmi:id="147" sofa="195" begin="319" end="428" source="34" target="94"/>
+    <types:Support xmi:id="155" sofa="195" begin="719" end="988" source="64" target="101"/>
+    <types:Support xmi:id="163" sofa="195" begin="781" end="988" source="70" target="101"/>
+    <types:Support xmi:id="171" sofa="195" begin="870" end="988" source="76" target="101"/>
+    <types:Support xmi:id="179" sofa="195" begin="955" end="1150" source="88" target="101"/>
+    <types:Support xmi:id="187" sofa="195" begin="955" end="1035" source="82" target="101"/>
+    <argumentation:LocalSufficiency xmi:id="210" sofa="195" begin="312" end="708" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="217" sofa="195" begin="709" end="1152" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="195" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Most people want to work for an employer, because they want to feel secure about their salary, or feel comfortable about other problems of having own job such as paying tax, worrying about selling, etc. Despite these problems, personally, I would prefer to have my own job. My arguments are listed as follows. &#10;First, time is the more valuable thing, which I have in my life. By having my own business, I can manage my own time. I could work whenever I want, or I do not need to give reasons to my boss for a delay. I can arrange time to travel when I would like. In addition, I can work long hours for earning more money. Totally, the most important reason for me to be self-employed is the sense of free. &#10;Moreover, earning money is the fundamental reason that why people work. The amount of money is always the most important criterion for everyone to choose a job. If I work for other people, I have to give my ideas to employers cheaply. Therefore, I never have been rich in my life, because my salary is not dramatically changed. In spite of many problems of having own business, I can earn more money based on my creativity and personal ideas. &#10;To sum up, in spite of the fact that many people are not eager to work for themselves, I would like to run my own business to control my own time, and to earn more money based on my noble ideas."/>
+    <cas:View sofa="195" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 101 108 115 123 131 139 147 155 163 171 179 187 210 217"/>
+</xmi:XMI>

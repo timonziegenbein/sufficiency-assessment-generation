@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="312" begin="0" end="1909" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="312" begin="0" end="1909" filename="essay296" topic="Technology designed to make people's lives simpler often turns out to make them more complicated." twoSided="positive"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="22" sofa="312" begin="421" end="465" unitType="majorclaim"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="27" sofa="312" begin="538" end="571" unitType="claim-against"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="32" sofa="312" begin="582" end="620" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="37" sofa="312" begin="628" end="709" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="42" sofa="312" begin="711" end="737" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="47" sofa="312" begin="753" end="803" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="52" sofa="312" begin="814" end="915" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="57" sofa="312" begin="927" end="990" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="62" sofa="312" begin="999" end="1075" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="67" sofa="312" begin="1084" end="1116" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="72" sofa="312" begin="1129" end="1184" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="77" sofa="312" begin="1186" end="1232" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="82" sofa="312" begin="1242" end="1288" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="87" sofa="312" begin="1290" end="1341" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="92" sofa="312" begin="1343" end="1400" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="97" sofa="312" begin="1402" end="1533" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="102" sofa="312" begin="1547" end="1678" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="107" sofa="312" begin="1680" end="1770" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="112" sofa="312" begin="1781" end="1830" unitType="claim-against"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="117" sofa="312" begin="1832" end="1907" unitType="majorclaim"/>
+    <argumentation:Argument xmi:id="122" sofa="312" begin="421" end="1907" premises="117" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="132" sofa="312" begin="421" end="1830" premises="112" conclusion="22" argumentType="attacks"/>
+    <argumentation:Argument xmi:id="142" sofa="312" begin="421" end="1116" premises="67" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="152" sofa="312" begin="421" end="571" premises="27" conclusion="22" argumentType="attacks"/>
+    <argumentation:Argument xmi:id="162" sofa="312" begin="538" end="915" premises="52" conclusion="27" argumentType="attacks"/>
+    <argumentation:Argument xmi:id="172" sofa="312" begin="538" end="737" premises="42" conclusion="27" argumentType="attacks"/>
+    <argumentation:Argument xmi:id="182" sofa="312" begin="538" end="620" premises="32" conclusion="27" argumentType="attacks"/>
+    <argumentation:Argument xmi:id="192" sofa="312" begin="628" end="737" premises="37" conclusion="42" argumentType="supports"/>
+    <argumentation:Argument xmi:id="202" sofa="312" begin="753" end="915" premises="47" conclusion="52" argumentType="supports"/>
+    <argumentation:Argument xmi:id="212" sofa="312" begin="814" end="990" premises="57" conclusion="52" argumentType="supports"/>
+    <argumentation:Argument xmi:id="222" sofa="312" begin="927" end="1075" premises="62" conclusion="57" argumentType="supports"/>
+    <argumentation:Argument xmi:id="232" sofa="312" begin="1084" end="1770" premises="107" conclusion="67" argumentType="supports"/>
+    <argumentation:Argument xmi:id="242" sofa="312" begin="1084" end="1678" premises="102" conclusion="67" argumentType="supports"/>
+    <argumentation:Argument xmi:id="252" sofa="312" begin="1084" end="1533" premises="97" conclusion="67" argumentType="supports"/>
+    <argumentation:Argument xmi:id="262" sofa="312" begin="1084" end="1400" premises="92" conclusion="67" argumentType="supports"/>
+    <argumentation:Argument xmi:id="272" sofa="312" begin="1084" end="1341" premises="87" conclusion="67" argumentType="supports"/>
+    <argumentation:Argument xmi:id="282" sofa="312" begin="1084" end="1232" premises="77" conclusion="67" argumentType="supports"/>
+    <argumentation:Argument xmi:id="292" sofa="312" begin="1129" end="1232" premises="72" conclusion="77" argumentType="supports"/>
+    <argumentation:Argument xmi:id="302" sofa="312" begin="1242" end="1341" premises="82" conclusion="87" argumentType="supports"/>
+    <argumentation:LocalSufficiency xmi:id="327" sofa="312" begin="527" end="1077" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="334" sofa="312" begin="1078" end="1771" majority="0.0" mean="0.0"/>
+    <cas:Sofa xmi:id="312" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Many people think they are blessed to be in the era of high technology. With newly developing technologies, people are able to carry various tasks more convenient and easy. For example, we no longer have to travel to DMV to renew our driver's license or drive to bank for sending money. Ancient people would probably think that we are like magicians. However, even with all the conveniences, we would have to admit that technologies made our lives more complicated. There are couple reasons and examples to support my answer.&#10;Of course, new technologies are always great. However, it takes time for people to adapt them. Since we are informed with devices that are produced with new features nearly every day, many people often get lost. For instance, I use new Iphone which I personally think is great. However, even though I used it for couple months, I still do not know how to use all the features proficiently. At first, I tried to go through all the instructions but, soon, I gave up because I found out that it is time-consuming and there are too many things to learn. &#10;Next, technology destroys the language. Ever since people used computers or cellphones to chat with others, they created their own language to communicate. Because people try to type as fast as they are talking, they use a lot of abbreviations and broken language. This has gotten worse with twitter, myspace, and facebook. What are even worse, young people who are still in the early ages are exposed to them and impeded by the newly developed inventions. To clarify, my younger brother does not know how to spell the words correctly and he talks to his friends with terms that I have never heard of. I have tried to correct him for couple times but he just thinks that I am too conservative.&#10;Although technologies allowed us to have a convenient life, it has made our lives more chaotic according to the reasons mentioned above. "/>
+    <cas:View sofa="312" members="1 14 22 27 32 37 42 47 52 57 62 67 72 77 82 87 92 97 102 107 112 117 122 132 142 152 162 172 182 192 202 212 222 232 242 252 262 272 282 292 302 327 334"/>
+</xmi:XMI>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="279" begin="0" end="2158" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="279" begin="0" end="2158" filename="essay310" topic="Do you agree or disagree with the following statement? In today's world, it is more important to work quickly and risk making mistakes than to work slowly and make sure that everything is correct." twoSided="negative"/>
+    <types:Premise xmi:id="22" sofa="279" begin="540" end="666"/>
+    <types:Premise xmi:id="28" sofa="279" begin="668" end="771"/>
+    <types:Premise xmi:id="34" sofa="279" begin="786" end="827"/>
+    <types:Premise xmi:id="40" sofa="279" begin="829" end="889"/>
+    <types:Premise xmi:id="46" sofa="279" begin="891" end="980"/>
+    <types:Premise xmi:id="52" sofa="279" begin="1061" end="1093"/>
+    <types:Premise xmi:id="58" sofa="279" begin="1095" end="1162"/>
+    <types:Premise xmi:id="64" sofa="279" begin="1164" end="1211"/>
+    <types:Premise xmi:id="70" sofa="279" begin="1234" end="1279"/>
+    <types:Premise xmi:id="76" sofa="279" begin="1281" end="1333"/>
+    <types:Premise xmi:id="82" sofa="279" begin="1335" end="1367"/>
+    <types:Premise xmi:id="88" sofa="279" begin="1445" end="1578"/>
+    <types:Premise xmi:id="94" sofa="279" begin="1580" end="1673"/>
+    <types:Premise xmi:id="100" sofa="279" begin="1675" end="1743"/>
+    <types:Premise xmi:id="106" sofa="279" begin="1745" end="1837"/>
+    <types:Claim xmi:id="112" sofa="279" begin="301" end="461" stance="For"/>
+    <types:Claim xmi:id="119" sofa="279" begin="478" end="538" stance="For"/>
+    <types:Claim xmi:id="126" sofa="279" begin="1000" end="1052" stance="For"/>
+    <types:Claim xmi:id="133" sofa="279" begin="1389" end="1443" stance="For"/>
+    <types:Claim xmi:id="140" sofa="279" begin="1942" end="2079" stance="For"/>
+    <types:MajorClaim xmi:id="147" sofa="279" begin="171" end="225"/>
+    <types:MajorClaim xmi:id="153" sofa="279" begin="1899" end="1940"/>
+    <types:Support xmi:id="159" sofa="279" begin="478" end="771" source="28" target="119"/>
+    <types:Support xmi:id="167" sofa="279" begin="478" end="666" source="22" target="119"/>
+    <types:Support xmi:id="175" sofa="279" begin="668" end="980" source="46" target="28"/>
+    <types:Support xmi:id="183" sofa="279" begin="668" end="889" source="40" target="28"/>
+    <types:Support xmi:id="191" sofa="279" begin="668" end="827" source="34" target="28"/>
+    <types:Support xmi:id="199" sofa="279" begin="1000" end="1367" source="82" target="126"/>
+    <types:Support xmi:id="207" sofa="279" begin="1000" end="1333" source="76" target="126"/>
+    <types:Support xmi:id="215" sofa="279" begin="1000" end="1211" source="64" target="126"/>
+    <types:Support xmi:id="223" sofa="279" begin="1000" end="1162" source="58" target="126"/>
+    <types:Support xmi:id="231" sofa="279" begin="1000" end="1093" source="52" target="126"/>
+    <types:Support xmi:id="239" sofa="279" begin="1234" end="1333" source="70" target="76"/>
+    <types:Support xmi:id="247" sofa="279" begin="1389" end="1837" source="106" target="133"/>
+    <types:Support xmi:id="255" sofa="279" begin="1389" end="1743" source="100" target="133"/>
+    <types:Support xmi:id="263" sofa="279" begin="1389" end="1673" source="94" target="133"/>
+    <types:Support xmi:id="271" sofa="279" begin="1389" end="1578" source="88" target="133"/>
+    <argumentation:LocalSufficiency xmi:id="294" sofa="279" begin="463" end="981" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="301" sofa="279" begin="982" end="1368" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="308" sofa="279" begin="1369" end="1838" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="279" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Organizations, these days, seek to find people who can work extraordinary fast and carefully. These people play an important role to increase effectiveness of a company. Working fast yet risky has a place near the ideal goal mentioned before. I am totally agrees with the statement for some reasons. Trying to learn skills, working in two places in a week and gaining more tasks are the reasons which take into account as the most important causes of my choice.&#10;To begin with, if persons work rapidly, they will have more chance to study. Attending in some classes which try to increase the skills of employees can be considered as an absolutely effective parameter. If people learn how should increase their speed at work by studying, they can stares in their workplace. For example, I have a friend who was working so slowly. He has been threatened by his boss who was going to fire him. My friend went to a course where he learned how should work rapidly and now he is working.&#10;Most importantly, people prone to work in two or three firms in a week because the expenses have been increased. If they work just in one organization they cannot earn enough money. This fact pushes them to work faster and faster. For example, because applying to study abroad needs a lot of money, I am working in two organization to gain more salary. The more money, the more chances.&#10;Last but not least, people who work slowly can no longer handle more tasks. If you show in your workplace that you are the one who can work more than other even carelessly, your boss will assign you more tasks. If you do them fast too, the first acknowledgement of your boss encourages you to work harder. It turns you to a person who has skill of working without hesitation. Even if we ignore this result, by the same token, you can get higher position and more money.&#10;To sum up, I completely approve of the statement which says people should work faster even more risky. Gaining more skills by study, having more than one job, and handling more tasks are the benefits of it which overweighs its disadvantages. I hope people gain this skill because after that they will endorse my choice."/>
+    <cas:View sofa="279" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 100 106 112 119 126 133 140 147 153 159 167 175 183 191 199 207 215 223 231 239 247 255 263 271 294 301 308"/>
+</xmi:XMI>

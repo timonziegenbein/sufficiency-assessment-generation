@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="312" begin="0" end="1914" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="312" begin="0" end="1914" filename="essay220" topic="Some young adults want independence from their parents as soon as possible. Other young adults prefer to live with their families for a longer time. Which of these situations do you think is better? Use specific reasons and examples to support your opinion." twoSided="negative"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="22" sofa="312" begin="154" end="251" unitType="majorclaim"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="27" sofa="312" begin="412" end="469" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="32" sofa="312" begin="471" end="554" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="37" sofa="312" begin="556" end="625" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="42" sofa="312" begin="627" end="748" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="47" sofa="312" begin="750" end="806" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="52" sofa="312" begin="822" end="859" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="57" sofa="312" begin="874" end="919" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="62" sofa="312" begin="921" end="994" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="67" sofa="312" begin="1007" end="1083" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="72" sofa="312" begin="1095" end="1151" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="77" sofa="312" begin="1153" end="1235" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="82" sofa="312" begin="1248" end="1315" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="87" sofa="312" begin="1353" end="1406" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="92" sofa="312" begin="1408" end="1476" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="97" sofa="312" begin="1478" end="1585" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="102" sofa="312" begin="1587" end="1664" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="107" sofa="312" begin="1673" end="1748" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="112" sofa="312" begin="1761" end="1858" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="117" sofa="312" begin="1867" end="1913" unitType="majorclaim"/>
+    <argumentation:Argument xmi:id="122" sofa="312" begin="154" end="1913" premises="117" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="132" sofa="312" begin="154" end="1858" premises="112" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="142" sofa="312" begin="154" end="1748" premises="107" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="152" sofa="312" begin="154" end="1315" premises="82" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="162" sofa="312" begin="154" end="859" premises="52" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="172" sofa="312" begin="412" end="859" premises="27" conclusion="52" argumentType="supports"/>
+    <argumentation:Argument xmi:id="182" sofa="312" begin="471" end="859" premises="32" conclusion="52" argumentType="supports"/>
+    <argumentation:Argument xmi:id="192" sofa="312" begin="556" end="859" premises="37" conclusion="52" argumentType="supports"/>
+    <argumentation:Argument xmi:id="202" sofa="312" begin="627" end="859" premises="42" conclusion="52" argumentType="supports"/>
+    <argumentation:Argument xmi:id="212" sofa="312" begin="750" end="859" premises="47" conclusion="52" argumentType="supports"/>
+    <argumentation:Argument xmi:id="222" sofa="312" begin="874" end="1315" premises="57" conclusion="82" argumentType="supports"/>
+    <argumentation:Argument xmi:id="232" sofa="312" begin="921" end="1083" premises="62" conclusion="67" argumentType="supports"/>
+    <argumentation:Argument xmi:id="242" sofa="312" begin="1007" end="1315" premises="67" conclusion="82" argumentType="supports"/>
+    <argumentation:Argument xmi:id="252" sofa="312" begin="1095" end="1315" premises="72" conclusion="82" argumentType="supports"/>
+    <argumentation:Argument xmi:id="262" sofa="312" begin="1153" end="1315" premises="77" conclusion="82" argumentType="supports"/>
+    <argumentation:Argument xmi:id="272" sofa="312" begin="1353" end="1748" premises="87" conclusion="107" argumentType="supports"/>
+    <argumentation:Argument xmi:id="282" sofa="312" begin="1408" end="1748" premises="92" conclusion="107" argumentType="supports"/>
+    <argumentation:Argument xmi:id="292" sofa="312" begin="1478" end="1748" premises="97" conclusion="107" argumentType="supports"/>
+    <argumentation:Argument xmi:id="302" sofa="312" begin="1587" end="1748" premises="102" conclusion="107" argumentType="supports"/>
+    <argumentation:LocalSufficiency xmi:id="327" sofa="312" begin="354" end="860" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="334" sofa="312" begin="861" end="1316" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="341" sofa="312" begin="1317" end="1749" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="312" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Learning to be independent is essential for young adults. However, how early the children leave their parents is a difficult issue. In my point of view, staying with the parents for longer time does more benefits than disadvantages to the young adult. My opinion is based on creating memories with parents, saving money, and taking advice from parents.&#10;First of all, one of the most significant upsides is that the young adult can have more experience with his parents. The young adult has to try to create memories with his dad and mom in the early age. When having a job, it is of low possibilities to work in his hometown. If he lives with his parents for longer time, they have more chances to share the feelings, exercise, and travel together. All memories become priceless treasure as time passes by. Thus, I think undergoing with parents is worthwhile.&#10;Furthermore, living at home costs less than living outside. Learning to be independent means that the young adult needs to leave home. Therefore, he may have to rent a house and the rental would become a burden for parents. Moreover, another daily expense is also the considerable outgoings. Spending much money may not result in what the parents expect their children to be. In a word, the parents can save money, if their children live with them longer.&#10;The third convincing reason is that the young adult needs father and mother's suggestions. When in dilemma, the parents can comfort him and give him a big hand. They are the people who are most familiar with him can give a suitable advice and lead him to the right way. If the parents do not help him immediately, he would have to suffer more pain. Hence, taking advice from parents, the young adult can go through obstacles easily.&#10;To sum up, living with parents longer brings about memories with parents, less cost, and advice from parents. Hence, staying longer with parents is a better choice."/>
+    <cas:View sofa="312" members="1 14 22 27 32 37 42 47 52 57 62 67 72 77 82 87 92 97 102 107 112 117 122 132 142 152 162 172 182 192 202 212 222 232 242 252 262 272 282 292 302 327 334 341"/>
+</xmi:XMI>

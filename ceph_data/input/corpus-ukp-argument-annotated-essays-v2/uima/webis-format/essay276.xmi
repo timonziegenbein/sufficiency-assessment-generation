@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="282" begin="0" end="1788" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="282" begin="0" end="1788" filename="essay276" topic="Do you agree or disagree with the following statement? Dancing plays an important role in a culture. Use specific reasons and examples to support your answer." twoSided="negative"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="22" sofa="282" begin="340" end="428" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="27" sofa="282" begin="443" end="554" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="32" sofa="282" begin="556" end="652" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="37" sofa="282" begin="668" end="705" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="42" sofa="282" begin="717" end="770" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="47" sofa="282" begin="786" end="942" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="52" sofa="282" begin="944" end="1024" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="57" sofa="282" begin="1026" end="1069" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="62" sofa="282" begin="1080" end="1139" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="67" sofa="282" begin="1145" end="1172" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="72" sofa="282" begin="1174" end="1225" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="77" sofa="282" begin="1240" end="1397" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="82" sofa="282" begin="1399" end="1484" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="87" sofa="282" begin="1535" end="1574" unitType="majorclaim"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="92" sofa="282" begin="1583" end="1625" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="97" sofa="282" begin="1636" end="1690" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="102" sofa="282" begin="1702" end="1744" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="107" sofa="282" begin="1749" end="1786" unitType="claim-for"/>
+    <argumentation:Argument xmi:id="112" sofa="282" begin="340" end="705" premises="22" conclusion="37" argumentType="supports"/>
+    <argumentation:Argument xmi:id="122" sofa="282" begin="443" end="705" premises="27" conclusion="37" argumentType="supports"/>
+    <argumentation:Argument xmi:id="132" sofa="282" begin="556" end="705" premises="32" conclusion="37" argumentType="supports"/>
+    <argumentation:Argument xmi:id="142" sofa="282" begin="668" end="1574" premises="37" conclusion="87" argumentType="supports"/>
+    <argumentation:Argument xmi:id="152" sofa="282" begin="717" end="1574" premises="42" conclusion="87" argumentType="supports"/>
+    <argumentation:Argument xmi:id="162" sofa="282" begin="717" end="1069" premises="57" conclusion="42" argumentType="supports"/>
+    <argumentation:Argument xmi:id="172" sofa="282" begin="717" end="1024" premises="52" conclusion="42" argumentType="supports"/>
+    <argumentation:Argument xmi:id="182" sofa="282" begin="717" end="942" premises="47" conclusion="42" argumentType="supports"/>
+    <argumentation:Argument xmi:id="192" sofa="282" begin="1080" end="1172" premises="62" conclusion="67" argumentType="supports"/>
+    <argumentation:Argument xmi:id="202" sofa="282" begin="1145" end="1574" premises="67" conclusion="87" argumentType="supports"/>
+    <argumentation:Argument xmi:id="212" sofa="282" begin="1145" end="1484" premises="82" conclusion="67" argumentType="supports"/>
+    <argumentation:Argument xmi:id="222" sofa="282" begin="1145" end="1397" premises="77" conclusion="67" argumentType="supports"/>
+    <argumentation:Argument xmi:id="232" sofa="282" begin="1145" end="1225" premises="72" conclusion="67" argumentType="supports"/>
+    <argumentation:Argument xmi:id="242" sofa="282" begin="1535" end="1786" premises="107" conclusion="87" argumentType="supports"/>
+    <argumentation:Argument xmi:id="252" sofa="282" begin="1535" end="1625" premises="92" conclusion="87" argumentType="supports"/>
+    <argumentation:Argument xmi:id="262" sofa="282" begin="1636" end="1786" premises="97" conclusion="107" argumentType="supports"/>
+    <argumentation:Argument xmi:id="272" sofa="282" begin="1702" end="1786" premises="102" conclusion="107" argumentType="supports"/>
+    <argumentation:LocalSufficiency xmi:id="297" sofa="282" begin="333" end="706" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="304" sofa="282" begin="707" end="1070" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="311" sofa="282" begin="1071" end="1485" majority="0.0" mean="0.0"/>
+    <cas:Sofa xmi:id="282" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;In every country, people do dance for fun, for entertrain, and for decrease a stress. Dancing is also one of important parts of culture that represent to something that people believe. Many cultures do dance to show a great prosperous of its culture. And also dancing to entertain people. I will give reasons to support my opinion.&#10;First, dancing are significant part of culture that could show to something that people believe. For example, some culture people believe that they dance in order to sacrifice to their god so they will be get a happy life. Or some part of the world that are in arid area believe that if they danced, the rain would come. Consequently, dancing are the part of people belief.&#10;Secondly, dancing can represent to civilization of that culture. For instance, I have seen many western movies that when a kingdom have visitor from another kingdom, king or queen would dance to show a splendid of their kingdom culture. The way of movement, the way that they costume and also a music while they dance. All this is a civilization of their culture.&#10;Thirdly, many culture, people have many ways to entertain themselves. And dancing is one of that ways. Both people who see and dance also have a good time. For example, many event, such as christmas, last christmas I went to mall to buy gifts, and I was entertained by group of people in santa custom dancing in christmas song. I felt that people around me happy and group of santas also happy to see people happy.&#10;In conclusion, I strongly agree with notion that dancing is an important part of culture because dancing are represent to believe of people. Besides, dancing could show how civilization of that culture is. Moreover, people use dancing to entertain themselves. So dancing is important in every culture.&#10;"/>
+    <cas:View sofa="282" members="1 14 22 27 32 37 42 47 52 57 62 67 72 77 82 87 92 97 102 107 112 122 132 142 152 162 172 182 192 202 212 222 232 242 252 262 272 297 304 311"/>
+</xmi:XMI>

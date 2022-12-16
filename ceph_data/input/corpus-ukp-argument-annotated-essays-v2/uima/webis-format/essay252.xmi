@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="357" begin="0" end="2240" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="357" begin="0" end="2240" filename="essay252" topic="Should we require our young children (aged 5-10) to learn music and art in addition to math, science, history and language?" twoSided="positive"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="22" sofa="357" begin="311" end="361" unitType="majorclaim"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="27" sofa="357" begin="370" end="411" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="32" sofa="357" begin="421" end="507" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="37" sofa="357" begin="509" end="607" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="42" sofa="357" begin="609" end="680" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="47" sofa="357" begin="682" end="757" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="52" sofa="357" begin="759" end="806" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="57" sofa="357" begin="815" end="917" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="62" sofa="357" begin="919" end="1059" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="67" sofa="357" begin="1069" end="1128" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="72" sofa="357" begin="1130" end="1207" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="77" sofa="357" begin="1209" end="1249" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="82" sofa="357" begin="1262" end="1365" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="87" sofa="357" begin="1374" end="1423" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="92" sofa="357" begin="1463" end="1511" unitType="claim-against"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="97" sofa="357" begin="1519" end="1573" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="102" sofa="357" begin="1590" end="1654" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="107" sofa="357" begin="1656" end="1782" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="112" sofa="357" begin="1784" end="1915" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="117" sofa="357" begin="1930" end="1970" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="122" sofa="357" begin="1988" end="2053" unitType="majorclaim"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="127" sofa="357" begin="2058" end="2142" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="132" sofa="357" begin="2144" end="2239" unitType="claim-for"/>
+    <argumentation:Argument xmi:id="137" sofa="357" begin="311" end="2239" premises="132" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="147" sofa="357" begin="311" end="2142" premises="127" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="157" sofa="357" begin="311" end="2053" premises="122" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="167" sofa="357" begin="311" end="1511" premises="92" conclusion="22" argumentType="attacks"/>
+    <argumentation:Argument xmi:id="177" sofa="357" begin="311" end="1365" premises="82" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="187" sofa="357" begin="311" end="507" premises="32" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="197" sofa="357" begin="311" end="411" premises="27" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="207" sofa="357" begin="421" end="1059" premises="62" conclusion="32" argumentType="supports"/>
+    <argumentation:Argument xmi:id="217" sofa="357" begin="421" end="806" premises="52" conclusion="32" argumentType="supports"/>
+    <argumentation:Argument xmi:id="227" sofa="357" begin="421" end="680" premises="42" conclusion="32" argumentType="supports"/>
+    <argumentation:Argument xmi:id="237" sofa="357" begin="421" end="607" premises="37" conclusion="32" argumentType="supports"/>
+    <argumentation:Argument xmi:id="247" sofa="357" begin="609" end="757" premises="47" conclusion="42" argumentType="supports"/>
+    <argumentation:Argument xmi:id="257" sofa="357" begin="759" end="917" premises="57" conclusion="52" argumentType="supports"/>
+    <argumentation:Argument xmi:id="267" sofa="357" begin="1069" end="1365" premises="67" conclusion="82" argumentType="supports"/>
+    <argumentation:Argument xmi:id="277" sofa="357" begin="1130" end="1365" premises="72" conclusion="82" argumentType="supports"/>
+    <argumentation:Argument xmi:id="287" sofa="357" begin="1209" end="1365" premises="77" conclusion="82" argumentType="supports"/>
+    <argumentation:Argument xmi:id="297" sofa="357" begin="1262" end="1423" premises="87" conclusion="82" argumentType="supports"/>
+    <argumentation:Argument xmi:id="307" sofa="357" begin="1463" end="1970" premises="117" conclusion="92" argumentType="attacks"/>
+    <argumentation:Argument xmi:id="317" sofa="357" begin="1463" end="1654" premises="102" conclusion="92" argumentType="attacks"/>
+    <argumentation:Argument xmi:id="327" sofa="357" begin="1463" end="1573" premises="97" conclusion="92" argumentType="supports"/>
+    <argumentation:Argument xmi:id="337" sofa="357" begin="1590" end="1782" premises="107" conclusion="102" argumentType="supports"/>
+    <argumentation:Argument xmi:id="347" sofa="357" begin="1784" end="1970" premises="112" conclusion="117" argumentType="supports"/>
+    <argumentation:LocalSufficiency xmi:id="372" sofa="357" begin="414" end="1060" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="379" sofa="357" begin="1061" end="1424" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="386" sofa="357" begin="1425" end="1972" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="357" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Every parents expect their children to be outstanding and successful. In order to achieve this, they start cultivating their children when they are very young. In addition to basic knowledge like language or science, music and art are usually on the must-learn list of the parents. In my opinion, I agree that children should learn music and art in a young age because they do contribute several merits to them. &#10;First, it's very suitable for children to develop senses of music and art when they are young. Children absorb things quickly and they bear exact the ability needed in music and art-imagination. Music and art are not like math or language which has more strict rules. They are more abstract, requiring creativity and imagination to be enriched. Children are privileged to have these abilities because they are given more freedom and their imagination has not yet been killed due to reality circumstances. Even if their performances are just some simple drawings and melodies, music and art still bring out children's joy of flying in imagination.&#10;Second, music and art are life-long cultivation worthy of investing. They teach us how to appreciate beauty and express feelings in a creative way. They are essential to our spiritual life. Therefore, even if children are not going to be great musicians or artists, learning music and art is still worthy because it can nourish your temper and serve as a leisure.&#10;However, some people might argue that parents shouldn't put so much stress on children, since learning too many skills seems to be a burden for them. In my opinion, it depends on how you value these learning activities to be like. If parents push their 5 years old child to play piano 8 hours a day just like a professional performer, that might be too much. In a child stage, music and art are more like an open door to introduce the art world than training area to acquire specific skills. In this way, it will not be such pressure on children. &#10;In conclusion, young age is the perfect time for children to learn music and art and they are indeed valuable to people not only in their young stage, but in every stage. Music and art can accompany a spirit as long as they are given the chance to enter his/her life."/>
+    <cas:View sofa="357" members="1 14 22 27 32 37 42 47 52 57 62 67 72 77 82 87 92 97 102 107 112 117 122 127 132 137 147 157 167 177 187 197 207 217 227 237 247 257 267 277 287 297 307 317 327 337 347 372 379 386"/>
+</xmi:XMI>

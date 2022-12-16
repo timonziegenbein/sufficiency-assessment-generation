@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="202" begin="0" end="1962" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="202" begin="0" end="1962" filename="essay357" topic="Some children can learn more efficiently by watching TV. Therefore, children should watch TV regularly both in school and at home? do you agree or disagree? " twoSided="negative"/>
+    <types:Claim xmi:id="22" sofa="202" begin="257" end="320" stance="For"/>
+    <types:Claim xmi:id="29" sofa="202" begin="977" end="1033" stance="For"/>
+    <types:Claim xmi:id="36" sofa="202" begin="1046" end="1151" stance="For"/>
+    <types:Claim xmi:id="43" sofa="202" begin="1694" end="1737" stance="Against"/>
+    <types:Claim xmi:id="50" sofa="202" begin="1806" end="1876" stance="For"/>
+    <types:Claim xmi:id="57" sofa="202" begin="1892" end="1960" stance="For"/>
+    <types:MajorClaim xmi:id="64" sofa="202" begin="328" end="416"/>
+    <types:MajorClaim xmi:id="70" sofa="202" begin="1739" end="1804"/>
+    <types:Premise xmi:id="76" sofa="202" begin="433" end="537"/>
+    <types:Premise xmi:id="82" sofa="202" begin="539" end="635"/>
+    <types:Premise xmi:id="88" sofa="202" begin="651" end="713"/>
+    <types:Premise xmi:id="94" sofa="202" begin="729" end="847"/>
+    <types:Premise xmi:id="100" sofa="202" begin="849" end="912"/>
+    <types:Premise xmi:id="106" sofa="202" begin="919" end="964"/>
+    <types:Premise xmi:id="112" sofa="202" begin="1172" end="1320"/>
+    <types:Premise xmi:id="118" sofa="202" begin="1336" end="1554"/>
+    <types:Premise xmi:id="124" sofa="202" begin="1569" end="1655"/>
+    <types:Attack xmi:id="130" sofa="202" begin="539" end="1033" source="82" target="29"/>
+    <types:Attack xmi:id="138" sofa="202" begin="539" end="713" source="88" target="82"/>
+    <types:Support xmi:id="146" sofa="202" begin="433" end="1033" source="76" target="29"/>
+    <types:Support xmi:id="154" sofa="202" begin="539" end="847" source="94" target="82"/>
+    <types:Support xmi:id="162" sofa="202" begin="849" end="1033" source="100" target="29"/>
+    <types:Support xmi:id="170" sofa="202" begin="849" end="964" source="106" target="100"/>
+    <types:Support xmi:id="178" sofa="202" begin="1046" end="1320" source="112" target="36"/>
+    <types:Support xmi:id="186" sofa="202" begin="1172" end="1655" source="124" target="112"/>
+    <types:Support xmi:id="194" sofa="202" begin="1336" end="1655" source="118" target="124"/>
+    <argumentation:LocalSufficiency xmi:id="217" sofa="202" begin="418" end="1035" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="224" sofa="202" begin="1036" end="1656" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="202" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Education is undeniably pivotal for an individual. Although, it is agreed that learning by watching TV is more effective to some children, I find it difficult not to oppose against the idea of having students spend more time on TVs. The reason for this is traditional education has its stand for most appropriate method. Thus, physical inactivity should not be encouraged for the aim of bettering youngsters' skills.&#10;To begin with, classic teaching methods has been scientifically proven and utilized as the best mode of educate a child. Technology and its advance, to some degrees, have influenced the educational industry positively. Nevertheless, it has not changed the importance of teachers' role in classes. The fact that students nowadays do their homework or researches on computers rather than go to libraries is an illustration for this. Yet, monitors are unable to replace the appearance of educators since their knowledge and adaptability is priceless. Therefore, teacher cannot be switched with some unconscious screens. &#10;Secondly, watching television is a very passive action and should not be promoted by increasing periods spent on it. On the other hand, children who have had such activities that interrelate to creativity, cooperation, competition tend to perform significantly better in general terms. For instance, a conducted experiment indicates out-performance in skills like differentiate types of plants or animals of a child that experienced various activities in nature to a child spent most of his time watching documentaries. As a result, such activities can equip a child necessary skill that is useful for his future career.&#10;In conclusion, despite the fact that learning by watching TV suits some children, kids should never be encourage to engage in such passive activity. School has been applying traditional teaching procedure since for ages. Additionally, it still performs at its best to equip a child with essential skills. "/>
+    <cas:View sofa="202" members="1 14 22 29 36 43 50 57 64 70 76 82 88 94 100 106 112 118 124 130 138 146 154 162 170 178 186 194 217 224"/>
+</xmi:XMI>

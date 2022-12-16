@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="342" begin="0" end="1779" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="342" begin="0" end="1779" filename="essay149" topic="Do you agree or disagree with the following statement: Nowadays it is much easier to achieve success with the help from one's family than what is like before" twoSided="negative"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="22" sofa="342" begin="247" end="319" unitType="majorclaim"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="27" sofa="342" begin="365" end="433" unitType="majorclaim"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="32" sofa="342" begin="480" end="558" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="37" sofa="342" begin="566" end="628" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="42" sofa="342" begin="630" end="683" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="47" sofa="342" begin="685" end="747" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="52" sofa="342" begin="762" end="821" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="57" sofa="342" begin="826" end="931" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="62" sofa="342" begin="933" end="958" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="67" sofa="342" begin="960" end="1010" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="72" sofa="342" begin="1012" end="1074" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="77" sofa="342" begin="1076" end="1110" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="82" sofa="342" begin="1119" end="1148" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="87" sofa="342" begin="1165" end="1213" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="92" sofa="342" begin="1228" end="1338" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="97" sofa="342" begin="1340" end="1405" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="102" sofa="342" begin="1407" end="1453" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="107" sofa="342" begin="1455" end="1501" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="112" sofa="342" begin="1512" end="1563" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="117" sofa="342" begin="1565" end="1618" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="122" sofa="342" begin="1631" end="1697" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="127" sofa="342" begin="1714" end="1778" unitType="majorclaim"/>
+    <argumentation:Argument xmi:id="132" sofa="342" begin="247" end="1778" premises="127" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="142" sofa="342" begin="247" end="1697" premises="122" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="152" sofa="342" begin="247" end="1213" premises="87" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="162" sofa="342" begin="247" end="683" premises="42" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="172" sofa="342" begin="247" end="433" premises="27" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="182" sofa="342" begin="480" end="683" premises="32" conclusion="42" argumentType="supports"/>
+    <argumentation:Argument xmi:id="192" sofa="342" begin="566" end="683" premises="37" conclusion="42" argumentType="supports"/>
+    <argumentation:Argument xmi:id="202" sofa="342" begin="630" end="1074" premises="72" conclusion="42" argumentType="supports"/>
+    <argumentation:Argument xmi:id="212" sofa="342" begin="630" end="1010" premises="67" conclusion="42" argumentType="supports"/>
+    <argumentation:Argument xmi:id="222" sofa="342" begin="630" end="958" premises="62" conclusion="42" argumentType="supports"/>
+    <argumentation:Argument xmi:id="232" sofa="342" begin="630" end="931" premises="57" conclusion="42" argumentType="supports"/>
+    <argumentation:Argument xmi:id="242" sofa="342" begin="630" end="747" premises="47" conclusion="42" argumentType="supports"/>
+    <argumentation:Argument xmi:id="252" sofa="342" begin="762" end="931" premises="52" conclusion="57" argumentType="supports"/>
+    <argumentation:Argument xmi:id="262" sofa="342" begin="1012" end="1110" premises="77" conclusion="72" argumentType="supports"/>
+    <argumentation:Argument xmi:id="272" sofa="342" begin="1076" end="1148" premises="82" conclusion="77" argumentType="supports"/>
+    <argumentation:Argument xmi:id="282" sofa="342" begin="1165" end="1618" premises="117" conclusion="87" argumentType="supports"/>
+    <argumentation:Argument xmi:id="292" sofa="342" begin="1165" end="1563" premises="112" conclusion="87" argumentType="supports"/>
+    <argumentation:Argument xmi:id="302" sofa="342" begin="1165" end="1501" premises="107" conclusion="87" argumentType="supports"/>
+    <argumentation:Argument xmi:id="312" sofa="342" begin="1165" end="1405" premises="97" conclusion="87" argumentType="supports"/>
+    <argumentation:Argument xmi:id="322" sofa="342" begin="1165" end="1338" premises="92" conclusion="87" argumentType="supports"/>
+    <argumentation:Argument xmi:id="332" sofa="342" begin="1407" end="1501" premises="102" conclusion="107" argumentType="supports"/>
+    <argumentation:LocalSufficiency xmi:id="357" sofa="342" begin="466" end="1150" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="364" sofa="342" begin="1151" end="1619" majority="0.0" mean="0.0"/>
+    <cas:Sofa xmi:id="342" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;There are many factors that contribute to one's success. However, which factor is the most influential one is open to debate. Some people believe that nowadays the assitance from family is quite a essential factor in one's success. It seems that one can achieve success more easily with the help from his or her family. I agree with this statement. In my opinion, family plays a more important role in helping one to pursuit success. There are a couple of reasons.&#10;First of all, more and more people have the opportunity to receive education from university. Since our parents receive better education than our grandparents did, they can provide more advices and helps in our career. In the past, seldom people have the chance to attend a collage. For example, my grandparents did not get a education even in high school, so when my father had difficulty in solving a problem in his childhood, he had to go to his teacher for help. Things have changed a lot. I grow up in a better condition than my father did. Whenever I have problems, I can always ask my parents for help. They can solve the problem quickly because they have learned quite a lot. &#10;What is more, family members can help us in many other aspects. For example, when I did not know what major to choose when I attend university, my father told a lot about different majors. He shared his own experience with me, which helped me quite a lot. Parents are quite experienced than their child, they can guide them toward the right direction. Besides, parents can told their children as many as they can. What they want is help their child to make a progress.&#10;In a word, our parents and other family members can help us a lot in our life. I believe that with the help of our family, we can achieve success quite easily."/>
+    <cas:View sofa="342" members="1 14 22 27 32 37 42 47 52 57 62 67 72 77 82 87 92 97 102 107 112 117 122 127 132 142 152 162 172 182 192 202 212 222 232 242 252 262 272 282 292 302 312 322 332 357 364"/>
+</xmi:XMI>

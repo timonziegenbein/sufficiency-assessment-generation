@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="297" begin="0" end="1672" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="297" begin="0" end="1672" filename="essay168" topic="Computers and modems have made it possible for office workers to do their work from home instead of working in offices every day. Working from home should be encouraged for workers and employees as it is good. Do you agree or dis? " twoSided="negative"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="22" sofa="297" begin="285" end="307" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="27" sofa="297" begin="309" end="392" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="32" sofa="297" begin="394" end="463" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="37" sofa="297" begin="465" end="533" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="42" sofa="297" begin="535" end="604" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="47" sofa="297" begin="607" end="700" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="52" sofa="297" begin="702" end="829" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="57" sofa="297" begin="831" end="915" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="62" sofa="297" begin="931" end="986" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="67" sofa="297" begin="1001" end="1030" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="72" sofa="297" begin="1032" end="1079" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="77" sofa="297" begin="1082" end="1138" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="82" sofa="297" begin="1140" end="1206" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="87" sofa="297" begin="1215" end="1295" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="92" sofa="297" begin="1306" end="1369" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="97" sofa="297" begin="1382" end="1436" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="102" sofa="297" begin="1438" end="1488" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="107" sofa="297" begin="1490" end="1552" unitType="majorclaim"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="112" sofa="297" begin="1554" end="1671" unitType="claim-for"/>
+    <argumentation:Argument xmi:id="117" sofa="297" begin="285" end="604" premises="22" conclusion="42" argumentType="supports"/>
+    <argumentation:Argument xmi:id="127" sofa="297" begin="309" end="604" premises="27" conclusion="42" argumentType="supports"/>
+    <argumentation:Argument xmi:id="137" sofa="297" begin="394" end="604" premises="32" conclusion="42" argumentType="supports"/>
+    <argumentation:Argument xmi:id="147" sofa="297" begin="465" end="604" premises="37" conclusion="42" argumentType="supports"/>
+    <argumentation:Argument xmi:id="157" sofa="297" begin="535" end="1552" premises="42" conclusion="107" argumentType="supports"/>
+    <argumentation:Argument xmi:id="167" sofa="297" begin="607" end="1552" premises="47" conclusion="107" argumentType="supports"/>
+    <argumentation:Argument xmi:id="177" sofa="297" begin="607" end="1079" premises="72" conclusion="47" argumentType="supports"/>
+    <argumentation:Argument xmi:id="187" sofa="297" begin="607" end="1030" premises="67" conclusion="47" argumentType="supports"/>
+    <argumentation:Argument xmi:id="197" sofa="297" begin="607" end="915" premises="57" conclusion="47" argumentType="supports"/>
+    <argumentation:Argument xmi:id="207" sofa="297" begin="607" end="829" premises="52" conclusion="47" argumentType="supports"/>
+    <argumentation:Argument xmi:id="217" sofa="297" begin="931" end="1030" premises="62" conclusion="67" argumentType="supports"/>
+    <argumentation:Argument xmi:id="227" sofa="297" begin="1082" end="1552" premises="77" conclusion="107" argumentType="supports"/>
+    <argumentation:Argument xmi:id="237" sofa="297" begin="1082" end="1488" premises="102" conclusion="77" argumentType="supports"/>
+    <argumentation:Argument xmi:id="247" sofa="297" begin="1082" end="1436" premises="97" conclusion="77" argumentType="supports"/>
+    <argumentation:Argument xmi:id="257" sofa="297" begin="1082" end="1206" premises="82" conclusion="77" argumentType="supports"/>
+    <argumentation:Argument xmi:id="267" sofa="297" begin="1140" end="1295" premises="87" conclusion="82" argumentType="supports"/>
+    <argumentation:Argument xmi:id="277" sofa="297" begin="1306" end="1436" premises="92" conclusion="97" argumentType="supports"/>
+    <argumentation:Argument xmi:id="287" sofa="297" begin="1490" end="1671" premises="112" conclusion="107" argumentType="supports"/>
+    <argumentation:LocalSufficiency xmi:id="312" sofa="297" begin="285" end="606" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="319" sofa="297" begin="607" end="1081" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="326" sofa="297" begin="1082" end="1489" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="297" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Some people think that working at home brings to workers and employees too much convenience, but i don't. Because the best conditions are sometimes not likely to be good as the expectation of people. Working without pressure and interaction are some examples for these disadvantages.&#10;Pressure is motivation. Each office has its rules that keep workers do their job as effectively as possible. The directors manage employers and give them the deadline of projects. Then again, the workers must try their best to finish the time limit. Doing all jobs at home don't make employees attempt to work like this. &#10;Computers and modems bring works to home but these still have many things distract their mind. Facebook or Yahoo have been the entertaining websites, however, they are the reasons why people cannot concentrate on their job. The dos and don't at office play important role to prevent these things from workers. In condition, doing all jobs alone makes employees fall asleep easily. As a result, the project cannot being done. The best condition might not be good for people. &#10;Interaction has been an advantage for workers at offices. Discussing and debating Projects together increase working ability because all we know that the target can be reached fast thanks to working of many people. Besides, interaction help employees improve their communicational skills, therefore, they will have more and more friends and relationships. Interaction is a factor increasing working quality.&#10;There will have many disadvantages if the workers work at home. Mitigating process, no interaction and pressure are these things people should examine when they want to work at home."/>
+    <cas:View sofa="297" members="1 14 22 27 32 37 42 47 52 57 62 67 72 77 82 87 92 97 102 107 112 117 127 137 147 157 167 177 187 197 207 217 227 237 247 257 267 277 287 312 319 326"/>
+</xmi:XMI>

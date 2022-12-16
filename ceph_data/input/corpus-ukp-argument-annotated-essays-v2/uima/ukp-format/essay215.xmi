@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="272" begin="0" end="1845" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="272" begin="0" end="1845" filename="essay215" topic="Do you agree that people should have hobbies and do physical activities that are very different from one's work?" twoSided="negative"/>
+    <types:Premise xmi:id="22" sofa="272" begin="388" end="448"/>
+    <types:Premise xmi:id="28" sofa="272" begin="453" end="535"/>
+    <types:Premise xmi:id="34" sofa="272" begin="537" end="598"/>
+    <types:Premise xmi:id="40" sofa="272" begin="600" end="656"/>
+    <types:Premise xmi:id="46" sofa="272" begin="658" end="753"/>
+    <types:Premise xmi:id="52" sofa="272" begin="755" end="786"/>
+    <types:Premise xmi:id="58" sofa="272" begin="788" end="838"/>
+    <types:Premise xmi:id="64" sofa="272" begin="846" end="891"/>
+    <types:Premise xmi:id="70" sofa="272" begin="960" end="1075"/>
+    <types:Premise xmi:id="76" sofa="272" begin="1077" end="1143"/>
+    <types:Premise xmi:id="82" sofa="272" begin="1145" end="1212"/>
+    <types:Premise xmi:id="88" sofa="272" begin="1345" end="1414"/>
+    <types:Premise xmi:id="94" sofa="272" begin="1416" end="1506"/>
+    <types:Premise xmi:id="100" sofa="272" begin="1508" end="1559"/>
+    <types:Premise xmi:id="106" sofa="272" begin="1637" end="1733"/>
+    <types:MajorClaim xmi:id="112" sofa="272" begin="220" end="305"/>
+    <types:MajorClaim xmi:id="118" sofa="272" begin="1750" end="1844"/>
+    <types:Claim xmi:id="124" sofa="272" begin="314" end="386" stance="For"/>
+    <types:Claim xmi:id="131" sofa="272" begin="893" end="945" stance="For"/>
+    <types:Claim xmi:id="138" sofa="272" begin="1220" end="1343" stance="For"/>
+    <types:Claim xmi:id="145" sofa="272" begin="1570" end="1631" stance="Against"/>
+    <types:Support xmi:id="152" sofa="272" begin="314" end="838" source="58" target="124"/>
+    <types:Support xmi:id="160" sofa="272" begin="314" end="786" source="52" target="124"/>
+    <types:Support xmi:id="168" sofa="272" begin="314" end="753" source="46" target="124"/>
+    <types:Support xmi:id="176" sofa="272" begin="314" end="656" source="40" target="124"/>
+    <types:Support xmi:id="184" sofa="272" begin="314" end="598" source="34" target="124"/>
+    <types:Support xmi:id="192" sofa="272" begin="314" end="535" source="28" target="124"/>
+    <types:Support xmi:id="200" sofa="272" begin="388" end="535" source="22" target="28"/>
+    <types:Support xmi:id="208" sofa="272" begin="893" end="1212" source="82" target="131"/>
+    <types:Support xmi:id="216" sofa="272" begin="893" end="1143" source="76" target="131"/>
+    <types:Support xmi:id="224" sofa="272" begin="893" end="1075" source="70" target="131"/>
+    <types:Support xmi:id="232" sofa="272" begin="1220" end="1559" source="100" target="138"/>
+    <types:Support xmi:id="240" sofa="272" begin="1220" end="1506" source="94" target="138"/>
+    <types:Support xmi:id="248" sofa="272" begin="1220" end="1414" source="88" target="138"/>
+    <types:Support xmi:id="256" sofa="272" begin="1570" end="1733" source="106" target="145"/>
+    <types:Attack xmi:id="264" sofa="272" begin="846" end="945" source="64" target="131"/>
+    <argumentation:LocalSufficiency xmi:id="287" sofa="272" begin="307" end="839" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="294" sofa="272" begin="840" end="1213" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="301" sofa="272" begin="1214" end="1560" majority="0.0" mean="0.0"/>
+    <cas:Sofa xmi:id="272" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Whether or not people should have hobbies and do physical activities has been a controversial question. Different people have different ideas. Some people think we should focus on our jobs, but I don't agree with them. Having one's own hobbies and doing physical activities can bring us a lot of benefits.&#10;First, having hobbies and doing physical activities is the best way to keep fit. Looking at the computer screen all day long can make us daze, so doing some sport and hobbies can prevent us from becoming too fat or short-sighted. My neighbor Tom once was a computer engineer in a big company. He ate fast food everyday and never went out to exercise. When he found out that he was too fat to find a girlfriend, he made up his mind to loose weight. He started to jog every morning. After a moth, he is thinner and finds a girlfriend.&#10;Also, doing something for a long time can be boring, having hobbies and doing sports can refresh our mind. For example, at school, students have breaks every class so that they can relax for a few minutes and prepare for the next class. Humans are not robots; we can't keep working for twenty-four hours. Doing sports or hobbies for a short time can recharge our batteries.&#10;Last, we should develop at least one personal hobby, not to show off, but express our emotion when we feel depressed or pressured. Playing musical instrument is a good way, I can play classical guitar. When I meet difficulties in studies, I will take my guitar and play the song Green Sleeves. It makes me feel better and gives me the confidence.&#10;Although it may take us a lot of times to develop our personal hobbies, but doing so can bring us a healthy body, a refreshed mind and a way to release pressure and sadness. Hence, I think it is good for us to have hobbies and do physical activities which are different from our work."/>
+    <cas:View sofa="272" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 100 106 112 118 124 131 138 145 152 160 168 176 184 192 200 208 216 224 232 240 248 256 264 287 294 301"/>
+</xmi:XMI>

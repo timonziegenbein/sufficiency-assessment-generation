@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="357" begin="0" end="1952" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="357" begin="0" end="1952" filename="essay283" topic="Do you agree or disagree with the following statement? Teachers should be paid according to how much their students learn. Give specific reasons and examples to support your opinion." twoSided="negative"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="22" sofa="357" begin="203" end="304" unitType="majorclaim"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="27" sofa="357" begin="371" end="459" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="32" sofa="357" begin="461" end="515" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="37" sofa="357" begin="517" end="618" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="42" sofa="357" begin="620" end="677" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="47" sofa="357" begin="679" end="844" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="52" sofa="357" begin="854" end="902" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="57" sofa="357" begin="904" end="986" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="62" sofa="357" begin="988" end="1067" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="67" sofa="357" begin="1080" end="1108" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="72" sofa="357" begin="1110" end="1156" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="77" sofa="357" begin="1158" end="1182" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="82" sofa="357" begin="1190" end="1253" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="87" sofa="357" begin="1263" end="1347" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="92" sofa="357" begin="1349" end="1388" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="97" sofa="357" begin="1390" end="1478" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="102" sofa="357" begin="1480" end="1535" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="107" sofa="357" begin="1537" end="1572" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="112" sofa="357" begin="1585" end="1644" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="117" sofa="357" begin="1661" end="1761" unitType="majorclaim"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="122" sofa="357" begin="1770" end="1827" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="127" sofa="357" begin="1838" end="1881" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="132" sofa="357" begin="1893" end="1951" unitType="claim-for"/>
+    <argumentation:Argument xmi:id="137" sofa="357" begin="203" end="1951" premises="132" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="147" sofa="357" begin="203" end="1881" premises="127" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="157" sofa="357" begin="203" end="1827" premises="122" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="167" sofa="357" begin="203" end="1761" premises="117" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="177" sofa="357" begin="203" end="1644" premises="112" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="187" sofa="357" begin="203" end="1253" premises="82" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="197" sofa="357" begin="203" end="677" premises="42" conclusion="22" argumentType="supports"/>
+    <argumentation:Argument xmi:id="207" sofa="357" begin="371" end="677" premises="27" conclusion="42" argumentType="supports"/>
+    <argumentation:Argument xmi:id="217" sofa="357" begin="461" end="677" premises="32" conclusion="42" argumentType="supports"/>
+    <argumentation:Argument xmi:id="227" sofa="357" begin="517" end="677" premises="37" conclusion="42" argumentType="supports"/>
+    <argumentation:Argument xmi:id="237" sofa="357" begin="620" end="844" premises="47" conclusion="42" argumentType="supports"/>
+    <argumentation:Argument xmi:id="247" sofa="357" begin="854" end="1108" premises="52" conclusion="67" argumentType="supports"/>
+    <argumentation:Argument xmi:id="257" sofa="357" begin="904" end="1108" premises="57" conclusion="67" argumentType="supports"/>
+    <argumentation:Argument xmi:id="267" sofa="357" begin="988" end="1108" premises="62" conclusion="67" argumentType="supports"/>
+    <argumentation:Argument xmi:id="277" sofa="357" begin="1080" end="1253" premises="67" conclusion="82" argumentType="supports"/>
+    <argumentation:Argument xmi:id="287" sofa="357" begin="1110" end="1253" premises="72" conclusion="82" argumentType="supports"/>
+    <argumentation:Argument xmi:id="297" sofa="357" begin="1158" end="1253" premises="77" conclusion="82" argumentType="supports"/>
+    <argumentation:Argument xmi:id="307" sofa="357" begin="1263" end="1644" premises="87" conclusion="112" argumentType="supports"/>
+    <argumentation:Argument xmi:id="317" sofa="357" begin="1349" end="1644" premises="92" conclusion="112" argumentType="supports"/>
+    <argumentation:Argument xmi:id="327" sofa="357" begin="1390" end="1644" premises="97" conclusion="112" argumentType="supports"/>
+    <argumentation:Argument xmi:id="337" sofa="357" begin="1480" end="1644" premises="102" conclusion="112" argumentType="supports"/>
+    <argumentation:Argument xmi:id="347" sofa="357" begin="1537" end="1644" premises="107" conclusion="112" argumentType="supports"/>
+    <argumentation:LocalSufficiency xmi:id="372" sofa="357" begin="344" end="845" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="379" sofa="357" begin="846" end="1254" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="386" sofa="357" begin="1255" end="1645" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="357" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Everyone is different. Although students are in the same process of education system, learning abilities in each students are not equal. Some students are fast learner, but some students are not. Thus, paying for teacher base on grade that students got is not appropriate, and it is not fair for teacher. So that, I disagree with this notion.&#10;To begin with, in schools, main task of teacher to give knowledge to students, and this role have to finish in time. there are certain period of time for teachers to teach. In these short time, it is not possible for teachers to pay attention to individual students in class. Teachers have to manage to teach every topics by schedule. If teachers pay attention to specific students, their work might not finish on time, and this might make many student miss some field in topics that they should know.&#10;Second, learning abilities in each students is different. It is not possible that they all comprehend all lessons in the same period of time. Some students might understand all topics that they had learnt but some are not. Therefore, testing result are different. This problems depend on how hard study they do. It is not teachers fault. Thus, teachers should not be paid by testing result that students get.&#10;Lastly, there could lead to a big problem if schools pay teachers by grade that students get. That is problem in quality of education. Teacher may not care about how they have to teach to make students understand the topics. Teachers may just give high grades to get higher salary. This problem should not be happened. Therefore, grade that students get should not be in evaluating teacher.&#10;In conclusion, I totally disagree with this statement that teachers should be paid by how much their students learn because teacher could not pay attention to each students in class. Besides, learning abilities of student are different. Moreover, there are problems if paying teacher by grade students get."/>
+    <cas:View sofa="357" members="1 14 22 27 32 37 42 47 52 57 62 67 72 77 82 87 92 97 102 107 112 117 122 127 132 137 147 157 167 177 187 197 207 217 227 237 247 257 267 277 287 297 307 317 327 337 347 372 379 386"/>
+</xmi:XMI>

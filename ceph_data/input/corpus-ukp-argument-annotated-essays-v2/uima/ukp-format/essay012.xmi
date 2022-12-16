@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="182" begin="0" end="1905" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="182" begin="0" end="1905" filename="essay012" topic="Advance in transportation and communication like the airplane and the telephone have changed the way that nations interact with each other in a global society. Choose another technological innovation that you think is important. Give specific reason for your choice." twoSided="negative"/>
+    <types:Claim xmi:id="22" sofa="182" begin="314" end="391" stance="For"/>
+    <types:Claim xmi:id="29" sofa="182" begin="1075" end="1171" stance="For"/>
+    <types:Claim xmi:id="36" sofa="182" begin="1173" end="1274" stance="For"/>
+    <types:Claim xmi:id="43" sofa="182" begin="1825" end="1904" stance="For"/>
+    <types:MajorClaim xmi:id="50" sofa="182" begin="1769" end="1823"/>
+    <types:Premise xmi:id="56" sofa="182" begin="393" end="620"/>
+    <types:Premise xmi:id="62" sofa="182" begin="626" end="821"/>
+    <types:Premise xmi:id="68" sofa="182" begin="823" end="883"/>
+    <types:Premise xmi:id="74" sofa="182" begin="885" end="959"/>
+    <types:Premise xmi:id="80" sofa="182" begin="961" end="1062"/>
+    <types:Premise xmi:id="86" sofa="182" begin="1276" end="1368"/>
+    <types:Premise xmi:id="92" sofa="182" begin="1383" end="1502"/>
+    <types:Premise xmi:id="98" sofa="182" begin="1504" end="1638"/>
+    <types:Premise xmi:id="104" sofa="182" begin="1640" end="1755"/>
+    <types:Support xmi:id="110" sofa="182" begin="314" end="821" source="62" target="22"/>
+    <types:Support xmi:id="118" sofa="182" begin="314" end="620" source="56" target="22"/>
+    <types:Support xmi:id="126" sofa="182" begin="823" end="1171" source="68" target="29"/>
+    <types:Support xmi:id="134" sofa="182" begin="885" end="1171" source="74" target="29"/>
+    <types:Support xmi:id="142" sofa="182" begin="961" end="1171" source="80" target="29"/>
+    <types:Support xmi:id="150" sofa="182" begin="1173" end="1755" source="104" target="36"/>
+    <types:Support xmi:id="158" sofa="182" begin="1173" end="1638" source="98" target="36"/>
+    <types:Support xmi:id="166" sofa="182" begin="1173" end="1502" source="92" target="36"/>
+    <types:Support xmi:id="174" sofa="182" begin="1173" end="1368" source="86" target="36"/>
+    <argumentation:LocalSufficiency xmi:id="197" sofa="182" begin="294" end="822" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="204" sofa="182" begin="823" end="1172" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="211" sofa="182" begin="1173" end="1757" majority="0.0" mean="0.0"/>
+    <cas:Sofa xmi:id="182" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Nowadays, everyone can see the effect of technology on their life, especially on the way of transportations and communications such as the airplane and the telephone. There are lots of other effects of growing technology on transportations and communications, which are mentioned as follows. &#10;First and foremost, email can be count as one of the most beneficial results of modern technology. Many years ago, peoples had to pay a great deal of money to post their letters, and their payements were related to the weight of their letters or boxes, and many accidents may cause problem that the post could not be delivered. But nowadays, all people can take advantage of internet to have their own email free, and send their emails to everyone in no time, besides they can be sure if their emails have been delivered or not.&#10;Another important aspect on technology is transferring money. Today, students can apply for foreign universities much easier than before. Not only with the help of sending email, but also using credit cards to pay all necessary fees online. Therefore, with the advent of internet and online paying systems, you can do many thing at your home easily.&#10;Another technological innovations which help people around the world is related to medical equipments. Biomedical engineers could make a significant effect on increasing life expectancy the world. For example, one of their inventions was related to artificial heart valves which can be count as a turning point in heart surgeries. In the past time doctors used pig heart's valve to implant, but the patient could not be alive more than 3 years after the replacement. But now, biomedical engineers can make artificial heart valves which works well and doctors can implant them easily. &#10;To sum up, technology has helped us to have more comfortable life. You can see its effects on transportation, communication, medicine and so forth."/>
+    <cas:View sofa="182" members="1 14 22 29 36 43 50 56 62 68 74 80 86 92 98 104 110 118 126 134 142 150 158 166 174 197 204 211"/>
+</xmi:XMI>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="201" begin="0" end="2142" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="201" begin="0" end="2142" filename="essay079" topic="Some people�argue that the government should spend money on public services and facilities, but not on the arts. Do you agree or disagree?" twoSided="negative"/>
+    <types:MajorClaim xmi:id="22" sofa="201" begin="313" end="384"/>
+    <types:MajorClaim xmi:id="28" sofa="201" begin="1937" end="2018"/>
+    <types:MajorClaim xmi:id="34" sofa="201" begin="2038" end="2140"/>
+    <types:Premise xmi:id="40" sofa="201" begin="398" end="467"/>
+    <types:Premise xmi:id="46" sofa="201" begin="485" end="655"/>
+    <types:Premise xmi:id="52" sofa="201" begin="673" end="863"/>
+    <types:Premise xmi:id="58" sofa="201" begin="1094" end="1133"/>
+    <types:Premise xmi:id="64" sofa="201" begin="1135" end="1235"/>
+    <types:Premise xmi:id="70" sofa="201" begin="1251" end="1362"/>
+    <types:Premise xmi:id="76" sofa="201" begin="1364" end="1437"/>
+    <types:Premise xmi:id="82" sofa="201" begin="1553" end="1608"/>
+    <types:Premise xmi:id="88" sofa="201" begin="1621" end="1826"/>
+    <types:Premise xmi:id="94" sofa="201" begin="1842" end="1883"/>
+    <types:Claim xmi:id="100" sofa="201" begin="876" end="989" stance="For"/>
+    <types:Claim xmi:id="107" sofa="201" begin="1020" end="1078" stance="For"/>
+    <types:Claim xmi:id="114" sofa="201" begin="1478" end="1551" stance="For"/>
+    <types:Support xmi:id="121" sofa="201" begin="398" end="989" source="40" target="100"/>
+    <types:Support xmi:id="129" sofa="201" begin="485" end="989" source="46" target="100"/>
+    <types:Support xmi:id="137" sofa="201" begin="673" end="989" source="52" target="100"/>
+    <types:Support xmi:id="145" sofa="201" begin="1020" end="1437" source="76" target="107"/>
+    <types:Support xmi:id="153" sofa="201" begin="1020" end="1362" source="70" target="107"/>
+    <types:Support xmi:id="161" sofa="201" begin="1020" end="1133" source="58" target="107"/>
+    <types:Support xmi:id="169" sofa="201" begin="1135" end="1362" source="64" target="70"/>
+    <types:Support xmi:id="177" sofa="201" begin="1478" end="1883" source="94" target="114"/>
+    <types:Support xmi:id="185" sofa="201" begin="1478" end="1826" source="88" target="114"/>
+    <types:Support xmi:id="193" sofa="201" begin="1478" end="1608" source="82" target="114"/>
+    <argumentation:LocalSufficiency xmi:id="216" sofa="201" begin="386" end="990" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="223" sofa="201" begin="991" end="1438" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="230" sofa="201" begin="1439" end="1884" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="201" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;As people have raised their democratic awareness in recent years, they are caring more about how the tax expenditure is distributed by the government. As a result, some people suggest that the tax money should be allocated to publically beneficial services instead of arts. However, from my perspective, I think arts are supposed to be included in the government's investment as well.&#10;Admittedly, the government should give priority to public services and facilities. This is because the government plays the role of a leader among citizens, which should discharge the responsibility of making optimal use of the tax money to keep society safe and stable. Simultaneously, public services such as education system or medical care can meet people's basic demand of survival, security and knowledge, thus making them feel comfortable, which can lower the crime rate. Therefore, public services and facilities should be given adequate attention by the authorities to maintain social stability.&#10;On the other hand, I believe arts should by no means been disregarded by the government. Individually, arts can enrich people's cultural lives. Currently, people are increasingly occupied with their work and studies due to the stiff competition. Consequently, they require various entertainment such as music, movies or books to them ease their minds and release pressure. Without arts, people would be at risk of suffering psychological problems.&#10;From the point of the local community, funding arts is beneficial to the local cultural and economic development. Cultural heritage constitutes an essential part of arts. This means preserving local arts may promote the preservation of the local cultural heritage, which not only helps the local people have a sense of belonging but also contributes to the booming local tourism industry. In this view, arts serve cultural and economic purposes.&#10;With those arguments in mind, I would conclude that public services and facilities are an integral part of the government expenditure. At the same time, the authorities should also respect the value of arts which are individually and socially advantageous.&#10;"/>
+    <cas:View sofa="201" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 100 107 114 121 129 137 145 153 161 169 177 185 193 216 223 230"/>
+</xmi:XMI>

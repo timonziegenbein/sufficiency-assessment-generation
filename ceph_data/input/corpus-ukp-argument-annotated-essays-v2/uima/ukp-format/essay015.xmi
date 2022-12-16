@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="202" begin="0" end="2250" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="202" begin="0" end="2250" filename="essay015" topic="Email and text messaging have transformed communication but they are seriously threatening the status of written language. How far do you agree or disagree with this statement?" twoSided="negative"/>
+    <types:MajorClaim xmi:id="22" sofa="202" begin="149" end="212"/>
+    <types:MajorClaim xmi:id="28" sofa="202" begin="1919" end="2041"/>
+    <types:Claim xmi:id="34" sofa="202" begin="347" end="485" stance="For"/>
+    <types:Claim xmi:id="41" sofa="202" begin="1188" end="1295" stance="For"/>
+    <types:Premise xmi:id="48" sofa="202" begin="487" end="615"/>
+    <types:Premise xmi:id="54" sofa="202" begin="617" end="758"/>
+    <types:Premise xmi:id="60" sofa="202" begin="769" end="824"/>
+    <types:Premise xmi:id="66" sofa="202" begin="826" end="902"/>
+    <types:Premise xmi:id="72" sofa="202" begin="916" end="1078"/>
+    <types:Premise xmi:id="78" sofa="202" begin="1080" end="1186"/>
+    <types:Premise xmi:id="84" sofa="202" begin="1297" end="1426"/>
+    <types:Premise xmi:id="90" sofa="202" begin="1448" end="1495"/>
+    <types:Premise xmi:id="96" sofa="202" begin="1517" end="1674"/>
+    <types:Premise xmi:id="102" sofa="202" begin="1686" end="1794"/>
+    <types:Premise xmi:id="108" sofa="202" begin="1796" end="1902"/>
+    <types:Support xmi:id="114" sofa="202" begin="347" end="1186" source="78" target="34"/>
+    <types:Support xmi:id="122" sofa="202" begin="347" end="1078" source="72" target="34"/>
+    <types:Support xmi:id="130" sofa="202" begin="347" end="902" source="66" target="34"/>
+    <types:Support xmi:id="138" sofa="202" begin="347" end="824" source="60" target="34"/>
+    <types:Support xmi:id="146" sofa="202" begin="347" end="758" source="54" target="34"/>
+    <types:Support xmi:id="154" sofa="202" begin="347" end="615" source="48" target="34"/>
+    <types:Support xmi:id="162" sofa="202" begin="1188" end="1902" source="108" target="41"/>
+    <types:Support xmi:id="170" sofa="202" begin="1188" end="1794" source="102" target="41"/>
+    <types:Support xmi:id="178" sofa="202" begin="1188" end="1495" source="90" target="41"/>
+    <types:Support xmi:id="186" sofa="202" begin="1297" end="1495" source="84" target="90"/>
+    <types:Support xmi:id="194" sofa="202" begin="1448" end="1674" source="96" target="90"/>
+    <argumentation:LocalSufficiency xmi:id="217" sofa="202" begin="333" end="1187" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="224" sofa="202" begin="1188" end="1903" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="202" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;The introduction of email and text messaging has brought about considerable changes in communication. With this situation, some people believe that they may be factors decreasing the position of written language. I am in favor of that idea because of their advantages and the fact we can see today about the use of these new means.&#10;First of all, it is easy to point out many benefits users can get from email and text messaging, which answers to the question of their great popularity. Before email and mobile phone, human beings communicated by meeting directly, sending letters or later, calling from home phones. Such ways usually made people have troubles for the expensiveness, difficulties in far communication or emergency and the loss of information. However, email and cell phones have improved the obstacles above. People can send or receive electronic letters anywhere and anytime they want. Especially, thanks to the function provided by email and text messaging (SMS), it is cheaper and faster to transfer a lot of information, even to many people at the same time. They are so convenient that the majority of population prefer to use them instead of some traditional ways.&#10;The popularity of email and text messaging, as a result, leads to the losing of written language's position. People tend to use slangs and abbreviated words to shorten their writing and save more time in communicating for other activities. The outcome is that language in writing is not in its original form. Even in some cases, people compose a message with only emoticons (the expressions by face created by service providers), which means there is no room for writing or typing texts. Moreover, it is more dangerous that youngsters sometimes use such new languages in their studying, writing assignments. If that tendency continues at a rapid pace, written language may face up to a real problem about its stand.&#10;In conclusion, we cannot deny the threat from email and text messaging to the status of written language because their obvious popularity. Nevertheless, educators and individuals themselves, especially the youths should pay ore attention to this matter so that we can take advantages of the new language along with preserving the traditional one."/>
+    <cas:View sofa="202" members="1 14 22 28 34 41 48 54 60 66 72 78 84 90 96 102 108 114 122 130 138 146 154 162 170 178 186 194 217 224"/>
+</xmi:XMI>

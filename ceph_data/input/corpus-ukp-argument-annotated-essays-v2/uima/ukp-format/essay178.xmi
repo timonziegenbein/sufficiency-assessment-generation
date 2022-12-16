@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="195" begin="0" end="1801" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="195" begin="0" end="1801" filename="essay178" topic="It has recently been announced that a large shopping center may be built in your neighborhood. Do you support or oppose this plan? Why? Use specific reasons and details to support your answer." twoSided="negative"/>
+    <types:MajorClaim xmi:id="22" sofa="195" begin="16" end="83"/>
+    <types:MajorClaim xmi:id="28" sofa="195" begin="1697" end="1800"/>
+    <types:Claim xmi:id="34" sofa="195" begin="701" end="792" stance="For"/>
+    <types:Claim xmi:id="41" sofa="195" begin="807" end="870" stance="For"/>
+    <types:Claim xmi:id="48" sofa="195" begin="1181" end="1293" stance="For"/>
+    <types:Premise xmi:id="55" sofa="195" begin="135" end="245"/>
+    <types:Premise xmi:id="61" sofa="195" begin="275" end="484"/>
+    <types:Premise xmi:id="67" sofa="195" begin="512" end="562"/>
+    <types:Premise xmi:id="73" sofa="195" begin="577" end="673"/>
+    <types:Premise xmi:id="79" sofa="195" begin="872" end="975"/>
+    <types:Premise xmi:id="85" sofa="195" begin="977" end="1069"/>
+    <types:Premise xmi:id="91" sofa="195" begin="1071" end="1171"/>
+    <types:Premise xmi:id="97" sofa="195" begin="1295" end="1404"/>
+    <types:Premise xmi:id="103" sofa="195" begin="1419" end="1526"/>
+    <types:Premise xmi:id="109" sofa="195" begin="1541" end="1662"/>
+    <types:Support xmi:id="115" sofa="195" begin="135" end="792" source="55" target="34"/>
+    <types:Support xmi:id="123" sofa="195" begin="275" end="792" source="61" target="34"/>
+    <types:Support xmi:id="131" sofa="195" begin="512" end="792" source="67" target="34"/>
+    <types:Support xmi:id="139" sofa="195" begin="577" end="792" source="73" target="34"/>
+    <types:Support xmi:id="147" sofa="195" begin="807" end="1171" source="91" target="41"/>
+    <types:Support xmi:id="155" sofa="195" begin="807" end="1069" source="85" target="41"/>
+    <types:Support xmi:id="163" sofa="195" begin="807" end="975" source="79" target="41"/>
+    <types:Support xmi:id="171" sofa="195" begin="1181" end="1662" source="109" target="48"/>
+    <types:Support xmi:id="179" sofa="195" begin="1181" end="1526" source="103" target="48"/>
+    <types:Support xmi:id="187" sofa="195" begin="1181" end="1404" source="97" target="48"/>
+    <argumentation:LocalSufficiency xmi:id="210" sofa="195" begin="115" end="793" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="217" sofa="195" begin="794" end="1172" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="224" sofa="195" begin="1173" end="1663" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="195" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;I believe that it is a good idea to build a large shopping center in our community. The following are my reasons.&#10;In the first place, the establishment of a large shopping center will provide the residents a more convenient place to go shopping. Here is a positive example: Queens Center Mall, a shopping mall located in Queens borough of New York City, provides a wide vairtey of stores, products and services, from clothing to electronics and restaurants, that consumers can choose. It is widely thought that it is one of the most productive malls in New York. I found that I could find virtually every brand or store, including Macy's and JCPenney, when I visited there. As far as I am concerned, a large shopping mall provides a location for residents to pursue during their leisure time.&#10;Furthermore, it not only provides a place to shop but also offer people jobs. There may be a great number of job vacancies in the need of opening the new stores in the shopping mall. It could be an opportunity for people who are looking for a part-time job or a full time job. Some students and retirees may work there in order to whiling away their free time and earning money.&#10;Lastly, it is more likely for us to buy goods in lower price in the shopping center, and save our time on the other hand. There may be a competition between the new shopping center and other existing stores to attract the customers. Accordingly, with sales promotion, it is easy for consumers to compare the price of the same merchandise before they buy. In addition, the residents do not have a problem spending time on commute in the hope of setting up a shopping center near their homes.&#10;For the above-mentioned reasons, I advocate building a big shopping center in my neighborhood, which will be beneficial to our community."/>
+    <cas:View sofa="195" members="1 14 22 28 34 41 48 55 61 67 73 79 85 91 97 103 109 115 123 131 139 147 155 163 171 179 187 210 217 224"/>
+</xmi:XMI>

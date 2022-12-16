@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="245" begin="0" end="1786" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="245" begin="0" end="1786" filename="essay018" topic="Universities should accept equal numbers of male and female students in every subject. To what extent do you agree or disagree?" twoSided="positive"/>
+    <types:MajorClaim xmi:id="22" sofa="245" begin="1458" end="1522"/>
+    <types:Claim xmi:id="28" sofa="245" begin="367" end="435" stance="For"/>
+    <types:Claim xmi:id="35" sofa="245" begin="1317" end="1419" stance="Against"/>
+    <types:Claim xmi:id="42" sofa="245" begin="1734" end="1785" stance="For"/>
+    <types:Premise xmi:id="49" sofa="245" begin="474" end="549"/>
+    <types:Premise xmi:id="55" sofa="245" begin="564" end="620"/>
+    <types:Premise xmi:id="61" sofa="245" begin="622" end="689"/>
+    <types:Premise xmi:id="67" sofa="245" begin="704" end="782"/>
+    <types:Premise xmi:id="73" sofa="245" begin="784" end="867"/>
+    <types:Premise xmi:id="79" sofa="245" begin="879" end="938"/>
+    <types:Premise xmi:id="85" sofa="245" begin="940" end="1011"/>
+    <types:Premise xmi:id="91" sofa="245" begin="1013" end="1055"/>
+    <types:Premise xmi:id="97" sofa="245" begin="1070" end="1171"/>
+    <types:Premise xmi:id="103" sofa="245" begin="1173" end="1212"/>
+    <types:Premise xmi:id="109" sofa="245" begin="1214" end="1304"/>
+    <types:Premise xmi:id="115" sofa="245" begin="1524" end="1578"/>
+    <types:Premise xmi:id="121" sofa="245" begin="1580" end="1633"/>
+    <types:Premise xmi:id="127" sofa="245" begin="1635" end="1729"/>
+    <types:Support xmi:id="133" sofa="245" begin="367" end="782" source="67" target="28"/>
+    <types:Support xmi:id="141" sofa="245" begin="367" end="549" source="49" target="28"/>
+    <types:Support xmi:id="149" sofa="245" begin="474" end="689" source="61" target="49"/>
+    <types:Support xmi:id="157" sofa="245" begin="474" end="620" source="55" target="49"/>
+    <types:Support xmi:id="165" sofa="245" begin="704" end="867" source="73" target="67"/>
+    <types:Support xmi:id="173" sofa="245" begin="879" end="1419" source="79" target="35"/>
+    <types:Support xmi:id="181" sofa="245" begin="940" end="1419" source="85" target="35"/>
+    <types:Support xmi:id="189" sofa="245" begin="1013" end="1419" source="91" target="35"/>
+    <types:Support xmi:id="197" sofa="245" begin="1013" end="1171" source="97" target="91"/>
+    <types:Support xmi:id="205" sofa="245" begin="1070" end="1304" source="109" target="97"/>
+    <types:Support xmi:id="213" sofa="245" begin="1070" end="1212" source="103" target="97"/>
+    <types:Support xmi:id="221" sofa="245" begin="1524" end="1785" source="115" target="42"/>
+    <types:Support xmi:id="229" sofa="245" begin="1580" end="1785" source="121" target="42"/>
+    <types:Support xmi:id="237" sofa="245" begin="1635" end="1785" source="127" target="42"/>
+    <argumentation:LocalSufficiency xmi:id="260" sofa="245" begin="367" end="869" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="267" sofa="245" begin="870" end="1420" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="245" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Nowadays men and women are equally participating in every field. Contrastingly, in the past time, women worked at home and performed sophisticated work. This factor is still affecting thinking of many people. They still believe that in present time women must do such type of work only. This tendency enforces universities to accept student according to the gender.&#10;Universities should accept equal numbers of students of both genders. Initially, if we look into the fact, women have proved themselves in every field whether it is indoor or outdoor. For example, nowadays women are working in home as well as in the sky. They are acting as a good housewife and they are flying planes also. Furthermore, university authority must not be biased on ground of the gender discrimination. They must consider the academic record of the student as main criteria of admission. &#10;However, the current job market affects the decision of universities. Every university designs its courses according to the need of employers. The job selection criteria are pre decided. For instance employers need male candidates for the heavy work such as repairing and installation of heavy machine. They prefer male staff for night shifts. They want female candidates for soft natured work like counseling, teaching, designing etc. Therefore, universities follow the requirement of job providers and decide subject suitable for particular gender.&#10;To conclude, I strongly believe that universities must open choice for everyone to select his subject. Our youth has become very confident towards his career. They are not ready to be bound in certain limitations. Female candidates also do not care about any restriction posed by the society and the employer. So we must give them opportunity to achieve their goal."/>
+    <cas:View sofa="245" members="1 14 22 28 35 42 49 55 61 67 73 79 85 91 97 103 109 115 121 127 133 141 149 157 165 173 181 189 197 205 213 221 229 237 260 267"/>
+</xmi:XMI>

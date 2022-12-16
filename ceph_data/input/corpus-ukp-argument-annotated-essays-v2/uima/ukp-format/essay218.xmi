@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="195" begin="0" end="1470" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="195" begin="0" end="1470" filename="essay218" topic="Do you agree or disagree with the following statement? Childhood is the happiest time of a person's life." twoSided="negative"/>
+    <types:MajorClaim xmi:id="22" sofa="195" begin="131" end="180"/>
+    <types:MajorClaim xmi:id="28" sofa="195" begin="1311" end="1377"/>
+    <types:Premise xmi:id="34" sofa="195" begin="245" end="327"/>
+    <types:Premise xmi:id="40" sofa="195" begin="329" end="394"/>
+    <types:Premise xmi:id="46" sofa="195" begin="396" end="448"/>
+    <types:Premise xmi:id="52" sofa="195" begin="463" end="608"/>
+    <types:Premise xmi:id="58" sofa="195" begin="620" end="700"/>
+    <types:Premise xmi:id="64" sofa="195" begin="758" end="825"/>
+    <types:Premise xmi:id="70" sofa="195" begin="835" end="894"/>
+    <types:Premise xmi:id="76" sofa="195" begin="972" end="1091"/>
+    <types:Premise xmi:id="82" sofa="195" begin="1106" end="1166"/>
+    <types:Premise xmi:id="88" sofa="195" begin="1178" end="1293"/>
+    <types:Claim xmi:id="94" sofa="195" begin="189" end="243" stance="For"/>
+    <types:Claim xmi:id="101" sofa="195" begin="708" end="756" stance="For"/>
+    <types:Claim xmi:id="108" sofa="195" begin="907" end="970" stance="For"/>
+    <types:Support xmi:id="115" sofa="195" begin="189" end="700" source="58" target="94"/>
+    <types:Support xmi:id="123" sofa="195" begin="189" end="608" source="52" target="94"/>
+    <types:Support xmi:id="131" sofa="195" begin="189" end="394" source="40" target="94"/>
+    <types:Support xmi:id="139" sofa="195" begin="189" end="327" source="34" target="94"/>
+    <types:Support xmi:id="147" sofa="195" begin="245" end="448" source="46" target="34"/>
+    <types:Support xmi:id="155" sofa="195" begin="708" end="825" source="64" target="101"/>
+    <types:Support xmi:id="163" sofa="195" begin="835" end="970" source="70" target="108"/>
+    <types:Support xmi:id="171" sofa="195" begin="907" end="1091" source="76" target="108"/>
+    <types:Support xmi:id="179" sofa="195" begin="972" end="1293" source="88" target="76"/>
+    <types:Support xmi:id="187" sofa="195" begin="972" end="1166" source="82" target="76"/>
+    <argumentation:LocalSufficiency xmi:id="210" sofa="195" begin="182" end="826" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="217" sofa="195" begin="827" end="1294" majority="0.0" mean="0.0"/>
+    <cas:Sofa xmi:id="195" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Everyone has happy moments during their life. These happy moments are both in their childhood and their adulthood. In my opinion, childhood is the happiest time of a person's life.&#10;First, in childhood most people are happier than in adulthood. They do not have to worry about bills, jobs, how would their life be in the future. They just worry about two things: to have fun, learn and be happy. A child's daily life is school, playing and sleeping. For example, when I was young I just came home from school and then I would took my bike or soccer ball and go out and play with my friends in my neighborhood. Moreover, I did not have to worry about costs and other things, I just had fun and learned. Also, people are most creative when they were children, children imagine new things and games just to have fun and be happy.&#10;Second, childhood is the period where people go to school and learn. Therefore, school memories are one of the best memories in a person's life. There you learn, to find your first love, to make new long-lasting friendships and of-course you will have a lot of fun. For example, my father's best moments in his life are in his school years. Moreover, he is still in-touch with some of his classmates and sometimes they get together and share their childhood memories.&#10;In other words, childhood is, indeed, the most happiest moments in a person's life. There is only one life and one childhood and people should live their childhood thoroughly."/>
+    <cas:View sofa="195" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 101 108 115 123 131 139 147 155 163 171 179 187 210 217"/>
+</xmi:XMI>

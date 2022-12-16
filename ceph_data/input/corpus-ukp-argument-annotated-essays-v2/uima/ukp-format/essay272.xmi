@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="202" begin="0" end="1575" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="202" begin="0" end="1575" filename="essay272" topic="Do you agree or disagree with the following statement? Telephones and email have made communication between people less personal. Use specific reasons and examples to support your opinion." twoSided="negative"/>
+    <types:MajorClaim xmi:id="22" sofa="202" begin="148" end="269"/>
+    <types:MajorClaim xmi:id="28" sofa="202" begin="1499" end="1574"/>
+    <types:Claim xmi:id="34" sofa="202" begin="68" end="146" stance="For"/>
+    <types:Claim xmi:id="41" sofa="202" begin="337" end="429" stance="For"/>
+    <types:Claim xmi:id="48" sofa="202" begin="902" end="1002" stance="For"/>
+    <types:Claim xmi:id="55" sofa="202" begin="1296" end="1338" stance="For"/>
+    <types:Premise xmi:id="62" sofa="202" begin="431" end="528"/>
+    <types:Premise xmi:id="68" sofa="202" begin="530" end="621"/>
+    <types:Premise xmi:id="74" sofa="202" begin="664" end="753"/>
+    <types:Premise xmi:id="80" sofa="202" begin="769" end="837"/>
+    <types:Premise xmi:id="86" sofa="202" begin="839" end="892"/>
+    <types:Premise xmi:id="92" sofa="202" begin="1017" end="1109"/>
+    <types:Premise xmi:id="98" sofa="202" begin="1115" end="1235"/>
+    <types:Premise xmi:id="104" sofa="202" begin="1243" end="1294"/>
+    <types:Premise xmi:id="110" sofa="202" begin="1347" end="1395"/>
+    <types:Premise xmi:id="116" sofa="202" begin="1405" end="1469"/>
+    <types:Support xmi:id="122" sofa="202" begin="337" end="892" source="86" target="41"/>
+    <types:Support xmi:id="130" sofa="202" begin="337" end="621" source="68" target="41"/>
+    <types:Support xmi:id="138" sofa="202" begin="337" end="528" source="62" target="41"/>
+    <types:Support xmi:id="146" sofa="202" begin="664" end="837" source="74" target="80"/>
+    <types:Support xmi:id="154" sofa="202" begin="769" end="892" source="80" target="86"/>
+    <types:Support xmi:id="162" sofa="202" begin="902" end="1294" source="104" target="48"/>
+    <types:Support xmi:id="170" sofa="202" begin="1017" end="1235" source="92" target="98"/>
+    <types:Support xmi:id="178" sofa="202" begin="1115" end="1294" source="98" target="104"/>
+    <types:Support xmi:id="186" sofa="202" begin="1296" end="1469" source="116" target="55"/>
+    <types:Support xmi:id="194" sofa="202" begin="1296" end="1395" source="110" target="55"/>
+    <argumentation:LocalSufficiency xmi:id="217" sofa="202" begin="322" end="893" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="224" sofa="202" begin="894" end="1295" majority="0.0" mean="0.0"/>
+    <cas:Sofa xmi:id="202" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;There are many advantage of these invention, telephones and email. Communication between people by using telephones and email made my life easier. I personally disagree with this notion that these types of communication, telephones and email, made people less personal. I will give several reasons to support my opinion.&#10;To begin with, telephones and email help people, who live far away from other people, to connect each other. Unlike email, send message by using mail service could be lost and could be sent to wrong address. I can using telephones and email to talk or write directly to people I want to connect with. For example, right now, I am in the U.S. It is not possible to have conversation in person with my parents, who live in my country. Consequently, I can make a phone call or write email to my parents whenever I want. Telephones and email made me feel close to my parents.&#10;Second, using telephones and email could express some important words better than face-to-face communication. For instant, sometime when I argue with my friends, I cannot express my self to my friends at that moment. So, when I have a time to realize what had happened, I could explain the real thought that I want to express without emotion. Thus, these types of communications make me feel personal.&#10;Telephones and email make me feel personal because I could directly connect with people that I love. Beside, I could express my personal thought through telephones and email. As a result, I believe that telephones and email do not make communication between people less personal."/>
+    <cas:View sofa="202" members="1 14 22 28 34 41 48 55 62 68 74 80 86 92 98 104 110 116 122 130 138 146 154 162 170 178 186 194 217 224"/>
+</xmi:XMI>

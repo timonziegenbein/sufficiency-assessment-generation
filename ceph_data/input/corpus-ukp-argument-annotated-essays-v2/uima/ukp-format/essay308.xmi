@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="251" begin="0" end="1560" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="251" begin="0" end="1560" filename="essay308" topic="Which do you prefer: staying in one place or moving in search of another place?" twoSided="negative"/>
+    <types:Premise xmi:id="22" sofa="251" begin="394" end="532"/>
+    <types:Premise xmi:id="28" sofa="251" begin="534" end="612"/>
+    <types:Premise xmi:id="34" sofa="251" begin="680" end="729"/>
+    <types:Premise xmi:id="40" sofa="251" begin="759" end="792"/>
+    <types:Premise xmi:id="46" sofa="251" begin="794" end="828"/>
+    <types:Premise xmi:id="52" sofa="251" begin="833" end="863"/>
+    <types:Premise xmi:id="58" sofa="251" begin="865" end="920"/>
+    <types:Premise xmi:id="64" sofa="251" begin="922" end="960"/>
+    <types:Premise xmi:id="70" sofa="251" begin="962" end="1013"/>
+    <types:Premise xmi:id="76" sofa="251" begin="1052" end="1209"/>
+    <types:Premise xmi:id="82" sofa="251" begin="1211" end="1237"/>
+    <types:Premise xmi:id="88" sofa="251" begin="1241" end="1276"/>
+    <types:Premise xmi:id="94" sofa="251" begin="1435" end="1559"/>
+    <types:MajorClaim xmi:id="100" sofa="251" begin="154" end="220"/>
+    <types:MajorClaim xmi:id="106" sofa="251" begin="1314" end="1373"/>
+    <types:Claim xmi:id="112" sofa="251" begin="222" end="346" stance="For"/>
+    <types:Claim xmi:id="119" sofa="251" begin="614" end="678" stance="For"/>
+    <types:Claim xmi:id="126" sofa="251" begin="731" end="750" stance="For"/>
+    <types:Claim xmi:id="133" sofa="251" begin="1015" end="1050" stance="For"/>
+    <types:Claim xmi:id="140" sofa="251" begin="1375" end="1430" stance="Against"/>
+    <types:Support xmi:id="147" sofa="251" begin="394" end="678" source="22" target="119"/>
+    <types:Support xmi:id="155" sofa="251" begin="534" end="678" source="28" target="119"/>
+    <types:Support xmi:id="163" sofa="251" begin="614" end="729" source="34" target="119"/>
+    <types:Support xmi:id="171" sofa="251" begin="731" end="792" source="40" target="126"/>
+    <types:Support xmi:id="179" sofa="251" begin="759" end="1013" source="70" target="40"/>
+    <types:Support xmi:id="187" sofa="251" begin="759" end="960" source="64" target="40"/>
+    <types:Support xmi:id="195" sofa="251" begin="759" end="920" source="58" target="40"/>
+    <types:Support xmi:id="203" sofa="251" begin="759" end="863" source="52" target="40"/>
+    <types:Support xmi:id="211" sofa="251" begin="794" end="863" source="46" target="52"/>
+    <types:Support xmi:id="219" sofa="251" begin="1015" end="1276" source="88" target="133"/>
+    <types:Support xmi:id="227" sofa="251" begin="1015" end="1209" source="76" target="133"/>
+    <types:Support xmi:id="235" sofa="251" begin="1211" end="1276" source="82" target="88"/>
+    <types:Attack xmi:id="243" sofa="251" begin="1375" end="1559" source="94" target="140"/>
+    <argumentation:LocalSufficiency xmi:id="266" sofa="251" begin="348" end="730" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="273" sofa="251" begin="731" end="1014" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="280" sofa="251" begin="1015" end="1277" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="251" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Some people may prefer to live in different places at different time because of many reasons such as looking for better job, house, community and so on. I prefer to spend my entire live in one place which is my hometown. In my hometown, I have a lot of friends and good relationships, I love the traffic in here, and the environment is wonderful.&#10;I was born and grew up in here, a small town. In here, I have a lot of friends, and we usually spend free time to play sports like soccer, basketball and of course we have a lot of fun. Every people in my town have known each others, and we have good relationships. If anyone needs help, his neighbor will help as much as possible. Nowhere else can give me some people like in here.&#10;I want to live here because I love the traffic system in here. We have large streets but few cars, so we can move easily to anywhere. Last week, I went to the city center to meet my friends. The traffic in the city was too crowed. I have to wait for an hour to go to my friend house.&#10;I also love the environment in here. I have been gone to some places to travel and stay for a short time, and I realize that the environment in some place isn't clean and fresh like my home town. There were a lot of people so the environment can't be keep clean.&#10;In conclusion, I strongly feel that staying in one place is better than moving number of places. Moving some places can give to you a lot of experiences but living in one place like your hometown can make you feel comfortable about the traffic, people and of course the environment."/>
+    <cas:View sofa="251" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 100 106 112 119 126 133 140 147 155 163 171 179 187 195 203 211 219 227 235 243 266 273 280"/>
+</xmi:XMI>

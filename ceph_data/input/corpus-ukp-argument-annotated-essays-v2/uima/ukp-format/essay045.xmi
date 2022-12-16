@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="174" begin="0" end="1565" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="174" begin="0" end="1565" filename="essay045" topic="The government should aid unemployed people by direct financial help. Do you agree or disagree with this statement?" twoSided="negative"/>
+    <types:MajorClaim xmi:id="22" sofa="174" begin="119" end="221"/>
+    <types:MajorClaim xmi:id="28" sofa="174" begin="1449" end="1563"/>
+    <types:Claim xmi:id="34" sofa="174" begin="223" end="292" stance="For"/>
+    <types:Claim xmi:id="41" sofa="174" begin="636" end="720" stance="For"/>
+    <types:Claim xmi:id="48" sofa="174" begin="850" end="919" stance="For"/>
+    <types:Claim xmi:id="55" sofa="174" begin="1384" end="1447" stance="Against"/>
+    <types:Premise xmi:id="62" sofa="174" begin="294" end="339"/>
+    <types:Premise xmi:id="68" sofa="174" begin="341" end="439"/>
+    <types:Premise xmi:id="74" sofa="174" begin="450" end="555"/>
+    <types:Premise xmi:id="80" sofa="174" begin="560" end="608"/>
+    <types:Premise xmi:id="86" sofa="174" begin="722" end="837"/>
+    <types:Premise xmi:id="92" sofa="174" begin="921" end="1058"/>
+    <types:Premise xmi:id="98" sofa="174" begin="1074" end="1232"/>
+    <types:Premise xmi:id="104" sofa="174" begin="1245" end="1332"/>
+    <types:Support xmi:id="110" sofa="174" begin="223" end="608" source="80" target="34"/>
+    <types:Support xmi:id="118" sofa="174" begin="223" end="439" source="68" target="34"/>
+    <types:Support xmi:id="126" sofa="174" begin="223" end="339" source="62" target="34"/>
+    <types:Support xmi:id="134" sofa="174" begin="450" end="608" source="74" target="80"/>
+    <types:Support xmi:id="142" sofa="174" begin="636" end="837" source="86" target="41"/>
+    <types:Support xmi:id="150" sofa="174" begin="850" end="1332" source="104" target="48"/>
+    <types:Support xmi:id="158" sofa="174" begin="850" end="1232" source="98" target="48"/>
+    <types:Support xmi:id="166" sofa="174" begin="850" end="1058" source="92" target="48"/>
+    <argumentation:LocalSufficiency xmi:id="189" sofa="174" begin="223" end="609" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="196" sofa="174" begin="610" end="838" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="203" sofa="174" begin="839" end="1333" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="174" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Unemployment is clearly a global problem, be it in developed countries or developing ones. However, I tend to believe it is the responsibility of these disadvantaged citizens, rather than the government, to help them out.&#10;Government money should be spent on publicly beneficial programs only. Tax revenue is collected from those who works. Spending them on helping those not make contribution to society would not sound fair to tax payers. Besides, there are other pressing demands on the government expenditure, such as health care service and education, so addressing unemployment should have low priority.&#10;Also, it is obvious that, to survive in this competitive world, one has to work hard and equip themselves well. If they could get free financial help from the government, they might end up with out any motivation to work at all.&#10;Of course, this does not mean we should leave alone those who do need assistance. They are already in reverse circumstances and it would be rather difficult for them to overcome the difficulties without external support. In this case, the government ought to set up free vocational trainings or to provide interest-free bank loans for them, so that they can have the chance to get back to work. After all, it is beneficial to the society as a whole when the jobless can make contribution again.&#10;In conclusion, my point of view is that, although the government should provide help for the disadvantaged people, direct financial support may not be a wise option and people should rely on themselves to get out of the adversity.&#10;"/>
+    <cas:View sofa="174" members="1 14 22 28 34 41 48 55 62 68 74 80 86 92 98 104 110 118 126 134 142 150 158 166 189 196 203"/>
+</xmi:XMI>

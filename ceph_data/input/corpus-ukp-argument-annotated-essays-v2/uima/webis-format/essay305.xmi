@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="357" begin="0" end="2283" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="357" begin="0" end="2283" filename="essay305" topic="Some people believe that university students should be required to attend classes. Others believe that going to classes should be optional for students. Which point of view do you agree with? Use specific reasons and details to explain your answer.�" twoSided="positive"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="22" sofa="357" begin="241" end="330" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="27" sofa="357" begin="365" end="417" unitType="majorclaim"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="32" sofa="357" begin="434" end="482" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="37" sofa="357" begin="498" end="606" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="42" sofa="357" begin="617" end="688" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="47" sofa="357" begin="690" end="714" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="52" sofa="357" begin="724" end="761" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="57" sofa="357" begin="763" end="824" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="62" sofa="357" begin="836" end="924" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="67" sofa="357" begin="939" end="1077" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="72" sofa="357" begin="1088" end="1156" unitType="claim-against"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="77" sofa="357" begin="1158" end="1279" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="82" sofa="357" begin="1295" end="1349" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="87" sofa="357" begin="1360" end="1470" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="92" sofa="357" begin="1472" end="1512" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="97" sofa="357" begin="1521" end="1592" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="102" sofa="357" begin="1612" end="1767" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="107" sofa="357" begin="1779" end="1859" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="112" sofa="357" begin="1886" end="1943" unitType="claim-against"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="117" sofa="357" begin="1945" end="2017" unitType="premise"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="122" sofa="357" begin="2019" end="2096" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="127" sofa="357" begin="2098" end="2155" unitType="claim-for"/>
+    <argumentation:ArgumentativeDiscourseUnit xmi:id="132" sofa="357" begin="2189" end="2282" unitType="majorclaim"/>
+    <argumentation:Argument xmi:id="137" sofa="357" begin="241" end="417" premises="22" conclusion="27" argumentType="supports"/>
+    <argumentation:Argument xmi:id="147" sofa="357" begin="365" end="2282" premises="132" conclusion="27" argumentType="supports"/>
+    <argumentation:Argument xmi:id="157" sofa="357" begin="365" end="2155" premises="127" conclusion="27" argumentType="supports"/>
+    <argumentation:Argument xmi:id="167" sofa="357" begin="365" end="2096" premises="122" conclusion="27" argumentType="supports"/>
+    <argumentation:Argument xmi:id="177" sofa="357" begin="365" end="1943" premises="112" conclusion="27" argumentType="attacks"/>
+    <argumentation:Argument xmi:id="187" sofa="357" begin="365" end="1767" premises="102" conclusion="27" argumentType="supports"/>
+    <argumentation:Argument xmi:id="197" sofa="357" begin="365" end="1592" premises="97" conclusion="27" argumentType="supports"/>
+    <argumentation:Argument xmi:id="207" sofa="357" begin="365" end="1156" premises="72" conclusion="27" argumentType="attacks"/>
+    <argumentation:Argument xmi:id="217" sofa="357" begin="365" end="924" premises="62" conclusion="27" argumentType="supports"/>
+    <argumentation:Argument xmi:id="227" sofa="357" begin="365" end="824" premises="57" conclusion="27" argumentType="supports"/>
+    <argumentation:Argument xmi:id="237" sofa="357" begin="365" end="482" premises="32" conclusion="27" argumentType="supports"/>
+    <argumentation:Argument xmi:id="247" sofa="357" begin="434" end="714" premises="47" conclusion="32" argumentType="supports"/>
+    <argumentation:Argument xmi:id="257" sofa="357" begin="434" end="688" premises="42" conclusion="32" argumentType="supports"/>
+    <argumentation:Argument xmi:id="267" sofa="357" begin="434" end="606" premises="37" conclusion="32" argumentType="supports"/>
+    <argumentation:Argument xmi:id="277" sofa="357" begin="724" end="824" premises="52" conclusion="57" argumentType="supports"/>
+    <argumentation:Argument xmi:id="287" sofa="357" begin="836" end="1077" premises="67" conclusion="62" argumentType="supports"/>
+    <argumentation:Argument xmi:id="297" sofa="357" begin="1088" end="1279" premises="77" conclusion="72" argumentType="supports"/>
+    <argumentation:Argument xmi:id="307" sofa="357" begin="1295" end="1592" premises="82" conclusion="97" argumentType="supports"/>
+    <argumentation:Argument xmi:id="317" sofa="357" begin="1360" end="1592" premises="87" conclusion="97" argumentType="supports"/>
+    <argumentation:Argument xmi:id="327" sofa="357" begin="1472" end="1592" premises="92" conclusion="97" argumentType="supports"/>
+    <argumentation:Argument xmi:id="337" sofa="357" begin="1612" end="1859" premises="107" conclusion="102" argumentType="supports"/>
+    <argumentation:Argument xmi:id="347" sofa="357" begin="1886" end="2017" premises="117" conclusion="112" argumentType="attacks"/>
+    <argumentation:LocalSufficiency xmi:id="372" sofa="357" begin="419" end="1280" majority="0.0" mean="0.0"/>
+    <argumentation:LocalSufficiency xmi:id="379" sofa="357" begin="1281" end="1861" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="357" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;University students have different opinion about their attendance to class. Some students believe that they should be required to attend classes while others believe that it is an optional for the students. According to my opinion, because it is university level of education, students have enough maturity to choose their choice. Therefore, I strongly agree that going to classes should be optional for the students.&#10;To begin with, going to classes are sometimes waste of the time. For instance, some lecturers in our university read the same text in the reference books for that particular course module. Further, they didn't explain the contents in order to understand by the students. It was waste of the time. Because the university students have grown up, they have enough ability to read and understand the text book. Moreover, with the modern technology, students can collect more information from different sources. For example, from the Internet, students can read many articles and e-books and can watch video tutorials which provide the information more apparently. However, some lecturers deliver lectures very informative and interesting way. When the students attend that lectures, they can obviously feel that it was very useful and they did not waste their time.&#10;Additionally, mostly university has taken whole day for the lectures. Besides, most of the university students are working students in order to manage the expenses during the education time. Students need to work as part time basis. Hence, they have to schedule the lectures time, studying time and working time. At the same time, rather than attending any boring lecturers, students can participate to other activities such as debate competition, swimming meet, Basketball and so forth. From that they can meet other university students and build up the relationships with them. &#10;In a nutshell, although few brilliant lecturers deliver more informative lectures, some are boring the students in the class and wasting the students' time. When the students go to university, they have matured mentally and physically. They have enough knowledge to choose what they need to do. Therefore, to make use of time, if the students choose the classes as optional, it would provide more benefits than drawbacks."/>
+    <cas:View sofa="357" members="1 14 22 27 32 37 42 47 52 57 62 67 72 77 82 87 92 97 102 107 112 117 122 127 132 137 147 157 167 177 187 197 207 217 227 237 247 257 267 277 287 297 307 317 327 337 347 372 379"/>
+</xmi:XMI>

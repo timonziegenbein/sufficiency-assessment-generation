@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="174" begin="0" end="1549" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="174" begin="0" end="1549" filename="essay208" topic="Do you agree or disagree with the following statement. High school students should take a course on basic economics" twoSided="negative"/>
+    <types:Claim xmi:id="22" sofa="174" begin="250" end="278" stance="Against"/>
+    <types:Claim xmi:id="29" sofa="174" begin="396" end="451" stance="For"/>
+    <types:Claim xmi:id="36" sofa="174" begin="1036" end="1093" stance="For"/>
+    <types:Claim xmi:id="43" sofa="174" begin="1108" end="1189" stance="For"/>
+    <types:MajorClaim xmi:id="50" sofa="174" begin="280" end="340"/>
+    <types:MajorClaim xmi:id="56" sofa="174" begin="1497" end="1548"/>
+    <types:Premise xmi:id="62" sofa="174" begin="453" end="578"/>
+    <types:Premise xmi:id="68" sofa="174" begin="580" end="670"/>
+    <types:Premise xmi:id="74" sofa="174" begin="681" end="732"/>
+    <types:Premise xmi:id="80" sofa="174" begin="754" end="795"/>
+    <types:Premise xmi:id="86" sofa="174" begin="797" end="955"/>
+    <types:Premise xmi:id="92" sofa="174" begin="966" end="1034"/>
+    <types:Premise xmi:id="98" sofa="174" begin="1191" end="1360"/>
+    <types:Premise xmi:id="104" sofa="174" begin="1362" end="1458"/>
+    <types:Support xmi:id="110" sofa="174" begin="396" end="732" source="74" target="29"/>
+    <types:Support xmi:id="118" sofa="174" begin="396" end="670" source="68" target="29"/>
+    <types:Support xmi:id="126" sofa="174" begin="396" end="578" source="62" target="29"/>
+    <types:Support xmi:id="134" sofa="174" begin="754" end="1093" source="80" target="36"/>
+    <types:Support xmi:id="142" sofa="174" begin="754" end="955" source="86" target="80"/>
+    <types:Support xmi:id="150" sofa="174" begin="966" end="1093" source="92" target="36"/>
+    <types:Support xmi:id="158" sofa="174" begin="1108" end="1458" source="104" target="43"/>
+    <types:Support xmi:id="166" sofa="174" begin="1108" end="1360" source="98" target="43"/>
+    <argumentation:LocalSufficiency xmi:id="189" sofa="174" begin="371" end="734" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="196" sofa="174" begin="735" end="1094" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="203" sofa="174" begin="1095" end="1459" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="174" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;In today's community, economy becomes the order of the day. Getting to know the theory in this area seems really important for our students. Then, the earlier we jump into this area, the more skillful we will be. Thus, in my point of view, although it will take some time on it, high school students should take a course on basic economics. Let me explain it in detail.&#10;For the primary concern, it can provide students a sense of direction in academy. Basic economic class can help the students touch the surface of this field, let them to know what this subject mainly discuss. That will help the students cultivate their own interest and a sense of career orientation. Finally, students may study harder for their economic dreams. &#10;On the other hand, economy is always correlate with politics, students can study specialized knowledge along with some Politian status, which may open their vision toward the nation and don't get limited in the textbooks. Besides, there is also an intimate connection between economy and enterprises, students can also gain knowledge more practical and vivid.&#10;In addition, the basic economic course can also help with the students when they go to college. They may feel more readily to learn the knowledge in this field and save much time, with that they are able to study more efficiently and more deeply than other students. That as well would provide the students with more confidence and let them become more compatible.&#10;Considering all those factors above, I suggest the basic course of economic is necessary."/>
+    <cas:View sofa="174" members="1 14 22 29 36 43 50 56 62 68 74 80 86 92 98 104 110 118 126 134 142 150 158 166 189 196 203"/>
+</xmi:XMI>

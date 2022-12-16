@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><xmi:XMI xmlns:pos="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:cas="http:///uima/cas.ecore" xmlns:tweet="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/pos/tweet.ecore" xmlns:dependency="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/dependency.ecore" xmlns:infexba="http:///de/aitools/ie/uima/type/infexba.ecore" xmlns:argumentation="http:///de/aitools/ie/uima/type/argumentation.ecore" xmlns:core="http:///de/aitools/ie/uima/type/core.ecore" xmlns:type7="http:///de/tudarmstadt/ukp/dkpro/core/api/semantics/type.ecore" xmlns:article="http:///de/aitools/ie/uima/type/article.ecore" xmlns:supertype="http:///de/aitools/ie/uima/type/supertype.ecore" xmlns:type4="http:///de/tudarmstadt/ukp/dkpro/core/api/metadata/type.ecore" xmlns:type2="http:///de/tudarmstadt/ukp/dkpro/core/api/coref/type.ecore" xmlns:type8="http:///de/tudarmstadt/ukp/dkpro/core/api/structure/type.ecore" xmlns:types="http:///de/tudarmstadt/ukp/dkpro/argumentation/types.ecore" xmlns:morph="http:///de/tudarmstadt/ukp/dkpro/core/api/lexmorph/type/morph.ecore" xmlns:type3="http:///de/tudarmstadt/ukp/dkpro/core/api/frequency/tfidf/type.ecore" xmlns:type="http:///de/tudarmstadt/ukp/dkpro/core/api/anomaly/type.ecore" xmlns:type9="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type.ecore" xmlns:type10="http:///de/tudarmstadt/ukp/dkpro/tc/type.ecore" xmlns:type5="http:///de/tudarmstadt/ukp/dkpro/core/api/ner/type.ecore" xmlns:type6="http:///de/tudarmstadt/ukp/dkpro/core/api/segmentation/type.ecore" xmlns:constituent="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/constituent.ecore" xmlns:arguana="http:///de/aitools/ie/uima/type/arguana.ecore" xmlns:chunk="http:///de/tudarmstadt/ukp/dkpro/core/api/syntax/type/chunk.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="209" begin="0" end="2274" language="x-unspecified"/>
+    <argumentation:MetadataAAE xmi:id="14" sofa="209" begin="0" end="2274" filename="essay195" topic="A university plans to develop a new research center in your country. Some people want a center for business research. Other people want a center for research in agriculture (farming). Which of these two kinds of research centers do you recommend for your country? Use specific reasons in your recommendation." twoSided="positive"/>
+    <types:MajorClaim xmi:id="22" sofa="209" begin="170" end="373"/>
+    <types:MajorClaim xmi:id="28" sofa="209" begin="2060" end="2273"/>
+    <types:Premise xmi:id="34" sofa="209" begin="389" end="453"/>
+    <types:Premise xmi:id="40" sofa="209" begin="455" end="505"/>
+    <types:Premise xmi:id="46" sofa="209" begin="684" end="748"/>
+    <types:Premise xmi:id="52" sofa="209" begin="843" end="905"/>
+    <types:Premise xmi:id="58" sofa="209" begin="907" end="1008"/>
+    <types:Premise xmi:id="64" sofa="209" begin="1023" end="1089"/>
+    <types:Premise xmi:id="70" sofa="209" begin="1091" end="1266"/>
+    <types:Premise xmi:id="76" sofa="209" begin="1448" end="1647"/>
+    <types:Premise xmi:id="82" sofa="209" begin="1729" end="1819"/>
+    <types:Premise xmi:id="88" sofa="209" begin="1828" end="2058"/>
+    <types:Claim xmi:id="94" sofa="209" begin="507" end="598" stance="For"/>
+    <types:Claim xmi:id="101" sofa="209" begin="600" end="682" stance="For"/>
+    <types:Claim xmi:id="108" sofa="209" begin="760" end="841" stance="For"/>
+    <types:Claim xmi:id="115" sofa="209" begin="1268" end="1435" stance="For"/>
+    <types:Claim xmi:id="122" sofa="209" begin="1673" end="1720" stance="Against"/>
+    <types:Support xmi:id="129" sofa="209" begin="389" end="598" source="34" target="94"/>
+    <types:Support xmi:id="137" sofa="209" begin="455" end="598" source="40" target="94"/>
+    <types:Support xmi:id="145" sofa="209" begin="600" end="748" source="46" target="101"/>
+    <types:Support xmi:id="153" sofa="209" begin="760" end="1266" source="70" target="108"/>
+    <types:Support xmi:id="161" sofa="209" begin="760" end="1089" source="64" target="108"/>
+    <types:Support xmi:id="169" sofa="209" begin="760" end="1008" source="58" target="108"/>
+    <types:Support xmi:id="177" sofa="209" begin="760" end="905" source="52" target="108"/>
+    <types:Support xmi:id="185" sofa="209" begin="1268" end="1647" source="76" target="115"/>
+    <types:Support xmi:id="193" sofa="209" begin="1673" end="1819" source="82" target="122"/>
+    <types:Attack xmi:id="201" sofa="209" begin="1673" end="2058" source="88" target="122"/>
+    <argumentation:LocalSufficiency xmi:id="224" sofa="209" begin="375" end="749" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="231" sofa="209" begin="750" end="1267" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="238" sofa="209" begin="1268" end="1649" majority="1.0" mean="1.0"/>
+    <argumentation:LocalSufficiency xmi:id="245" sofa="209" begin="1650" end="2059" majority="1.0" mean="1.0"/>
+    <cas:Sofa xmi:id="209" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="&#10;Most of the universities in the world seek to develop some research in some countries. These researches can be aimed for several fields such as business or agriculture. If a university plans to develop a new research in my country and I have to choose between establishing a centre for business research or a centre for agriculture research, I would opt for the second one.&#10;First of all, my country has a lot of land which is useful for the agriculture. Most of these lands are left without any treatment. The centre for research in agriculture can help my co-citizens to better exploit these land. This centre can also help people there to solve their issues related to their land. Especially, if they have no knowledge or education in this field.&#10;Secondly, the centre for research in agriculture helps the economy of my country to improve. The agriculture field has only thirty percent as a market part. The centre of research can raise the market part of this field by developing the agriculture products. For example, the dates are the most important agriculture product in my country. The centre of research for agriculture can make some research in how to get a good quality of this product, how to treat the Palme and maybe how to treat the land of the palms.&#10;Another reason that makes the centre of research for the agriculture more important than the centre of business research is that the first one can create a lot of jobs. Obviously, showing people how to exploit a land and get good agriculture products will push people to think about working in the field of agriculture rather than working in business or other field to make money. &#10;Some people think that a centre of business research is more important because we have to be in parallel with the advanced countries which have focused in business field. For me being a developed country does not mean that we have to focus only in business, but we have to focus on what really bring us to the level of self satisfaction, and the agriculture for our country is the field that can realize that.&#10;My country need to focus more on the agriculture by establishing centers for research in this field, which will have some very positive consequences on agriculture people work, on the economy and on the employment."/>
+    <cas:View sofa="209" members="1 14 22 28 34 40 46 52 58 64 70 76 82 88 94 101 108 115 122 129 137 145 153 161 169 177 185 193 201 224 231 238 245"/>
+</xmi:XMI>

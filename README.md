@@ -24,6 +24,6 @@ The code used to obtain the projects of the work is stored in /src and split bas
 
 * /src/py/preprocess_ukp.py creates the main dataset used in this work
 * pre-processing of the data for training is located at /src/ipynb/data_creation
-* /src/sh contains shell files that train the models useing the transformers repository
+* /src/sh contains shell files that train the models using the transformers repository
 
 
